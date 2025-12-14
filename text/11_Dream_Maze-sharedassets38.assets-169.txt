@@ -1,0 +1,145 @@
+0 TextAsset Base
+ 1 string m_Name = "11_Dream_Maze"
+ 1 string m_Script = "Maze Dialogue\r
+\r
+[title=flashlightdoor_locked_begin]\r
+The door is locked tightly. There's a small label above the handle that reads "Utility".\r
+[title=flashlightdoor_locked_end]\r
+\r
+[title=flashlightdoor_unlocked_begin]\r
+You used the <b>Utility Door Key</b>. You no longer need this key so you discard it.\r
+[title=flashlightdoor_unlocked_end]\r
+\r
+[title=flashlightdoor_key_begin]\r
+[question=00]There's a small key with a label that reads <b>Utility Door</b> on the desk. Take the key?\r
+[choice]Yes.[newtalk start=key_yes_begin break=key_yes_end]\r
+[choice]No.[newtalk start=key_no_begin break=key_no_end]\r
+[title=flashlightdoor_key_end]\r
+\r
+[title=key_yes_begin]\r
+You take the <b>Utility Door Key</b>. [event=2]\r
+[title=key_yes_end]\r
+\r
+[title=key_no_begin]\r
+You leave the key on the desk.\r
+[title=key_no_end]\r
+\r
+[title=drink_begin]\r
+You try pressing the buttons, but nothing happens. It appears to be out of service.\r
+[title=drink_end]\r
+\r
+[title=drink_secret0_begin]\r
+You try pressing the buttons, but nothing happens. Something sounds like it's rattling around inside. Maybe...\r
+[title=drink_secret0_end]\r
+\r
+[title=drink_secret1_begin]\r
+Wait... it sounds like something shook loose inside the machine.[newtalk start=drink_secret1_repeat_begin break=drink_secret1_repeat_end]\r
+[title=drink_secret1_end]\r
+\r
+[title=drink_secret1_repeat_begin]\r
+[question=0000]A key has fallen loose from the drink machine. Will you take the key?\r
+[choice]Yes.[newtalk start=key_secret_yes_begin break=key_secret_yes_end]\r
+[choice]No.[newtalk start=key_secret_no_begin break=key_secret_no_end]\r
+[title=drink_secret1_repeat_end]\r
+\r
+[title=key_secret_yes_begin]\r
+You take the key. It has a small label on it that reads "Principal's Office".[event=3]\r
+[title=key_secret_yes_end]\r
+\r
+[title=key_secret_no_begin]\r
+You leave the key in the dispensing pocket.[event=4]\r
+[title=key_secret_no_end]\r
+\r
+[title=bulletin_0_begin]\r
+There's a bulletin board here. Most of the posts are too faded to read.\r
+[title=bulletin_0_end]\r
+\r
+[title=bulletin_00_begin]\r
+The bulletin board has fallen off the wall. There's something written on one of the notes.\r
+"You've awoken them. This is no longer your dream. You aren't supposed to be here."\r
+The writing continues into illegible scrawl.\r
+[title=bulletin_00_end]\r
+\r
+[title=bulletin_1_begin]\r
+There's a bulletin board here. Several missing persons flyers are posted, but the faces are all too faded to make out.\r
+[title=bulletin_1_end]\r
+\r
+[title=door_outside_begin]\r
+It's too cold to go outside right now.\r
+[title=door_outside_end]\r
+\r
+[title=door_locked_0_begin]\r
+The door won't open.\r
+[title=door_locked_0_end]\r
+\r
+[title=door_locked_1_begin]\r
+This door is open but feels jammed on something. It won't open no matter how hard you push.\r
+[title=door_locked_1_end]\r
+\r
+[title=door_open_begin]\r
+This door looks like it can be opened.\r
+[title=door_open_end]\r
+\r
+[title=door_deadend_begin]\r
+The door is locked. There's a small label on the door that reads "Principal's Office".\r
+[title=door_deadend_end]\r
+\r
+[title=door_secret_unlocked_begin]\r
+You used the <b>Principal's Office</b> key on the door. It's unlocked now.\r
+[title=door_secret_unlocked_end]\r
+\r
+[title=door_deadend2_begin]\r
+The door won't budge, as if something is holding it shut. There's a small label on the door that reads "Quiet Room".\r
+[title=door_deadend2_end]\r
+\r
+[title=door_deadend3_begin]\r
+You can't open the door any further.\r
+[title=door_deadend3_end]\r
+\r
+[title=flashlight_begin]\r
+[question=0]There is a <b>flashlight</b> . It still has some juice left, but barely. Will you take it with you?\r
+[choice]Yes.[newtalk start=flashlight_yes_begin break=flashlight_yes_end]\r
+[choice]No.[newtalk start=flashlight_no_begin break=flashlight_no_end]\r
+[title=flashlight_end]\r
+\r
+[title=flashlight_yes_begin]\r
+You pick up the flashlight and take it with you. [event=0]\r
+[title=flashlight_yes_end]\r
+\r
+[title=flashlight_no_begin]\r
+You leave the flashlight on the floor.\r
+[title=flashlight_no_end]\r
+\r
+[title=darkness_begin]\r
+It's too dark to go any farther.\r
+[title=darkness_end]\r
+\r
+[title=wires_0_begin]\r
+Razor-sharp wires block the path ahead. There's no way to move them with your bare hands.\r
+[title=wires_0_end]\r
+\r
+[title=wires_1_begin]\r
+You used the <b>wire cutters</b> to clear the way. You get the feeling you won't need them anymore so you discard them.\r
+[title=wires_1_end]\r
+\r
+[title=cutters_0_begin]\r
+An oddly familiar human-shaped figure is standing here, frozen in place. It's holding something.\r
+[question=1]Do you want to take a closer look?\r
+[choice]Yes.[newtalk start=cutters_yes_begin break=cutters_yes_end]\r
+[choice]No.[newtalk start=cutters_no_begin break=cutters_no_end]\r
+[title=cutters_0_end]\r
+\r
+[title=cutters_no_begin]\r
+You back away from the figure.\r
+[title=cutters_no_end]\r
+\r
+[title=cutters_yes_begin]\r
+You reach your hand towards the figure and try to grasp what it's holding.\r
+[question=2]There is a pair of <b>wire cutters</b>. Will you take them?\r
+[choice]Yes.[newtalk start=cutters_yes_1_begin break=cutters_yes_1_end]\r
+[choice]No.[newtalk start=cutters_no_begin break=cutters_no_end]\r
+[title=cutters_yes_end]\r
+\r
+[title=cutters_yes_1_begin]\r
+You're able to firmly pull the <b>wire cutters</b> from the figure's hand.[event=1]\r
+[title=cutters_yes_1_end]"

@@ -1,0 +1,244 @@
+0 TextAsset Base
+ 1 string m_Name = "8_Dream_Tower_Dialogue"
+ 1 string m_Script = "8 Dream Tower of Heaven\r
+\r
+Notes\r
+- Not sure if Gogi mimic is appropriate here, might just have him scamper off when approached\r
+- Whole concept is to climb to the top of a massive set(?) of towers\r
+- there are hooded devil creatures near the lower parts of the towers that give depressing dialogue\r
+- at a certain point you start running into Gatekeeper-like creatures that offer uplifting dialogue\r
+- there are remnants of past dreams floating in the ocean in the background\r
+- at the very top of the last tower is a giant Gatekeeper with wings with the last dream crystal shard in front of it\r
+- the mood/music/ambience change once you get to a certain point\r
+- respawn zones will adjust as you go higher and higher\r
+- is this too preachy??\r
+\r
+DEMON GOBLINS\r
+\r
+GOBLIN 1\r
+[title=reject_1_begin]\r
+Rejected: We are the discarded, the <color=#8a2727><b>rejected</b></color>. Every one of us you see has been made to be disposable.\r
+Rejected: It looks as though you've been added to the proverbial pile as well.\r
+Rejected: There is nothing down here but old memories. Remnants of dreams long forgotten. [event=4]\r
+Rejected: Someone is waiting for you far beyond this point. Go now or become one of us.\r
+[title=reject_1_end]\r
+\r
+GOBLIN 2\r
+[title=reject_2_begin]\r
+Rejected: I see a view so vast and full of potential yet everything feels so empty and neglected.\r
+Rejected: We yearned for something greater but like the scenery, maybe our dreams got a little too cloudy.\r
+Rejected: [question=00]It doesn't have to be like this, but no one ever tries to stop it. What do you think?\r
+[choice]It's pointless.[newtalk start=answer_reject_2_no_begin break=answer_reject_2_no_end]\r
+[choice]It's possible.[newtalk start=answer_reject_2_yes_begin break=answer_reject_2_yes_end]\r
+[title=reject_2_end]\r
+\r
+GOBLIN 2 CHOICE 1\r
+[title=answer_reject_2_no_begin]\r
+Rejected: You're right. It's nothing but a cold, black, empty ocean of indifference and we're all drowning in it.\r
+Rejected: Maybe it's meant to stay the way it is for a reason. The universe will always do what it wants. Benefits of living in such a pitiful microcosm.\r
+[title=answer_reject_2_no_end]\r
+\r
+GOBLIN 2 CHOICE 2\r
+[title=answer_reject_2_yes_begin]\r
+Rejected: High hopes for a person in a place like this. Your words may one day be an inspiration to someone.\r
+Rejected: Or maybe you're a fool. Optimism, enthusiasm, happiness... they all died a long time ago.\r
+[title=answer_reject_2_yes_end]\r
+\r
+GOBLIN 3-1\r
+[title=reject_3-1_begin]\r
+Rejected: I've lost track of time so long ago, but I still see the occasional blur of someone pass me by.\r
+Rejected: As I sit here I think to myself, how did I end up here? What choices did I make that led me to this exact spot?\r
+Rejected: I've vainly tried for years to make the right moves to plan the rest of my life, while being keenly aware there's bleak chance for a brighter future.\r
+Rejected: Maybe I'll figure it out someday. Probably not. Who can say.\r
+[title=reject_3-1_end]\r
+\r
+GOBLIN 3\r
+[title=reject_3_begin]\r
+Rejected: Something to eat... something to eat... anything to eat... anything...\r
+Rejected: Piles of trash... globs of garbage... old useless rubbish...\r
+[title=reject_3_end]\r
+\r
+GOBLIN 4\r
+[title=reject_4_begin]\r
+Rejected: I lay here every hour of every day hoping to finally close my eyes and wake up to see a different place.\r
+Rejected: The ground is cold and hard, but the endless burning rubble at least keeps my back warm.\r
+[title=reject_4_end]\r
+\r
+GOBLIN 5\r
+[title=reject_5_begin]\r
+Rejected: I once had a dream that everything in the world was rearranged, slightly shifted somehow.\r
+Rejected: It may have only been a few inches or a few feet, but everyone was happier because of it.\r
+Rejected: I think whatever possibilities of that dream coming true have now ended up here.\r
+Rejected: I will spend the rest of eternity trying to find them again, and so will you.\r
+[title=reject_5_end]\r
+\r
+GOBLIN 6\r
+[title=reject_6_begin]\r
+Rejected: I've been here for longer than I can remember, and I've never been to the second tower.\r
+Rejected: I can go any time I want, any of us can, but with every step my body moves slower and slower.\r
+Rejected: [question=01]It takes days for me to get to even the nearest of places. I think I'll just continue to rest here.\r
+[choice]Good idea.[newtalk start=answer_reject_6_no_begin break=answer_reject_6_no_end]\r
+[choice]Keep trying.[newtalk start=answer_reject_6_yes_begin break=answer_reject_6_yes_end]\r
+[title=reject_6_end]\r
+\r
+GOBLIN 6 CHOICE 1\r
+[title=answer_reject_6_no_begin]\r
+Rejected: Yes... resting is good. Just... sitting... here. So easy... comfortable.\r
+[title=answer_reject_6_no_end]\r
+\r
+GOBLIN 6 CHOICE 2\r
+[title=answer_reject_6_yes_begin]\r
+Rejected: No... I don't know... Everyone I know wants to stay, maybe I should too. I'll think about this.\r
+[title=answer_reject_6_yes_end]\r
+\r
+GOBLIN 7\r
+[title=reject_7_begin]\r
+Rejected: It was so blissful keeping my eyes blinded to the world around me, before I was forcibly brought into it.\r
+Rejected: The hubris it must take to yank a soul out of non-existence, into this, meat. And to force a life into this thresher.\r
+Rejected: My mind keeps at a stand-still holding a level of comprehension that will never be enough. I want to go back.\r
+[title=reject_7_end]\r
+\r
+GOBLIN 8\r
+[title=reject_8_begin]\r
+Rejected: Could there really be nothing left up ahead? More of the same, more repetition. It's not... I can't believe that. \r
+Rejected: There's got to be more to discover out there than just this. I can't keep doing this. It hurts so much.\r
+Rejected: [question=02]What could I be doing wrong?\r
+[choice]Everything.[newtalk start=answer_reject_8_no_begin break=answer_reject_8_no_end]\r
+[choice]Keep going.[newtalk start=answer_reject_8_yes_begin break=answer_reject_8_yes_end]\r
+[title=reject_8_end]\r
+\r
+GOBLIN 8 CHOICE 1\r
+[title=answer_reject_8_no_begin]\r
+Rejected: That can't be right... I've only used what I learned, what I've experienced...\r
+Rejected: If it's all wrong, I... I don't where else to turn. I need to really think hard about this.\r
+[title=answer_reject_8_no_end]\r
+\r
+GOBLIN 8 CHOICE 2\r
+[title=answer_reject_8_yes_begin]\r
+Rejected: Do you... really believe? I can... I will. Months, years, decades in the making but I will get to where I want.\r
+Rejected: Thank... you for saying that.\r
+[title=answer_reject_8_yes_end]\r
+\r
+BABY CUBE ANGELS\r
+\r
+Gatekeeper LOWER\r
+[title=Gatekeeper_0_begin]\r
+Gatekeeper: The outlier approaches. I am the intermediary. We've seen the progress you've made so far.\r
+Gatekeeper: Though your journey is not yet over. Before you stand <color=#e0d33f><b>three pillars</b></color> of your own creation.\r
+Gatekeeper: An exit exists somewhere in this dream, but for you and you alone. It calls to you.\r
+Gatekeeper: [question=0]Do you stay or continue? The choice is yours.\r
+[choice]Continue.[newtalk start=answer_cube0_yes_begin break=answer_cube0_yes_end]\r
+[choice]Stay.[newtalk start=answer_cube0_no_begin break=answer_cube0_no_end]\r
+[title=Gatekeeper_0_end]\r
+\r
+[title=answer_cube0_yes_begin]\r
+Gatekeeper: Go now, and ascend the <color=#e0d33f><b>three pillars</b></color> before you.[event=0]\r
+[title=answer_cube0_yes_end]\r
+\r
+[title=answer_cube0_no_begin]\r
+Gatekeeper: You will suffer with us.\r
+[title=answer_cube0_no_end]\r
+\r
+Gatekeeper MIDDLE\r
+[title=Gatekeeper_1_begin]\r
+Gatekeeper: We were all dreamers once. Memories of family, material obsessions, kingdoms in the sky.\r
+Gatekeeper: Then the nightmares came. They never stopped and now we live in a confused world of what once was.\r
+Gatekeeper: Unfortunate you managed to stumble into such a predicament. You don't belong here.\r
+Gatekeeper: [question=1]Do you stay or continue? The choice is yours.\r
+[choice]Continue.[newtalk start=answer_cube1_yes_begin break=answer_cube1_yes_end]\r
+[choice]Stay.[newtalk start=answer_cube1_no_begin break=answer_cube1_no_end]\r
+[title=Gatekeeper_1_end]\r
+\r
+[title=answer_cube1_yes_begin]\r
+Gatekeeper: An option so many of us wish we had. Go now.[event=1]\r
+[title=answer_cube1_yes_end]\r
+\r
+[title=answer_cube1_no_begin]\r
+Gatekeeper: You will suffer with us.\r
+[title=answer_cube1_no_end]\r
+\r
+Gatekeeper TOP\r
+[title=Gatekeeper_2_begin]\r
+Gatekeeper: Push... the... cube...\r
+Gatekeeper: Prepare... for... the end...\r
+[title=Gatekeeper_2_end]\r
+\r
+[title=Gatekeeper_3_begin]\r
+Gatekeeper: [question=2]Stay... or go...?\r
+[choice]Go.[newtalk start=answer_cube2_yes_begin break=answer_cube2_yes_end]\r
+[choice]Stay.[newtalk start=answer_cube2_no_begin break=answer_cube2_no_end]\r
+[title=Gatekeeper_3_end]\r
+\r
+[title=answer_cube2_yes_begin]\r
+Gatekeeper: You... go... now.\r
+Gatekeeper: Good... bye.[event=5]\r
+[title=answer_cube2_yes_end]\r
+\r
+[title=answer_cube2_no_begin]\r
+Gatekeeper: Suffer...\r
+[title=answer_cube2_no_end]\r
+\r
+CUBE TOP\r
+[title=Cube_0_begin]\r
+[question=3]Would you like to activate the cube?\r
+[choice]Yes.[newtalk start=answer_cube3_yes_begin break=answer_cube3_yes_end]\r
+[choice]No.[newtalk start=answer_cube3_no_begin break=answer_cube3_no_end]\r
+[title=Cube_0_end]\r
+\r
+[title=answer_cube3_yes_begin]\r
+You have activated the cube. You may proceed. [event=2]\r
+[title=answer_cube3_yes_end]\r
+\r
+[title=answer_cube3_no_begin]\r
+The cube remains inert.\r
+[title=answer_cube3_no_end]\r
+\r
+BIG ANGEL KING\r
+[title=angel_big_0_begin]\r
+???: Do not be afraid. I have been expecting you, dreamer, as have all beings of this dream world and the ones before it.\r
+???: We know you have traveled far and overcome many obstacles. Some small, some tedious, many horrific, but all were necessary.\r
+???: The last of what you seek is here. It has been here since time began, and in your possession it will complete your journey.\r
+???: [question=4]I will answer any questions you may have, should you so desire an answer.\r
+[choice]What are you?[newtalk start=answer_angel_1_begin break=answer_angel_1_end]\r
+[choice]What do I seek?[newtalk start=answer_angel_2_begin break=answer_angel_2_end]\r
+[choice]Where is Gogi?[newtalk start=answer_angel_3_begin break=answer_angel_3_end]\r
+[choice]...[newtalk start=answer_angel_4_begin break=answer_angel_4_end]\r
+[title=angel_big_0_end]\r
+\r
+ANGEL CHOICE 1\r
+[title=answer_angel_1_begin]\r
+???: I am many things. An observer. An orchestrator. A protector. A prophet of creation.\r
+???: Everything that has happened up to this point is part of a sequence predetermined by my will alone.\r
+???: [question=5]Your actions, your choices, the lives you've touched, have all fated you here. For better or worse.\r
+[choice]What do I seek?[newtalk start=answer_angel_2_begin break=answer_angel_2_end]\r
+[choice]Where is Gogi?[newtalk start=answer_angel_3_begin break=answer_angel_3_end]\r
+[choice]...[newtalk start=answer_angel_4_begin break=answer_angel_4_end]\r
+[title=answer_angel_1_end]\r
+\r
+ANGEL CHOICE 2\r
+[title=answer_angel_2_begin]\r
+???: You seek completion of the ethereal Dream Crystal. You have been now for longer than you can imagine. Its reassembly is the key to everything.\r
+???: [question=6]The final shard exists untampered with, as it has since it was brought here. You are not the only one to seek it, however.\r
+[choice]What are you?[newtalk start=answer_angel_1_begin break=answer_angel_1_end]\r
+[choice]Where is Gogi?[newtalk start=answer_angel_3_begin break=answer_angel_3_end]\r
+[choice]...[newtalk start=answer_angel_4_begin break=answer_angel_4_end]\r
+[title=answer_angel_2_end]\r
+\r
+ANGEL CHOICE 3\r
+[title=answer_angel_3_begin]\r
+???: The dream protector is alive. His physical form has remained in deep stasis for a long time. A sleep from which nothing can wake up.\r
+???: As a result, his power to safeguard against nightmares has weakened greatly. You must be the one to free him, before this world succumbs to its final collapse into darkness.\r
+???: [question=7]You are running out of time, dreamer. The longer it takes to reassemble the crystal, the more wretched the nightmares will become.\r
+[choice]What are you?[newtalk start=answer_angel_1_begin break=answer_angel_1_end]\r
+[choice]What do I seek?[newtalk start=answer_angel_2_begin break=answer_angel_2_end]\r
+[choice]...[newtalk start=answer_angel_4_begin break=answer_angel_4_end]\r
+[title=answer_angel_3_end]\r
+\r
+ANGEL CHOICE 4\r
+[title=answer_angel_4_begin]\r
+???: Listen to my words carefully dreamer. As you undertake the final minutes of this quest, remember all you have done.\r
+???: Without you, these worlds will continue twisting and gnarling into irreparable visions of horror. You are the lock, the shard is the key.\r
+???: I must leave you now. The last piece of the puzzle is waiting. The light will lead you there.\r
+???: This is my final message to you. We will meet in another life, in another dream.\r
+???: Farewell.\r
+[title=answer_angel_4_end]"

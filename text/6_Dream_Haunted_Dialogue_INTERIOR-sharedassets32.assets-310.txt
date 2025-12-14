@@ -1,0 +1,415 @@
+0 TextAsset Base
+ 1 string m_Name = "6_Dream_Haunted_Dialogue_INTERIOR"
+ 1 string m_Script = "6_Dream_Haunted Dialogue INTERIOR\r
+\r
+[title=door_front_begin]\r
+It's a solid wall.\r
+[title=door_front_end]\r
+\r
+---------------\r
+ROUND 1\r
+---------------\r
+Main Hall\r
+\r
+[title=door_dining_begin]\r
+This door is locked by some unseen, ethereal force.\r
+[title=door_dining_end]\r
+\r
+[title=door_cellar_begin]\r
+As you approach this door, you feel the hairs stand up on the back of your neck and your arms become riddled with goosebumps.\r
+Perhaps it's a good thing the door happens to be locked.\r
+[title=door_cellar_end]\r
+\r
+GHOST KING\r
+[title=ghost_king_0_begin]\r
+Ghost King: Oh... a visitor. You're like me, but not. Something not of flesh and blood yet filled with a kind of purpose.\r
+Ghost King: Or maybe you're as aimless as me. You see, I lost my <color=#db3630><b>heart</b></color> a long, long time ago. It's just a hole now.\r
+Ghost King: With my heart also left my will to find it. But you; you're no stranger to helping others, as it seems.\r
+Ghost King: [question=00]What say you... strange, trespassing soul - will you be the one to reunite me?\r
+[choice]Yea.[newtalk start=king_yes_begin break=king_yes_end]\r
+[choice]Nay.[newtalk start=king_no_begin break=king_no_end]\r
+[title=ghost_king_0_end]\r
+\r
+[title=king_yes_begin]\r
+Ghost King: Take the lift down to the cellar, where my eyes last laid on the lost <color=#db3630><b>heart</b></color>. My <i>basement's basement</i>. I dare never go there again.\r
+Ghost King: Alas, the key to the door has vanished some place as well... a tragedy. You will need to find it. Go now.[event=7]\r
+[title=king_yes_end]\r
+\r
+[title=king_no_begin]\r
+Ghost King: I continue serving my sentence of eternity for crimes long forgotten. I pray you return.[event=8]\r
+[title=king_no_end]\r
+\r
+[title=ghost_king_00_begin]\r
+Ghost King: The aloof trespesser has returned... has this house not consumed you yet? The time draws closer...\r
+Ghost King: [question=00]Will you help to reunite a regrettful king with a long lost <color=#db3630><b>heart</b></color>?\r
+[choice]Yea.[newtalk start=king_yes_begin break=king_yes_end]\r
+[choice]Nay.[newtalk start=king_no_begin break=king_no_end]\r
+[title=ghost_king_00_end]\r
+\r
+GHOST KING REPEAT\r
+[title=ghost_king_0_repeat_begin]\r
+Ghost King: You've returned empty handed. I continue to wait for the return of my lost <color=#db3630><b>heart</b></color>.\r
+[title=ghost_king_0_repeat_end]\r
+\r
+CLOCK\r
+[title=clock_0_begin]\r
+The dusty grandfather clock continues to tick despite its frozen hands and pendulum.\r
+[title=clock_0_end]\r
+\r
+BOOKSHELF NORMAL\r
+[title=bookshelf_0_begin]\r
+It's just a regular bookshelf. There's nothing out of the ordinary with it.\r
+[title=bookshelf_0_end]\r
+\r
+BEDROOM LEFT\r
+[title=ghost_0_begin]\r
+Ghost: I... I can't talk to you now. I have to... focus. Can't get my head on straight.\r
+Ghost: I've... I've been putting it off for so long. Years...? Has it been longer than that?\r
+Ghost: Just need to... I just need to focus. My head won't stop aching. Pounding.\r
+It looks like they were trying to finish writing a <color=#e0d33f><b>book</b></color> of some kind.\r
+[title=ghost_0_end]\r
+\r
+[title=ghost_0_repeat_begin]\r
+The ghost's head monotonously thuds against the desk. It doesn't pay any attention to you.\r
+There's a <color=#e0d33f><b>book</b></color> open with some sort of passage visible.\r
+"The Rapture of Grimthorn" \
+Chapter 1 - Page 2\r
+"'Alone you are weak. Many you are weak. And I am all of you. Forceful is my will and so to my desire to meld with the dreams of the innocent.'"\r
+"Pitiful a look the meager creature below took as it witnessed a vastness of deepened, demonic swirls most threatening in their appearance."\r
+"It spoke, 'Your will of corruption I reel to the mercy of, but no knee I shall bend in vain of what you so hope to destroy-"\r
+The rest of the pages are missing.\r
+[title=ghost_0_repeat_end]\r
+\r
+BEDROOM RIGHT\r
+[title=lockeddoor_0_begin]\r
+"The cruel and unforgiving Duchess of Helmsfield"\r
+"May her soul rest eternally \
+beneath Helmsfield Manor"\r
+[title=lockeddoor_0_end]\r
+\r
+[title=ghost_1_begin]\r
+Sleeping Ghost: z...Z... Now they'll never... find it... haha...\r
+Sleeping Ghost: Z...z... <color=#e0d33f><b>hidden passage...</b></color>\r
+[title=ghost_1_end]\r
+\r
+[title=ghost_1_repeat1_begin]\r
+Sleeping Ghost: Z... z... hidden... perfectly... z...\r
+Sleeping Ghost: Z... book... shelf...\r
+Sleeping Ghost: Z... z... z...\r
+[title=ghost_1_repeat1_end]\r
+\r
+[title=ghost_sleeping_begin]\r
+Restless Ghost: Z...z... stuck...\r
+(This ghost is tossing and turning in its sleep.)\r
+Restless Ghost: z...Z...z.... here.....\r
+Restless Ghost: Z...z... <color=#e0d33f><b>other room...</b></color>\r
+[title=ghost_sleeping_end]\r
+\r
+BOOKSHELF SECRET\r
+[title=bookshelf_1_begin]\r
+Upon closer inspection, you feel a slight draft from behind this shelf.\r
+There's a book spine poking out from one of the shelves slightly. Was that there before?\r
+[question=0]Will you push the book in?\r
+[choice]Yes.[newtalk start=answer_book_yes_begin break=answer_book_yes_end]\r
+[choice]No.[newtalk start=answer_book_no_begin break=answer_book_no_end]\r
+[title=bookshelf_1_end]\r
+\r
+BOOKSHELF NO\r
+[title=answer_book_no_begin]\r
+You leave the bookshelf alone.\r
+[title=answer_book_no_end]\r
+\r
+BOOKSHELF YES\r
+[title=answer_book_yes_begin]\r
+You push the protruding book inwards. You hear some sort of mechanism click. [event=0]\r
+[title=answer_book_yes_end]\r
+\r
+LIBRARY\r
+[title=ghost_maid_0_begin]\r
+Ghost: Oh, hello deary. You gave me a bit of a spook there. I didn't expect any others to be back here this time of night.\r
+Ghost: Oh my, you'll have to forgive me. The library has been in a bit of disrepair lately. Quite a mess, you see.\r
+Ghost: Lots of bits and bobs end up getting left around. If you're looking for something, you may find it here.\r
+Ghost: Please excuse me now, I've got to tend to this lovely bunch of clutter. Do mind those fallen bookcases, would you?\r
+[title=ghost_maid_0_end]\r
+\r
+[title=note_begin]\r
+There's a worn piece of paper on the desk with something written on it. It's a diary entry.\r
+<i>J--e 1-th\
+This will be my last entry before I'm to be retired from my duties. Thoughts scattered.</i>\r
+<i>The duchess let me go outside today. I still had to wear my collar, but the weather was okay.</i>\r
+<i>Ever since her and the king stopped talking, she's secluded herself to the basement.</i>\r
+<i>She's been making the groundsman cart deceased in through the cellar door. I don't know why.</i>\r
+<i>I guess the shard's had its influence on her too. It's only a̷ matter of time befor̵̦̔e̷---</i>\r
+There's nothing else written.\r
+[title=note_end]\r
+\r
+KEY\r
+[title=key_0_begin]\r
+An old brass key. How such a thing could have ended all the way up here you'll never know.\r
+[question=001]There's a tab on it that reads "Cellar Door - Do not lose".\
+Pick it up?\r
+[choice]Yes.[newtalk start=answer_key0_yes_begin break=answer_key0_yes_end]\r
+[choice]No.[newtalk start=answer_key0_no_begin break=answer_key0_no_end]\r
+[title=key_0_end]\r
+\r
+[title=answer_key0_yes_begin]\r
+You take the key with you.[event=11]\r
+[title=answer_key0_yes_end]\r
+\r
+[title=answer_key0_no_begin]\r
+You leave the key.\r
+[title=answer_key0_no_end]\r
+\r
+------\r
+ROUND 2\r
+\r
+FRIDGE 1\r
+[title=fridge_0_begin]\r
+There's a rotten smelling refrigerator here. A padlock's been placed on the latch.\r
+Taking another look at the brass key you picked up, the tab now simply reads "Fridge".\r
+[question=1]Will you try using the key?\r
+[choice]Yes.[newtalk start=answer_fridge_yes_begin break=answer_fridge_yes_end]\r
+[choice]No.[newtalk start=answer_fridge_no_begin break=answer_fridge_no_end]\r
+[title=fridge_0_end]\r
+\r
+FRIDGE YES\r
+[title=answer_fridge_yes_begin]\r
+You insert the brass key into the fridge's padlock. You step back as a horrid smell wafts out from inside.[event=1]\r
+[title=answer_fridge_yes_end]\r
+\r
+FRIDGE NO\r
+[title=answer_fridge_no_begin]\r
+You leave the fridge alone. Your curiosity may end up getting the better of you though.\r
+[title=answer_fridge_no_end]\r
+\r
+HEART 1\r
+[title=heart_0_begin]\r
+A living, breathing <color=#db3630><b>heart</b></color>, about the size of a basketball. It wriggles and squirms as if having a mind of its own.\r
+You pick the heart up and take it with you.\r
+[title=heart_0_end]\r
+\r
+HEART MONSTER 1\r
+[title=monster_0_begin]\r
+[jitter=5 angle=0]Run.[/jitter]\r
+[title=monster_0_end]\r
+\r
+GHOST KING\r
+[title=ghost_king_1_begin]\r
+Ghost King: Ah, you've returned at last. And with a once lost <color=#db3630><b>heart</b></color> in your possession I see.\r
+Ghost King: Thanks to you, I may begin to feel whole again. I hope you didn't go through too much trouble finding it.\r
+Ghost King: As a most sincere form of gratitude, I would like for you to have this heirloom. Its spell no longer holds an affect on me.\r
+Ghost King: It was found at one time buried in a land long forgotten, and has been in my possession for many generations.\r
+Ghost King: You will make good use of it, I'm sure. To claim its curse remains I cannot say. Thank you again... my home is always open.\r
+[title=ghost_king_1_end]\r
+\r
+[title=ghost_king_11_begin]\r
+Ghost King: The aloof traveler still pervades this loathsome piece of architecture, to what end I wonder.\r
+Ghost King: You have my eternal thanks, and too what little welcome this accursed house may grant you.\r
+Ghost King: The specters of the halls will befriend any who've lost their way, given enough time...\r
+[title=ghost_king_11_end]\r
+\r
+GHOST KING AFTER CANDYLAND\r
+\r
+[title=ghost_king_2_begin]\r
+Ghost King: Hmm? You look as though you've just seen a ghost. I hope this shell of a once magnificent abode hasn't burdened you.\r
+Ghost King: Others have visited before and have become too comfortable to leave... somber moods have an effect on some people.\r
+Ghost King: Alas, I digress. My heart beats with a spark of vigor and I must thank you again for retrieving it.\r
+Ghost King: Until we meet again... maestro.\r
+[title=ghost_king_2_end]\r
+\r
+LOCKED ART GALLERY DOOR\r
+\r
+[title=secret_door0_begin]\r
+There's a locked door here. It seems a little different than the others...\r
+Without the <color=#e0d33f><b>key</b></color> you can't get it open.\r
+[title=secret_door0_end]\r
+\r
+[title=secret_key_begin]\r
+The library ghost dropped a <color=#e0d33f><b>non-descript key</b></color> of some kind.\r
+The label is blank, so it could go to anything... You decide to take it with you.\r
+[title=secret_key_end]\r
+\r
+[title=secret_door1_begin]\r
+Using the <color=#e0d33f><b>key</b></color> the ghost dropped you unlock the door.\r
+[title=secret_door1_end]\r
+\r
+PIANO PUZZLE\r
+\r
+[title=piano_0_begin]\r
+The sheet music is too faded to read. A lightly scrawled message is written in the corner.\r
+"Reveal correct order of the <color=#e0d33f><b>bereft council</b></color>, and your path will open."\r
+[question=2]Do you want to try pressing the keys?\r
+[choice]Yes.[newtalk start=answer_piano_yes_begin break=answer_piano_yes_end]\r
+[choice]No.[newtalk start=answer_piano_no_begin break=answer_piano_no_end]\r
+[title=piano_0_end]\r
+\r
+[title=answer_piano_yes_begin]\r
+[question=3]Which key will you press?\r
+[choice]F key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]G key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]A key.[newtalk start=piano_key_correct0_begin break=piano_key_correct0_end]\r
+[choice]B key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]C key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[title=answer_piano_yes_end]\r
+\r
+[title=answer_piano_no_begin]\r
+You decide not to mess with the piano. Who knows what kind of spirit it inhabits.\r
+[title=answer_piano_no_end]\r
+\r
+[title=piano_key_wrong_begin]\r
+You push the key in. [event=6]\r
+That doesn't seem correct...\r
+[title=piano_key_wrong_end]\r
+\r
+[title=piano_key_correct0_begin]\r
+You push the key in. [event=10]\r
+[question=4]Press another key?\r
+[choice]F key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]G key.[newtalk start=piano_key_correct1_begin break=piano_key_correct1_end]\r
+[choice]A key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]B key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]C key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[title=piano_key_correct0_end]\r
+\r
+[title=piano_key_correct1_begin]\r
+You push the key in. [event=9]\r
+[question=5]Press another key?\r
+[choice]F key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]G key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]A key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]B key.[newtalk start=piano_key_correct2_begin break=piano_key_correct2_end]\r
+[choice]C key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[title=piano_key_correct1_end]\r
+\r
+[title=piano_key_correct2_begin]\r
+You push the key in. [event=5]\r
+[question=55]Press another key?\r
+[choice]F key.[newtalk start=piano_key_correct22_begin break=piano_key_correct22_end]\r
+[choice]G key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]A key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]B key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]C key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[title=piano_key_correct2_end]\r
+\r
+[title=piano_key_correct22_begin]\r
+You push the key in. [event=4]\r
+[question=55]Press another key?\r
+[choice]F key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]G key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]A key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]B key.[newtalk start=piano_key_wrong_begin break=piano_key_wrong_end]\r
+[choice]C key.[newtalk start=piano_key_correct3_begin break=piano_key_correct3_end]\r
+[title=piano_key_correct22_end]\r
+\r
+[title=piano_key_correct3_begin]\r
+You push the key in. [event=3]\r
+A subtle metallic click can be heard in the room...[event=2]\r
+[title=piano_key_correct3_end]\r
+\r
+[title=piano_done_begin]\r
+The keys no longer depress when touched.\r
+[title=piano_done_end]\r
+\r
+BOOKS\r
+\r
+[title=book_0_begin]\r
+There's a <color=#e0d33f><b>book</b></color> open with some sort of passage visible.\r
+"The Rapture of Grimthorn" \
+Chapter 1 - Page 1\r
+"The creature so feeble in its attempt to overthrow the great shadow was then made an example of. A defeat lay in its wake."\r
+"And the great shadow answered with such reverence, 'You and I are not of the same world. An existence only one of us can own.'"\r
+"The blackened silhouette slacked its four protruding jaws, continuing to speak in a most guttural, <b>backwards</b> language."\r
+The rest of the pages are missing.\r
+[title=book_0_end]\r
+\r
+[title=book_2_begin]\r
+There's a <color=#e0d33f><b>book</b></color> open with some sort of passage visible.\r
+"The Rapture of Grimthorn" \
+Chapter 1 - Page 3\r
+"-for despite the vulnerable world before us, my resolve you will never best. I will return you to the foul depths from which you were regrettably born."\r
+"The shadow swayed and swathed wretchedly, undulating a mass of flesh, boils, and other unspeakable things. Lurching over an opponent so miniscule."\r
+"A chamber of echoes was heard, from which a sound so amplified and infinite was birthed. The shadow now assumed a form so unfathomably horrible, words cannot describe it."\r
+The rest of the pages are missing.\r
+[title=book_2_end]\r
+\r
+[title=book_3_begin]\r
+There's a <color=#e0d33f><b>book</b></color> open with some sort of passage visible.\r
+"The Rapture of Grimthorn" \
+Chapter 1 - Page 4\r
+"Grinding teeth, sharpened claws. A mass of anger in its absolution. A sea of darkness and nightmares incarnate loom before the tiny creature."\r
+"An immense barbed hand reached out from the void, its fingers spiraling outward in chaos and finesse, surrounded all that was left of the land."\r
+"Faintly shimmering in the darkness and so soft its sound, a bell rang. Around the neck of the creature it dangled, containing all life in the universe."\r
+The rest of the pages are missing.\r
+[title=book_3_end]\r
+\r
+[title=book_4_begin]\r
+There's a <color=#e0d33f><b>book</b></color> open with some sort of passage visible.\r
+"The Rapture of Grimthorn" \
+Chapter 1 - Page 5\r
+"A cosmic burst of radiant energy swelled, letting out a majestic cry which swallowed the encroaching darkness, filling the sky with light."\r
+"The shadow's wrought flesh singed with remarkable pain from the intense blaze, crying as loudly as before. The amalgamation bore with its many eyes a sight so beautiful."\r
+"With scorched skin it lay fated before the creature, now bathed in a blinding spirit, it spoke, 'In death I vanish, in your dreams I will live on forever.'"\r
+There's nothing else written.\r
+[title=book_4_end]\r
+\r
+PAINTINGS\r
+\r
+[title=painting_0_begin]\r
+"Brothers of Ambition"\r
+[title=painting_0_end]\r
+\r
+[title=painting_1_begin]\r
+"An Evening of Congress"\r
+[title=painting_1_end]\r
+\r
+[title=painting_2_begin]\r
+"<color=#ebe72a><b>A</b></color>lexander Marple of Branbert"\r
+[title=painting_2_end]\r
+\r
+[title=painting_3_begin]\r
+"Lucille Lockwood of Godridge"\r
+[title=painting_3_end]\r
+\r
+[title=painting_33_begin]\r
+"Expressions of Clarity"\r
+[title=painting_33_end]\r
+\r
+[title=painting_4_begin]\r
+"<color=#ebe72a><b>G</b></color>orgio Bryton of Greenham"\r
+[title=painting_4_end]\r
+\r
+[title=painting_5_begin]\r
+"Forsaken Desire"\r
+[title=painting_5_end]\r
+\r
+[title=painting_6_begin]\r
+"Lorcan Anworth of Fairburg"\r
+[title=painting_6_end]\r
+\r
+[title=painting_7_begin]\r
+"Spencer Allencourt of Westhall"\r
+[title=painting_7_end]\r
+\r
+[title=painting_8_begin]\r
+"Clarice Barnes of Amberford"\r
+[title=painting_8_end]\r
+\r
+[title=painting_9_begin]\r
+"Oscar Brimsey of Rosevine"\r
+[title=painting_9_end]\r
+\r
+[title=painting_10_begin]\r
+"<color=#ebe72a><b>F</b></color>rancis Remington of Palkett"\r
+[title=painting_10_end]\r
+\r
+[title=painting_11_begin]\r
+"..."\r
+[title=painting_11_end]\r
+\r
+[title=painting_12_begin]\r
+"<color=#ebe72a><b>C</b></color>hristopher Rennoch of Brighton"\r
+[title=painting_12_end]\r
+\r
+[title=painting_13_begin]\r
+"<color=#ebe72a><b>B</b></color>ranlen Wilford of Andorra"\r
+[title=painting_13_end]"

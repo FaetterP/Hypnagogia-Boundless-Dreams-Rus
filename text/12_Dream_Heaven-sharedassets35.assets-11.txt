@@ -1,0 +1,61 @@
+0 TextAsset Base
+ 1 string m_Name = "12_Dream_Heaven"
+ 1 string m_Script = "Heaven Dialogue\r
+\r
+[title=0_begin]\r
+\r
+[title=0_end]\r
+\r
+[title=you_begin]\r
+After all this time, we're finally here. It's so close, just out of reach. But we can reach it, together.\r
+Everyone is waiting for us. They've been waiting for longer than we can imagine. We shouldn't keep them.\r
+Come on. It's just across the way. We'll go together, so we're not afraid.\r
+[title=you_end]\r
+\r
+[title=oldman_begin]\r
+I hope you took something from all this. It'd be quite silly if you came all this way and didn't learn anything!\r
+But I don't believe that. I knew from the second I saw you that you'd do great things. You have more patience than I ever did.\r
+When you get to be as old as I am, you learn to appreciate things other people tend to rush through. Take your time, now!\r
+[title=oldman_end]\r
+\r
+[title=snake_begin]\r
+I was quick to judge you at first, but you've made me realize how little I actually knew about you. How much more you're capable of.\r
+At first I believed I was the teacher, the one to own all the knowledge. But you've taught me to be more thoughtful of others, and for that I'm thankful.\r
+Let the calming waters of old and new wash around you with soothing acceptance, as they did me and others before me. Thank you.\r
+[title=snake_end]\r
+\r
+[title=mushroom_begin]\r
+Still whipping and snapping, as always I see! Something tells me you've got the mark of a real go-getter on you. Reminds me of younger me!\r
+Don't let me get you all worked up though. Sometimes even lost and broken things need a bit of sentimental appreciation.\r
+You've gotta dig deep inside yourself, deeper than you ever have. We're all broken in some way, but we can all be fixed too.\r
+[title=mushroom_end]\r
+\r
+[title=ice_begin]\r
+I've forced myself to become cold and distant from so many people I love, just to protect myself. I was always afraid.\r
+You being around folded over me like a warm blanket, a subtle comfort I've never experienced before. I know I can do better than this.\r
+In a way you saved me from myself, and I can never repay that. I hope your presence continues to inspire others for a long time.\r
+[title=ice_end]\r
+\r
+[title=space_begin]\r
+It's okay to live in your own world sometimes, even if it's made up like a maze of endless corridors. You're never truly lost.\r
+There's time to stop and draw a map, make a solution, change course, reflect. You have all the time in the world to make a decision.\r
+The universe is an infinite loop of chaotic madness that's all happening too slowly for us to worry so much about. Find comfort in that.\r
+[title=space_end]\r
+\r
+[title=king_begin]\r
+It's so hard to know what it is I have to learn from all the mistakes I've made in my life. It feels like a physical obstacle I just can't traverse.\r
+My heart hangs heavy with the notion I'll have made those mistakes forever, but you've taught me how to move on, to embrace them.\r
+I hope one day I can free myself. I hope one day I can give myself another chance. I'll rest until that day comes.\r
+[title=king_end]\r
+\r
+[title=rejected_begin]\r
+I've had a hard life, and I know others have it much worse than me. I've begged for so long to have someone shake us awake.\r
+Have our prayers been answered? Are you the one who will bring our lost and bitter views back into perspective?\r
+You being around brings a much needed freshness to the air. A feeling that we'll remember for the rest of our days.\r
+[title=rejected_end]\r
+\r
+[title=child_begin]\r
+You've been so nice to me, to everyone, even to yourself. You deserve so much more than you think you do. We all do.\r
+But, what if it's all been a dream? Everything to happen in the world, our creations, our emotions, our connections.\r
+No matter what happens, I'll never forget you. Promise you'll do the same for me. It's your time to wake up now.\r
+[title=child_end]"

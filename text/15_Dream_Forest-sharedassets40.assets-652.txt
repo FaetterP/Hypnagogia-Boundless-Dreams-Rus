@@ -1,0 +1,623 @@
+0 TextAsset Base
+ 1 string m_Name = "15_Dream_Forest"
+ 1 string m_Script = "15_Dream_Forest Dialogue\r
+\r
+NOTES\r
+- floating skeleton head named Sharam? can act as guide? could also be a little feral goblin creature. maybe a little feral goblin WITH a flaming skeleton head.\r
+- weird door is an anthropomorphic stone golem. revealed to have the name Thera\r
+- unique door NPCs in each challenge room? Zendon, Avidon, Undon, Rhudon\r
+- sparse dialogue throughout, only a few lines for NPCs and riddle hints\r
+- overall 'story' is that this is the weird door golem's dream, and you are in it. she wants you to help her do something\r
+- weird door golem is trapped in roots and blocks main courtyard portal. completing each challenge room removes a root. her dialogue updates each time you do so.\r
+- each challenge room has a "rune" ball that you must return to main courtyard. the rune ball appears at the end\r
+- each challenge room has platforming challenges, trap doors, utilizes the puzzle ball in some way, and has 1 "unique" puzzle\r
+- challenge room 1: simple platforming and moving platforms\r
+\r
+PICKUPS\r
+\r
+[title=pickup_hookshot_begin]\r
+Inside the chest you find the <color=#fcba03><b>Grabble</b></color>!\r
+Press the X key or RB button to hook onto special nodes found along some walls.\r
+[title=pickup_hookshot_end]\r
+\r
+[title=pickup_map_begin]\r
+Inside the chest you find the <color=#fcba03><b>Labyrinth Map</b></color>!\r
+Press the F key or Back button to toggle the map display. Now you'll never get lost!\r
+[title=pickup_map_end]\r
+\r
+[title=pickup_ring0_begin]\r
+A large, ornate chest sits here. It's noticeably different from the ones before.\r
+[question=50]Will you try to open it?\r
+[choice]Yes.[newtalk start=ring0_yes_begin break=ring0_yes_end]\r
+[choice]No.[newtalk start=ring0_no_begin break=ring0_no_end]\r
+[title=pickup_ring0_end]\r
+\r
+[title=ring0_yes_begin]\r
+You try to open the chest.[event=9]\r
+[title=ring0_yes_end]\r
+\r
+[title=ring0_no_begin]\r
+You leave the chest alone.[event=10]\r
+[title=ring0_no_end]\r
+\r
+[title=pickup_ring1_begin]\r
+Inside you find the <color=#00b3ff><b>Prismatic Artifact</b></color>.\r
+A beautifully crafted ring made of vibrant minerals. It radiates with hypnotic energy.\r
+It's too big to fit on your finger, but you take it with you anyways.\r
+[title=pickup_ring1_end]\r
+\r
+[title=pickup_bomb_begin]\r
+Inside the chest you find the <color=#fcba03><b>Cherry Bomb</b></color>!\r
+Press the R key or Left Stick to throw a bomb that will explode in 4 seconds. \
+<color=#ff0000><b>Warning</b></color> - Do not eat.\r
+[title=pickup_bomb_end]\r
+\r
+[title=pickup_vinebomb_begin]\r
+Inside the chest you find the <color=#42f563><b>Duck Bomb</b></color>! This packs a punch!\r
+Press the R key or Left Stick to throw a cluster bomb that will explode in 4 seconds. \
+<color=#fcba03><b>Note</b></color> - Not a real duck.\r
+[title=pickup_vinebomb_end]\r
+\r
+[title=pickup_key_white_begin]\r
+Inside the chest you find a <color=#81aee6><b>Silver Key</b></color>!\r
+Picking this key up will allow you to open any <b>one</b> silver lock.\r
+[title=pickup_key_white_end]\r
+\r
+[title=pickup_key_gallery_begin]\r
+Inside the chest you find a <color=#ff00d0><b>Mysterious Key</b></color>!\r
+What could this go to, you wonder?\r
+[title=pickup_key_gallery_end]\r
+\r
+ROUND 1\r
+\r
+GALLERY DOOR\r
+\r
+[title=door_gallery_begin]\r
+The rickety barred gate is latched with a special type of lock.\r
+[title=door_gallery_end]\r
+\r
+MID-ROOM\r
+\r
+[title=golem_0_begin]\r
+???: Ugh, how am I going to get in? If only there was someone smaller than me around to help...\r
+[title=golem_0_end]\r
+\r
+[title=golem_1_begin]\r
+???: Hmm? Who's there?[event=11]\r
+???: Wh-what? You... the one from the forest! What are you doing here?!\r
+???: First you decide to flirt with me, then you go and invade my <b>dreams</b>? This is insane![event=12]\r
+???: Oh, I get it. Just can't get enough of me, can you? Well, I gotta say, that's pretty weird. <i>Really weird</i>. Well here I am, in the flesh.\r
+???: Ugh, didn't anyone ever teach you about boundaries? Whatever. I don't have time for this, I've got a job to do.\r
+???: [question=0]Hmm. Although... maybe you being here is actually a blessing in disguise. You might be able to help me with my little problem...\r
+[choice]Help with what?[newtalk start=golem_yes0_begin break=golem_yes0_end]\r
+[choice]No thanks.[newtalk start=golem_no0_begin break=golem_no0_end]\r
+[title=golem_1_end]\r
+\r
+[title=golem_yes0_begin]\r
+???: Aha! I knew you'd be interested. I figured you stumbled upon this place for a reason other than just to impress me.[newtalk start=golem_2_begin break=golem_2_end]\r
+[title=golem_yes0_end]\r
+\r
+[title=golem_no0_begin]\r
+???: Pfft. Listen- you're trapped down here just like I am, there's no way but forward. So at least <i>try</i> to act productive, will you?[newtalk start=golem_2_begin break=golem_2_end]\r
+[title=golem_no0_end]\r
+\r
+[title=golem_2_begin]\r
+???: Anyways, I guess we might as well get to know each other while we're down here. \
+I am <color=#ed2d1f><b>Thera</b></color>.\r
+Thera: [question=1]...and you are?\r
+[choice]Mm.. er... ah..[newtalk start=golem_answer0_begin break=golem_answer0_end]\r
+[choice]No one.[newtalk start=golem_answer1_begin break=golem_answer1_end]\r
+[choice](Flirt)[newtalk start=golem_answer2_begin break=golem_answer2_end]\r
+[title=golem_2_end]\r
+\r
+[title=golem_answer0_begin]\r
+Thera: Cat got your tongue? Didn't realize I made you so nervous. You're gonna really inflate my ego acting that way around me, you know.[newtalk start=golem_3_begin break=golem_3_end]\r
+[title=golem_answer0_end]\r
+\r
+[title=golem_answer1_begin]\r
+Thera: Ooo, you're <i>soooo</i> mysterious. A real enigma! Oh, get over yourself. You're not fooling anyone with that act.[newtalk start=golem_3_begin break=golem_3_end]\r
+[title=golem_answer1_end]\r
+\r
+[title=golem_answer2_begin]\r
+Thera: You're getting real predictable, you know? Nice try, but that's getting old! Let's be a little more mature, shall we?[newtalk start=golem_3_begin break=golem_3_end]\r
+[title=golem_answer2_end]\r
+\r
+[title=golem_3_begin]\r
+Thera: Fine, whatever. I don't need to know who you are anyways. I'll just refer to you as you have been so far. A <i>weirdo</i>.\r
+Thera: Listen- something has disturbed this sacred temple, and there's a... <color=#00b3ff><b>precious artifact</b></color> here I'm searching for.\r
+Thera: Unfortunately, all these damn doorways are too small for my imposing stature. But you, you're juuust right. So this is where you come in.\r
+Thera: It's simple- we have to reach the main courtyard ahead, but it's behind a bunch of asinine puzzles. You get where this is going?\r
+Thera: ...you look confused. Ugh, just find a way to unlock this gate and meet me back here. I'm sure you'll figure it out.\r
+[title=golem_3_end]\r
+\r
+[title=golem_repeat0_begin]\r
+Thera: Hmm? You can't possibly be lost <b>this</b> early in the level. Have you tried checking out those rooms over there?\r
+Thera: <i>(I can already tell this is going to be an exercise in frustration.)</i>\r
+[title=golem_repeat0_end]\r
+\r
+MID-ROOM -------- LEFT ROOM\r
+\r
+MID-ROOM -------- RIGHT ROOM\r
+\r
+ROUND 2\r
+\r
+[title=golem_4_begin]\r
+Thera: O-oh...! Wasn't expecting you to have found the key so fast... Okay, not bad, not bad.[event=12]\r
+Thera: Anyways, listen- I have a hunch that the main courtyard's not much further. I can feel it.\r
+Thera: I have to find another way around since I obviously can't fit through this tiny doorway.\r
+Thera: Well, go on ahead then. Better hurry before we both die of boredom.\r
+[title=golem_4_end]\r
+\r
+[title=golem_4_repeat_begin]\r
+Thera: By the way, I just remembered... I came across a <color=#fcba03><b>map</b></color> while you were mucking around earlier.\r
+Thera: [question=02]You'd probably find it useful. Did you want it or what?\r
+[choice]Give it.[newtalk start=golem_map0_yes_begin break=golem_map0_yes_end]\r
+[choice]No thanks.[newtalk start=golem_map0_no_begin break=golem_map0_no_end]\r
+[title=golem_4_repeat_end]\r
+\r
+[title=golem_map0_no_begin]\r
+Thera: Hmph. You think you're better off or something? I'm not flattered...\r
+Thera: ...much.\r
+Thera: Pfft, whatever, your loss. Let me know if you change your mind.\r
+[title=golem_map0_no_end]\r
+\r
+[title=golem_map0_yes_begin]\r
+Thera: Ah, ah, ah- not so fast there, hot hands. First you have to answer me a quick riddle.\r
+Thera: Get it right, and I'll pass it your way no problem. Get it wrong however...\r
+Thera: ...and I'm <b>keeping it for myself!</b>[newtalk start=golem_map1_begin break=golem_map1_end]\r
+[title=golem_map0_yes_end]\r
+\r
+[title=golem_map1_begin]\r
+Thera: Alright, listen up. Should be easy for you, yeah?\r
+Thera: [question=03]If <b>POST</b> is 1234... \
+...and <b>FLIRT</b> is 56784... \
+...what is <b>FROST</b>?\r
+[choice]58243[newtalk start=map_answer_wrong_begin break=map_answer_wrong_end]\r
+[choice]58234[newtalk start=map_answer_correct_begin break=map_answer_correct_end]\r
+[choice]52384[newtalk start=map_answer_wrong_begin break=map_answer_wrong_end]\r
+[choice]43285[newtalk start=map_answer_wrong_begin break=map_answer_wrong_end]\r
+[title=golem_map1_end]\r
+\r
+[title=map_answer_wrong_begin]\r
+Thera: Hmm...[event=8]\r
+Thera: Nope. Nice try though! Thought you'd have gotten better at simple riddles by now.\r
+Thera: Too bad... looks like this little item is all mine now! Kekeke.[event=5]\r
+[title=map_answer_wrong_end]\r
+\r
+[title=map_answer_correct_begin]\r
+Thera: Hmm...[event=7]\r
+Thera: Wow! Yeah, that's right! Hmph. Damn, I'm beginning to think I'm just not cut out for this riddle thing.\r
+Thera: Whatever, fine, you got me. I'll hand it over, like I promised.\r
+Thera: It's inside that big chest over there. Good luck, weirdo.[event=6]\r
+[title=map_answer_correct_end]\r
+\r
+[title=golem_map_wrong_begin]\r
+Thera: You lost or something? Hmph. Well you <i>wouldn't</i> be if you had answered that riddle correctly.\r
+Thera: Oh well, so sorry you missed out. That's life. Go on ahead now, I'll be looking for an alternate route.\r
+[title=golem_map_wrong_end]\r
+\r
+[title=golem_map_correct_begin]\r
+Thera: Yeah, yeah, I get it. You're <b>SO</b> good at answering basic riddles. No need to rub it in.\r
+Thera: Go on ahead now, I'll meet up with you later.\r
+[title=golem_map_correct_end]\r
+\r
+ROUND 3\r
+\r
+SHADOW ROOM\r
+\r
+[title=shadowroom_0_begin]\r
+There's an old, weathered plaque here. \
+It is written...\r
+"The path to destiny will be paved with the <color=#ebc934><b>ten buried remnants</b></color> of yesterday."\r
+[title=shadowroom_0_end]\r
+\r
+BOULDER\r
+\r
+[title=boulder_0_begin]\r
+A large chunk of rock has apparently fallen from the wall above.\r
+Doesn't look like there's any way around it...[event=0]\r
+[title=boulder_0_end]\r
+\r
+[title=golem_boulder0_begin]\r
+Thera: Hey, weirdo!\r
+Thera: Haha! Don't tell me you're letting a little BOULDER get in your way. Ugh, you're hopeless![event=0]\r
+Thera: Move aside! Let me show you how it's done...\r
+[title=golem_boulder0_end]\r
+\r
+[title=golem_boulder1_begin]\r
+Thera: See? It's all in the legs. Lucky you have me here to do all the heavy lifting, huh?[event=0]\r
+Thera: N-not that I like it or anything...\r
+Thera: Let's just... move on. The courtyard awaits.[event=1]\r
+[title=golem_boulder1_end]\r
+\r
+COURTYARD\r
+\r
+[title=golem_5_begin]\r
+Thera: Oh no...\r
+[title=golem_5_end]\r
+\r
+[title=golem_6_begin]\r
+Thera: This tree... this is the <color=#fcba03><b>Life Tree</b></color>. It holds a great importance here in the dream world.\r
+Thera: Recent events have tarnished its colors, stunting the tree's growth. Poor thing...[event=0][newtalk start=golem_6_1_begin break=golem_6_1_end]\r
+[title=golem_6_end]\r
+\r
+[title=golem_6_1_begin]\r
+Thera: [question=2]We must heal it somehow. But I... it wants me at its side. I don't think I can do this alone.\r
+[choice]I will help.[newtalk start=golem_6_yes_begin break=golem_6_yes_end]\r
+[choice]Not my problem.[newtalk start=golem_6_no_begin break=golem_6_no_end]\r
+[title=golem_6_1_end]\r
+\r
+[title=golem_6_no_begin]\r
+Thera: Wow, could you be any <i>more</i> heartless? To deny help to an innocent and suffering creature is... cruel.\r
+Thera: This is not how you get on my good side. Well, we're not going anywhere so you better reconsider.[event=1]\r
+[title=golem_6_no_end]\r
+\r
+[title=golem_6_yes_begin]\r
+Thera: You will? Playing your valiant knight card, hmm? Well, color me slightly impressed.\r
+Thera: [question=3]Seeing as how you've managed to get this far, it doesn't surprise me. You seem to have the mark of a true adventurer.\r
+[choice]Hrhm, well...[newtalk start=golem_7_0_begin break=golem_7_0_end]\r
+[choice]Of course.[newtalk start=golem_7_1_begin break=golem_7_1_end]\r
+[title=golem_6_yes_end]\r
+\r
+[title=golem_7_0_begin]\r
+Thera: Oh, don't be so modest! You normally always dodge compliments like that?[newtalk start=golem_7_begin break=golem_7_end]\r
+[title=golem_7_0_end]\r
+\r
+[title=golem_7_1_begin]\r
+Thera: Oh, don't act so pretentious. Overconfidence can end up biting you back in the end.[newtalk start=golem_7_begin break=golem_7_end]\r
+[title=golem_7_1_end]\r
+\r
+[title=golem_7_begin]\r
+Thera: Alright, alright, listen. This is important to me. I still need that <color=#00b3ff><b>artifact</b></color>, and healing the <color=#fcba03><b>Life Tree</b></color> is the first step.\r
+Thera: Time for you to put that adventuring sense to the test again. Try looking around the temple for any clues.\r
+Thera: I will remain here at the <color=#fcba03><b>Life Tree</b></color>'s side.[event=2]\r
+[title=golem_7_end]\r
+\r
+REPEAT\r
+\r
+[title=golem_6_1_repeat_begin]\r
+Thera: Ugh, it's you again. Have you come back around yet? The <color=#fcba03><b>Life Tree</b></color> still needs help.\r
+Thera: [question=22]We must heal it somehow. But I... it wants me at its side. I don't think I can do this alone.\r
+[choice]I will help.[newtalk start=golem_6_yes1_begin break=golem_6_yes1_end]\r
+[choice]Not my problem.[newtalk start=golem_6_no1_begin break=golem_6_no1_end]\r
+[title=golem_6_1_repeat_end]\r
+\r
+[title=golem_6_no1_begin]\r
+Thera: That is not how you get on my good side. Well, we're not going anywhere so you better reconsider.\r
+[title=golem_6_no1_end]\r
+\r
+[title=golem_6_yes1_begin]\r
+Thera: You will? Playing your valiant knight card, hmm? Well, color me slightly impressed.\r
+Thera: [question=33]Seeing as how you've managed to get this far, it doesn't surprise me. You've seem to have the touch of a true adventurer.\r
+[choice]Hrhm, well...[newtalk start=golem_7_0_begin break=golem_7_0_end]\r
+[choice]Of course.[newtalk start=golem_7_1_begin break=golem_7_1_end]\r
+[title=golem_6_yes1_end]\r
+\r
+[title=golem_7_2_begin]\r
+Thera: Oh, don't be so modest. Take a compliment for once, will ya? Yeesh.[newtalk start=golem_77_begin break=golem_77_end]\r
+[title=golem_7_2_end]\r
+\r
+[title=golem_7_3_begin]\r
+Thera: Oh, don't act so pretentious. Overconfidence can end up biting you back in the end.[newtalk start=golem_77_begin break=golem_77_end]\r
+[title=golem_7_3_end]\r
+\r
+[title=golem_77_begin]\r
+Thera: Alright, alright, listen. This is important to me. I still need that <color=#00b3ff><b>artifact</b></color>, and healing the <color=#fcba03><b>Life Tree</b></color> is the first step.\r
+Thera: Time for you to put that adventuring sense to the test again. Try looking around the temple for any clues.\r
+Thera: I will remain here at the <color=#fcba03><b>Life Tree</b></color> side.[event=1]\r
+[title=golem_77_end]\r
+\r
+[title=golem_7_repeat_begin]\r
+Thera: Lost again? Don't give up now. We're so close to figuring this out, together.\r
+[title=golem_7_repeat_end]\r
+\r
+ROUND 4 BALL 1\r
+\r
+[title=plaque_redroom_begin]\r
+There's an old, weathered plaque here. \
+It is written...\r
+"Three shapes of three colors <color=#ebc934><b>misaligned</b></color>. The returned relic restores a path forgotten."\r
+[title=plaque_redroom_end]\r
+\r
+TALKHOLDER\r
+[title=golem_8_0_begin]\r
+Thera: Look, look! Whatever you're doing is working! Color is being returned to the <color=#fcba03><b>Life Tree</b></color>.\r
+Thera: Keep it going, you little weirdo!\r
+[title=golem_8_0_end]\r
+\r
+TALKTRIGGER\r
+[title=golem_8_0_repeat_begin]\r
+Thera: Seems as though nutrients are returning to the <color=#fcba03><b>Life Tree</b></color>'s roots after reclaiming one of four orbs.\r
+Thera: It is still suffering quite a bit. See if you can find the rest. Hurry!\r
+[title=golem_8_0_repeat_end]\r
+\r
+ROUND 5 BALL 2\r
+\r
+[title=plaque_greenroom_begin]\r
+There's an old, weathered plaque here. \
+It is written...\r
+"<color=#ebc934><b>Three entombed pedestals</b></color> awaken the sleeping stones deep within a chasm of slime."\r
+[title=plaque_greenroom_end]\r
+\r
+TALKHOLDER\r
+[title=golem_8_1_begin]\r
+Thera: The <color=#fcba03><b>Life Tree</b></color>'s health is slowly returning! You're half-way there.\r
+Thera: Don't give up now, I know you can do it!\r
+[title=golem_8_1_end]\r
+\r
+TALKTRIGGER\r
+[title=golem_8_1_repeat_begin]\r
+Thera: I've dreamed of this temple for as long as I can remember, but I've never managed to find my missing <color=#00b3ff><b>artifact</b></color>.\r
+Thera: It's so precious to me. I'd finally be able to move on if I came across it here.\r
+[title=golem_8_1_repeat_end]\r
+\r
+ROUND 6 BALL 3\r
+\r
+[title=plaque_yellowroom_begin]\r
+There's an old, weathered plaque here. \
+It is written...\r
+"A quick mind lends a <color=#ebc934><b>quick pace</b></color>. Race the mountain and enter the valley."\r
+[title=plaque_yellowroom_end]\r
+\r
+TALKHOLDER\r
+[title=golem_8_2_begin]\r
+Thera: Vibrancy to the <color=#fcba03><b>Life Tree</b></color>'s bark and branches is nearly restored!\r
+Thera: I can already feel the air becoming brighter and cleaner.\r
+[title=golem_8_2_end]\r
+\r
+TALKTRIGGER\r
+[title=golem_8_2_repeat_begin]\r
+Thera: The courtyard's gloom is lessening more and more. You're incredible!\r
+Thera: But we're still not finished yet... the <color=#fcba03><b>Life Tree</b></color> needs one final push.\r
+[title=golem_8_2_repeat_end]\r
+\r
+ROUND 7 ALL BALLS COLLECTED, CATHEDRAL\r
+\r
+[title=plaque_blueroom_begin]\r
+There's an old, weathered plaque here. \
+It is written...\r
+"Shy symbols reveal the key to reunion. Frozen friends will <color=#ebc934><b>build a bridge</b></color>."\r
+[title=plaque_blueroom_end]\r
+\r
+TALKHOLDER (TRIGGER CUTSCENE AFTER THIS)\r
+[title=golem_8_3_begin]\r
+Thera: You've done it! Look how the <color=#fcba03><b>Life Tree</b></color>'s leaves flourish once more![event=0]\r
+[title=golem_8_3_end]\r
+\r
+ROUND 8 --- CUTSCENE DIALOGUE\r
+\r
+[title=golem_cutscene0_begin]\r
+The beauty of the <color=#fcba03><b>Life Tree</b></color> has been fully rejuvenated.\r
+[title=golem_cutscene0_end]\r
+\r
+[title=golem_cutscene1_begin]\r
+I... want to be honest with you. I didn't have much confidence early on.\r
+[title=golem_cutscene1_end]\r
+\r
+[title=golem_cutscene2_begin]\r
+You've done more than I ever could alone. I guess you're... not such a weirdo afterall.\r
+[title=golem_cutscene2_end]\r
+\r
+[title=golem_cutscene22_begin]\r
+Look, I'm not good at this. All I'm trying to say is-\r
+[title=golem_cutscene22_end]\r
+\r
+[title=golem_cutscene23_begin]\r
+-no one's ever helped me out like this. So... thank you.\r
+[title=golem_cutscene23_end]\r
+\r
+[title=golem_cutscene3_begin]\r
+It's strange. You give me such familiar feelings. Like I've known you forever.\r
+[title=golem_cutscene3_end]\r
+\r
+[title=golem_cutscene4_begin]\r
+Well, I guess we only have a little further to go now.\r
+[title=golem_cutscene4_end]\r
+\r
+[title=golem_cutscene5_begin]\r
+Wait- what's going on with the tree? Its door is still entangled.\r
+[title=golem_cutscene5_end]\r
+\r
+[title=golem_cutscene6_begin]\r
+It still needs something... the <color=#00b3ff><b>artifact</b></color>. Of course!\r
+[title=golem_cutscene6_end]\r
+\r
+[title=golem_cutscene7_begin]\r
+Okay, we're close! Placing those orbs must've changed something.\r
+[title=golem_cutscene7_end]\r
+\r
+[title=golem_cutscene8_begin]\r
+It has to be back in the temple somewhere. I'm leaving it up to you!\r
+[title=golem_cutscene8_end]\r
+\r
+TALKTRIGGER (GOLEM WAITING IN FRONT OF TREE DOOR)\r
+[title=golem_wait_repeat_begin]\r
+Thera: Have you had any luck finding that <color=#00b3ff><b>artifact</b></color>? It has to be somewhere back inside the temple.\r
+Thera: I'd go with you, but... the <color=#fcba03><b>Life Tree</b></color> is still telling me to stay at its side.\r
+Thera: I'll be here when you return.\r
+[title=golem_wait_repeat_end]\r
+\r
+RETURN TO TREE WITH RING\r
+\r
+[title=lifetree_0_begin]\r
+...\r
+The <color=#fcba03><b>Life Tree</b></color> hums with a soothing ambience. It instills you with a feeling of warmth.\r
+The <color=#00b3ff><b>Prismatic Artifact</b></color> begins to glow faintly while in the presence of the Life Tree.\r
+[title=lifetree_0_end]\r
+\r
+LOST WOODS\r
+\r
+[title=plaque_lostwoods_begin]\r
+There's an old, weathered plaque. \
+It is written...\r
+"Only for those who follow the <color=#ebc934><b>notes of the forest</b></color> will their true destiny await beyond."\r
+[title=plaque_lostwoods_end]\r
+\r
+FAIRY FOUNTAIN\r
+\r
+[title=fairy_0_begin]\r
+???: Hello! A weary thing approaches. It looks lost!\r
+???: [question=00]Hey, are you lost? Well, are you?\r
+[choice]Yes.[newtalk start=fairy_yes0_begin break=fairy_yes0_end]\r
+[choice]No.[newtalk start=fairy_no0_begin break=fairy_no0_end]\r
+[title=fairy_0_end]\r
+\r
+[title=fairy_no0_begin]\r
+???: Ah, little liar! Little liar! Go away!\r
+[title=fairy_no0_end]\r
+\r
+[title=fairy_yes0_begin]\r
+???: Oh, you are? We're not surprised at all. You look like you get lost all the time.\r
+???: [question=01]Well let me ask you another little question. Here, lean in close...\r
+[choice]Lean in.[newtalk start=fairy_yes1_begin break=fairy_yes1_end]\r
+[choice]Back away.[newtalk start=fairy_no1_begin break=fairy_no1_end]\r
+[title=fairy_yes0_end]\r
+\r
+[title=fairy_no1_begin]\r
+???: Ah, no fun! No fun!\r
+[title=fairy_no1_end]\r
+\r
+[title=fairy_yes1_begin]\r
+???: [question=02]<i>psst psst</i>... closer...\r
+[choice]Lean in closer.[newtalk start=fairy_yes2_begin break=fairy_yes2_end]\r
+[choice]Back away.[newtalk start=fairy_no1_begin break=fairy_no1_end]\r
+[title=fairy_yes1_end]\r
+\r
+[title=fairy_yes2_begin]\r
+???: <i>psst psst</i> ... [event=3]\r
+???: [question=03]...DID YOU LOSE SOMETHING?!!\r
+[choice]Y-yes...[newtalk start=fairy_liar_begin break=fairy_liar_end]\r
+[choice]N-no...[newtalk start=fairy_true_begin break=fairy_true_end]\r
+[title=fairy_yes2_end]\r
+\r
+[title=fairy_liar_begin]\r
+???: Hmph! You're terrible at lying! I hate liars!\r
+[title=fairy_liar_end]\r
+\r
+[title=fairy_true_begin]\r
+???: Hehe, we know you didn't. We just wanted to see how honest you'd be!\r
+???: We want to reward you for telling the truth, so have what's inside the chest over there!\r
+???: You look awful. Take a little time to feel better, won't you?[event=4]\r
+The sprite gives you a wistful smooch. You gain <color=#7deb34><b>+15 magical spirit energy</b></color>, or at least it feels like you do.\r
+[title=fairy_true_end]\r
+\r
+/////// NEED TO COMPLETE\r
+GOLEM CHAPEL FINAL DIALOGUE\r
+\r
+[title=golem_final0_begin]\r
+Thera: You're finally here... you've made it to the end. Everything's worked out the way it should have.\r
+Thera: I knew you fell into this place for a reason. Braving the halls of this temple with no trouble... you're truly a wonder to behold.\r
+Thera: Finding the <color=#00b3ff><b>ring</b></color> which I lost so long ago... I'm so thankful to you for the trouble you've gone through.\r
+Thera: Although we had only talked for a short time while in the bamboo forest, I feel like I've known you for a lifetime.\r
+Thera: There's something special about you I can't describe. Something that inspires me to be more than I am now.\r
+Thera: Even from the beginning, I knew something about you was different. Yes, I thought you might be the one...\r
+Thera: That's why... I want to know... I want to ask you-\r
+Thera: [question=04]-will you be the one to make me happy?\r
+[choice]I will.[newtalk start=golem_good0_begin break=golem_good0_end]\r
+[choice]I'm sorry.[newtalk start=golem_bad0_begin break=golem_bad0_end]\r
+[title=golem_final0_end]\r
+\r
+GOOD END\r
+\r
+[title=golem_good0_begin]\r
+You take out the <color=#00b3ff><b>artifact</b></color>.[event=0]\r
+Thera: The <color=#00b3ff><b>Prismatic Ring</b></color>... I've been searching for it in my dreams longer than words can describe.[event=5]\r
+Thera: Waiting... for someone to help me find it. That someone finally appeared.\r
+Thera: They're a little strange, but it's okay. We all are in some way.\r
+Thera: You still have so many important things left to do, so many lives to better.[event=4]\r
+Thera: I just want you to know that you've made a difference in mine.\r
+Thera: You've made me so...\r
+Thera: Happy.[event=1]\r
+[title=golem_good0_end]\r
+\r
+BAD END\r
+\r
+[title=golem_bad0_begin]\r
+Thera: I...[event=2]\r
+Thera: It's okay. Don't be.\r
+Thera: I'm the one... that should be saying sorry.\r
+Thera: It was so silly of me to think... to think something like this would be possible.\r
+Thera: I realize now, to burden you with this situation, out of nowhere, it's not a fair thing to do...\r
+Thera: I guess there was some small spark of something I saw in you. Something that would make me happy. Make me complete.\r
+Thera: It's always funny...\r
+Thera: Life.\r
+Thera: Even now I want to keep telling myself... you're only just a dream.\r
+Thera: But I know deep inside-\r
+Thera: -we're all just a dream.[event=3]\r
+[title=golem_bad0_end]\r
+\r
+GOOD ENDING AFTER SCENE\r
+\r
+[title=gardener_begin]\r
+Don't mind me. There's someone waiting for you in the grove just down the path.\r
+Please don't step on the flowers.\r
+[title=gardener_end]\r
+\r
+[title=elder_good0_begin]\r
+???: Oho! Would you look at this now.[event=0]\r
+Mayor Morel: We thought you'd never make it back, youngster! Looks like things have changed quite a bit since you've been gone.\r
+Mayor Morel: Turns out that old thicket up the mountain had something of a special garden. Quite the surprise!\r
+Mayor Morel: Well, whatever you found while you were back there must've been a rare experience. Wonderful, wonderful.\r
+Mayor Morel: Ah, and oh yes! By the way- one of our other explorers brought back a broken <color=#03cffc><b>shard</b></color> of something or other.\r
+Mayor Morel: Looks rather important, so we thought it might belong to you. Be sure to take it along when you leave.\r
+Mayor Morel: [question=97]Well then! How 'bout it, lad? Feeling up to continuing your journey?\r
+[choice]Let's go![newtalk start=elder_good0_yes_begin break=elder_good0_yes_end]\r
+[choice]Wait a minute.[newtalk start=elder_good0_no_begin break=elder_good0_no_end]\r
+[title=elder_good0_end]\r
+\r
+[title=elder_good0_yes_begin]\r
+Mayor Morel: Aha, very good! I wish I had half the energy you youngsters do. Just keep your eyes up and your feet moving! You'll get where you need to be.\r
+Mayor Morel: Anyways- I'll fix up that bit of shard for you. I have no doubt it will stay safe under your care.\r
+Mayor Morel: I hope we meet again someday. Farewell![event=2]\r
+[title=elder_good0_yes_end]\r
+\r
+[title=elder_good0_no_begin]\r
+Mayor Morel: Of course, of course. Take all the time you need.[event=1]\r
+[title=elder_good0_no_end]\r
+\r
+[title=elder_good0_repeat_begin]\r
+Mayor Morel: The wind, the trees, the sun... everything always seems to feel better and brighter when we take care of ourselves, doesn't it?\r
+Mayor Morel: [question=97]Well then! How 'bout it, lad? Feeling up to continuing the journey?\r
+[choice]Let's go![newtalk start=elder_good0_yes_begin break=elder_good0_yes_end]\r
+[choice]Wait a minute.[newtalk start=elder_good0_no_begin break=elder_good0_no_end]\r
+[title=elder_good0_repeat_end]\r
+\r
+BAD ENDING AFTER SCENE\r
+\r
+[title=statue_bad0_begin]\r
+There's an old, weathered plaque here. The writing is barely legible-\r
+"A piece of them lost long ago. Wounds left even time was unable to heal.\r
+Never found, never helped, never loved. Their <color=#03cffc><b>heart</b></color> in exchange for eternal peace."[newtalk start=elder0_begin break=elder0_end]\r
+[title=statue_bad0_end]\r
+\r
+[title=elder0_begin]\r
+???: Ah, I remember you... youngster.[event=0]\r
+???: Seems you returned to where you once were, although I can't say how much time has passed exactly.\r
+???: I remember... you ventured into that thicket and must've found yourself lost for quite awhile.\r
+???: But, judging by everything surrounding us it would appear you weren't the only one who ended up lost.\r
+???: Mm. I guess for certain folks, some things they're just not ready for. Big decisions. Life changing ones.\r
+???: But it's okay. You still have a lot left ahead of you. Everyone moves on and finds a new decision to make.\r
+???: The question for you is, what decisions will make a real difference? How do you know which ones actually matter?[event=1]\r
+???: [question=99]The only thing that matters is that you decide, and move on. What do you say?\r
+[choice]Make offering.[newtalk start=elder0_yes_begin break=elder0_yes_end]\r
+[choice]Do nothing.[newtalk start=elder0_no_begin break=elder0_no_end]\r
+[title=elder0_end]\r
+\r
+[title=elder0_yes_begin]\r
+You place the <color=#00b3ff><b>Prismatic Artifact</b></color> on the pedestal.[event=2]\r
+[title=elder0_yes_end]\r
+\r
+[title=elder0_no_begin]\r
+You decide to wander around some more. But, what's left to do?[event=3]\r
+[title=elder0_no_end]\r
+\r
+[title=elder0_repeat_begin]\r
+???: The vibrant forest we once knew withered long ago. There's not much left here.[event=1]\r
+???: [question=98]You have to move on. So, what do you say?\r
+[choice]Make offering.[newtalk start=elder0_yes_begin break=elder0_yes_end]\r
+[choice]Linger on.[newtalk start=elder0_no_begin break=elder0_no_end]\r
+[title=elder0_repeat_end]\r
+\r
+[title=elder0_exit_begin]\r
+So long, youngster...\r
+[title=elder0_exit_end]"

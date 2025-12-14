@@ -1,0 +1,211 @@
+0 TextAsset Base
+ 1 string m_Name = "7_Dream_Mall_Dialogue"
+ 1 string m_Script = "7_Dream_Mall_Dialogue\r
+\r
+Notes:\r
+- Don't know if I want to keep Gogi mimic in this one. Maybe have him scurry away when the elevator opens?\r
+\r
+GOGI INTRO\r
+[title=Gogi_0_begin]\r
+"Gogi": Hehehe.\r
+[title=Gogi_0_end]\r
+\r
+ELEVATOR\r
+[title=elevator_0_begin]\r
+There's an arrow-shaped button on the panel.\r
+[question=0]Will you push the button?\r
+[choice]Yes.[newtalk start=answer_elevator_yes_begin break=answer_elevator_yes_end]\r
+[choice]No.[newtalk start=answer_elevator_no_begin break=answer_elevator_no_end]\r
+[title=elevator_0_end]\r
+\r
+ELEVATOR NO\r
+[title=answer_elevator_no_begin]\r
+You decide not to push the button. Eternity awaits.\r
+[title=answer_elevator_no_end]\r
+\r
+ELEVATOR YES\r
+[title=answer_elevator_yes_begin]\r
+You push the only visible button. The elevator begins to move. [event=0]\r
+[title=answer_elevator_yes_end]\r
+\r
+DIRECTORY\r
+[title=directory_begin]\r
+"Welcome to H̵Ë̵̥̰͈́̾Ḁ̸͙̆̈́V̸̧͜E͈N̸̟̈́'̶̣͙̼͌S̴͙̫̿͑̚ ̧̛̩P̴̡͓͊̿L̷̙̙̎̈́Ȁ̷͕͂̇Z̵̧̑A̧͔̎̕  Mall."\r
+"The store will be closing soon. Please buy your items and leave as soon as possible."\r
+"Thank you for shopping with us today."\r
+[title=directory_end]\r
+\r
+FOOD LOCKED\r
+[title=food_locked_begin]\r
+There's a <color=#e0d33f><b>freshly baked pretzel</b></color> sitting on the other side of the closed gate.\r
+Too bad you can't reach it. It looks pretty delicious.\r
+[title=food_locked_end]\r
+\r
+TOY LOCKED\r
+[title=toy_locked_begin]\r
+You see some kind of <color=#e0d33f><b>toy</b></color> on the store counter through the closed gate.\r
+No way you can get it from here. Oh well.\r
+[title=toy_locked_end]\r
+\r
+KEY LOCKED\r
+[title=key_locked_begin]\r
+Something <color=#e0d33f><b>shiny</b></color> is sitting on the store counter inside.\r
+If only there was some way to get to it...\r
+[title=key_locked_end]\r
+\r
+LOCKED GATE\r
+[title=gate_main_locked_begin]\r
+The gate is down and blocking entrance to this area. You can't lift it up.\r
+There is a tiny keyhole at the bottom of the gate. The key must be around somewhere.\r
+[title=gate_main_locked_end]\r
+\r
+KEY ROOM\r
+[title=key_begin]\r
+There's a <color=#e0d33f><b>small key</b></color> on the counter. The label on it reads "Department Store Gate". You take it with you.\r
+[title=key_end]\r
+\r
+UNLOCKED GATE\r
+[title=gate_main_unlocked_begin]\r
+You used the corroded key and lifted the heavy metal gate up.\r
+[title=gate_main_unlocked_end]\r
+\r
+LOST KID IN BACKROOM\r
+[title=door_0_begin]\r
+The sound of a crying child is coming from this dressing room.\r
+[question=2]Will you knock on the door?\r
+[choice]Yes.[newtalk start=door_yes_begin break=door_yes_end]\r
+[choice]No.[newtalk start=door_no_begin break=door_no_end]\r
+[title=door_0_end]\r
+\r
+DOOR NO\r
+[title=door_no_begin]\r
+You step away from the dressing room door.\r
+[title=door_no_end]\r
+\r
+DOOR YES\r
+[title=door_yes_begin]\r
+You knock on the stall door.[event=1]\r
+Kid: H-hello? Who's there? Are you my mommy?\r
+Kid: [question=3]G-go away!\r
+[choice]What's wrong?[newtalk start=kid_0_begin break=kid_0_end]\r
+[choice]Okay.[newtalk start=kid_no_begin break=kid_no_end]\r
+[title=door_yes_end]\r
+\r
+KID CHOICE END\r
+[title=kid_no_begin]\r
+Kid: Leave me alone![event=2]\r
+[title=kid_no_end]\r
+\r
+KID CHOICE 1\r
+[title=kid_0_begin]\r
+Kid: I don't know... I came in here with my mommy to try on some new clothes but now everyone's gone.\r
+Kid: [question=4]I'm scared to leave with no one around so I locked myself in here. I want to go home!\r
+[choice]What can I do?[newtalk start=kid_1_begin break=kid_1_end]\r
+[choice]Good luck.[newtalk start=kid_no_begin break=kid_no_end]\r
+[title=kid_0_end]\r
+\r
+KID CHOICE 1-1\r
+[title=kid_1_begin]\r
+Kid: W-well... I bought a really cute <color=#e0d33f><b>teddy bear</b></color> from the toy store earlier but I left it there.\r
+Kid: [question=5]It would make me feel a lot safer if I had him with me. Can you go find it for me please?\r
+[choice]Okay.[newtalk start=kid_1_okay_begin break=kid_1_okay_end]\r
+[choice]No time.[newtalk start=kid_no_begin break=kid_no_end]\r
+[title=kid_1_end]\r
+\r
+KID CHOICE 1-1 OKAY\r
+[title=kid_1_okay_begin]\r
+Kid: Please hurry. I'm so scared...[event=3]\r
+[title=kid_1_okay_end]\r
+\r
+TEDDY BEAR\r
+[title=bear_begin]\r
+There's a <color=#e0d33f><b>stuffed bear</b></color> here. It has a blank, empty expression on its face.\r
+You take the bear with you.\r
+[title=bear_end]\r
+\r
+KID BEAR\r
+[title=kid_bear_begin]\r
+Kid: You found my lost bear? Thank you... you can set him down there.[event=9][newtalk start=kid_pretzel_begin break=kid_pretzel_end]\r
+[title=kid_bear_end]\r
+\r
+[title=kid_pretzel_begin]\r
+Kid: I am still so scared... and now it's worse because I'm feeling hungry.\r
+Kid: My mommy got me a <color=#e0d33f><b>pretzel</b></color> from my favorite food store, but I forgot about it there.\r
+Kid: [question=6]Can you go get it for me please?\r
+[choice]Okay.[newtalk start=kid_bear_okay_begin break=kid_bear_okay_end]\r
+[choice]Gotta go.[newtalk start=kid_no1_begin break=kid_no1_end]\r
+[title=kid_pretzel_end]\r
+\r
+[title=kid_no1_begin]\r
+Kid: Leave me alone![event=6]\r
+[title=kid_no1_end]\r
+\r
+KID BEAR OKAY\r
+[title=kid_bear_okay_begin]\r
+Kid: T-thank you... I'm so hungry.[event=4]\r
+[title=kid_bear_okay_end]\r
+\r
+FOOD PRETZEL\r
+[title=food_begin]\r
+A <color=#e0d33f><b>freshly baked pretzel</b></color>. It's warm and delicious looking.\r
+You take it with you.\r
+[title=food_end]\r
+\r
+KID FOOD\r
+[title=kid_food_begin]\r
+Kid: You brought my <color=#e0d33f><b>pretzel</b></color> back! I can smell it from here... I'm so hungry. [event=10]\r
+Kid: You've done so much to make me feel better. Thank you. I think I'm okay now.\r
+Kid: I'm ready to leave.\r
+Kid: [speed=10]A̸nd̸ s̷o̵ a̸re̶ y̵o̸u̵.̴[/speed][event=5]\r
+[title=kid_food_end]\r
+\r
+SECRETS\r
+\r
+[title=switch_art_begin]\r
+[question=7]Huh. There's a weird switch here. Should you pull it?\r
+[choice]Yes.[newtalk start=switch_art_yes_begin break=switch_art_yes_end]\r
+[choice]No.[newtalk start=switch_no_begin break=switch_no_end]\r
+[title=switch_art_end]\r
+\r
+[title=switch_art_yes_begin]\r
+You relunctantly pull the switch.[event=7]\r
+The sound of a gate lifting can be heard in the distance...\r
+[title=switch_art_yes_end]\r
+\r
+[title=switch_no_begin]\r
+You back away from the switch.\r
+[title=switch_no_end]\r
+\r
+[title=switch_game_begin]\r
+[question=7]Huh. There's a weird switch here. Should you pull it?\r
+[choice]Yes.[newtalk start=switch_game_yes_begin break=switch_game_yes_end]\r
+[choice]No.[newtalk start=switch_no_begin break=switch_no_end]\r
+[title=switch_game_end]\r
+\r
+[title=switch_game_yes_begin]\r
+You relunctantly pull the switch.[event=8]\r
+The sound of a gate lifting can be heard in the distance...\r
+[title=switch_game_yes_end]\r
+\r
+[title=pizza_begin]\r
+Interesting topping...\r
+[title=pizza_end]\r
+\r
+[title=arcade_list_begin]\r
+Games developed by <color=#0aff70><b>@sodaraptor_dev</b></color>\
+\
+Oct 2021 - <b>Hypnagogia: Boundless Dreams</b>\
+Oct 2021 - <b>WOLFGUN</b>\
+Feb 2021 - <b>Pathogen-X Demo</b>\
+Nov 2020 - <b>Hypnagogia</b>\
+Oct 2020 - <b>Descension</b>\
+Apr 2020 - <b>MechEvolve VR</b>\
+Nov 2019 - <b>Infectoid</b>\
+Aug 2019 - <b>Artifact 51 VR</b>\
+Dec 2018 - <b>D.M.C.P.</b>\
+\
+College projects:\
+\
+Jun 2014 - <b>Castle Panic</b>\
+Jul 2013 - <b>Hypervirus</b>\r
+[title=arcade_list_end]"

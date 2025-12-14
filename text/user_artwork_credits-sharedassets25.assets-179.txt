@@ -1,0 +1,96 @@
+0 TextAsset Base
+ 1 string m_Name = "user_artwork_credits"
+ 1 string m_Script = "fan-submitted artwork credit roll\r
+\r
+[title=credit_begin]\r
+[title=credit_end]\r
+\r
+Submitted by fan <color=#03fc5e><b>Viela</b></color> \
+@viela_aleiv\r
+Submitted by fan <color=#03fc5e><b>Joy of Pesi</b></color> \
+@JoyOfPESI\r
+Submitted by fan <color=#03fc5e><b>Brodie Shea</b></color> \
+@Brodie__Shea\r
+Submitted by fan <color=#03fc5e><b>Shane Yach</b></color> \
+@tipsheda\r
+Submitted by fan <color=#03fc5e><b>Alex Karlsson</b></color> \
+@aktitude\r
+Submitted by fan <color=#03fc5e><b>Satan</b></color> \
+@swizzlolly\r
+Submitted by fan <color=#03fc5e><b>Brain Nectar</b></color> \
+@BluburryGamer\r
+Submitted by fan <color=#03fc5e><b>Cam Collins</b></color> \
+@CAMCOLLINS999\r
+Submitted by fan <color=#03fc5e><b>Cinebeast</b></color> \
+@cinebst\r
+Submitted by fan <color=#03fc5e><b>Cosm1nxX</b></color> \
+@cosm1nx\r
+Submitted by fan <color=#03fc5e><b>Mecha</b></color> \
+@MenacingMecha\r
+Submitted by fan <color=#03fc5e><b>Robogeist</b></color> \
+@robogeist\r
+Submitted by fan <color=#03fc5e><b>Isabela</b></color> \
+@Isasubmarin\r
+Submitted by fan <color=#03fc5e><b>Bleck C.</b></color> \
+@Psych_Zuki\r
+Submitted by fan <color=#03fc5e><b>Nikita Vychuz</b></color> \
+@nikitavychuz\r
+Submitted by fan <color=#03fc5e><b>Hunterverse</b></color> \
+@XHunterverseX\r
+Submitted by fan <color=#03fc5e><b>Null</b></color> \
+@NullCasting\r
+Submitted by fan <color=#03fc5e><b>Sand</b></color> \
+@sandglas_\r
+Submitted by fan <color=#03fc5e><b>Rocko Flores</b></color> \
+@LUomoMacchina\r
+Submitted by fan <color=#03fc5e><b>Cris</b></color> \
+@cris_2800\r
+Submitted by fan <color=#03fc5e><b>Tesseron</b></color> \
+@Tesseron_\r
+\r
+FOREST\r
+\r
+Submitted by fan \
+<color=#03fc5e><b>@amaalecule</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@BirdObtainer</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@clevinegraphics</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@cris_2800</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@despairsquids</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@displayter</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@m0llystars</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@MadDJeann</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@MamokZalku</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@MattHar58382024</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@phsark</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@Mintinmari</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@NatSpectrum</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@ohuthia</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@peaches47971998</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@pulhynki</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@pumpkinjay13</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@sofia</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@transmauls</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@PauerPixel</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@XHunterverseX</b></color>\r
+Submitted by fan \
+<color=#03fc5e><b>@slimfim</b></color>"
