@@ -1,0 +1,441 @@
+0 TextAsset Base
+ 1 string m_Name = "3_Dream_Bamboo_Dialogue"
+ 1 string m_Script = "3_Dream_Bamboo Dialogue\r
+\r
+NOTES:\r
+- concept is that a relic appeared in a ruined pyramid (it is a null dream shard with no power)\r
+- elder gives you quest to seek it out in order to embue it with magic\r
+- elder also mentions lost adventurer in pyramid, you can talk to him when inside (he dies) then report it back to elder for no reason other than dialogue variety\r
+- after getting pyramid quest, you must talk to Gardener Freckle near his hut to obtain the machete (to chop bamboo stalks down)\r
+- pyramid can only be accessed by answering the door's riddle, but you wont know the answer unless you talk to the elder's advisor (after getting the pyramid quest)\r
+- return to elder with inactive shard, he embues it and you win\r
+\r
+GOGI INTRO\r
+[title=Gogi_0_begin]\r
+"Gogi": Whoa! This forest is so dense with bamboo I can barely see through the clearing!\r
+"Gogi": If I had a big pair of scissors I'd cut it all down and there'd be no problem!\r
+"Gogi": Hmm... maybe there's something <color=#03cffc><b>neat</b></color> deeper in this colorful thicket! Get me a souvenir!\r
+"Gogi": Oh, well! Don't get lost in the thick shrubery and have [jitter=5 angle=0]fuuunnn![/jitter]\r
+[title=Gogi_0_end]\r
+\r
+ROUND 1 PREQUEST\r
+\r
+MUSHROOM Gardener Freckle\r
+[title=gardener_0_begin]\r
+Gardener Freckle: [jitter=5 angle=0]GAAH...![/jitter] Crimini!\r
+Gardener Freckle: Geez, don't sneak up on me like that! You'll scare the flowers, and I've just started planting them!\r
+Gardener Freckle: I try to spend as much time with them as I can throughout the day. They need all the attention they can get!\r
+Gardener Freckle: Today's a lovely day, so it's a perfect time to put away my <color=#fcf403><b>bigger tools</b></color> and work in the garden.\r
+[title=gardener_0_end]\r
+\r
+MUSHROOM GUY\r
+[title=villager_0_begin]\r
+Villager Gab: Days like these I just find myself staring out my window for hours on end, basking in the warmth. Makes me so sleepy...\r
+Villager Gab: Hey, you look like the type of person who's always in a hurry. Why not relax for a bit?\r
+[title=villager_0_end]\r
+\r
+MUSHROOM WIFE\r
+[title=wife_0_begin]\r
+Dotty: Have you seen my husband <color=#fcf403><b>Niles</b></color>? He left earlier to go "exploring", but didn't say where to.\r
+Dotty: Oh dear... it's been hours. I hope he's alright. I get so lonely during the day.\r
+Dotty: If you happen to head out there... bring him back home please!\r
+[title=wife_0_end]\r
+\r
+Toadstool Tommy\r
+[title=kid_0_begin]\r
+Toadstool Tommy: Hey bro! Do you want to play with me? It's a nice day!\r
+[title=kid_0_end]\r
+\r
+MUSHROOM ADVISOR\r
+[title=advisor_0_begin]\r
+Advisor Mung: Ah, a surprise visit from a most dashing stranger! I'm Mung, the <color=#5efc03><b>mayor's</b></color> assistant, bookkeeper, and advisor, at your service.\r
+Advisor Mung: This is the mayor's house, chap. I'm afraid he's away at the moment. Not sure where to... he's always sneaking away to relax somewhere.\r
+Advisor Mung: If you need him, I suggest taking a look around the village. I'll be here organizing his books.\r
+[title=advisor_0_end]\r
+\r
+ROUND 2\r
+\r
+Toadstool Tommy\r
+[title=kid_1_begin]\r
+Toadstool Tommy: This way! This way! Behind the house! Let's go exploring!\r
+[title=kid_1_end]\r
+\r
+[title=kid_2_begin]\r
+Toadstool Tommy: Whoa! It's a hidden spring. Looks chill.\r
+[title=kid_2_end]\r
+\r
+MUSHROOM MAYOR\r
+[title=mayor_0_begin]\r
+???: Seems someone has finally found my favorite hidden hangout spot. So much for an old man's solitude!\r
+Mayor Morel: [question=0]Ah well. Nothing is secret forever. I'm the Mayor as you've probably guessed, <color=#5efc03><b>Mayor Morel</b></color>. What can I do for you?\r
+[choice]Dream Shard?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]\r
+[choice]Nice mushrooms.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]\r
+[title=mayor_0_end]\r
+\r
+[title=answer_mayor_mushroom_begin]\r
+Mayor Morel: Mushrooms? You're a strange one, aren't you? Don't mind me, just an oddball thing to say...\r
+Mayor Morel: But yes - they're quite something. They grow higher everyday, and they make great cushions!\r
+Mayor Morel: [question=01]Did ya need anything else, youngster? Not to be rude, but you're crampin' an old man's style a little bit here.\r
+[choice]Dream Shard?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]\r
+[choice]Nice mushrooms.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]\r
+[title=answer_mayor_mushroom_end]\r
+\r
+[title=answer_mayor_0_begin]\r
+Mayor Morel: <color=#03cffc><b>Dream Shard</b></color>? Hmm... never heard of it. Well, actually...\r
+Mayor Morel: I hear talk of an <color=#fcba03><b>old ruinous structure</b></color> popping up recently somewhere in the thicket. I imagine there must be treasure afoot!\r
+Mayor Morel: We had one of our own go and investigate, but they haven't returned. Much of the jungle is uncharted, so I fear the worst.\r
+Mayor Morel: But you look like a brave sort, so this is where you come in. Search the thicket, find the structure, try to bring back the lost explorer.\r
+Mayor Morel: Maybe even grab this so-called treasure while you're at it! Well then, tally-ho then, lad! I'll be here when you return.\r
+[title=answer_mayor_0_end]\r
+\r
+ROUND 3 - MID QUEST\r
+\r
+MUSHROOM MAYOR\r
+[title=mayor_1_begin]\r
+Mayor Morel: Still running around? Maybe talk with a few of the other villagers. I'm sure they have better things to tell you than I.\r
+[title=mayor_1_end]\r
+\r
+Toadstool Tommy\r
+[title=kid_3_begin]\r
+Toadstool Tommy: Are you going exploring? I want to go!\r
+[title=kid_3_end]\r
+\r
+MUSHROOM GUY\r
+[title=villager_1_begin]\r
+Villager Gab: Z...z...z...\r
+(They're sleeping? Better leave them alone.)\r
+[title=villager_1_end]\r
+\r
+[title=villager_01_begin]\r
+Gardener Freckle: Ugh, I'm pooped! A long day of getting your hands dirty giving the scenery a bit of a boost is rewarding though.\r
+Gardener Freckle: Don't worry about the machete, it was on its last leg. I was gonna cut that overgrowth of bamboo later anyways!\r
+Gardener Freckle: But hey, good luck out there. Maybe one day you'll make as good a gardener as me! See ya 'round.\r
+[title=villager_01_end]\r
+\r
+MUSHROOM WIFE\r
+[title=wife_1_begin]\r
+Dotty: So worried about my husband. I hope he comes back from exploring the thicket soon.\r
+[title=wife_1_end]\r
+\r
+MUSHROOM ADVISOR\r
+[title=advisor_1_begin]\r
+Advisor Mung: Hello again, chap! I do say, the Mayor's collection of different books is rather fascinating.\r
+Advisor Mung: He's even got a few on <i>classic riddles</i> and jokes! I never expected he would be such a <b>fungi!</b>\r
+Advisor Mung: ...ahem... sorry. Hehe.\r
+Advisor Mung: Anywho- I hear you're venturing out into the thicket. We've been trying to chart it as we go, but it's all still a mystery.\r
+Advisor Mung: I may very well make a trip out there when I have time. Maybe we'll run into one another. Best of luck!\r
+[title=advisor_1_end]\r
+\r
+BAMBOO WALL WITH NO MACHETE\r
+[title=bamboo_00_begin]\r
+A bunch more bamboo stalks. They're all densely packed together.\r
+[title=bamboo_00_end]\r
+\r
+[title=bamboo_0_begin]\r
+Upon closer inspection, this gathering of bamboo stalks seems different. You can feel a slight breeze wafting through.\r
+This particular set is extremely dense however, so no way you can separate them enough to pass through. If only you had something <color=#fcf403><b>sharp</b></color>...\r
+[title=bamboo_0_end]\r
+\r
+MUSHROOM Gardener Freckle\r
+[title=gardener_question_1_begin]\r
+Gardener Freckle: [jitter=5 angle=0]G-gAAH...![/jitter]\r
+Gardener Freckle: Geez! Do you make it a habit to sneak up on people like that all the time?! Sheesh!\r
+Gardener Freckle: [question=1]Anyways, I think it's about time I put my <b>tools</b> away and call it a day. Is there something I can do for you beforehand?\r
+[choice]Maybe later?[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]\r
+[choice]Nice garden.[newtalk start=answer_gardener_garden_begin break=answer_gardener_garden_end]\r
+[title=gardener_question_1_end]\r
+\r
+MUSHROOM Gardener Freckle NO\r
+[title=answer_gardener_no_0_begin]\r
+Gardener Freckle: Okay then! Think I'll retire to my hut soon and take a nap, so let me know if you change your mind before then.\r
+[title=answer_gardener_no_0_end]\r
+\r
+[title=answer_gardener_garden_begin]\r
+Gardener Freckle: Hey, thanks pal, that's real nice of you! I'm just trying to mix it up a little bit what with all the same bamboo everywhere.\r
+[title=answer_gardener_garden_end]\r
+\r
+[title=gardener_question_1_repeat_begin]\r
+Gardener Freckle: [jitter=5 angle=0]G-gAAH...![/jitter]\r
+Gardener Freckle: Geez! Do you make it a habit to sneak up on people like that all the time?!\r
+Gardener Freckle: [question=2]Do you need something or are you just gonna keep messin' around?\r
+[choice]Not right now.[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]\r
+[choice]Cutting tool?[newtalk start=answer_gardener_yes_0_begin break=answer_gardener_yes_0_end]\r
+[title=gardener_question_1_repeat_end]\r
+\r
+MUSHROOM Gardener Freckle YES\r
+[title=answer_gardener_yes_0_begin]\r
+Gardener Freckle: A cutting tool you say? I have an old <color=#fcba03><b>machete</b></color>, that's about it. It's in some disrepair, so you can just have it.[event=0]\r
+[title=answer_gardener_yes_0_end]\r
+\r
+BAMBOO WALL WITH MACHETE\r
+[title=bamboo_1_begin]\r
+You bring out the <color=#fcba03><b>machete</b></color> Gardener Freckle gave you. In a single, quick motion-[event=3]\r
+-you decimate the wall of bamboo stalks! As well as the machete. Thank you for your service, trusty blade.\r
+[title=bamboo_1_end]\r
+\r
+PYRAMID EYE\r
+[title=pyramid_0_begin]\r
+Weird Door: Yaaawn... hmm? Oh, a visitor. Great. What the heck do you want? I was sleeping!\r
+Weird Door: Let me guess... you just wanna waltz on in to my temple and pillage the place.\r
+Weird Door: Well, I'm not letting just anyone inside. Not after that last guy brute-forced his way in here! A door's got feelings, y'know.[event=4]\r
+Weird Door: Y-you're kinda cute though, so I suppose I could make an exception... if you answer my riddle correctly that is!\r
+Weird Door: Yeah, I'm a friggin' mysterious and ancient stone slab with a friggin' sentient eye. Of course I got a riddle.[event=5][newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]\r
+[title=pyramid_0_end]\r
+\r
+[title=answer_pyramid_question_0_begin]\r
+Weird Door: Ahhhem... anyways, you finally ready to get serious now? Ok, listen up.\r
+Weird Door: [question=3]I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. <b>What am I?</b>\r
+[choice]A garden?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]A human?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]A dream?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]No clue.[newtalk start=answer_pyramid_leave_0_begin break=answer_pyramid_leave_0_end]\r
+[choice]You're cute.[newtalk start=answer_pyramid_leave_00_begin break=answer_pyramid_leave_00_end]\r
+[title=answer_pyramid_question_0_end]\r
+\r
+[title=answer_pyramid_leave_0_begin]\r
+Weird Door: Figured. Maybe go find someone who has better riddle knowledge or something...\r
+Weird Door: Be seeing you later on then, ya little weirdo![event=8]\r
+[title=answer_pyramid_leave_0_end]\r
+\r
+[title=answer_pyramid_leave_flirt_begin]\r
+Weird Door: Figured. Maybe go find someone who has better riddle knowledge or something...\r
+Weird Door: Be seeing you later on then, ya little weirdo![event=9]\r
+[title=answer_pyramid_leave_flirt_end]\r
+\r
+PYRAMID FLIRT OPTIONS\r
+\r
+[title=answer_pyramid_leave_00_begin]\r
+Weird Door: Mm... ahh, what?![event=4]\r
+Weird Door: N-no! I have to go now![event=6]\r
+[title=answer_pyramid_leave_00_end]\r
+\r
+[title=answer_pyramid_leave_01_begin]\r
+Weird Door: Yeah, that's right! Get up on outta here, you little weirdo.\r
+[title=answer_pyramid_leave_01_end]\r
+\r
+[title=answer_pyramid_leave_02_begin]\r
+Weird Door: I- I can't deal with all this right now. Things are moving much too fast between us... it's making my eye spin![event=11]\r
+Weird Door: I'll be honest... it's not me, it's you. I just think we need some time apart.[event=7]\r
+[title=answer_pyramid_leave_02_end]\r
+\r
+[title=answer_pyramid_flirt_0_begin]\r
+Weird Door: It's you again... did you want another shot at my riddle or are you just going to keep pointlessly flirting with me?\r
+Weird Door: Ahhhem... anyways. Here's the riddle again, so listen up!\r
+Weird Door: [question=03]I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. <b>What am I?</b>\r
+[choice]You're... cute?[newtalk start=answer_flirt_00_begin break=answer_flirt_00_end]\r
+[choice](Continue flirting)[newtalk start=answer_flirt_01_begin break=answer_flirt_01_end]\r
+[choice]I don't know.[newtalk start=answer_pyramid_leave_flirt_begin break=answer_pyramid_leave_flirt_end]\r
+[title=answer_pyramid_flirt_0_end]\r
+\r
+[title=answer_flirt_00_begin]\r
+Weird Door: Y-you can't be serious. I can't believe I'm being hit on by some shlubby glitter goblin right now.\r
+Weird Door: This was SO not on my agenda for today. Or, like, ever. Fine, I'll humor you.[event=4]\r
+Weird Door: [question=06]What about me do you think is "cute"? Ugh.\r
+[choice]Your eye.[newtalk start=answer_flirt_02_begin break=answer_flirt_02_end]\r
+[choice]Your texture.[newtalk start=answer_flirt_03_begin break=answer_flirt_03_end]\r
+[choice]Your shape.[newtalk start=answer_flirt_04_begin break=answer_flirt_04_end]\r
+[choice]Your personality.[newtalk start=flirt_win_begin break=flirt_win_end]\r
+[title=answer_flirt_00_end]\r
+\r
+[title=answer_flirt_02_begin]\r
+Weird Door: My <b>eye</b>? Hmph. Well I guess I DO have a pretty dope eye. Hard to miss when it's 30% of your body.[event=5]\r
+Weird Door: Not the most original compliment I've ever gotten. Almost boring actually. Meh. You're just not really my type, sorry.\r
+[title=answer_flirt_02_end]\r
+\r
+[title=answer_flirt_03_begin]\r
+Weird Door: My <b>texture</b>? H-hey, hands off! I have to keep my look nice and pristine for any potential adventurers, so back up![event=5]\r
+Weird Door: Didn't anyone ever tell you not to go around running your grubby hands over every textured wall and door you see? Get lost.\r
+[title=answer_flirt_03_end]\r
+\r
+[title=answer_flirt_04_begin]\r
+Weird Door: My <b>shape</b>? Oh, I get it. You're one of those that's all about <i>physical</i> appearances. That's real shallow of you, pal.[event=5]\r
+Weird Door: I'm a lot more than just a pretty face and shapely cuboid figure. But you'd never know that with preferences like that, would you? Get lost!\r
+[title=answer_flirt_04_end]\r
+\r
+[title=flirt_win_begin]\r
+Weird Door: My <b>personality</b>? Well that's something new... not many people I've met are fans of the whole, y'know, cryptic door thing.[event=5]\r
+Weird Door: But that's kind of... nice to hear. Even if we just met. Wait- what am I saying?! I'm not supposed to feel endeared by you![event=4]\r
+Weird Door: What IS this, some kind of bargain bin dating sim? You're by far the strangest, most oddball, cutest... little gremlin I've EVER met!\r
+Weird Door: Augh... you've got me all flushed now! I- I need to get outta here for a little while and clear my head. Gotta go![event=10]\r
+[title=flirt_win_end]\r
+\r
+[title=answer_flirt_01_begin]\r
+Weird Door: N-no, stop! No, no, no... This is <i>the most</i> awkward situation. I can't even leave because I'm stuck in this gaudy lump of stone.\r
+Weird Door: [question=04]Why are you doing this to me! Can't you just answer my riddle like a normal explorer?!\r
+[choice](Continue flirting)[newtalk start=answer_pyramid_leave_02_begin break=answer_pyramid_leave_02_end]\r
+[choice]Riddle?[newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]\r
+[choice]See ya.[newtalk start=answer_pyramid_leave_01_begin break=answer_pyramid_leave_01_end]\r
+[title=answer_flirt_01_end]\r
+\r
+---\r
+\r
+PYRAMID EYE ANSWER WRONG\r
+[title=answer_pyramid_wrong_0_begin]\r
+Weird Door: That's so right! Pfft... just kidding. Sorry, I couldn't say that with a straight eye. Wrong answer, buddy!\r
+Weird Door: Talk to me again after you've brushed up on your riddles, or maybe go find someone a bit more knowledgeable![event=8]\r
+[title=answer_pyramid_wrong_0_end]\r
+\r
+MUSHROOM ADVISOR\r
+[title=advisor_2_begin]\r
+Advisor Mung: Ah, I knew we'd see each other up here, chap! It's quite the trek so I thought I'd stop for a tad and read.\r
+Advisor Mung: I've been obsessing over the mayor's <i>riddle books</i> like mad for awhile now. I get such a kick out of them.\r
+Advisor Mung: Listen to this one for example...\r
+Advisor Mung: "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. \
+What am I?"\r
+Advisor Mung: <b>...a MAP!</b> Can you believe it? Such an obvious answer! I'll be here if you want to hear more riddles, chap.\r
+[title=advisor_2_end]\r
+\r
+[title=advisor_22_begin]\r
+Advisor Mung: Ah, hello again, ol' bean. How's your expedition coming along? Run into anything of peculiar interest yet?\r
+Advisor Mung: I'm feeling a bit winded myself. I might call it a day and make the trek back to the village.\r
+Advisor Mung: Just a few more pages of this riddle book and I'll start heading back. You'll quite like this one I think...\r
+Advisor Mung: What starts with a T, ends with a T and is full of T?\r
+Advisor Mung: A <b>TEAPOT</b>! Speaking of tea, I'm getting quite parched way up here. I might go back soon for a spot.\r
+[title=advisor_22_end]\r
+\r
+[title=advisor_23_begin]\r
+Advisor Mung: Another riddle for you? Listen to this one chap, you'll get quite a chuckle I think...\r
+Advisor Mung: What is able to travel around the globe, but stays in a corner the whole time?\r
+Advisor Mung: A <b>STAMP</b>! An hilarious jape I must say! It's so true!\r
+[title=advisor_23_end]\r
+\r
+[title=advisor_24_begin]\r
+Advisor Mung: Another riddle for you? Listen to this one chap, you'll get a kick out of this one I think...\r
+Advisor Mung: What kind of room has no doors or windows?\r
+Advisor Mung: A <b>MUSHROOM</b>! So obvious! And topical. We definitely don't have doors or windows.\r
+[title=advisor_24_end]\r
+\r
+[title=advisor_25_begin]\r
+Advisor Mung: Another riddle for you? Listen to this one chap, you'll love this one I think...\r
+Advisor Mung: If two is company and three is a crowd, what is four and five?\r
+Advisor Mung: Well, it's <b>NINE</b> of course! Simple arithmetic mixed with a witty wisecrack. Amazing!\r
+Advisor Mung: I'm always quite entertained by the reactions to these. It's either a laugh or an eye roll!\r
+[title=advisor_25_end]\r
+\r
+[title=advisor_26_begin]\r
+Advisor Mung: Another riddle for you? You seem to be as entertained by these as I am! Okay, one more.\r
+Advisor Mung: When is a door no longer a door? Think about this one for a bit!\r
+Advisor Mung: Ah, when it is <b>AJAR</b>! Get it? I can't quite make out your reaction, but I'm sure you're barely able to contain your laughter!\r
+Advisor Mung: I'll be here for a little bit longer so feel free to come by and have a chat if you like. Toodle-loo!\r
+[title=advisor_26_end]\r
+\r
+PYRAMID EYE (question after knowledge)\r
+[title=answer_pyramid_question_1_begin]\r
+Weird Door: Ugh, you're back? Already? You're so clingy. If you still want in, my mind hasn't changed. Still gotta answer the riddle!\r
+Weird Door: [question=4]Ok so.. I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?\r
+[choice]A garden?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]A human?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]A dream?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]A map![newtalk start=answer_pyramid_correct_0_begin break=answer_pyramid_correct_0_end]\r
+[title=answer_pyramid_question_1_end]\r
+\r
+PYRAMID EYE ANSWER RIGHT\r
+[title=answer_pyramid_correct_0_begin]\r
+Weird Door: Wh-what? Th-that's right?! How, how did you know that? You had to have looked it up!\r
+Weird Door: Darn... that was one of my hardest riddles. I'll have to step my game up next time someone comes prattling along.\r
+Weird Door: Whatever, go on inside then. But remember... I've got my eye on you.[event=1]\r
+[title=answer_pyramid_correct_0_end]\r
+\r
+MUSHROOM EXPLORER\r
+[title=explorer_0_begin]\r
+???: Unngh... hey, can you help me out? I came down here earlier this morning and got locked inside somehow.\r
+Explorer Niles: I'm <color=#fcf403><b>Niles</b></color>, just a local explorer who's apparently bitten off more than he can chew.\r
+Explorer Niles: The entrance door was sealed tight, but after I wedged it open and stepped inside, it slammed shut on me!\r
+Explorer Niles: [question=5]Have you heard any news from the outside? I'd really like to get back to my wife!\r
+[choice]Door's open![newtalk start=answer_explorer_0_begin break=answer_explorer_0_end]\r
+[choice]Nope. Good luck![newtalk start=answer_explorer_1_begin break=answer_explorer_1_end]\r
+[title=explorer_0_end]\r
+\r
+[title=answer_explorer_0_begin]\r
+Explorer Niles: O-oh, really?! Thanks so much! I'm gonna head back now. Good luck getting up there, those platforms were too much for me!\r
+[title=answer_explorer_0_end]\r
+\r
+[title=answer_explorer_1_begin]\r
+Explorer Niles: Seriously?! How did you get down here then, ya wise guy? I'm not giving up just yet!\r
+Explorer Niles: I'm going to see if I can get back to the village. Thanks for nothing, jerk...\r
+[title=answer_explorer_1_end]\r
+\r
+DREAM SHARD\r
+[title=shard_0_begin]\r
+There's a fragment of a <color=#03cffc><b>strange crystal</b></color> here. It looks like it goes to something much bigger.\r
+It doesn't seem to have any magical properties, but... it makes for a decent treasure. You take it with you.\r
+[title=shard_0_end]\r
+\r
+POST QUEST\r
+\r
+MUSHROOM ADVISOR\r
+[title=advisor_3_begin]\r
+Advisor Mung: I see you've returned in one piece from the thicket! You're quite the adventurer, chap.\r
+Advisor Mung: Jolly good show finding the lost treasure as well as bringing back our missing villager!\r
+Advisor Mung: The mayor will definitely want to hear about this. He should be in his usual spot.\r
+[title=advisor_3_end]\r
+\r
+MUSHROOM FAMILY (WIFE AND EXPLORER)\r
+[title=family_0_begin]\r
+Dotty: Thank goodness you're finally back! I was going mad thinking of what could've happened.\r
+Explorer Niles: Yes, so glad I made it out of there in one piece. Those ruins almost had it in for me!\r
+[title=family_0_end]\r
+\r
+MUSHROOM GUY\r
+[title=villager_2_begin]\r
+Villager Gab: Z...z... HMM?! Huh.. wh.. z...\r
+(They're still dozed out. Best leave them be.)\r
+[title=villager_2_end]\r
+\r
+Toadstool Tommy\r
+[title=kid_4_begin]\r
+Toadstool Tommy: You're the best adventurer! The best ever! I want to be just like you!\r
+[title=kid_4_end]\r
+\r
+MUSHROOM MAYOR\r
+[title=mayor_2_begin]\r
+Mayor Morel: Oho, they've made it out alive! Spectacular job, lad. I never had a single doubt about you. We must talk about the expedition.\r
+Mayor Morel: You look rather tired, so I won't keep you long! Tell me, did you manage to find what you were looking for?\r
+Mayor Morel: [question=6]Aha, I knew you'd be back with something interesting. That pyramid ended up having quite the treasure!\r
+[choice]Can you fix it?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]\r
+[choice]What is it?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]\r
+[title=mayor_2_end]\r
+\r
+[title=answer_mayor_11_begin]\r
+Mayor Morel: Looks like a fractured shard of something. Something big and probably very important!\r
+Mayor Morel: If anything, I'd put my money on it being part of that <color=#03cffc><b>dream shard</b></color> nonsense you were spouting earlier.\r
+Mayor Morel: Regardless, a little elbow grease and I might be able to give back some of its old glow.[newtalk start=mayor_22_begin break=mayor_22_end]\r
+[title=answer_mayor_11_end]\r
+\r
+[title=mayor_22_begin]\r
+Mayor Morel: [question=7]Whatever it is, I get the strongest sense that it doesn't belong here. It belongs with you.\r
+[choice]Can you fix it?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]\r
+[choice]What is it?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]\r
+[title=mayor_22_end]\r
+\r
+[title=answer_mayor_1_begin]\r
+Mayor Morel: Oh, I'm not sure, but it's definitely seen better days. This is an ancient relic, after all. Dating back farther than perhaps time itself.[event=2]\r
+Mayor Morel: But I'll give it a shot! My, to think this was just on the outside of our village, sitting there for who knows how long.\r
+Mayor Morel: Give me a minute now... my restoration magic's a little rusty. Hopefully this'll spark a little bit of its life back.\r
+Mayor Morel: There we go, good as new. You see? Even the most broken and forgotten trinkets can be renewed with a little care. Keep it close.\r
+Mayor Morel: Please take good care of the shard while you continue on your journey, but most importantly, take good care of yourself.\r
+Mayor Morel: Farewell, youngster!\r
+[title=answer_mayor_1_end]\r
+\r
+[title=kidrun_0_begin]\r
+Toadstool Tommy: This way! This way! Behind the house! Let's go exploring!\r
+[title=kidrun_0_end]\r
+\r
+[title=mountain_begin]\r
+As you stand along the sheer cliff edge, you take a deep breath and peer along the golden horizon.\r
+A fresh smell of crisp mountain air gently fills your lungs. You feel calm. At ease. Relaxed.\r
+You feel like you could stay here forever, but remember you must return to the task at hand.\r
+[title=mountain_end]\r
+\r
+[title=door_close_begin]\r
+Weird Door: Kekeke... and don't come back...! \
+<i>(Geez, I'm never opening my door for any of these weirdos again...)</i>\r
+[title=door_close_end]\r
+\r
+[title=secret_0_begin]\r
+(He's too busy jamming to notice you.)\r
+[title=secret_0_end]\r
+\r
+[title=gardener_scared_begin]\r
+Gardener Freckle: [jitter=5 angle=0]G-gAAH...![/jitter] Crimini! Don't do that! You know I scare easily! Don't you have anything better to do?\r
+[title=gardener_scared_end]"

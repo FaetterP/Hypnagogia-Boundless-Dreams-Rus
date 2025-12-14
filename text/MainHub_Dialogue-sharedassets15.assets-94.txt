@@ -1,0 +1,216 @@
+0 TextAsset Base
+ 1 string m_Name = "MainHub_Dialogue"
+ 1 string m_Script = "Main Hub Dialogue\r
+\r
+MAIN HUB 00\r
+\r
+HYPNO INTRO\r
+\r
+[title=hypno_0_intro_begin]\r
+???: Mm... you seem to have stumbled into quite the little dream. Curious. Very... convenient.[event=1]\r
+???: Welcome to the nexus for everything that exists as you currently know it. Which is to say isn't much right now, unfortunately.\r
+???: You may yet have a role to play as these events begin to unfold. Things are not as they normally are, you see.\r
+Hypno: Forgive me, where are my manners? I am called <color=#b642f5><b>Hypno</b></color>... I am the <i>guardian</i> of this place.\r
+Hypno: [question=0]I am sure you have many questions, or none at all perhaps.\r
+[choice]Where are we?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]\r
+[choice]What's going on?[newtalk start=hypno_choice_2_begin break=hypno_choice_2_end]\r
+[choice]That's enough.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]\r
+[title=hypno_0_intro_end]\r
+\r
+HYPNO CHOICE 1 WHERE\r
+\r
+[title=hypno_choice_1_begin]\r
+Hypno: We are in the <color=#fffc36><b>Dream Nexus</b></color> of course. The origin of which is not important, but to you it acts as a means to an end.\r
+Hypno: [question=1]It is a temporary space used for passing through from one world, to the next. A metaphorical series of interconnecting tubes and tunnels.\r
+[choice]What's going on?[newtalk start=hypno_choice_2_begin break=hypno_choice_2_end]\r
+[choice]That's enough.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]\r
+[title=hypno_choice_1_end]\r
+\r
+[title=hypno_choice_2_begin]\r
+Hypno: [question=2]The precious <color=#42f5e6><b>Dream Crystal</b></color> has shattered... unexpectedly. Its fragments spread throughout consciousness. Without it, much is left unstable and broken.\r
+[choice]Dream... crystal?[newtalk start=hypno_choice_2_1_begin break=hypno_choice_2_1_end]\r
+[choice]Where are we?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]\r
+[choice]That's enough.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]\r
+[title=hypno_choice_2_end]\r
+\r
+HYPNO CHOICE 2-1 CRYSTAL\r
+\r
+[title=hypno_choice_2_1_begin]\r
+Hypno: Yes, the <color=#42f5e6><b>Dream Crystal</b></color>. Think of it as the living, beating heart of everything you've ever imagined and have yet to imagine. It's also the thing floating above us.\r
+Hypno: [question=3]As a whole entity, it keeps in check the flow of all conscious and subconsious information. Broken however, things are left to form how they please.\r
+[choice]Remnants?[newtalk start=hypno_choice_2_2_begin break=hypno_choice_2_2_end]\r
+[choice]Where are we?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]\r
+[choice]That's enough.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]\r
+[title=hypno_choice_2_1_end]\r
+\r
+HYPNO CHOICE 2-2 REMNANTS\r
+\r
+[title=hypno_choice_2_2_begin]\r
+Hypno: Yes... With your help, we can return the pieces of the <color=#42f5e6><b>Dream Crystal</b></color> to the nexus and restore a much needed <i>balance</i> to this world.\r
+Hypno: [question=4]Travel through the portals to each dream and find the shattered remains of the crystal. That is the part you play. This is your role.\r
+[choice]Tell me again.[newtalk start=hypno_choice_2_3_begin break=hypno_choice_2_3_end]\r
+[choice]Where are we?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]\r
+[choice]I am ready now.[newtalk start=hypno_choice_33_begin break=hypno_choice_33_end]\r
+[title=hypno_choice_2_2_end]\r
+\r
+HYPNO CHOICE 2-3 REPEAT\r
+\r
+[title=hypno_choice_2_3_begin]\r
+Hypno: Hmm? Were you not paying attention the first time? I will explain once more. But be wary, the dreamscape will only be here for so long. As I said before...\r
+Hypno: [question=5]The precious <color=#42f5e6><b>Dream Crystal</b></color> has shattered... unexpectedly. Its fragments spread throughout consciousness. Without it, much is left unstable and broken.\r
+[choice]Dream... crystal?[newtalk start=hypno_choice_2_1_begin break=hypno_choice_2_1_end]\r
+[choice]Where are we?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]\r
+[choice]That's enough.[newtalk start=hypno_choice_3_begin break=hypno_choice_3_end]\r
+[title=hypno_choice_2_3_end]\r
+\r
+HYPNO CHOICE 3 PASS\r
+\r
+[title=hypno_choice_3_begin]\r
+Hypno: Yes, yes, of course. One would not want to linger for too long. You have many places to go, many people to see, certain things to... retrieve.\r
+Hypno: One last thing. Though you may only be required to enter specific dreams, there are some that are, let's say... <color=#fffc36><b>hidden</b></color> in the darker corners.\r
+Hypno: In other words, try not to let your taste for exploration wane <i>too much</i>. Now go. We are all watching...[event=0]\r
+[title=hypno_choice_3_end]\r
+\r
+[title=hypno_choice_33_begin]\r
+Hypno: Wasting no more time, I see. Excellent. You've learned quickly. Now we will see if you maintain that level of spirit throughout the journey...[event=2]\r
+Hypno: One last thing. Though you may only be required to enter specific dreams, there are some that are, let's say... <color=#fffc36><b>hidden</b></color> in the darker corners.\r
+Hypno: In other words, try not to let your taste for exploration wane <i>too much</i>. Now go. We are all watching...[event=0]\r
+[title=hypno_choice_33_end]\r
+\r
+HYPNO CHOICE 3 PASS AGAIN\r
+\r
+[title=hypno_choice_3_1_begin]\r
+Hypno: Very well. Hurry back with the fragments. This world's power grows more weakened by the minute.\r
+[title=hypno_choice_3_1_end]\r
+\r
+HYPNO TALK AGAIN\r
+\r
+[title=hypno_0_repeat_begin]\r
+Hypno: [question=6]Mm... still have questions, it seems? I wait eagerly for you to begin the journey.\r
+[choice]Where are we?[newtalk start=hypno_choice_1_begin break=hypno_choice_1_end]\r
+[choice]What's going on?[newtalk start=hypno_choice_2_begin break=hypno_choice_2_end]\r
+[choice]Nevermind.[newtalk start=hypno_choice_3_1_begin break=hypno_choice_3_1_end]\r
+[title=hypno_0_repeat_end]\r
+\r
+----------------\r
+\r
+[title=hypno_choice_no_begin]\r
+Hypno: Hmph. Forgive me, in my old age I've almost forgotten how limited your time is with us. Tread carefully...\r
+[title=hypno_choice_no_end]\r
+\r
+MAIN HUB 02\r
+[title=hypno_mist_begin]\r
+Hypno: I see you've collected the first shard of many. Good... very good. You seem to have some familiarity in what you're doing.\r
+Hypno: Although it's apparent to me you've not yet given much thought to your surroundings. Just existing in them like many others.\r
+Hypno: [question=7]Tell me, while the subject is at the forefront - what do you think of other people?\r
+[choice]They're kind.[newtalk start=hypno_mist_choice0_begin break=hypno_mist_choice0_end]\r
+[choice]They're repulsive.[newtalk start=hypno_mist_choice1_begin break=hypno_mist_choice1_end]\r
+[choice]They're overbearing.[newtalk start=hypno_mist_choice2_begin break=hypno_mist_choice2_end]\r
+[choice]Gotta go.[newtalk start=hypno_choice_no_begin break=hypno_choice_no_end]\r
+[title=hypno_mist_end]\r
+\r
+[title=hypno_mist_choice0_begin]\r
+Hypno: Hmph. <b>Kind</b> is it? Such a simple word to describe such a simple species, whether it's true or not.\r
+Hypno: Some would say it's naive to feel such a way. Those creatures tend to display their animosity more than their kindness.\r
+Hypno: In your case, you are indeed proving the latter by helping reclaim these shards. Too soon to judge, perhaps...?\r
+Hypno: Enough talk. Keep your wits about you. I will be watching.\r
+[title=hypno_mist_choice0_end]\r
+\r
+[title=hypno_mist_choice1_begin]\r
+Hypno: <b>Repulsive?</b> Haha. You jest, however there must be an aspect of truth to a species so inattentive and disrepectful to the world around it.\r
+Hypno: Forgive me - there's no need to lecture you on a topic so broad and sensitive. I'm sure you have your own opinions.\r
+Hypno: It may be fruitless to dwell on it for too long, but... it's only what I've heard anyways.\r
+Hypno: Enough talk. Keep your wits about you. I will be watching.\r
+[title=hypno_mist_choice1_end]\r
+\r
+[title=hypno_mist_choice2_begin]\r
+Hypno: <b>Overbearing</b>, you say? An interesting thought. There are many I feel would prefer to live free from the annoyance of others.\r
+Hypno: Ironic it is that they themselves unwittingly give overbearance to others. A strange, ignorant little cycle I must say.\r
+Hypno: You'd be wise not to let something as insignificant as secondhand oppression dictate your decisions. That's just what I've heard anyways.\r
+Hypno: Enough talk. Keep your wits about you. I will be watching.\r
+[title=hypno_mist_choice2_end]\r
+\r
+MAIN HUB 03\r
+[title=hypno_bamboo_begin]\r
+Hypno: Already gathered the second shard, have you? Your speed is rivaled only by your patience to continue on through this laborous ordeal.\r
+Hypno: If only I wasn't tied to this so-called "dream nexus", I would assist. An accursed shell of its former self. Weakened, vulnerable...\r
+Hypno: Its strength and mine continues to wane. Soon there will be nothing left but a black void and empty dreams. You must hurry.\r
+Hypno: Enough talk. Keep your wits about you. I will be watching.\r
+[title=hypno_bamboo_end]\r
+\r
+MAIN HUB 05\r
+[title=hypno_space_begin]\r
+Hypno: Such expedience... I've been keeping a close watch from here. Looks like you've hit the half-way mark already. Excellent.\r
+Hypno: Dreams are transient things. Although you pass from one to the next, a piece of you will always remain. But beware...\r
+Hypno: [question=8]There are many creatures who aren't who they claim to be. Trust is a valuable commodity no matter the setting. Who do you trust?\r
+[choice]You.[newtalk start=hypno_space_choice0_begin break=hypno_space_choice0_end]\r
+[choice]Gogi.[newtalk start=hypno_space_choice1_begin break=hypno_space_choice1_end]\r
+[choice]Myself.[newtalk start=hypno_space_choice2_begin break=hypno_space_choice2_end]\r
+[choice]No one.[newtalk start=hypno_space_choice3_begin break=hypno_space_choice3_end]\r
+[title=hypno_space_end]\r
+\r
+[title=hypno_space_choice0_begin]\r
+Hypno: <b>Me?</b> However much that sentiment is appreciated, it would be quite a heedless act to give trust to someone you were so recently acquainted with.\r
+Hypno: Nevertheless, I'm acutely aware I have that affect on most creatures. Some say it's good to befriend those who give the most intimidating impressions.\r
+Hypno: That's enough talk for now. Keep your wits about you. I will be watching.\r
+[title=hypno_space_choice0_end]\r
+\r
+[title=hypno_space_choice1_begin]\r
+Hypno: <b>Gogi?</b> Do you truly believe that someone as negligent as the dream protector can be trusted? He abandoned his duties as soon as he was needed most.\r
+Hypno: It would be unwise of you to believe anything from such a careless and irresponsible character. But... I won't tell you what to do.\r
+Hypno: That's enough talk for now. Keep your wits about you. I will be watching.\r
+[title=hypno_space_choice1_end]\r
+\r
+[title=hypno_space_choice2_begin]\r
+Hypno: A double-edged sword. Full trust in only <b>yourself</b> can lead down multiple roads... some of which you may regret going down.\r
+Hypno: Words of caution... in the end you will have been the cause of both your problems and the solutions that need them. You will be the only one to blame.\r
+Hypno: That's enough talk for now. Keep your wits about you. I will be watching.\r
+[title=hypno_space_choice2_end]\r
+\r
+[title=hypno_space_choice3_begin]\r
+Hypno: Quite perceptive, but perhaps ill-advised. Give trust to <b>no one</b> and you will never be disappointed, keep it too sheltered however...\r
+Hypno: ...and you will inevitably encounter a problem you'll find impossible to solve alone. For this your trust must be spent wisely.\r
+Hypno: That's enough talk for now. Keep your wits about you. I will be watching.\r
+[title=hypno_space_choice3_end]\r
+\r
+MAIN HUB 06\r
+[title=hypno_mansion_begin]\r
+Hypno: This surge of power... this swell of intense energy... I can feel the <color=#42f5e6><b>shards</b></color> slowly returning their strength to the gem.\r
+Hypno: [question=9]The longer they go disconnected and incomplete... the more unstable things become. The more nightmarish things become.\r
+[choice]I'm afraid.[newtalk start=hypno_mansion_afraid_begin break=hypno_mansion_afraid_end]\r
+[choice]I can do this.[newtalk start=hypno_mansion0_begin break=hypno_mansion0_end]\r
+[choice]Lovely hat.[newtalk start=hypno_mansion_hat_begin break=hypno_mansion_hat_end]\r
+[title=hypno_mansion_end]\r
+\r
+[title=hypno_mansion_afraid_begin]\r
+Hypno: Fear is a natural feeling. Fall further into the dream world and the fear deepens with it. Overcoming that is paramount to your success...[newtalk start=hypno_mansion0_begin break=hypno_mansion0_end]\r
+[title=hypno_mansion_afraid_end]\r
+\r
+[title=hypno_mansion_hat_begin]\r
+Hypno: However flattering they may be, now is not the time for such lighthearted and childish remarks. An important reminder not to get distracted...[newtalk start=hypno_mansion0_begin break=hypno_mansion0_end]\r
+[title=hypno_mansion_hat_end]\r
+\r
+[title=hypno_mansion0_begin]\r
+Hypno: The paths ahead are not for the faint of heart. Your endurance... perserverance... fortitude... will all be tested.\r
+Hypno: Although there may yet still remain controlled pockets of the dreamscape <color=#fffc36><b>hidden</b></color> in certain places.\r
+Hypno: Good luck... \r
+[title=hypno_mansion0_end]\r
+\r
+MAIN HUB 08\r
+[title=hypno_tower_begin]\r
+Hypno: It's almost time. The <color=#42f5e6><b>gem</b></color> is nearly completed, the hypnagogic dreamscape draws to a finality, and power will be restored, all thanks to you.\r
+Hypno: Your persistent strength thus far has gone beyond impressive, and for that I commend you. Although the journey is not yet over, remember...\r
+Hypno: You will be told lies and untruths from lesser beings who only wish to take control of the dreamscape themselves. To listen would be foolish.\r
+Hypno: Face your true self in these final moments. Overcome weakness. Face absolution. Face the end.\r
+[title=hypno_tower_end]\r
+\r
+\r
+[title=guide_0_begin]\r
+???: Wow, so you beat the <b>whole game</b>, huh? Or at least, the main levels. Either way, welcome to the <i>Dream Select Hub!</i>\r
+???: From here not only can you can revisit any main world as many times as you want, you can also get some behind-the-scenes info on each one!\r
+???: So, if you happened to previously miss a <color=#fffc36><b>secret level</b></color> or anything interesting, here's your second opportunity. Pretty cool, right?\r
+???: Oh- I almost forgot! The big guy let me in on some cool insider news. Apparently there's a really well-hidden <b>secret</b> here too...\r
+???: <i>(You didn't hear that from me, though.)</i> \
+\
+Have a good time!\r
+[title=guide_0_end]"

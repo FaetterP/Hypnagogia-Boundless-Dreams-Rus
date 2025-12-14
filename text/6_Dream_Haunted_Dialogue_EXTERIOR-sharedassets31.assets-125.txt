@@ -1,0 +1,180 @@
+0 TextAsset Base
+ 1 string m_Name = "6_Dream_Haunted_Dialogue_EXTERIOR"
+ 1 string m_Script = "6_Dream_Haunted Dialogue EXTERIOR\r
+\r
+GOGI INTRO\r
+[title=Gogi_0_begin]\r
+"Gogi": Wow, check out the drab mood of this place! It's super depress-o if you ask me!\r
+"Gogi": I saw a bunch of creepy stuff up ahead, it gives me the willies...! Pretty spooky!\r
+"Gogi": Imagining the cold, unforgiving embrace of death has me in an existential bind! \
+I just don't get it!\r
+"Gogi": Oh well, hahaha. It's all just a dream, afterall. Yeah, a dream! Have [jitter=5 angle=0]fuuunnn![/jitter]\r
+[title=Gogi_0_end]\r
+\r
+HEADSTONES\r
+[title=grave0_begin]\r
+R. C. \
+1990 - 2021 \
+Died from lack of sleep.\r
+[title=grave0_end]\r
+[title=grave1_begin]\r
+E. Frost \
+1950 - 2020\r
+[title=grave1_end]\r
+[title=grave2_begin]\r
+G. Jackson \
+1941 - 1999\r
+[title=grave2_end]\r
+[title=grave3_begin]\r
+E. Carney \
+1850 - 1878\r
+[title=grave3_end]\r
+[title=grave4_begin]\r
+A. Matthews \
+1898 - 1978\r
+[title=grave4_end]\r
+[title=grave5_begin]\r
+L. Walls \
+1921 - 1931\r
+[title=grave5_end]\r
+[title=grave6_begin]\r
+P. Bruce \
+2000 - 2009\r
+[title=grave6_end]\r
+[title=grave7_begin]\r
+T. Buckner \
+1888 - 1932\r
+[title=grave7_end]\r
+[title=grave8_begin]\r
+I. Livingston \
+1801 - 1880\r
+[title=grave8_end]\r
+[title=grave9_begin]\r
+C. Flynn \
+1944 - 1978\r
+[title=grave9_end]\r
+[title=grave10_begin]\r
+S. Bryan \
+1909 - 1950\r
+[title=grave10_end]\r
+\r
+[title=grave_blank_begin]\r
+There's a headstone here. The writing on it is too faded to read.\r
+[title=grave_blank_end]\r
+\r
+ROUND 1\r
+\r
+GRAVEDIGGER\r
+[title=digger_0_begin]\r
+Groundsman Grady: Another night, another blanket of thick, muck-ridden fog to go along wif it.\r
+Groundsman Grady: I dig the holes the same depth everytime, but somehow the next day they go even deeper.\r
+Groundsman Grady: Stay away from the <color=#fcbe2b><b>house</b></color>, lad. Unless you want something following ye out of it.\r
+[title=digger_0_end]\r
+\r
+[title=digger_repeat_begin]\r
+Groundsman Grady: What is it, lad? Can't ye see I'm busy over 'ere? Got enough digging to last a lifetime.\r
+[title=digger_repeat_end]\r
+\r
+[title=digger_repeat1_begin]\r
+Groundsman Grady: ...\r
+(He ignores you and continues digging.)\r
+[title=digger_repeat1_end]\r
+\r
+[title=gate_0_begin]\r
+The courtyard gate is locked with an old rusty padlock. Surely a key exists to open it.\r
+[title=gate_0_end]\r
+\r
+[title=cellar_0_begin]\r
+Looks like the entrance down into the house's cellar, perhaps? The doors don't budge an inch.\r
+Maybe it's for the best.\r
+[title=cellar_0_end]\r
+\r
+ROUND 2\r
+\r
+[title=digger_1_begin]\r
+Groundsman Grady: Ah, ye tried the gate, did ye? Well what was ye expecting trying to just waltz up to the property like that?\r
+Groundsman Grady: I'd hoped ye'd have a bit smarter inclination than to go trespassing this dreary night. But I don't care enough to stop yer foolishness.\r
+Groundsman Grady: I'll lend ye my courtyard key. I hope whatever's in there is worth what yer about to go through, lad.\r
+Groundsman Grady: No need to return the key. Ye won't be around long enough to do so. 'ave a pleasant night.\r
+[title=digger_1_end]\r
+\r
+[title=gate_1_begin]\r
+You unlock the rickety gate latch using the groundsman's key.\r
+[title=gate_1_end]\r
+\r
+[title=well_0_begin]\r
+No coins for this wishing fountain...\r
+[title=well_0_end]\r
+\r
+[title=well_1_begin]\r
+The fountain is all dried up. It stopped working a long time ago.\r
+[title=well_1_end]\r
+\r
+[title=mansion_0_leave_begin]\r
+[question=0]Enter the mansion? You have this feeling you won't be able to return.\r
+[choice]Regretfully.[newtalk start=answer_mansion_0_yes_begin break=answer_mansion_0_yes_end]\r
+[choice]Maybe later...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]\r
+[title=mansion_0_leave_end]\r
+\r
+[title=answer_mansion_0_yes_begin]\r
+You fearfully open the mansion doors. What horrors await inside?[event=0]\r
+[title=answer_mansion_0_yes_end]\r
+\r
+[title=answer_mansion_0_no_begin]\r
+You step back from the ominous entrance, despite its relentless beckon.[event=1]\r
+[title=answer_mansion_0_no_end]\r
+\r
+[title=well_begin]\r
+There's a strange piece of paper floating in the well.\r
+Looking at it makes you feel like someone is groping around inside your skull.\r
+[title=well_end]\r
+\r
+[title=well_norm_begin]\r
+There's a well here. There's nothing unusual about it.\r
+[title=well_norm_end]\r
+\r
+[title=grave_secret_begin]\r
+Another grave lay here open and unfinished. This one seems different though...\r
+Taking a closer look you immediately receive a noticeable waft of fetid odor from the hole.\r
+How far down might it go, you wonder?\r
+[title=grave_secret_end]\r
+\r
+[title=gate_shadow_begin]\r
+...\r
+That shadow...\r
+[title=gate_shadow_end]\r
+\r
+[title=mansion_1_leave_begin]\r
+The front doors are unlocked now.\r
+[question=0]Enter the mansion? You have this feeling you won't be able to return.\r
+[choice]Regretfully.[newtalk start=answer_mansion_0_yes_begin break=answer_mansion_0_yes_end]\r
+[choice]Maybe later...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]\r
+[title=mansion_1_leave_end]\r
+\r
+[title=answer_mansion_0_yes_begin]\r
+You fearfully open the mansion doors. What horrors await inside?[event=0]\r
+[title=answer_mansion_0_yes_end]\r
+\r
+[title=answer_mansion_0_no_begin]\r
+You step back from the ominous entrance, despite its relentless beckon.[event=1]\r
+[title=answer_mansion_0_no_end]\r
+\r
+[title=mansion_locked_begin]\r
+You try to open the front doors to the mansion, but they appear to be locked tightly.\r
+A small <color=#fcbe2b><b>gold-plated key hole</b></color> is affixed below the handle.\r
+[title=mansion_locked_end]\r
+\r
+[title=key1_begin]\r
+There's a small <color=#fcbe2b><b>gold-plated key</b></color> dangling from the collapsed lamppost.\r
+[question=000]Will you take the key?\r
+[choice]Yes.[newtalk start=answer_key_yes_begin break=answer_key_yes_end]\r
+[choice]No.[newtalk start=answer_key_no_begin break=answer_key_no_end]\r
+[title=key1_end]\r
+\r
+[title=answer_key_yes_begin]\r
+You manage to snag the key off the lamppost and take it with you.[event=2]\r
+[title=answer_key_yes_end]\r
+\r
+[title=answer_key_no_begin]\r
+You leave the key dangling in place...\r
+[title=answer_key_no_end]"
