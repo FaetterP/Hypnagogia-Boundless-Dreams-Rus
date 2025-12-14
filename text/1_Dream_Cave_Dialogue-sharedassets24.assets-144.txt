@@ -4,119 +4,119 @@
 \r
 GOGI\r
 [title=Gogi_0_begin]\r
-???: Heehee, hi there! So <i>good</i> to see you again! You don't remember me? I'm your old pal, <color=#fcbe2b><b>Gogi</b>!</color>\r
-"Gogi": Talk about long time no see! Anyways, looks like we both ended up in some dank, nasty scum cave!\r
-"Gogi": These crystals sure are pretty though! But I think I saw an even <color=#03cffc><b>shinier</b></color> one somewhere up ahead!\r
-"Gogi": You should go and check it out! It sure would be a nice little memento to take back with us!\r
-"Gogi": Well, have [jitter=5 angle=0]fuuunnn![/jitter]\r
+???: Хихи, приветики! Так <i>здорово</i> видеть тебя снова! Ты меня не помнишь? Я твой старый приятель, <color=#fcbe2b><b>Гоги</b>!</color>\r
+"Гоги": Давно же мы не виделись! В любом случае, похоже, мы оба оказались в этой сырой, мерзкой пещере!\r
+"Гоги": Эти кристаллы, конечно, красивые! Но, по-моему, гдк-то впереди я видел ещё более <color=#03cffc><b>блестящий</b></color>!\r
+"Гоги": Тебе следует пойти и проверить! Это был бы отличный сувенирчик, который мы могли бы забрать с собой!\r
+"Гоги": Что же, [jitter=5 angle=0]развлекааайсяяя![/jitter]\r
 [title=Gogi_0_end]\r
 \r
 signpost\r
 [title=signpost_0_begin]\r
-There's a rickety signpost planted in the ground. It has a hastily-written message scrawled on it.\r
-<b><color=#ff0000>DANGER!</color> MINESHAFT CAVE-IN AHEAD. PROCEED WITH CAUTION. HIGH RISK OF STRUCTURAL COLLAPSE!</b>\r
+В землю воткнут шаткий дорожный указатель. На нём наспех нацарапано сообщение.\r
+<b><color=#ff0000>ОПАСНО!</color> ВПЕРЕДИ ОБВАЛ ШАХТЫ. ПЕРЕДВИГАЙТЕСЬ В ОСТОРОЖНОСТЬЮ. ВЫСОКИЙ РИСК ОБРУШЕНИЯ КОНСТРУКЦИИ!</b>\r
 [title=signpost_0_end]\r
 \r
 PRE-QUEST:\r
 \r
 [title=Scroblin_0_begin]\r
-Worker Scroblin: Hmm? Who might you be? New worker perhaps? Hmph. Guess <color=#fcbe2b><b>Foreman Fran's</b></color> gotten ahold of another poor sap.\r
-Worker Scroblin: You shouldn't just be standing around here talking. We'll BOTH get the boot, or worse... docked pay.\r
-Worker Scroblin: If you need somethin' to do, go find the Foreman. She's probably skulking around here somewhere.\r
+Рабочий Скроблин: Хмм? кто ты такой? Новый рабочий, что ли? Хмф. Полагаю <color=#fcbe2b><b>бригадир Фрэн</b></color> заполучила ещё одного бедолагу.\r
+Рабочий Скроблин: Тебе не следует просто стоять здесь и болтать. Нас ОБОИХ выгонят, а может быть и хуже... урежут зарплату.\r
+Рабочий Скроблин: Если тебе нужно чем-нибудь заняться, иди найди бригадира. Она, наверное, затаилась где-то неподалёку.\r
 [title=Scroblin_0_end]\r
 \r
 [title=pickaxe_0_begin]\r
-There's an old <color=yellow><b>Pickaxe</b></color> here. The name "Gibb" is etched into the metal surface. \r
-It's probably best you don't take something that doesn't belong to you, so you leave it there.\r
+Здесь старая <color=yellow><b>кирка</b></color>. На металлической поверхности выбито имя "Гибб". \r
+Наверное, лучше не брать то, что тебе не принадлежит, так что пусть она останется здесь.\r
 [title=pickaxe_0_end]\r
 \r
 [title=pickaxe_00_begin]\r
-Looks like Gibb's <color=yellow>Pickaxe</color>. This may be useful for certain things.\r
-It's possible he'd let you borrow it if you went and asked him.\r
+Похоже на <color=yellow>кирку</color> Гибба. Она может быть полезна в некоторых ситуациях.\r
+Возможно, он одолжил бы её вам, если бы вы пошли и попросили его об этом.\r
 [title=pickaxe_00_end]\r
 \r
 [title=Stegz_0_begin]\r
-Worker Stegz: Got word that one of our sages went down there and somehow got themselves trapped.\r
-Worker Stegz: Total buffoon! Guessin' they shook some of the looser rocks free and created a cave-in too.\r
-Worker Stegz: I'm gonna need an expert chiseler, pronto! Dag-nabbit, where is <color=#fcbe2b>Gibb</color> at?!\r
+Рабочий Стегз: Ходят слухи, что один из наших мудрецов спустился туда и каким-то образом попал в ловушку.\r
+Рабочий Стегз: Полный идиотизм! Предполагаю, что они расшатали несколько более рыхлых пород и устроили обвал.\r
+Рабочий Стегз: Мне срочно нужен опытный резчик! Чёрт побери, где <color=#fcbe2b>Гибб</color>?!\r
 [title=Stegz_0_end]\r
 \r
 [title=rockwall_0_begin]\r
-A big mass of jagged, crumbling boulders. You have no clue how unstable they are so you leave them alone for now.\r
+Огромное количество острых, крошащихся валунов. Ты понятия не имеешь, насколько они нестабильны, так что оставь их в покое.\r
 [title=rockwall_0_end]\r
 \r
 [title=Og_0_begin]\r
-Overseer Og: <i>Hey! Hey!</i> No idle chitter chatter during work hours. Get back to work or so help me!\r
-Overseer Og: Foreman Fran's put me in charge of watching you lazy bums, and I'm not giving you an INCH!\r
-Overseer Og: I've got lunch in a half-hour so put your backs into it! If I see even one of you slacking off...\r
+Надзиратель Ог: <i>Эй! Эй!</i> Никакой пустой болтовни в рабочее время. Клянусь, возвращайся к работе!\r
+Надзиратель Ог: Бригадир Фрэн назначила меня присматривать за вами, ленивыми бездельниками. И я не отступлю НИ НА ШАГ!\r
+Надзиратель Ог: Через полчаса у меня обед, так что продолжай вкалывать! Если я увижу хоть одного из вас, кто халтурит...\r
 [title=Og_0_end]\r
 \r
 [title=worker0_0_begin]\r
-Worker: Can't you see I'm busy? Go bug someone else!\r
+Рабочий: Разве ты не видишь, что я занят? Иди надоедай кому-то другому!\r
 [title=worker0_0_end]\r
 \r
 [title=worker1_0_begin]\r
-Worker: I've been chiseling nonstop for 11 hours now. Even just a couple minutes break would be absolute heaven.\r
+Рабочий: Я режу камни уже 11 часов без передышки. Даже пара минут перерыва была бы для меня настоящим раем.\r
 [title=worker1_0_end]\r
 \r
 [title=worker2_0_begin]\r
-Worker: Foreman says she spotted some weird <color=#03cffc><b>relic</b></color> high up on that island, but we can't reach it so the heck with it.\r
+Рабочий: Бригадир сказала, что заметила какую-то странную <color=#03cffc><b>реликвию</b></color> где-то высоко на том острове, но мы не можем туда добраться, так что чёрт с ней.\r
 [title=worker2_0_end]\r
 \r
 [title=worker3_0_begin]\r
-Worker: This job sucks, but every generation of my family has worked here. I don't have any other skills so it's my only option.\r
+Рабочий: Эта работа отстой, но все поколения моей семьи работали здесь. Я больше ничего не умею, так что это мой единственный вариант.\r
 [title=worker3_0_end]\r
 \r
 [title=Gibb_0_begin]\r
-Lazy Gibb: Mmffph... Hmm? Someone there?\r
-Lazy Gibb: Alright, alright. I'm up. Whaddya' want?\r
+Ленивый Гибб: Ммффпх... Хмм? Кто здесь?\r
+Ленивый Гибб: Ладно, ладно. я встал. Чоте надо?\r
 [title=Gibb_0_end]\r
 \r
 [title=Gibb_1_begin]\r
-Lazy Gibb: Geez, you here to boss me back to work or something? Guy can't even get a little micro-nap for crying out loud.\r
-Lazy Gibb: What's even the big deal? I'd say on any given day I do about 15 minutes of real, actual work.\r
-Lazy Gibb: It's not that I'm lazy... it's just that I don't really care! But whatever, judge me how you want.\r
-Lazy Gibb: That damn foreman's had her head so far up her own butt ever since that <color=#03cffc><b>relic</b></color> appeared. She doesn't even care about the crystal hauls anymore.\r
-Lazy Gibb: If you wanna go and talk to her, she's on the ridge up ahead. Better hope she's in a good mood, pal. \r
+Ленивый Гибб: Господи, ты пришёл сюда, чтобы приказать мне возвращаться к работе или что? Ради всего святого, разве такой парень не может немного микро-вздремнуть.\r
+Ленивый Гибб: В чём вообще проблема? Честно скажу, в любой день я реально работаю минут пятнадцать.\r
+Ленивый Гибб: Дело не в том, что я ленивый... просто мне всё равно! Впрочем, можешь судить меня как хочешь.\r
+Ленивый Гибб: С тех пор как появилась эта <color=#03cffc><b>реликвия</b></color>, эта чёртова бригадир засунула голову глубоко в задницу. Её даже больше не волнуют поставки кристаллов.\r
+Ленивый Гибб: Если хочешь пойти и поговорить с ней, то она впереди на холме. Лучше понадейся, что она в настроении, приятель. \r
 [title=Gibb_1_end]\r
 \r
 [title=Gibb_11_begin]\r
-Lazy Gibb: You still hanging around? Dang, and I thought people said <i>I</i> was the lazy one.\r
-Lazy Gibb: Well, what are you waiting for? Go up and talk to the <color=#fcbe2b><b>Foreman</b></color>!\r
+Ленивый Гибб: Ты всё ещё ошиваешься здесь? Чёрт, а люди ещё говорят, что это <i>я</i> ленивый.\r
+Ленивый Гибб: Ну, и чего ты ждёшь? Поднимайся и поговори с <color=#fcbe2b><b>бригадиром</b></color>!\r
 [title=Gibb_11_end]\r
 \r
 [title=Fran_0_begin]\r
-Foreman Fran: HMM? Hey, YOU. Yeah... <b>YOU!</b>\r
-Foreman Fran: You look like the laziest bum I've ever laid my <b>eye</b> on! You musta just dropped in hot off the hopeless worker assembly line!\r
-Foreman Fran: I'm gonna cut to the chase and skip the formalities, so square up ya little runt, because I got an important job for you.\r
-Foreman Fran: You see that fancy floating platform over there and the magnificent looking <color=#03cffc><b>shard</b></color> sitting on top of it?\r
-Foreman Fran: Well, it's <b>MINE</b>, because I was the first to see it. It's claimed and locked tight under my ownership as of now!\r
-Foreman Fran: [question=00]As for you- I'm in a decent mood so I'll let you take a guess at what I'm gonna have you do about it!\r
-[choice]Take a break?[newtalk start=answer0_Fran_begin break=answer0_Fran_end]\r
-[choice]Go home?[newtalk start=answer1_Fran_begin break=answer1_Fran_end]\r
-[choice]Get it for you...[newtalk start=answer2_Fran_begin break=answer2_Fran_end]\r
+Бригадир Фрэн: ХММ? Эй, ТЫ. Ага... <b>ТЫ!</b>\r
+Бригадир Фрэн: Ты выглядишь как самый ленивый бездельник, который мне только попадался на <b>глаза</b>! Должно быть, ты свалился прямо с конвейера безнадёжных работников!\r
+Бригадир Фрэн: Я перейду сразу к делу и пропущу формальности, так что подтягивайся, коротышка, потому что у меня есть для тебя важная работа.\r
+Бригадир Фрэн: Вы видите вон ту причудливую парящую платформу и великолепно выглядящий <color=#03cffc><b>осколок</b></color>, лежащий наверху?\r
+Бригадир Фрэн: Что же, он <b>МОЙ</b>, потому что я первая его увидела. Считай, он уже присвоен и надёжно закреплён за мной!\r
+Бригадир Фрэн: [question=00]Что касается тебя, я в хорошем настроении, так что позволю тебе самому догадаться, что ты должен сделать!\r
+[choice]Отдохнуть?[newtalk start=answer0_Fran_begin break=answer0_Fran_end]\r
+[choice]Пойти домой?[newtalk start=answer1_Fran_begin break=answer1_Fran_end]\r
+[choice]Достать его для вас...[newtalk start=answer2_Fran_begin break=answer2_Fran_end]\r
 [title=Fran_0_end]\r
 \r
 [title=Fran_01_begin]\r
-Foreman Fran: [question=01]Guess again, punk!\r
-[choice]Take a break?[newtalk start=answer0_Fran_begin break=answer0_Fran_end]\r
-[choice]Go home?[newtalk start=answer1_Fran_begin break=answer1_Fran_end]\r
-[choice]Get it for you...[newtalk start=answer2_Fran_begin break=answer2_Fran_end]\r
+Бригадир Фрэн: [question=01]Попробуй ещё раз, сопляк!\r
+[choice]Отдохнуть?[newtalk start=answer0_Fran_begin break=answer0_Fran_end]\r
+[choice]Идти домой?[newtalk start=answer1_Fran_begin break=answer1_Fran_end]\r
+[choice]Достать его для вас...[newtalk start=answer2_Fran_begin break=answer2_Fran_end]\r
 [title=Fran_01_end]\r
 \r
 [title=answer0_Fran_begin]\r
-Foreman Fran: HAHA! That's <b>rich!</b> Truly rich! The only break I'll give you is a break in the face![newtalk start=Fran_01_begin break=Fran_01_end]\r
+Бригадир Фрэн: ХАХА! <b>Забавно!</b> Действительно забавно! Единственный отдых, который я могу тебе дать, это отдых на костылях![newtalk start=Fran_01_begin break=Fran_01_end]\r
 [title=answer0_Fran_end]\r
 \r
 [title=answer1_Fran_begin]\r
-Foreman Fran: Home? You ARE home, ingrate! This is the best home you'll ever have so get used to it![newtalk start=Fran_01_begin break=Fran_01_end]\r
+Бригадир Фрэн: Домой? Ты уже ДОМА, неблагодарный! Это лучший дом, который у тебя когда-либо будет, так что привыкай к нему![newtalk start=Fran_01_begin break=Fran_01_end]\r
 [title=answer1_Fran_end]\r
 \r
 [title=answer2_Fran_begin]\r
-Foreman Fran: Bingo, bango! There's a catch though... the only way across is with some good old-fashioned cave magic.\r
-Foreman Fran: But my unreliable cave sage <color=#fcbe2b><b>Bernard</b></color> is nowhere to be found. Probably off snoozing somewhere in the deep mine, as usual.\r
-Foreman Fran: Go and find him, and tell him to get his butt over here so he can create some kinda bridge to the <color=#03cffc><b>relic</b></color>!\r
-Foreman Fran: Get to it then- <b>MOVE IT!</b>\r
+Бригадир Фрэн: Бинго, банго! Однако есть загвоздка... единственный способ добраться туда - это с помощью старомодной пещерной магии.\r
+Бригадир Фрэн: Но я нигде не могу найти своего ненадёжного пещерного мудреца <color=#fcbe2b><b>Бернарда</b></color>. Наверное, как обычно, дрыхнет где-нибудь в глубокой шахте.\r
+Бригадир Фрэн: Иди найди его и скажи, чтобы он тащил свою задницу сюда и создал хоть какой‑то мост к этой <color=#03cffc><b>реликвии</b></color>!\r
+Бригадир Фрэн: Давай, приступай- <b>ШЕВЕЛИСЬ!</b>\r
 [title=answer2_Fran_end]\r
 \r
 --------------------\r
@@ -124,204 +124,204 @@ Foreman Fran: Get to it then- <b>MOVE IT!</b>\r
 POST-QUEST:\r
 \r
 [title=Fran_1_begin]\r
-Foreman Fran: What are you still doing here?! Get out there and FIND that cave sage!\r
-Foreman Fran: Do you expect a hand-out from me or something? Maybe one of the other <b>lazy</b> workers knows something!\r
+Бригадир Фрэн: Что ты до сих пор здесь делаешь?! Иди туда и НАЙДИ того пещерного мудреца!\r
+Бригадир Фрэн: Ты ждёшь от меня подачек или что? Может, кто-то из других <b>ленивых</b> рабочих что-то знает!\r
 [title=Fran_1_end]\r
 \r
 [title=Gibb_2_begin]\r
-Lazy Gibb: She told you to go do what now? Ah, typical Foreman Fran. Always delegating the most pointless of tasks to her underlings.\r
-Lazy Gibb: Look, man... life's too short to be running around licking boots all the time. But hey, you do you.\r
-Lazy Gibb: As for me, I got too much self-respect to be down here any longer. So I'm giving up the mining career for good.\r
-Lazy Gibb: If you're adamant on rolling with the foreman's punches, feel free to take my pickaxe. I left it... somewhere around here.\r
-Lazy Gibb: Have a good time, sucker.\r
+Ленивый Гибб: Она сказала тебе сделать что? Ах, типичная Бригадир Фрэн. Всегда поручает своим подчиненным самые бессмысленные задания.\r
+Ленивый Гибб: Слушай, чувак... жизнь слишком коротка, чтобы всё время подлизываться. Но эй, делай, что хочешь.\r
+Ленивый Гибб: Что до меня, то я слишком уважаю себя, чтобы и дальше оставаться здесь, внизу. Так что я завязываю с карьерой шахтёра.\r
+Ленивый Гибб: Если ты твёрдо намерен терпеть удары от бригадира, можешь смело брать мою кирку. Я оставил её... где-то здесь рядом.\r
+Ленивый Гибб: Хорошо провести время, сосунок.\r
 [title=Gibb_2_end]\r
 \r
 [title=Stegz_Pickaxe_begin]\r
-Worker Stegz: Dagnabbit, <color=#fcbe2b><b>Gibb</b></color>! He's supposed to be down here to help clear this rubble. Where is that slacker?!\r
+Рабочий Стегз: Чёрт побери, <color=#fcbe2b><b>Гибб</b></color>! Он должен был быть здесь, чтобы помочь расчистить завалы. Где этот бездельник?!\r
 [title=Stegz_Pickaxe_end]\r
 \r
 [title=pickaxe_1_begin]\r
-This must be Gibb's <color=yellow><b>Pickaxe</b></color>, but you guess he won't be needing it anymore. \r
-Despite the boulder's sturdy grip, you manage to dislodge it and take it with you. You hope this rusty thing holds together...\r
+Должно быть, это <color=yellow><b>кирка</b></color> Гибба, но, полагаю, она ему больше не понадобится. \r
+Несмотря на крепкую хватку валуна, тебе удаётся вытащить её. Ты надеешься, что эта ржавая штуковина не развалится...\r
 [title=pickaxe_1_end]\r
 \r
 [title=Busy_1_begin]\r
-(They are working diligently)\r
+(Они усердно работают)\r
 [title=Busy_1_end]\r
 \r
 [title=Og_1_begin]\r
-Overseer Og: What I wouldn't do to get a piece of that mysterious <color=#03cffc><b>relic</b></color> the Foreman keeps talking about.\r
-Overseer Og: I do way more work in one day than she does all week. What do I get for it? Nada.\r
-Overseer Og: [question=01]Pfft, whatever. Seems like she's gonna cash in the minute she gets ahold of it. Lucky wench. I mean... good for her.\r
-[choice]You're better. [newtalk start=answer_1_og_begin break=answer_1_og_end]\r
-[choice]Suck it up. [newtalk start=answer_2_og_begin break=answer_2_og_end]\r
+Надзиратель Ог: Я что угодно бы отдал, чтобы заполучить кусок той таинственной <color=#03cffc><b>реликвии</b></color>, о которой бригадир постоянно говорит.\r
+Надзиратель Ог: Я за один день делаю больше работы, чем она за неделю. И что я за это получаю? Ничего.\r
+Надзиратель Ог: [question=01]Пфф, не важно. Похоже, она сорвёт куш, как только достанет её. Везучая стерва. В смысле... рад за неё.\r
+[choice]Ты лучше неё. [newtalk start=answer_1_og_begin break=answer_1_og_end]\r
+[choice]Смирись. [newtalk start=answer_2_og_begin break=answer_2_og_end]\r
 [title=Og_1_end]\r
 \r
 [title=answer_1_og_begin]\r
-Overseer Og: <i>Yeah...</i> yeah! You're right! I mean, I know I'm better. That oversized ogre will get what's coming to her soon I bet...\r
-Overseer Og: Then I'll take over! I'd wager I could change things up around here and make a real BANG with the daily crystal hauls. It's all coming together![event=9]\r
+Надзиратель Ог: <i>Да...</i> Да! Ты прав! В смысле, я знаю, что я лучше. Эта здоровенная огресса скоро получит, что заслуживает...\r
+Надзиратель Ог: Тогда я и возьмусь за это дело! Держу пари, я смогу всё здесь изменить и устроить настоящий БУМ с ежедневными поставками кристаллов. Всё складывается![event=9]\r
 [title=answer_1_og_end]\r
 \r
 [title=answer_2_og_begin]\r
-Overseer Og: W-wait, what? What do you even know? You're just some no-name peon. If I didn't have my hands full I'd teach you a thing or two!\r
-Overseer Og: Get outta my face, kid! Everyone's a critic these days... can't catch a break to save my life.[event=8]\r
+Надзиратель Ог: П-подожди, что? Что ты вообще знаешь? Ты просто никому не нужный рабочий. Если бы у меня не было дел по горло, я бы тебе показал пару вещей!\r
+Надзиратель Ог: Проваливай с глаз моих, парень! Сейчас все только и делают, что критикуют... ни минуты покоя.[event=8]\r
 [title=answer_2_og_end]\r
 \r
 [title=og_bad_begin]\r
-Overseer Og: Buzz off, kid! I got better things to do than waste my time talking to you.\r
+Надзиратель Ог: Отвали, пацан! У меня есть дела поважнее, чем тратить время на разговор с тобой.\r
 [title=og_bad_end]\r
 \r
 [title=og_good_begin]\r
-Overseer Og: You ain't too shabby, kid. I'll remember that next time. Now get back to work before I change my mind.\r
+Надзиратель Ог: Ты неплох, парень. Я запомню это в следующий раз. А теперь возвращайся к работе, пока я не передумал.\r
 [title=og_good_end]\r
 \r
 [title=Scroblin_1_begin]\r
-Worker Scroblin: Whew. Might sneak a short break in soon. These pickaxes are heavier than they look.\r
-Worker Scroblin: [question=00]Whaddya say we grab a drink after our shift ends?\r
-[choice]Sounds choice.[newtalk start=answer_1_scroblin_begin break=answer_1_scroblin_end]\r
-[choice]Sounds lame.[newtalk start=answer_2_scroblin_begin break=answer_2_scroblin_end]\r
+Рабочий Скроблин: Фух. Возможно, скоро у меня будет небольшой перерыв. Эти кирки тяжелее, чем кажутся.\r
+Рабочий Скроблин: [question=00]Как насчёт сходить выпить после смены?\r
+[choice]Звучит классно.[newtalk start=answer_1_scroblin_begin break=answer_1_scroblin_end]\r
+[choice]Звучит отстойно.[newtalk start=answer_2_scroblin_begin break=answer_2_scroblin_end]\r
 [title=Scroblin_1_end]\r
 \r
 [title=answer_1_scroblin_begin]\r
-Worker Scroblin: Now that's what I like to hear. I pitch that offer all the time and you're the first to accept it.\r
-Worker Scroblin: I don't care what the foreman says about you. You're alright in my book, kid.[event=11]\r
+Рабочий Скроблин: Вот это мне нравится слышать. Я постоянно делаю такое предложение, и вы первый, кто его принял.\r
+Рабочий Скроблин: Мне всё равно, что бригадир о тебе думает. В моих глазах ты нормальный, парень[event=11]\r
 [title=answer_1_scroblin_end]\r
 \r
 [title=answer_2_scroblin_begin]\r
-Worker Scroblin: Pfft. No need to get sleazy on me. You won't last long down here with an attitude like that.\r
-Worker Scroblin: I don't mind minimum pay but if my co-workers suck it's a lot worse. Forget about it, I'll bother someone else later.[event=10]\r
+Рабочий Скроблин: Пфф. Не пытайся ко мне подлизаться. С таким отношением ты здесь долго не протянешь.\r
+Рабочий Скроблин: Меня устраивает даже минимальная оплата, но если коллеги отстой, то это ещё хуже. Забудь об этом, я потом подойду к кому-нибудь ещё.[event=10]\r
 [title=answer_2_scroblin_end]\r
 \r
 [title=scroblin_bad_begin]\r
-Worker Scroblin: !@#$%&' greedy sleazeball...\r
+Рабочий Скроблин: !@#$%&' жадный подонок...\r
 [title=scroblin_bad_end]\r
 \r
 [title=scroblin_good_begin]\r
-Worker Scroblin: Right on! Only a few or so hours left and we're out of here.\r
+Рабочий Скроблин: Отлично! Осталось каких-то пару часов, и мы отсюда свалим.\r
 [title=scroblin_good_end]\r
 \r
 [title=Stegz_1_begin]\r
-Worker Stegz: Hey, where'd you get that axe from? Looks a lot like Gibb's. Well, he was supposed to dig this rubble out, but I guess you'll do.\r
-Worker Stegz: Alright then... go 'head and give that pile of rocks over there a good WHACK and hope they break loose. I'll just be back here...\r
+Рабочий Стегз: Эй, откуда у тебя эта кирка? Похоже, это кирка ГИбба. Вообще, он должен был расчистить этот завал, но, похоже, это придётся делать тебе.\r
+Рабочий Стегз: Ладно тогда... давай хорошенько УДАРЬ по той куче камней вон там и надейся, что они сломаются. Я пока побуду тут...\r
 [title=Stegz_1_end]\r
 \r
 [title=rockwall_1_begin]\r
-Hoisting the heavy pickaxe over your shoulder, you bring yourself into a steady swinging stance. The thing is heavier than it looks.[event=2]\r
-...and <i>BIG SWING!</i>\r
-The rock wall never stood a chance. But, to no surprise, neither did your rusty pickaxe. Great...\r
-Oh well. You should at least be able to ride the service cart down into the shaft now.\r
+Закинув тяжелую кирку на плечо, вы принимаете устойчивую позу для замахивания. Эта штука тяжелее, чем кажется.[event=2]\r
+...and <i>РАЗМАХ!</i>\r
+Каменная стена не выдержала. Но, как и следовало ожидать, не выдержала и твоя ржавая кирка. Великолепно...\r
+Ну что ж. Теперь хотя бы можно сесть на служебную вагонетку и спуститься в шахту.\r
 [title=rockwall_1_end]\r
 \r
 [title=Stegz_2_begin]\r
-Worker Stegz: Eh, I've seen better. Could've at least broke 'em up cleaner. Guess I'll go update the foreman now.\r
-Worker Stegz: Don't you go wanderin' 'round in the deep mine now. Whoever's down there ain't worth botherin' over.\r
+Рабочий Стегз: Эх, я видел и получше. Монжо было бы, по крайней мере, разбить их почище. Наверное, пойду сообщу бригадиру.\r
+Рабочий Стегз: Только не ходи бродить в глубокую шахту. Что бы там ни было, не стоит об этом переживать.\r
 [title=Stegz_2_end]\r
 \r
 [title=minecart_go_begin]\r
-[question=1]An old minecart is sitting here. Take a ride down the mine?\r
-[choice]Looks fun. [newtalk start=answer_yes_minecart_0_begin break=answer_yes_minecart_0_end]\r
-[choice]That's crazy. [newtalk start=answer_no_minecart_begin break=answer_no_minecart_end]\r
+[question=1]Здесь стоит старая вагонетка. Спуститься глубоко в шахту?\r
+[choice]Звучит весело. [newtalk start=answer_yes_minecart_0_begin break=answer_yes_minecart_0_end]\r
+[choice]Это безумие. [newtalk start=answer_no_minecart_begin break=answer_no_minecart_end]\r
 [title=minecart_go_end]\r
 \r
 [title=answer_yes_minecart_0_begin]\r
-The old rickety wheels of the minecart begin to roll. Hold on to something![event=0]\r
+Старые расшатанные колеса вагонетки начинают вращаться. Держитесь за что-нибудь![event=0]\r
 [title=answer_yes_minecart_0_end]\r
 \r
 [title=minecart_back_begin]\r
-[question=1]Ride the minecart back up?\r
-[choice]Sure thing. [newtalk start=answer_yes_minecart_1_begin break=answer_yes_minecart_1_end]\r
-[choice]Maybe not. [newtalk start=answer_no_minecart_begin break=answer_no_minecart_end]\r
+[question=1]Похоже?\r
+[choice]Конечно. [newtalk start=answer_yes_minecart_1_begin break=answer_yes_minecart_1_end]\r
+[choice]Наверное. нет. [newtalk start=answer_no_minecart_begin break=answer_no_minecart_end]\r
 [title=minecart_back_end]\r
 \r
 [title=answer_yes_minecart_1_begin]\r
-The minecart creaks as it begins to move. Sounds like it's about to fall apart... [event=1]\r
+Вагонетка скрипит, когда начинает двигаться. Кажется, она вот-вот развалится... [event=1]\r
 [title=answer_yes_minecart_1_end]\r
 \r
 [title=answer_no_minecart_begin]\r
-You leave the cart alone.\r
+Вы оставили вагонетку в покое.\r
 [title=answer_no_minecart_end]\r
 \r
 [title=minecart_broken_begin]\r
-This old dilapidated rust bucket will no longer move. Thank you for your service, faithful minecart.\r
+Это старое, обшарпанное, ржавое корыто больше не будет двигаться. Спасибо тебе за твою верную службу, вагонетка.\r
 [title=minecart_broken_end]\r
 \r
 [title=Bernard_1_begin]\r
-Sage Bernard: Well, hello there! Don't these crystals radiate with the most hypnotic glow? I find myself just staring at them sometimes.\r
-Sage Bernard: [question=2]So what brings you down here? Did you come all this way to avoid that crazed lunatic of a foreman too?\r
-[choice]To admire the rocks.[newtalk start=answer_sage_1_begin break=answer_sage_1_end]\r
-[choice]Need your magic![newtalk start=answer_sage_0_begin break=answer_sage_0_end]\r
+Мудрец Бернард: Ну, привет! Не правда ли, эти кристаллы излучают самое гипнотическое сияние? Иногда я ловлю себя на том, что просто залипаю на них.\r
+Мудрец Бернард: [question=2]Так что же привело тебя сюда? Ты проделал весь этот путь, чтобы избежать встречи с тем сумасшедшим бригадиром?\r
+[choice]Я здесь полюбоваться камнями.[newtalk start=answer_sage_1_begin break=answer_sage_1_end]\r
+[choice]Мне нужна твоя магия![newtalk start=answer_sage_0_begin break=answer_sage_0_end]\r
 [title=Bernard_1_end]\r
 \r
 [title=answer_sage_1_begin]\r
-Sage Bernard: Yes, they do have quite the sparkle to them this time of year, don't they? Not as sparkly as that weird <color=#03cffc><b>relic</b></color> up top, but still.\r
-Sage Bernard: Feel free to join me and let your worries melt away. You know, because of the lava and all.[event=4]\r
+Мудрец Бернард: Да, в это время года они действительно сверкают, не так ли? Не так сильно, как та странная <color=#03cffc><b>реликвия</b></color> наверну, но тем не менее.\r
+Мудрец Бернард: Не стесняйся присоединиться ко мне, и пусть твои тревоги растают. Ну, знаешь, тут же лава и всё такое.[event=4]\r
 [title=answer_sage_1_end]\r
 \r
 [title=Bernard_repeat_begin]\r
-Sage Bernard: [question=3]Hmm? Anything else I can help you with? Excluding anything to do with the foreman, of course.\r
-[choice]Cool rocks![newtalk start=answer_sage_1_begin break=answer_sage_1_end]\r
-[choice]The foreman...[newtalk start=answer_sage_0_begin break=answer_sage_0_end]\r
+Мудрец Бернард: [question=3]Хмм? Я могу ещё чем-нибудь помочь? Исключая всё, что связано с бригадиром, разумеется.\r
+[choice]Классные камни![newtalk start=answer_sage_1_begin break=answer_sage_1_end]\r
+[choice]Бригадир...[newtalk start=answer_sage_0_begin break=answer_sage_0_end]\r
 [title=Bernard_repeat_end]\r
 \r
 [title=answer_sage_0_begin]\r
-Sage Bernard: Uugh. Foreman Fran needs me back up top, doesn't she? Guessing it's for that tantalizing shard of something or other.\r
-Sage Bernard: I can guarantee handing that over to the foreman will only spell disaster. They don't call me a sage for nothing, that shard is trouble.\r
-Sage Bernard: [question=4]I'm an old man and very tired nowadays. I have no desire to continue helping that lumbering maniac. Unless...\r
-[choice]Unless? [newtalk start=answer_sage_yes_begin break=answer_sage_yes_end]\r
-[choice]Suit yourself. [newtalk start=answer_sage_no_begin break=answer_sage_no_end]\r
+Мудрец Бернард: Уугх. Бригадир Фрэн хочет, чтобы я вернулся наверх, не так ли? Полагаю, это из-за того манящего осколка.\r
+Мудрец Бернард: Я гарантирую, что если она его получит, то это приведёт к катастрофе. Они не зря называют меня мудрецом, от этого осколка одни неприятности..\r
+Мудрец Бернард: [question=4]Я старый человек и в последнее время очень устаю. У меня нет ни малейшего желания продолжать помогать этому неуклюжему маньяку. Хотя...\r
+[choice]Хотя? [newtalk start=answer_sage_yes_begin break=answer_sage_yes_end]\r
+[choice]Делай, что хочешь. [newtalk start=answer_sage_no_begin break=answer_sage_no_end]\r
 [title=answer_sage_0_end]\r
 \r
 [title=answer_sage_0_repeat_begin]\r
-Sage Bernard: [question=4]I'm an old man and very tired nowadays. I have no desire to continue helping that lumbering maniac. Unless...\r
-[choice]Unless? [newtalk start=answer_sage_yes_begin break=answer_sage_yes_end]\r
-[choice]Suit yourself. [newtalk start=answer_sage_no_begin break=answer_sage_no_end]\r
+Мудрец Бернард: [question=4]Я старый человек и в последнее время очень устаю. У меня нет ни малейшего желания продолжать помогать этому неуклюжему маньяку. Хотя...\r
+[choice]Хотя? [newtalk start=answer_sage_yes_begin break=answer_sage_yes_end]\r
+[choice]Делай, что хочешь. [newtalk start=answer_sage_no_begin break=answer_sage_no_end]\r
 [title=answer_sage_0_repeat_end]\r
 \r
 [title=answer_sage_yes_begin]\r
-Sage Bernard: Unless... you grab the shard before her, of course! Take it with you, escape this damp, disgusting cavern, and never return.\r
-Sage Bernard: Sound like a deal? Great! I want Fran to learn a bit of a lesson here. She can't just claim everything she lays her eye on.\r
-Sage Bernard: I've been around awhile and if there's one thing I've picked up on, it's that you gotta earn things! Put the hard work in!\r
-Sage Bernard: Fran acting so entitled to everything around her gives me the headache of a lifetime, so this'll be a nice change of pace.\r
-Sage Bernard: Anyways! I think it's settled. I'll see you back there, then. Do mind that hot stuff behind me on your way back, will you?[event=3]\r
+Мудрец Бернард: Хотя... конечно же, ты можешь схватить осколок раньше, чем она! Возьми это, покинь эту сырую, гадкую пещеру и никогда не возвращайся.\r
+Мудрец Бернард: Звучит как план? Отлично! Я хочу, чтобы Фрэн извлекла из этого небольшой урок. Она не может получать всё, что пожелает.\r
+Мудрец Бернард: Я здесь уже давно, и если я что-то и усвоил, так это то, что всё нужно заслужить! Приложи все усилия!\r
+Мудрец Бернард: Фрэн ведёт себя так, будто имеет право на всё, что её окружает, и это моя головная боль на всю жизнь. Так что это будет приятным изменением.\r
+Мудрец Бернард: В любом случае! Думаю, мы уже всё решили. Тогда увидимся уже на месте. На обратном пути не забывай про эту горячую штуку позади меня, ладно?[event=3]\r
 [title=answer_sage_yes_end]\r
 \r
 [title=answer_sage_no_begin]\r
-Sage Bernard: Thank you, thank you... I will! It's rather peaceful down here without all the clanging of axes.[event=5]\r
+Мудрец Бернард: Спасибо, спасибо... Я итак это делаю! Здесь, внизу, довольно спокойно без всего этого лязга кирок.[event=5]\r
 [title=answer_sage_no_end]\r
 \r
 --------------------\r
 \r
-FINAL QUEST: (All workers and sage are surrounding Foreman Fran. Lazy Gibb is gone)\r
+ФИНАЛЬНЫЙ КВЕСТ: (Все рабочие и мудрец окружили Бригадира Фрэн. Ленивый Гибб ушёл)\r
 \r
 [title=Workers_0_begin]\r
-(They are all waiting impatiently.)\r
+(Они все нетерпеливо ждут.)\r
 [title=Workers_0_end]\r
 \r
 [title=Fran_2_begin]\r
-Foreman Fran: <b>FINALLY!</b> I can get my hands on that precious floating <color=#03cffc><b>shard</b></color>.\r
-Foreman Fran: It's been hypnotically calling for me ever since it showed up, and now it'll be mine.\r
-Foreman Fran: Sage! Work your magic and build me that bridge!\r
+Бригадир Фрэн: <b>НАКОНЕЦ-ТО!</b> Я могу своими руками забрать этот драгоценный летающий <color=#03cffc><b>осколок</b></color>.\r
+Бригадир Фрэн: Он гипнотически манил меня с тех пор, как появился здесь, и теперь он будет моим.\r
+Бригадир Фрэн: Мудрец! Наколдуй мне этот мост!\r
 [title=Fran_2_end]\r
 \r
 [title=Bernard_2_begin]\r
-(The sage appears to be concentrating.)\r
-Sage Bernard: <i>psst, psst</i> (Can't believe I dragged myself up here for this! The woes of such a niche career.)\r
-Sage Bernard: (Okay, once the bridge appears, you can hop over and grab the <color=#03cffc><b>shard</b></color>!)\r
-Sage Bernard: (What you do with it is up to you. But just know that handing it over to the foreman is quite the rotten idea.)\r
-Sage Bernard: (Hmph. Maybe I'll finally settle down and retire after all these weird shenanigans. My old bones need a well deserved rest.)[event=6]\r
-Foreman Fran: Get ON with the bridge magic, Bernard! I don't have all day, old man![event=7]\r
-Sage Bernard: A-ahem, y-yes! Oh, magic platforms! Materialize before me now! <b>ALAKAZAM</b>!\r
+(Кажется, мудрец сосредоточивается.)\r
+Мудрец Бернард: <i>псс, псс</i> (Не могу поверить, что меня притащили сюда ради этого! Вот они, проблемы такой нишевой профессии.)\r
+Мудрец Бернард: (Ладно, как только мост появится, ты можешь перепрыгнуть через него и схватить <color=#03cffc><b>осколок</b></color>!)\r
+Мудрец Бернард: (Что с ним делать, решай сам. Но просто знай, что отдавать его бригадиру - это отвратительная идея.)\r
+Мудрец Бернард: (Хмф. Может быть, я наконец-то остепенюсь и уйду на пенсию после всех этих странных выходок. Моим старым костям нужен заслуженный отдых.)[event=6]\r
+Бригадир Фрэн: Используй УЖЕ НАКОНЕЦ свою мостовую магию, Бернард! У меня нету на это столько времени, старик![event=7]\r
+Мудрец Бернард: Кхм, д-да! Ох, магические платформы! Материализуйтесь передо мной сейчас же! <b>ALAKAZAM</b>!\r
 [title=Bernard_2_end]\r
 \r
 [title=Fran_03_begin]\r
-Foreman Fran: H-HEY! That's MY <color=#03cffc><b>artifact</b></color>! STOP THEM! [jitter=5 angle=0]NOOOOOO!!![/jitter]\r
+Бригадир Фрэн: Э-ЭЙ! Это МОЙ <color=#03cffc><b>артефакт</b></color>! ОСТАНОВИТЕ ЕГО! [jitter=5 angle=0]НЕЕЕЕЕЕТ!!![/jitter]\r
 [title=Fran_03_end]\r
 \r
-Quit and return from secret level\r
+Выйти и зайти для секретного уровня\r
 \r
 [title=bernard_quit_begin]\r
-Sage Bernard: By gum, are you alright? I saw you jump into that lava pit there and thought you would've melted instantly!\r
-Sage Bernard: Well, it looks like you're fine by some miracle. You're definitely a strange one. Anyway... back to other things...\r
-Sage Bernard: Foreman Fran still needs me up there for getting that nasty little <color=#03cffc><b>relic</b></color> down. Remember our agreement, right?\r
-Sage Bernard: Okay then, it's settled. I'll see you back there, then. Do try not to fall back into the hot stuff again, will you? [event=3]\r
+Мудрец Бернард: Боже правый, ты в порядке? Я видел, как ты прыгнул в ту яму с лавой, и подумал, что ты мгновенно сгорел!\r
+Мудрец Бернард: Что же, похоже, с тобой всё в порядке благодаря какому-то чуду. Ты определённо очень странный тип. В любом случае... вернёмся к другим темам...\r
+Мудрец Бернард: Бригадиру Фрэн всё ещё нужна моя помощь там наверху, чтобы спустить вниз эту гадкую мелкую <color=#03cffc><b>реликвию</b></color>. Помнишь наше соглашение, верно?\r
+Мудрец Бернард: Тогда решено. Увидимся там же. Постарайся больше не попадать в переделки, ладно? [event=3]\r
 [title=bernard_quit_end]"

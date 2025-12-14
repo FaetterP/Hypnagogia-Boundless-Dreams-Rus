@@ -3,47 +3,47 @@
  1 string m_Script = "DreamPreHub Dialogue\r
 \r
 [title=Gogi_0_begin]\r
-???: Hello there, restful one. Do not be afraid.\r
-???: [question=1]Are you lost? Or are you here for a reason?\r
-[choice]Who are you?[newtalk start=answer3_begin break=answer3_end]\r
-[choice]Where am I?[newtalk start=answer4_begin break=answer4_end]\r
-[choice]Why am I here?[newtalk start=Gogi_1_begin break=Gogi_1_end]\r
+???: Привет, неугомонный. Не бойся.\r
+???: [question=1]Ты заблудился? Или ты здесь не просто так?\r
+[choice]Кто ты?[newtalk start=answer3_begin break=answer3_end]\r
+[choice]Где я?[newtalk start=answer4_begin break=answer4_end]\r
+[choice]Почему я здесь?[newtalk start=Gogi_1_begin break=Gogi_1_end]\r
 [title=Gogi_0_end]\r
 \r
 [title=answer3_begin]\r
-???: I am a fragment of your <color=#a141f0><b>memory</b></color>. An image created by you from the deepest part of your mind.\r
-???: [question=4]Is it something you've chosen to forget? Or something you're trying to remember?\r
-[choice]Go on...[newtalk start=Gogi_1_begin break=Gogi_1_end]\r
-[choice]Who are you?[newtalk start=answer3_begin break=answer3_end]\r
-[choice]Where am I?[newtalk start=answer4_begin break=answer4_end]\r
+???: Я фрагмент твоей <color=#a141f0><b>памяти</b></color>. Образ, созданный тобой из самых глубин твоего сознания.\r
+???: [question=4]Это что-то, что ты бы предпочёл забыть? Или что-то, что ты пытаешься вспомнить?\r
+[choice]Продолжай...[newtalk start=Gogi_1_begin break=Gogi_1_end]\r
+[choice]Кто ты?[newtalk start=answer3_begin break=answer3_end]\r
+[choice]Где я?[newtalk start=answer4_begin break=answer4_end]\r
 [title=answer3_end]\r
 \r
 [title=answer4_begin]\r
-???: We are <color=#a141f0><b>nowhere</b></color>. Nothing but a vast, infinite kingdom populated with the densest of emptiness.\r
-???: [question=3]Reverberated only by the first steps you take on a journey not yet started.\r
-[choice]Go on...[newtalk start=Gogi_1_begin break=Gogi_1_end]\r
-[choice]Who are you?[newtalk start=answer3_begin break=answer3_end]\r
-[choice]Where am I?[newtalk start=answer4_begin break=answer4_end]\r
+???: Мы в <color=#a141f0><b>нигде</b></color>. Ничего, кроме огромного, бесконечного царства, заполненного самой плотной пустотой.\r
+???: [question=3]Здесь отдаются эхом только первые шаги твоего ещё не начавшегося путешествия.\r
+[choice]Продолжай...[newtalk start=Gogi_1_begin break=Gogi_1_end]\r
+[choice]Кто ты?[newtalk start=answer3_begin break=answer3_end]\r
+[choice]Где я?[newtalk start=answer4_begin break=answer4_end]\r
 [title=answer4_end]\r
 \r
 [title=Gogi_1_begin]\r
-???: One step at a time, restful one. There is much to be done and much to be seen!\r
-???: [question=0]Would you like to learn how to play?\r
-[choice]No.[newtalk start=answer2_begin break=answer2_end]\r
-[choice]Yes.[newtalk start=answer1_begin break=answer1_end]\r
+???: Всё будет шаг за шагом, неугомонный. Нам предстоит многое сделать и многое увидеть!\r
+???: [question=0]Хочешь узнать, как играть в игру?\r
+[choice]Нет.[newtalk start=answer2_begin break=answer2_end]\r
+[choice]Да.[newtalk start=answer1_begin break=answer1_end]\r
 [title=Gogi_1_end]\r
 \r
 [title=answer1_begin]\r
-???: Your first time, is it? Very well. I will provide a little information.[event=0]\r
-???: Please take a moment to view these <b>controls</b>. You can also adjust your field of view and other options in the pause menu if you desire.[event=2]\r
-???: Oh, and progress is tracked using an <color=#49FF1C><b>autosave</b></color> function. When you see this icon in the bottom left, you can safely quit the experience.[event=1]\r
-???: One last thing... If you're ever feeling lost, just look to the <b>light</b>. You'll know it when you see it. That is all I have to share for now.\r
-???: <b>Remember this</b>, restful one: there will be many people to speak with, many conversations to have. Temper your patience accordingly.\r
-???: Please travel the bridge ahead and enter the gate that opens before you. We are all excited to see what you can do.\r
+???: Это твой первый раз, не так ли? Очень хорошо. Я дам тебе немного информации.[event=0]\r
+???: Пожалуйста, удели минутку, чтобы посмотреть на <b>управление</b>. При желании ты также можешь настроить поле зрения и другие параметры в меню паузы.[event=2]\r
+???: О, ещё для отслеживания прогресса есть функция <color=#49FF1C><b>автосохранения</b></color>. Когда увидишь этот значок в левом нижнем углу, можешь спокойно выходить из игры.[event=1]\r
+???: И последняя вещь... Если почувствуешь себя потерянным, просто посмотри на <b>свет</b>. Ты поймёшь о чём я, когда сам увидишь. Это всё, чем я могу поделиться на данный момент.\r
+???: <b>Запомни это</b>, неугомонный: там будет много людей, с которыми можно будет поговорить, и будет о чём. Так что запасись терпением.\r
+???: Пожалуйста, пройди по мосту вперёд и зайди в ворота, которые откроются перед тобой. Нам всем не терпится узнать, на что ты способен.\r
 [title=answer1_end]\r
 \r
 [title=answer2_begin]\r
-???: In a hurry are you? Very well, though I advise <b>dreams</b> are not something to be rushed.\r
-???: There will be many people to speak with, many conversations to have. Temper your patience accordingly. <b>Remember this</b>, restful one.\r
-???: Please travel the bridge ahead and enter the gate that opens before you. We are all excited to see what you can do.\r
+???: Ты спешишь? Очень хорошо, но имей в виду, что во <b>снах</b> лучше не торопиться.\r
+???: Там будет много людей, с которыми можно будет поговорить, и будет о чём. Так что запасись терпением. <b>Запомни это</b>, неугомонный.\r
+???: Пожалуйста, пройди по мосту вперёд и зайди в ворота, которые откроются перед тобой. Нам всем не терпится узнать, на что ты способен.\r
 [title=answer2_end]"

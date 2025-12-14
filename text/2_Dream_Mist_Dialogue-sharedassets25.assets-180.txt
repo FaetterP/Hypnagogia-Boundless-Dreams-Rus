@@ -2,419 +2,419 @@
  1 string m_Name = "2_Dream_Mist_Dialogue"
  1 string m_Script = "2_Dream_Mist Dialogue\r
 \r
-NOTES:\r
-- very dialogue and run-around heavy level\r
-- possibly move this level to 3rd instead of 2nd? (kind of slows game down)\r
-- whole concept is that 2 halves of a dream shard have ended up in these 2 pools\r
-- water god will rebind the 2 halves if you get the water from each pool (he doesn't reveal this though)\r
-- other interactions may include a random worm guy slithering around the level (?)\r
+ЗАМЕТКИ:\r
+- очень диалоговый и требующий много беготни уровень\r
+- возможно, переместить этот уровень на 3-е место вместо 2-го? (как бы замедляет игру)\r
+- вся концепция в том, что 2 половинки осколка сна оказались в этих 2 бассейнах\r
+- бог воды воссоединит 2 половинки, если получить воду из каждого бассейна (хотя он этого не раскрывает)\r
+- другие взаимодействия могут включать случайного червяка, ползающего по уровню (?)\r
 \r
 GOGI INTRO\r
 \r
 [title=Gogi_0_begin]\r
-"Gogi": Oh, hi! Funny running into you again! This place is really [jitter=5 angle=0]wet and soggy[/jitter]!\r
-"Gogi": I ran into some <i>weird</i> creatures speaking a <i>weird</i> language earlier! Oh, and I saw a big spinny water thing too!\r
-"Gogi": Hope that <color=#03cffc><b>shard</b></color> isn't down there! Remember- it's really important you get it as fast as possible!\r
-"Gogi": Oh well... guess you'll just have to wing it! Have [jitter=5 angle=0]fuuunnn![/jitter]\r
+"Гоги": О, привет! Забавно снова встретить тебя! Это место действительно [jitter=5 angle=0]сырое и влажное[/jitter]!\r
+"Гоги": Я недавно наткнулся на <i>странных</i> существ, говорящих на <i>странном</i> языке! О, и ещё я видел большую крутящуюся водяную штуку!\r
+"Гоги": Надеюсь, этот <color=#03cffc><b>осколок</b></color> не там внизу! Помни- важно найти его как можно скорее!\r
+"Гоги": Ну что же... похоже, тебе придётся разбираться на ходу! [jitter=5 angle=0]Веселииииись![/jitter]\r
 [title=Gogi_0_end]\r
 \r
 GATE\r
 \r
 [title=gate_green_locked_begin]\r
-A fancy iron gate. There's a <color=#24d62a><b>green</b></color> padlock secured tightly around the bars.\r
+Причудливые железные ворота. На прутьях крепко висит <color=#24d62a><b>зелёный</b></color> замок.\r
 [title=gate_green_locked_end]\r
 \r
 [title=gate_red_locked_begin]\r
-A fancy iron gate. There's a <color=#d63924><b>red</b></color> padlock secured tightly around the bars.\r
+Причудливые железные ворота. На прутьях крепко висит <color=#d63924><b>красный</b></color> замок.\r
 [title=gate_red_locked_end]\r
 \r
 [title=gate_unlock_begin]\r
-You've unlocked it using the gate key.\r
+Вы открыли ворота с помощью ключа.\r
 [title=gate_unlock_end]\r
 \r
 BLUE OBJECT INACTIVE\r
 \r
 [title=obj_blue_0_begin]\r
-A most peculiar blue object hovers on a pedestal. An ancient console of some kind?\r
-[question=0]There are strange symbols etched on the base. Will you touch the object?\r
-[choice]Of course.[newtalk start=answer_blue_yes0_begin break=answer_blue_yes0_end]\r
-[choice]Mmm... no.[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]\r
+На пьедестале возвышается необычный синий предмет. Это какая-то древняя консоль?\r
+[question=0]На основании выгравированы странные символы. Вы хотите дотронуться до этого объекта?\r
+[choice]Конечно.[newtalk start=answer_blue_yes0_begin break=answer_blue_yes0_end]\r
+[choice]Ммм... нет.[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]\r
 [title=obj_blue_0_end]\r
 \r
 [title=answer_blue_yes0_begin]\r
-Nothing happens...\r
+Ничего не произошло...\r
 [title=answer_blue_yes0_end]\r
 \r
 [title=answer_blue_no0_begin]\r
-You step away from the pedestal.\r
+Вы отошли от пьедестала.\r
 [title=answer_blue_no0_end]\r
 \r
 WATER GOD PREQUEST\r
 \r
 [title=god_00_begin]\r
-As you stand above the whirlpool, a large snake appears before you.[newtalk start=god_0_begin break=god_0_end]\r
+Когда вы стоите над водоворотом, перед вами появляется большая змея.[newtalk start=god_0_begin break=god_0_end]\r
 [title=god_00_end]\r
 \r
 [title=god_0_begin]\r
-???: Hello there, small traveler. You must be very lost.\r
-???: [question=1]Is there anything I may be able to help you with?\r
-[choice]I don't understand.\r
-[choice]If you say so.\r
-???: It seems we do not understand one another.\r
-???: Travel to the north and activate the ancient consoles there.\r
+???: Приветствую, маленький путешественник. Должно быть, ты совсем потерялся.\r
+???: [question=1]Могу ли я тебе чем-нибудь помочь?\r
+[choice]Я не понимаю.\r
+[choice]Если ты так говоришь.\r
+???: Кажется, мы не понимаем друг друга.\r
+???: Отправляйся на север и активируй там древние консоли.\r
 [title=god_0_end]\r
 \r
 [title=god_after_begin]\r
-It appears the mysterious whirlpool entity speaks in a language you don't understand. There must be a way to communicate with it.\r
+Похоже, таинственное существо из водоворота говорит на языке, которого вы не понимаете. Должен быть способ поговорить с ним.\r
 [title=god_after_end]\r
 \r
 MOVING SNAKE PREQUEST\r
 \r
 [title=snake_move0_begin]\r
-???: Please, please! I am very busy. Excuse me! I must be going now.\r
-???: You do not seem to understand me. How unfortunate!\r
+???: Пожалуйста, пожалуйста! Я очень занят. Извини меня! Мне нужно идти.\r
+???: Не похоже, что ты меня понимаешь. Как не кстати!\r
 [title=snake_move0_end]\r
 \r
 BLUE OBJECT ACTIVE\r
 \r
 [title=obj_blue_1_begin]\r
-A most peculiar blue object hovers on a pedestal. It looks like it can be activated somehow.\r
-[question=3]You can barely make out strange symbols etched into the base. Something tells you to touch the object...\r
-[choice]Do it.[newtalk start=answer_blue_yes1_begin break=answer_blue_yes1_end]\r
-[choice]Later.[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]\r
+На пьедестале возвышается необычный синий предмет. Выглядит так, будто его можно как-то активировать.\r
+[question=3]Вы едва можете разглядеть странные символы, выгравированные на основании. Что-то говорит вам потрогать этот объект...\r
+[choice]Сделать это.[newtalk start=answer_blue_yes1_begin break=answer_blue_yes1_end]\r
+[choice]Потом.[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]\r
 [title=obj_blue_1_end]\r
 \r
 [title=answer_blue_yes1_begin]\r
-The platform begins to move on its own.[event=0]\r
+Платформа начинает двигаться сама по себе.[event=0]\r
 [title=answer_blue_yes1_end]\r
 \r
 RED OBJECT ACTIVE\r
 \r
 [title=obj_red_0_begin]\r
-There's another weird object floating ominously on a stone pedestal.\r
-Its surface has been polished to an immaculate mirror-sheen, reflecting the world around you.\r
-[question=4]Will you touch the object?\r
-[choice]I must.[newtalk start=answer_red_yes0_begin break=answer_red_yes0_end]\r
-[choice]Resist.[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]\r
+Там есть ещё один странный предмет, зловеще парящий на каменном пьедестале.\r
+Его поверхность отполирована до состояния зеркала, отражающего окружающий мир.\r
+[question=4]Потрогаете этот объект?\r
+[choice]Я должен.[newtalk start=answer_red_yes0_begin break=answer_red_yes0_end]\r
+[choice]Сопротивляться.[newtalk start=answer_blue_no0_begin break=answer_blue_no0_end]\r
 [title=obj_red_0_end]\r
 \r
 [title=answer_red_yes0_begin]\r
-You reluctantly touch the object...[event=9]\r
-A slight tingling in your fingers takes hold. The sensation spreads to your whole body before suddenly subsiding.\r
-You feel calm. The most calm you've ever felt in recent memory. You now understand things that were once <b>foreign</b> to you.[event=1]\r
-The object fades from existence. You can still imagine its form perfectly in your mind.\r
+Вы неохотно прикасаетесь к этому объекту...[event=9]\r
+Вы ощущаете лёгкое покалывание в пальцах. Это чувство распространяется на всё ваше тело, а затем внезапно проходит.\r
+Вы чувствуете спокойствие. Такого спокойствия вы еще не испытывали за последнее время. Теперь вы понимаете вещи, которые раньше были <b>чуждыми</b> для вас.[event=1]\r
+Объект угасает из реальности. Вы всё ещё можете идеально представить его в своём сознании.\r
 [title=answer_red_yes0_end]\r
 \r
 WATER GOD POSTQUEST\r
 \r
 [title=god_1_begin]\r
-???: Ah, yes, yes, I see now - You have returned with knowledge birthed anew! I am the serpent god Althos- I control these ethereal waters.\r
-Water God Althos: Welcome to this pocket of land we call our home. A humble slice of the much larger world outside.\r
-Water God Althos: [question=5]So, tell me small creature... why is it you have appeared before me?\r
-[choice]Dream shard?[newtalk start=answer_god_0_begin break=answer_god_0_end]\r
-[choice]Advice?[newtalk start=answer_god_1_begin break=answer_god_1_end]\r
-[choice]You tell me.[newtalk start=answer_god_2_begin break=answer_god_2_end]\r
+???: Ах, да, да, Теперь я вижу - Ты вернулся со знанием, рожденным заново! Я змеиный бог Альтос- Я управляю этими эфирными водами.\r
+Бог воды Альтос: Добро пожаловать в этот уголок, который мы называем нашим домом. Скромный кусочек гораздо большего внешнего мира.\r
+Бог воды Альтос: [question=5]Итак, расскажи мне, маленькое создание... почему ты появился передо мной?\r
+[choice]Осколок сна?[newtalk start=answer_god_0_begin break=answer_god_0_end]\r
+[choice]Совет?[newtalk start=answer_god_1_begin break=answer_god_1_end]\r
+[choice]Ты мне скажи.[newtalk start=answer_god_2_begin break=answer_god_2_end]\r
 [title=god_1_end]\r
 \r
 [title=god_1_repeat_begin]\r
-Water God Althos: [question=5]Are there... any other questions you may have or answers I may provide?\r
-[choice]Dream shard?[newtalk start=answer_god_0_begin break=answer_god_0_end]\r
-[choice]Advice?[newtalk start=answer_god_1_begin break=answer_god_1_end]\r
-[choice]You tell me![newtalk start=answer_god_2_begin break=answer_god_2_end]\r
+Бог воды Альтос: [question=5]Есть ли... ещё какие-нибудь вопросы, на которые я могу ответить?\r
+[choice]Осколок сна?[newtalk start=answer_god_0_begin break=answer_god_0_end]\r
+[choice]Совет?[newtalk start=answer_god_1_begin break=answer_god_1_end]\r
+[choice]Ты мне скажи![newtalk start=answer_god_2_begin break=answer_god_2_end]\r
 [title=god_1_repeat_end]\r
 \r
 [title=answer_god_0_begin]\r
-Water God Althos: A <color=#03cffc><b>dream shard</b></color>... yes. This is a name I'm all so vaguely familiar with. Forgive me, my memory is not so good anymore.\r
-Water God Althos: At one point, long ago... there was a fragment of something or other that materialized here. Broken and not whole.\r
-Water God Althos: It has since been reclaimed by nature, the essence melted away into our very waters.\r
-Water God Althos: If it's what you're here for, you may have trouble finding it in a tangible form... but not all hope is lost.[newtalk start=god_1_repeat_begin break=god_1_repeat_end]\r
+Бог воды Альтос: <color=#03cffc><b>Осколок сна</b></color>... да. Это название мне кажется смутно знакомым. Прости, у меня уже не такая хорошая память.\r
+Бог воды Альтос: Когда-то, очень давно... здесь материализовался фрагмент чего-то другого или иного. Разбитый и не целый.\r
+Бог воды Альтос: С тех пор природа восстановила его, и его эссенция растворилась в наших водах.\r
+Бог воды Альтос: Если это то, ради чего ты здесь, у тебя могут быть проблемы найти его в осязаемой форме... но ещё не вся надежда потеряна.[newtalk start=god_1_repeat_begin break=god_1_repeat_end]\r
 [title=answer_god_0_end]\r
 \r
 [title=answer_god_1_begin]\r
-Water God Althos: Hmm. Advice! Many before you have requested this same thing, and always I give what I believe to be the purest example.\r
-Water God Althos: You see, in this world there are times you'll experience forces that exist only to keep you in one spot. Keep you from making any progress.\r
-Water God Althos: In reality, these forces are a product of your own creation. Your own personal road-block. They only exist as long as you allow them to.\r
-Water God Althos: Stand above them, convince yourself they're but a temporary obstacle. Treat hardships like water, and you will always find a way to pass through from one side, to the next.[newtalk start=god_1_repeat_begin break=god_1_repeat_end]\r
+Бог воды Альтос: Хмм. Совет! Многие до тебя просили об этом же, и я всегда привожу то, что считаю самым чистым примером.\r
+Бог воды Альтос: Видишь ли, в этом мире бывают моменты, когда ты встречаешься с силами, которые существуют только, чтобы удерживать тебя на месте. Не дают продвигаться дальше.\r
+Бог воды Альтос: На самом деле, эти силы - продукт твоего создания. Твоё личное препятствие. Они существуют только до тех пор, пока ты им это позволяешь.\r
+Бог воды Альтос: Поднимись над ними, убеди себя, что это временное препятствие. Относись к трудностям как к воде, и ты всегда найдёшь способ перейти с одной стороны на другую.[newtalk start=god_1_repeat_begin break=god_1_repeat_end]\r
 [title=answer_god_1_end]\r
 \r
 [title=answer_god_2_begin]\r
-Water God Althos: Oh, of course, of course. Sometimes we wander aimlessly and simply need someone else to give us a bit of direction!\r
-Water God Althos: The essence of the fragment you seek is here, living in our waters. To the east and west lie our sacred reflection pools.\r
-Water God Althos: Travel to each and gather a vial of the waters. The seers that you will meet there may wish to speak with you beforehand.\r
-Water God Althos: They've probably had the gates locked for some time now, however. If <color=#fcbe2b><b>Treasurer Silus</b></color> is around, he may have an idea how to unlock them.\r
-Water God Althos: Once you have acquired the vials of each color, return to me. I will be waiting.\r
+Бог воды Альтос: Ох, конечно, конечно. Иногда мы бесцельно блуждаем и просто нуждаемся в том, чтобы кто-то другой указал нам направление!\r
+Бог воды Альтос: Эссенция фрагмента, который ты ищешь, находится здесь, в наших водах. На востоке и западе находятся наши священные отражающие пруды.\r
+Бог воды Альтос: Посети каждый из них и возьми по флакону с водой. Провидцы, которых ты там встретишь, возможно, захотят поговорить с тобой перед этим.\r
+Бог воды Альтос: Однако, вероятно, они уже давно заперли ворота. Если <color=#fcbe2b><b>Казначей Сайлус</b></color> будет где-то рядом, может, у него есть идея, как их открыть.\r
+Бог воды Альтос: Как только ты получишь флаконы каждого цвета, возвращайся ко мне. Я буду ждать.\r
 [title=answer_god_2_end]\r
 \r
 MOVING SNAKE POSTQUEST\r
 \r
 [title=snake_move1_begin]\r
-???: Excuse me! Very busy today. Must maintain observance of the aquaducts. I have much to do, much to do. Do accept my sincerest apologies. \r
-Treasurer Silus: I am <color=#fcbe2b><b>Treasurer Silus</b></color>, if you are unaware. Should you have something of dire importance to share, perhaps come back at a later time!\r
-Treasurer Silus: Until then if you'll please excuse me - I must return to my watch of the waters. Goodbye.\r
+???: Извини! Сегодня я очень занят. Должен следить за состоянием водоёмов. У меня много, очень много дел. Прими мои самые искренние извинения. \r
+Казначей Сайлус: Я <color=#fcbe2b><b>Казначей Сайлус</b></color>, если ты не понял. Если у тебя есть что‑то по‑настоящему важное, чем ты хочешь поделиться, вернись ко мне позже!\r
+Казначей Сайлус: А теперь, если позволишь, я должен вернуться к своему наблюдению за водами. До свидания.\r
 [title=snake_move1_end]\r
 \r
 [title=snake_move2_begin]\r
-Treasurer Silus: My focus is not within proper alignment today... but I am a patient creature. Can I assist you in some way?\r
-Treasurer Silus: The essense of the pool spoke to you, I see! That is marvelous. You must go and tell the seers immediately.\r
-Treasurer Silus: Look to the green pool of the west courtyard. The seer there will guide you. Take this <color=#3aeb34><b>Green Gate Key</b></color> and pay them a visit.\r
-Treasurer Silus: Oh! And if you have time, humbly visit our four colorful deities and you will receive from each a blessing. Thank you.\r
-Treasurer Silus: Now if you'll please excuse me - I must return to my watch of the waters. Farewell.\r
+Казначей Сайлус: Сегодня я не могу сосредоточиться должным образом... но я существо терпеливое. Могу ли я тебе чем-нибудь помочь?\r
+Казначей Сайлус: Вижу, эссенция этого бассейна заговорила с тобой! Это чудесно. Ты должен немедленно пойти и рассказать об этом провидцам.\r
+Казначей Сайлус: Отправляйся к зелёному бассейну на западе. Местный провидец направит тебя. Возьми этот <color=#3aeb34><b>ключ от зелёных ворот</b></color>.\r
+Казначей Сайлус: Ох! И если у вас есть время, скромно посети наших четырех разноцветных божеств, и ты получишь благословение от каждого. Спасибо.\r
+Казначей Сайлус: А теперь, если позволишь, я должен вернуться к своему наблюдению за водами. Прощай.\r
 [title=snake_move2_end]\r
 \r
 WEST GATE DIALOGUE\r
 \r
 [title=green_water_0_begin]\r
-A pool of glowing green liquid. Something about it soothes you.\r
-[question=6]Touch the water?\r
-[choice]Yes.[newtalk start=answer_water_yes0_begin break=answer_water_yes0_end]\r
-[choice]No.[newtalk start=answer_water_no0_begin break=answer_water_no0_end]\r
+Бассейн светящейся зеленой жидкости. Есть в этом что-то успокаивающее.\r
+[question=6]Дотронуться до воды?\r
+[choice]Да.[newtalk start=answer_water_yes0_begin break=answer_water_yes0_end]\r
+[choice]Нет.[newtalk start=answer_water_no0_begin break=answer_water_no0_end]\r
 [title=green_water_0_end]\r
 \r
 [title=answer_water_yes0_begin]\r
-You try putting your hands through the water, but it's as if nothing is there. Are you imaginging it all?\r
+Вы пытаетесь опустить руки в воду, но как будто там ничего нет. Вы это всё придумали?\r
 [title=answer_water_yes0_end]\r
 \r
 [title=answer_water_no0_begin]\r
-You decide not to touch the water.\r
+Вы решили не трогать воду.\r
 [title=answer_water_no0_end]\r
 \r
 [title=green_seer_0_begin]\r
-Green Seer Griss: Hello, small one. I understand you are in need of water from my green reflection pool.\r
-Green Seer Griss: Of course, of course. But, you are not from our world so the water is purely a figment of your imagination.\r
-Green Seer Griss: The water must trust you first in order for you to take it with you. If you'll allow me to ask you a question-\r
-Green Seer Griss: [question=7]Traveler, what of this land is truest?\r
-[choice]It is calming.[newtalk start=answer_green_seer_0_begin break=answer_green_seer_0_end]\r
-[choice]It is tedious.[newtalk start=answer_green_seer_1_begin break=answer_green_seer_1_end]\r
-[choice]It is a home.[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]\r
+Зелёный провидец Грисс: Привет, малыш. Я так понимаю, тебе нужна вода из моего зелёного отражающего бассейна.\r
+Зелёный провидец Грисс: Конечно, конечно. Но ты не из нашего мира, поэтому эта вода - всего лишь плод твоего воображения.\r
+Зелёный провидец Грисс: Сначала вода должна довериться тебе, только после этого ты сможешь забрать её с собой. Позволь мне задать тебе вопрос-\r
+Зелёный провидец Грисс: [question=7]Путешественник, что в этих землях является истиннее всего?\r
+[choice]Успокоение.[newtalk start=answer_green_seer_0_begin break=answer_green_seer_0_end]\r
+[choice]Утомление.[newtalk start=answer_green_seer_1_begin break=answer_green_seer_1_end]\r
+[choice]Дом.[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]\r
 [title=green_seer_0_end]\r
 \r
 [title=green_seer_01_begin]\r
-Green Seer Griss: I'm sorry, traveler. The water does not yet trust you. I'll ask once more-\r
-Green Seer Griss: [question=71]Tell me, what of this land is truest?\r
-[choice]It is calming.[newtalk start=answer_green_seer_0_begin break=answer_green_seer_0_end]\r
-[choice]It is tedious.[newtalk start=answer_green_seer_1_begin break=answer_green_seer_1_end]\r
-[choice]It is a home.[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]\r
+Зелёный провидец Грисс: Прости, путешественник. Вода тебе ещё не доверяет. Я спрошу ещё раз-\r
+Зелёный провидец Грисс: [question=71]Скажи мне, что в этих землях является истиннее всего?\r
+[choice]Успокоение.[newtalk start=answer_green_seer_0_begin break=answer_green_seer_0_end]\r
+[choice]Утомление.[newtalk start=answer_green_seer_1_begin break=answer_green_seer_1_end]\r
+[choice]Дом.[newtalk start=answer_green_seer_2_begin break=answer_green_seer_2_end]\r
 [title=green_seer_01_end]\r
 \r
 [title=answer_green_seer_0_begin]\r
-Green Seer Griss: Ah, it is <b>calming</b>. Few of us have learned to take our time, move slowly, appreciate the surroundings. However...\r
-Green Seer Griss: ...while subjectively this may be true, it is not the truest of the land.[newtalk start=green_seer_01_begin break=green_seer_01_end]\r
+Зелёный провидец Грисс: Ах, это <b>успокоение</b>. Мало кто из нас научился не спешить, двигаться медленно и ценить всё вокруг. Однако...\r
+Зелёный провидец Грисс: ...хотя субъективно это может быть так, но это не самая истина в этих землях.[newtalk start=green_seer_01_begin break=green_seer_01_end]\r
 [title=answer_green_seer_0_end]\r
 \r
 [title=answer_green_seer_1_begin]\r
-Green Seer Griss: Many things in life are <b>tedious</b>. These are the expectations which we must all make peace with, lest we forget our purpose for being here.\r
-Green Seer Griss: The choice to leave and never return is always present, though I feel this is not something you truly desire.[newtalk start=green_seer_01_begin break=green_seer_01_end]\r
+Зелёный провидец Грисс: Многие вещи в жизни <b>утомительные</b>. Это те ожидания, с которыми нам приходится смириться, иначе мы забудем, зачем мы вообще здесь.\r
+Зелёный провидец Грисс: У тебя всегда есть выбор уйти и больше никогда не возвращаться, но я чувствую, что это не то, что ты истинно хочешь.[newtalk start=green_seer_01_begin break=green_seer_01_end]\r
 [title=answer_green_seer_1_end]\r
 \r
 [title=answer_green_seer_2_begin]\r
-Green Seer Griss: That is very wise of you to think so. A <b>home</b> is something that should put you at ease, settle your mind, and inspire unity.\r
-Green Seer Griss: Please, go up and accept a vial of green water from the pool next to you. Once you have done so, speak with me again.\r
+Зелёный провидец Грисс: Очень мудро с твоей стороны так думать. <b>Дом</b> - это то, что должно успокаивать, умиротворять и вдохновлять на единение.\r
+Зелёный провидец Грисс: Пожалуйста, подойди и возьми флакон с зелёной водой из пруда рядом с тобой. Поговори со мной ещё раз, когда сделаешь это.\r
 [title=answer_green_seer_2_end]\r
 \r
 [title=green_seer_leave_begin]\r
-Green Seer Griss: You've gathered the water and must now travel towards the east, to the red cleansing pools.\r
-Green Seer Griss: Take with you this <color=#e33424><b>Red Gate Key</b></color>. You will need it to unlock the gate there. Good fortune on you and your travels.\r
+Зелёный провидец Грисс: Ты собрал воду и теперь ты должен отправиться на восток к красным очищающим прудам.\r
+Зелёный провидец Грисс: Возьми себе этот <color=#e33424><b>ключ от красных ворот</b></color>. Им ты откроешь ворота, которые находятся там. Удачи тебе в твоём путешествии.\r
 [title=green_seer_leave_end]\r
 \r
 [title=green_water_1_begin]\r
-You gently plunge your cupped hands into the pool of glowing green water.\r
-The liquid effortlessly globulates into your palms and forms the shape of a vial.\r
+Вы осторожно погружаете сложенные чашечкой ладони в бассейн со светящейся зеленой водой.\r
+Жидкость легко протекает по ладоням и приобретает форму флакона.\r
 [title=green_water_1_end]\r
 \r
 EAST GATE DIALOGUE\r
 \r
 [title=red_water_0_begin]\r
-A pool of glowing red liquid. Something about it frustrates you.\r
-[question=8]Touch the water?\r
-[choice]Yes.[newtalk start=answer_water_yes0_begin break=answer_water_yes0_end]\r
-[choice]No.[newtalk start=answer_water_no0_begin break=answer_water_no0_end]\r
+Бассейн светящейся красной жидкости. Что-то здесь расстраивает вас.\r
+[question=8]Потрогать воду?\r
+[choice]Да.[newtalk start=answer_water_yes0_begin break=answer_water_yes0_end]\r
+[choice]Нет.[newtalk start=answer_water_no0_begin break=answer_water_no0_end]\r
 [title=red_water_0_end]\r
 \r
 [title=red_seer_0_begin]\r
-Red Seer Rehmuss: Yes, yes, what is it you want? I am extremely busy and do not have time for aimless conversation.\r
-Red Seer Rehmuss: [question=9]If you wish to gather a vial of water from my red reflection pool, you are not permitted and you will remove yourself immediately.\r
-[choice]S-sorry.[newtalk start=answer_red_seer_0_begin break=answer_red_seer_0_end]\r
-[choice]Step aside.[newtalk start=answer_red_seer_1_begin break=answer_red_seer_1_end]\r
+Красный провидец Ремусс: Да, да, что ты хочешь? Я чрезмерно занят, у меня нет времени на бесцельные разговоры.\r
+Красный провидец Ремусс: [question=9]Если ты хочешь набрать флакон воды из моего красного отражающего источника, тебе это запрещено. А теперь ты немедленно уберёшься отсюда.\r
+[choice]П-простите.[newtalk start=answer_red_seer_0_begin break=answer_red_seer_0_end]\r
+[choice]Отойди.[newtalk start=answer_red_seer_1_begin break=answer_red_seer_1_end]\r
 [title=red_seer_0_end]\r
 \r
 [title=answer_red_seer_0_begin]\r
-Red Seer Rehmuss: Hmph. A trite remark from someone who believes themselves immediately entitled to touch the sacred water.\r
-Red Seer Rehmuss: Now please leave. A pointless interaction... I do not appreciate your attempt at wasting my precious time.\r
+Красный провидец Ремусс: Хмпф. Банальное предостережение от кого-нибудь, кто считает, что он вправе вот так сразу прикасаться к священной воде.\r
+Красный провидец Ремусс: А теперь уходи. Это бесполезный разговор... Я не ценю твоих попыток попусту тратить моё драгоценное время.\r
 [title=answer_red_seer_0_end]\r
 \r
 [title=answer_red_seer_1_begin]\r
-Red Seer Rehmuss: Hmm. Very good... your assertiveness is somewhat commendable. I mistook you as someone to have so little spirit.\r
-Red Seer Rehmuss: Hmm, yes. I'll allow you to use my pool, just this once. However I wish to test your perception a bit further.\r
-Red Seer Rehmuss: [question=10]Tell me, what does someone gain from standing their ground?\r
-[choice]Nothing.[newtalk start=answer_red_seer_2_begin break=answer_red_seer_2_end]\r
-[choice]Self satisfaction.[newtalk start=answer_red_seer_3_begin break=answer_red_seer_3_end]\r
-[choice]Character.[newtalk start=answer_red_seer_4_begin break=answer_red_seer_4_end]\r
+Красный провидец Ремусс: Хмм. Очень хорошо... твоя бесцеремонность даже заслуживает похвалы. Я подумал, ты из тех, у кого не хватит духа.\r
+Красный провидец Ремусс: Хмм, да. Я разрешу тебе воспользоваться моим бассейном, но только в этот раз. Однако я хочу немного испытать твою проницательность.\r
+Красный провидец Ремусс: [question=10]Скажи мне, что можно получить, если стоять на своём?\r
+[choice]Ничего.[newtalk start=answer_red_seer_2_begin break=answer_red_seer_2_end]\r
+[choice]Удовлетворение.[newtalk start=answer_red_seer_3_begin break=answer_red_seer_3_end]\r
+[choice]Характер.[newtalk start=answer_red_seer_4_begin break=answer_red_seer_4_end]\r
 [title=answer_red_seer_1_end]\r
 \r
 [title=repeat_red_seer_0_begin]\r
-Red Seer Rehmuss: Hmph. You fail to gain the trust of the waters. I'm not surprised.\r
-Red Seer Rehmuss: [question=11]I'll ask again... what does someone gain from standing their ground?\r
-[choice]Nothing.[newtalk start=answer_red_seer_2_begin break=answer_red_seer_2_end]\r
-[choice]Self-satisfaction.[newtalk start=answer_red_seer_3_begin break=answer_red_seer_3_end]\r
-[choice]Character.[newtalk start=answer_red_seer_4_begin break=answer_red_seer_4_end]\r
+Красный провидец Ремусс: Хмпф. Тебе не удалось получить доверие вод. Я не удивлён.\r
+Красный провидец Ремусс: [question=11]Я спрошу тебя ещё раз... что можно получить, если стоять на своём?\r
+[choice]Ничего.[newtalk start=answer_red_seer_2_begin break=answer_red_seer_2_end]\r
+[choice]Удовлетворение.[newtalk start=answer_red_seer_3_begin break=answer_red_seer_3_end]\r
+[choice]Характер.[newtalk start=answer_red_seer_4_begin break=answer_red_seer_4_end]\r
 [title=repeat_red_seer_0_end]\r
 \r
 [title=answer_red_seer_2_begin]\r
-Red Seer Rehmuss: <b>Nothing?</b> Hmph! You must be daft... Is your mind wandering in the mist right now?\r
-Red Seer Rehmuss: How would that explain my position? Effrontery has gotten me to where I desire to be, and given me much knowledge.[newtalk start=repeat_red_seer_0_begin break=repeat_red_seer_0_end]\r
+Красный провидец Ремусс: <b>Ничего?</b> Хмпф! Ты, должно быть, спятил... Твой разум сейчас блуждает где-то в тумане?\r
+Красный провидец Ремусс: И как это по-твоему объясняет моё положение? Дерзость меня привела туда, где я хотел быть, а также дала мне знания.[newtalk start=repeat_red_seer_0_begin break=repeat_red_seer_0_end]\r
 [title=answer_red_seer_2_end]\r
 \r
 [title=answer_red_seer_3_begin]\r
-Red Seer Rehmuss: <b>Self-satisfaction?</b> Perhaps. But anyone capable of rational thought can easily conceive that this is merely a temporary gain.\r
-Red Seer Rehmuss: A longer term attribute is much more desireable and worthy to be called a reward than something as dull as that.[newtalk start=repeat_red_seer_0_begin break=repeat_red_seer_0_end]\r
+Красный провидец Ремусс: <b>Удовлетворение?</b> Возможно. Но любой, кто может мыслить рационально поймёт, что это только временная выгода.\r
+Красный провидец Ремусс: Наградой достойно называться что-то более длительное и желанное, а не что-то настолько унылое.[newtalk start=repeat_red_seer_0_begin break=repeat_red_seer_0_end]\r
 [title=answer_red_seer_3_end]\r
 \r
 [title=answer_red_seer_4_begin]\r
-Red Seer Rehmuss: Very astute. <b>Character</b> is what separates us from the droves of our other rival primitives. It cannot be undervalued.\r
-Red Seer Rehmuss: Step up to the pool and gather a vial of water, quickly. Before I change my mind.[event=2]\r
+Красный провидец Ремусс: Очень умно. Именно <b>характер</b> отличает нас от толп прочих примитивных соперников. Его нельзя недооценивать.\r
+Красный провидец Ремусс: Подойди к бассейну и собери флакон воды, быстрее. Пока я не передумал.[event=2]\r
 [title=answer_red_seer_4_end]\r
 \r
 [title=red_seer_leave_begin]\r
-Red Seer Rehmuss: I no longer have any business with you. Begone now.\r
+Красный провидец Ремусс: У меня больше нету с тобой дел. Исчезни.\r
 [title=red_seer_leave_end]\r
 \r
 [title=red_water_1_begin]\r
-You gently plunge your cupped hands into the pool of glowing red water.\r
-The liquid effortlessly globulates into your palms and forms the shape of a vial.\r
+Вы осторожно погружаете сложенные чашечкой ладони в бассейн со светящейся красной водой.\r
+Жидкость легко протекает по ладоням и приобретает форму флакона.\r
 [title=red_water_1_end]\r
 \r
 WATER GOD ENDING\r
 \r
 [title=god_2_begin]\r
-Water God Althos: Ah, the small traveler has finally returned!\r
-Water God Althos: I see you have collected each a vial of the sacred colored water. I pray the seers did not test you too harshly.[event=3]\r
-Water God Althos: With what limited power I have, I will meld the two liquid remnants back together. Whole again they will reform their original shape.\r
-Water God Althos: Take it and return it to the home it was driven from. We have had a great pleasure helping you along your journey, small one.\r
-Water God Althos: Remain vigilant, however. I can sense some dark forces at work.\r
-Water God Althos: We hope to see you again some day. Farewell.\r
+Бог воды Альтос: Ах, маленький путешественник наконец-то вернулся!\r
+Бог воды Альтос: Я вижу, ты собрал по флакону каждой священной цветной воды. Я молюсь, чтобы провидцы не испытывали тебя слишком сурово.[event=3]\r
+Бог воды Альтос: Используя те ограниченные возможности, которые у меня есть, я соединю два жидких остатка вместе. Они снова обретут свою первоначальную форму.\r
+Бог воды Альтос: Возьми это и верни его домой. Мы получили большое удовольствие, помогая тебе в твоём путешествии, малыш.\r
+Бог воды Альтос: Однако тебе нужно быть бдительным. Я чувствую, что здесь действуют какие-то темные силы.\r
+Бог воды Альтос: Мы надеемся когда-нибудь увидеть тебя снова. Прощай.\r
 [title=god_2_end]\r
 \r
 SECRET STUFF\r
 \r
 [title=book_000_begin]\r
-A strange, earthly tome. Despite its mysterious appearance, a thick coat of dust envelops it.\r
-You attempt to grab ahold of the musty book. As you touch it you begin to feel lightheaded.\r
+Странный, земной том. Несмотря на свой таинственный вид, он покрыт толстым слоем пыли.\r
+Вы пытаетесь схватить затхлую книгу. Когда вы дотрагиваетесь до неё, у вас начинает кружиться голова.\r
 [title=book_000_end]\r
 \r
 [title=book_0_begin]\r
-A strange, earthly tome. Despite its mysterious appearance, a thick coat of dust envelops it.\r
-[question=12]You feel a strange temptation to peer into its pages, discovering the secrets within. Do you continue?\r
-[choice]Of course.[newtalk start=book_yes_begin break=book_yes_end]\r
-[choice]Maybe not...[newtalk start=book_no_begin break=book_no_end]\r
+Странный, земной том. Несмотря на свой таинственный вид, он покрыт толстым слоем пыли.\r
+[question=12]Вы испытываете странное искушение заглянуть на его страницы, открывая заключенные в нём секреты. Продолжить?\r
+[choice]Конечно.[newtalk start=book_yes_begin break=book_yes_end]\r
+[choice]Наверное, нет...[newtalk start=book_no_begin break=book_no_end]\r
 [title=book_0_end]\r
 \r
 [title=book_yes_begin]\r
-You attempt to grab ahold of the musty book. As you touch it you begin to feel lightheaded.[event=4]\r
+Вы пытаетесь схватить затхлую книгу. Когда вы дотрагиваетесь до неё, у вас начинает кружиться голова.[event=4]\r
 [title=book_yes_end]\r
 \r
 [title=book_no_begin]\r
-You decide not to open the book and step away.\r
+Вы решили не открывать книгу и отошли от неё.\r
 [title=book_no_end]\r
 \r
 [title=book_00_begin]\r
-A strange, earthly tome. Despite its mysterious appearance, a thick coat of dust envelops it.\r
-[question=12]You feel a strange temptation to peer into its pages, discovering the secrets within. Do you continue?\r
-[choice]Of course.[newtalk start=book_yes1_begin break=book_yes1_end]\r
-[choice]Maybe not...[newtalk start=book_no1_begin break=book_no1_end]\r
+Странный, земной том. Несмотря на свой таинственный вид, он покрыт толстым слоем пыли.\r
+[question=12]Вы испытываете странное искушение заглянуть на его страницы, открывая заключенные в нём секреты. Продолжить?\r
+[choice]Конечно.[newtalk start=book_yes1_begin break=book_yes1_end]\r
+[choice]Наверное, нет...[newtalk start=book_no1_begin break=book_no1_end]\r
 [title=book_00_end]\r
 \r
 [title=book_yes1_begin]\r
-You attempt to grab ahold of the musty book. As you touch it you begin to feel lightheaded.[event=10]\r
+Вы пытаетесь схватить затхлую книгу. Когда вы дотрагиваетесь до неё, у вас начинает кружиться голова.[event=10]\r
 [title=book_yes1_end]\r
 \r
 [title=book_no1_begin]\r
-You decide not to open the book and step away.\r
+Вы решили не открывать книгу и отошли от неё.\r
 [title=book_no1_end]\r
 \r
 SECRET OBJECTS\r
 \r
 [title=shard_no_begin]\r
-You keep a safe distance.\r
+Вы держитесь на безопасном расстоянии.\r
 [title=shard_no_end]\r
 \r
 [title=shard0_yes_begin]\r
-You touch the shard delicately.[event=5]\r
-You sense part of a new path has appeared somewhere.\r
+Вы осторожно прикасаетесь к осколку.[event=5]\r
+Вы чувствуете, что где-то появился новый путь.\r
 [title=shard0_yes_end]\r
 \r
 [title=shard1_yes_begin]\r
-You touch the shard delicately.[event=6]\r
-You sense part of a new path has appeared somewhere.\r
+Вы осторожно прикасаетесь к осколку.[event=6]\r
+Вы чувствуете, что где-то появился новый путь.\r
 [title=shard1_yes_end]\r
 \r
 [title=shard2_yes_begin]\r
-You touch the shard delicately.[event=7]\r
-You sense part of a new path has appeared somewhere.\r
+Вы осторожно прикасаетесь к осколку.[event=7]\r
+Вы чувствуете, что где-то появился новый путь.\r
 [title=shard2_yes_end]\r
 \r
 [title=shard3_yes_begin]\r
-You touch the shard delicately.[event=8]\r
-You sense part of a new path has appeared somewhere.\r
+Вы осторожно прикасаетесь к осколку.[event=8]\r
+Вы чувствуете, что где-то появился новый путь.\r
 [title=shard3_yes_end]\r
 \r
 [title=hiddenobject_0_begin]\r
-[question=14]Looking at this shiny fragment makes you feel <color=#3fd624><b>envious</b></color>. Will you touch the strange shard?\r
-[choice]Touch.[newtalk start=shard0_yes_begin break=shard0_yes_end]\r
-[choice]Refuse.[newtalk start=shard_no_begin break=shard_no_end]\r
+[question=14]Смотря на этот осколок вы чувствуете себя <color=#3fd624><b>завистливым</b></color>. Прикоснуться к этому странному осколку?\r
+[choice]Потрогать.[newtalk start=shard0_yes_begin break=shard0_yes_end]\r
+[choice]Отказаться.[newtalk start=shard_no_begin break=shard_no_end]\r
 [title=hiddenobject_0_end]\r
 \r
 [title=hiddenobject_1_begin]\r
-[question=14]Looking at this shiny fragment makes you feel <color=#d6244e><b>impassioned</b></color>. Will you touch the strange shard?\r
-[choice]Touch.[newtalk start=shard1_yes_begin break=shard1_yes_end]\r
-[choice]Refuse.[newtalk start=shard_no_begin break=shard_no_end]\r
+[question=14]Смотря на этот осколок вы чувствуете себя <color=#d6244e><b>охваченным страстью</b></color>. Прикоснуться к этому странному осколку?\r
+[choice]Потрогать.[newtalk start=shard1_yes_begin break=shard1_yes_end]\r
+[choice]Отказаться.[newtalk start=shard_no_begin break=shard_no_end]\r
 [title=hiddenobject_1_end]\r
 \r
 [title=hiddenobject_2_begin]\r
-[question=14]Looking at this shiny fragment makes you feel <color=#5485ff><b>forlorn</b></color>. Will you touch the strange shard?\r
-[choice]Touch.[newtalk start=shard2_yes_begin break=shard2_yes_end]\r
-[choice]Refuse.[newtalk start=shard_no_begin break=shard_no_end]\r
+[question=14]Смотря на этот осколок вы чувствуете себя <color=#5485ff><b>покинутым</b></color>. Прикоснуться к этому странному осколку?\r
+[choice]Потрогать.[newtalk start=shard2_yes_begin break=shard2_yes_end]\r
+[choice]Отказаться.[newtalk start=shard_no_begin break=shard_no_end]\r
 [title=hiddenobject_2_end]\r
 \r
 [title=hiddenobject_3_begin]\r
-[question=14]Looking at this shiny fragment makes you feel <color=#a754ff><b>timid</b></color>. Will you touch the strange shard?\r
-[choice]Touch.[newtalk start=shard3_yes_begin break=shard3_yes_end]\r
-[choice]Refuse.[newtalk start=shard_no_begin break=shard_no_end]\r
+[question=14]Смотря на этот осколок вы чувствуете себя <color=#a754ff><b>робким</b></color>. Прикоснуться к этому странному осколку?\r
+[choice]Потрогать.[newtalk start=shard3_yes_begin break=shard3_yes_end]\r
+[choice]Отказаться.[newtalk start=shard_no_begin break=shard_no_end]\r
 [title=hiddenobject_3_end]\r
 \r
 Statue DIALOGUE\r
 \r
 [title=statue_no_begin]\r
-There's a monument of some kind here. The description is written in a language you can't understand...\r
+Здесь стоит какой-то памятник. Описание написано на непонятном для вас языке...\r
 [title=statue_no_end]\r
 \r
 [title=statue_0_begin]\r
-A monument of some sort of giant snake deity. There's a small plaque written below.\r
-"<color=#3fd624><b>Qatotl</b></color>, Goddess of Envy. Known by many to have endlessly pursued the fortune and fame of others."\r
-"Collect this deity's offer and you will be rewarded."\r
+Памятник чему-то вроде змеиного божества. Снизу прикреплена маленькая табличка с надписью.\r
+"<color=#3fd624><b>Катотл</b></color>, Богиня зависти. Известна многим своей бесконечной погоней за удачей и славой других."\r
+"Примите дар этого божества и будете вознаграждены."\r
 [title=statue_0_end]\r
 \r
 [title=statue_1_begin]\r
-A monument of some sort of giant snake deity. There's a small plaque written below.\r
-"<color=#d6244e><b>Dagarus</b></color>, God of Passion. Known by many to have an immeasurable devotion towards self-satisfaction."\r
-"Collect this deity's offer and you will be rewarded."\r
+Памятник чему-то вроде змеиного божества. Снизу прикреплена маленькая табличка с надписью.\r
+"<color=#d6244e><b>Дагар</b></color>, Бог страсти. Известен многим своей безмерной преданностью собственному удовлетворению."\r
+"Примите дар этого божества и будете вознаграждены."\r
 [title=statue_1_end]\r
 \r
 [title=statue_2_begin]\r
-A monument of some sort of giant snake deity. There's a small plaque written below.\r
-"<color=#a754ff><b>Uxtris</b></color>, Goddess of Fear. Known by many to have held an apprehension towards social leisure."\r
-"Collect this deity's offer and you will be rewarded."\r
+Памятник чему-то вроде змеиного божества. Снизу прикреплена маленькая табличка с надписью.\r
+"<color=#a754ff><b>Экстрис</b></color>, Богиня страха. Известна многим своей тревогой перед любым отдыхом рядом с другими."\r
+"Примите дар этого божества и будете вознаграждены."\r
 [title=statue_2_end]\r
 \r
 [title=statue_3_begin]\r
-A monument of some sort of giant snake deity. There's a small plaque written below.\r
-"<color=#5485ff><b>Vaphin</b></color>, God of Sadness. Known by many to have befriended life's unbroken oppression."\r
-"Collect this deity's offer and you will be rewarded."\r
+Памятник чему-то вроде змеиного божества. Снизу прикреплена маленькая табличка с надписью.\r
+"<color=#5485ff><b>Вафин</b></color>, Бог печали. Известен многим своим непрекращающимся гнётом жизни."\r
+"Примите дар этого божества и будете вознаграждены."\r
 [title=statue_3_end]\r
 \r
 QUIT SECRET\r
 \r
 [title=althos_quit0_begin]\r
-Althos: Hello again, traveler. You seem a bit disturbed. Are you feeling unwell?\r
-Althos: I hope wading through waters so foreign to you has not left you weary. Though... you would do well to stay out of the deeper pools.\r
-Althos: It should go without saying that I am the only being to stand between us and what unknowns lurk below...\r
+Альтос: Привет снова, путешественник. Выглядишь немного встревоженным. Ты чувствуешь себя нехорошо?\r
+Альтос: Надеюсь, брождение по столь чуждым тебе водам не слишком тебя утомило. Хотя... тебе лучше держаться подальше от самых глубоких бассейнов.\r
+Альтос: Само собой разумеется, что я единственное существо, стоящее между нами и тем неизвестным, что скрывается внизу...\r
 [title=althos_quit0_end]"
