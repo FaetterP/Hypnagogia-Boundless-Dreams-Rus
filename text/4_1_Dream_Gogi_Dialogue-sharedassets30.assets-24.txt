@@ -4,79 +4,79 @@
 \r
 Dream Gem Intro PreQuest\r
 [title=gem_int0_begin]\r
-A lost and inert <color=#03cffc><b>dream crystal</b></color>... it is powerless under some form of stasis.\r
-From another place, another time... another dreamer. The freedom to dream once more lies between two paths of purity.\r
+Потерянный и инертный <color=#03cffc><b>кристалл сновидений</b></color>... он бессилен в чём-то вроде стазиса.\r
+Из другого места, другого времени... другого сновидца. Свобода снова мечтать лежит между двумя путями чистоты.\r
 [title=gem_int0_end]\r
 \r
 Dream Gem Right\r
 [title=gem_right0_begin]\r
-A <color=#03cffc><b>dream crystal</b></color> afflicted by visions of overwhelming nightmares.\r
-A source of restless nights that meld dreams into reality, reality into dreams.\r
-Its will to live decayed a long time ago. It can be made pure again.\r
-[question=0]Purify the corruption?\r
-[choice]Yes.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]\r
-[choice]No.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]\r
+<color=#03cffc><b>Кристалл сновидений</b></color>, мучимый видениями всепоглощающих кошмаров.\r
+Источник беспокойных ночей, которые превращают сны в реальность, а реальность в сны.\r
+Его воля к жизни угасла давным-давно. Его можно снова сделать чистым.\r
+[question=0]Очистить от скверны?\r
+[choice]да.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]\r
+[choice]Нет.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]\r
 [title=gem_right0_end]\r
 \r
 Dream Gem Right Choice Yes\r
 [title=gem_right0_yes_begin]\r
-You cleanse the crystal with all your strength. It will take time for it to rebuild.[event=0]\r
+Вы очищаете кристалл изо всех сил. Потребуется время, чтобы он восстановился.[event=0]\r
 [title=gem_right0_yes_end]\r
 \r
 Dream Gem Right Choice No\r
 [title=gem_right0_no_begin]\r
-You hop away from the corrupted crystal.[event=2]\r
+Вы отпрыгиваете от осквернённого кристалла.[event=2]\r
 [title=gem_right0_no_end]\r
 \r
 Dream Gem Right Repeat\r
 [title=gem_right0_repeat_begin]\r
-[question=0]Purify the corruption?\r
-[choice]Yes.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]\r
-[choice]No.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]\r
+[question=0]Очистить от скверны?\r
+[choice]Да.[newtalk start=gem_right0_yes_begin break=gem_right0_yes_end]\r
+[choice]Нет.[newtalk start=gem_right0_no_begin break=gem_right0_no_end]\r
 [title=gem_right0_repeat_end]\r
 \r
 Dream Gem Left\r
 [title=gem_left0_begin]\r
-A cracked and abandoned <color=#03cffc><b>dream crystal</b></color>, all alone with nothing to its life.\r
-It provided so much love and happiness, but now only brings sadness.\r
-A spark of hope lay deep within the hollow shell. Its aura can be made whole again.\r
-[question=0]Purify the corruption?\r
-[choice]Yes.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]\r
-[choice]No.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]\r
+Потрескавшийся и заброшенный <color=#03cffc><b>кристалл сновидений</b></color>, совсем один, в нём нет жизни.\r
+Он давал столько любви и счастья, но теперь приносит лишь печаль.\r
+Искра надежды таилась глубоко в пустотелой оболочке. Его ауру можно восстановить.\r
+[question=0]Очистить от скверны?\r
+[choice]Да.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]\r
+[choice]Нет.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]\r
 [title=gem_left0_end]\r
 \r
 Dream Gem Left Choice Yes\r
 [title=gem_left0_yes_begin]\r
-You cleanse the crystal with all your strength. It will take time for it to rebuild.[event=1]\r
+Вы очищаете кристалл изо всех сил. Потребуется время, чтобы он восстановился.[event=1]\r
 [title=gem_left0_yes_end]\r
 \r
 Dream Gem Left Choice No\r
 [title=gem_left0_no_begin]\r
-You hop away from the corrupted crystal.[event=3]\r
+Вы отпрыгиваете от осквернённого кристалла.[event=3]\r
 [title=gem_left0_no_end]\r
 \r
 Dream Gem Left Repeat\r
 [title=gem_left0_repeat_begin]\r
-[question=0]Purify the corruption?\r
-[choice]Yes.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]\r
-[choice]No.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]\r
+[question=0]Очистить от скверны?\r
+[choice]Да.[newtalk start=gem_left0_yes_begin break=gem_left0_yes_end]\r
+[choice]Нет.[newtalk start=gem_left0_no_begin break=gem_left0_no_end]\r
 [title=gem_left0_repeat_end]\r
 \r
 Dream Gem Intro PostQuest\r
 [title=gem_int1_begin]\r
-The <color=#03cffc><b>dream crystal</b></color> pulses again with the most minute amount of life. It's path to recovery will be long but absolute.\r
-With its replenished body, it leaves this crux behind to find their way home. Your goal is much the same.\r
+<color=#03cffc><b>Кристалл сновидений</b></color> снова пульсирует с крошечной долей жизни. Его путь к восстановлению будет долгим, но неизбежным.\r
+Благодаря своему обновленному телу, он оставляет эту проблему позади, чтобы найти свою дорогу домой. Ваша цель во многом та же.\r
 [title=gem_int1_end]\r
 \r
 Demon Statue\r
 [title=statue_begin]\r
-A monument to all the things you no longer wish to dream of. The things which can transform into nightmares.\r
-Its desire to take with it your ambition, fantasies, inspirations... will never be satiated.\r
+Памятник всему, о чём вы больше не хотите мечтать. Всему, что может превратиться в кошмары.\r
+Его желание унести с собой ваши амбиции, фантазии, вдохновение... никогда не будет удовлетворено.\r
 [title=statue_end]\r
 \r
 mirror\r
 [title=mirror_begin]\r
-A reflection of what you believe to be you. But is it really you? What lies on the other side?\r
-Parallel worlds in parallel timelines. One a reality, the other a nightmare. \
-Face your true self.\r
+Отражение того, кем, как вам кажется, вы являетесь. Но действительно ли это вы? Что скрывается по ту сторону?\r
+Параллельные миры в параллельных временных линиях. Один - реальность, другой - кошмар. \
+Встретьтесь лицом к лицу со своим истинным я.\r
 [title=mirror_end]"
