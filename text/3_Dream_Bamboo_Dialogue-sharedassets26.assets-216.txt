@@ -2,440 +2,440 @@
  1 string m_Name = "3_Dream_Bamboo_Dialogue"
  1 string m_Script = "3_Dream_Bamboo Dialogue\r
 \r
-NOTES:\r
-- concept is that a relic appeared in a ruined pyramid (it is a null dream shard with no power)\r
-- elder gives you quest to seek it out in order to embue it with magic\r
-- elder also mentions lost adventurer in pyramid, you can talk to him when inside (he dies) then report it back to elder for no reason other than dialogue variety\r
-- after getting pyramid quest, you must talk to Gardener Freckle near his hut to obtain the machete (to chop bamboo stalks down)\r
-- pyramid can only be accessed by answering the door's riddle, but you wont know the answer unless you talk to the elder's advisor (after getting the pyramid quest)\r
-- return to elder with inactive shard, he embues it and you win\r
+ЗАМЕТКИ:\r
+- концепт в том, что реликвия появилась в разрушенной пирамиде (это пустой осколок мечты, не обладающий силой)\r
+- старейшина даёт вам задание найти её, чтобы наполнить магией\r
+- старейшина также упоминает потерявшегося в пирамиде путешественника, с ним можно поговорить внутри (он умрёт) про это можно сказать старейшине, но это не даст ничего, кроме нового диалога\r
+- после выполнения задания пирамиды вы должны поговорить с садовник Фрекл рядом с его хижиной, чтобы получить мачете (чтобы срубить бамбук)\r
+- в пирамиду можно попасть, только разгадав загадку на двери, но вы не узнаете ответ, пока не поговорите с советником старейшины (после получения задания на пирамиду)\r
+- вернитесь к старейшине с неактивным осколком, он заполнит его, и вы победите\r
 \r
 GOGI INTRO\r
 [title=Gogi_0_begin]\r
-"Gogi": Whoa! This forest is so dense with bamboo I can barely see through the clearing!\r
-"Gogi": If I had a big pair of scissors I'd cut it all down and there'd be no problem!\r
-"Gogi": Hmm... maybe there's something <color=#03cffc><b>neat</b></color> deeper in this colorful thicket! Get me a souvenir!\r
-"Gogi": Oh, well! Don't get lost in the thick shrubery and have [jitter=5 angle=0]fuuunnn![/jitter]\r
+"Гоги": Ого! Этот бамбуковый лес такой густой, что я едва вижу полянку!\r
+"Гоги": Вот если бы у меня были огромные ножницы, я бы всё срезал, и проблем бы не было!\r
+"Гоги": Хмм... может, где-то глубже в этих ярких зарослях есть что-нибудь <color=#03cffc><b>клёвое</b></color>! Принеси мне сувенир!\r
+"Гоги": Ох, ладно! Только не заблудись в этих кустах и [jitter=5 angle=0]повеселиииииись![/jitter]\r
 [title=Gogi_0_end]\r
 \r
 ROUND 1 PREQUEST\r
 \r
 MUSHROOM Gardener Freckle\r
 [title=gardener_0_begin]\r
-Gardener Freckle: [jitter=5 angle=0]GAAH...![/jitter] Crimini!\r
-Gardener Freckle: Geez, don't sneak up on me like that! You'll scare the flowers, and I've just started planting them!\r
-Gardener Freckle: I try to spend as much time with them as I can throughout the day. They need all the attention they can get!\r
-Gardener Freckle: Today's a lovely day, so it's a perfect time to put away my <color=#fcf403><b>bigger tools</b></color> and work in the garden.\r
+Садовник Фрекл: [jitter=5 angle=0]АААХ...![/jitter] Кримини!\r
+Садовник Фрекл: Боже, не подкрадывайся ко мне так! Ты распугаешь цветы, а я только начал их высаживать!\r
+Садовник Фрекл: Я стараюсь проводить с ними как можно больше времени в течении всего дня. Им нужно всё внимание, которое я могу дать!\r
+Садовник Фрекл: Сегодня замечательный день, так что это лучшее время, чтобы убрать <color=#fcf403><b>большие инструменты</b></color> и поработать в саду.\r
 [title=gardener_0_end]\r
 \r
 MUSHROOM GUY\r
 [title=villager_0_begin]\r
-Villager Gab: Days like these I just find myself staring out my window for hours on end, basking in the warmth. Makes me so sleepy...\r
-Villager Gab: Hey, you look like the type of person who's always in a hurry. Why not relax for a bit?\r
+Житель Гэб: В такие дни, как этот, я просто часами смотрю в окно, нежась в тепле. Меня так клонит в сон....\r
+Житель Гэб: Эй, ты выглядишь как человек, который всегда куда-то торопится. Почему бы тебе немного не расслабиться?\r
 [title=villager_0_end]\r
 \r
 MUSHROOM WIFE\r
 [title=wife_0_begin]\r
-Dotty: Have you seen my husband <color=#fcf403><b>Niles</b></color>? He left earlier to go "exploring", but didn't say where to.\r
-Dotty: Oh dear... it's been hours. I hope he's alright. I get so lonely during the day.\r
-Dotty: If you happen to head out there... bring him back home please!\r
+Дотти: Вы видели моего мужа <color=#fcf403><b>Найлса</b></color>? Он ушёл "исследовать окрестности", но не сказал куда именно.\r
+Дотти: О боже... его нету уже несколько часов. Надеюсь, с ним всё в порядке. Мне так одиноко целый день.\r
+Дотти: Если вдруг увидишь его... верни его назад домой, пожалуйста!\r
 [title=wife_0_end]\r
 \r
 Toadstool Tommy\r
 [title=kid_0_begin]\r
-Toadstool Tommy: Hey bro! Do you want to play with me? It's a nice day!\r
+Поганка Томми: Хэй, бро! Ты хочешь поиграть со мной? Какой классный день!\r
 [title=kid_0_end]\r
 \r
 MUSHROOM ADVISOR\r
 [title=advisor_0_begin]\r
-Advisor Mung: Ah, a surprise visit from a most dashing stranger! I'm Mung, the <color=#5efc03><b>mayor's</b></color> assistant, bookkeeper, and advisor, at your service.\r
-Advisor Mung: This is the mayor's house, chap. I'm afraid he's away at the moment. Not sure where to... he's always sneaking away to relax somewhere.\r
-Advisor Mung: If you need him, I suggest taking a look around the village. I'll be here organizing his books.\r
+Советник Мунг: Ах, какой неожиданный визит от бравого незнакомца! Я Мунг, ассистент, бухгалтер и советник <color=#5efc03><b>мэра</b></color>, к вашим услугам.\r
+Советник Мунг: Это дом мэра, дружище. Боюсь, сейчас он не у себя. Я не знаю, где он... он постоянно ускользает, чтобы где-нибудь отдохнуть.\r
+Советник Мунг: Если он тебе нужен, думаю, тебе стоит обойти деревню. А я буду здесь разбираться с его книгами.\r
 [title=advisor_0_end]\r
 \r
 ROUND 2\r
 \r
 Toadstool Tommy\r
 [title=kid_1_begin]\r
-Toadstool Tommy: This way! This way! Behind the house! Let's go exploring!\r
+Поганка Томми: Сюда! Сюда! За домом! Пошли исследовать мир!\r
 [title=kid_1_end]\r
 \r
 [title=kid_2_begin]\r
-Toadstool Tommy: Whoa! It's a hidden spring. Looks chill.\r
+Поганка Томми: Воу! Это скрытый источник. Выглядит прохладным.\r
 [title=kid_2_end]\r
 \r
 MUSHROOM MAYOR\r
 [title=mayor_0_begin]\r
-???: Seems someone has finally found my favorite hidden hangout spot. So much for an old man's solitude!\r
-Mayor Morel: [question=0]Ah well. Nothing is secret forever. I'm the Mayor as you've probably guessed, <color=#5efc03><b>Mayor Morel</b></color>. What can I do for you?\r
-[choice]Dream Shard?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]\r
-[choice]Nice mushrooms.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]\r
+???: Похоже, кто-то всё-таки нашёл моё тайное место, чтобы поотвисать. Вот тебе и одиночество для старика!\r
+Мэр Морель: [question=0]Что же. Ничего не остаётся секретом навсегда. Я мэр и, как ты уже догадался, я <color=#5efc03><b>Мэр Морель</b></color>. Что я могу сделать для тебя?\r
+[choice]Осколок сна?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]\r
+[choice]Классные грибы.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]\r
 [title=mayor_0_end]\r
 \r
 [title=answer_mayor_mushroom_begin]\r
-Mayor Morel: Mushrooms? You're a strange one, aren't you? Don't mind me, just an oddball thing to say...\r
-Mayor Morel: But yes - they're quite something. They grow higher everyday, and they make great cushions!\r
-Mayor Morel: [question=01]Did ya need anything else, youngster? Not to be rude, but you're crampin' an old man's style a little bit here.\r
-[choice]Dream Shard?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]\r
-[choice]Nice mushrooms.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]\r
+Мэр Морель: Грибы? Ты очень странный, не так ли? Не обращай внимание, просто хотел сказать эту странную фразу...\r
+Мэр Морель: Но да - они просто нечто. С каждым днём они становятся всё выше, и из них получаются отличные подушки!\r
+Мэр Морель: [question=01]Тебе ещё чёта нужно, юнец? Не сочти за грубость, но ты тут немного мешаешь одному старичку.\r
+[choice]Осколок сна?[newtalk start=answer_mayor_0_begin break=answer_mayor_0_end]\r
+[choice]Классные грибы.[newtalk start=answer_mayor_mushroom_begin break=answer_mayor_mushroom_end]\r
 [title=answer_mayor_mushroom_end]\r
 \r
 [title=answer_mayor_0_begin]\r
-Mayor Morel: <color=#03cffc><b>Dream Shard</b></color>? Hmm... never heard of it. Well, actually...\r
-Mayor Morel: I hear talk of an <color=#fcba03><b>old ruinous structure</b></color> popping up recently somewhere in the thicket. I imagine there must be treasure afoot!\r
-Mayor Morel: We had one of our own go and investigate, but they haven't returned. Much of the jungle is uncharted, so I fear the worst.\r
-Mayor Morel: But you look like a brave sort, so this is where you come in. Search the thicket, find the structure, try to bring back the lost explorer.\r
-Mayor Morel: Maybe even grab this so-called treasure while you're at it! Well then, tally-ho then, lad! I'll be here when you return.\r
+Мэр Морель: <color=#03cffc><b>Осколок сна</b></color>? Хмм... никогда о таком не слышал. Хотя, вообще-то...\r
+Мэр Морель: Я слышал, что где-то в чаще недавно появилась <color=#fcba03><b>старая разрушенная структура</b></color>. Представляю, сколько там может быть сокровищ!\r
+Мэр Морель: Мы отправили одного из наших на разведку, но он не вернулся. Большая часть джунглей не исследована, так что я боюсь худшего.\r
+Мэр Морель: Но ты выглядишь храбрецом, так что тут-то ты и пригодишься. Отыщи чащу, найти структуру и попытайся вернуть пропавшего разведчика.\r
+Мэр Морель: А ещё можешь прихватить это так называемое сокровище, пока будешь там! Ну что ж, тогда удачи, парень! Я буду здесь, когда ты вернешься.\r
 [title=answer_mayor_0_end]\r
 \r
 ROUND 3 - MID QUEST\r
 \r
 MUSHROOM MAYOR\r
 [title=mayor_1_begin]\r
-Mayor Morel: Still running around? Maybe talk with a few of the other villagers. I'm sure they have better things to tell you than I.\r
+Мэр Морель: Все еще слоняешься здесь? Может, поговоришь с кем-нибудь из жителей этой деревни. Уверен, у них есть что тебе рассказать.\r
 [title=mayor_1_end]\r
 \r
 Toadstool Tommy\r
 [title=kid_3_begin]\r
-Toadstool Tommy: Are you going exploring? I want to go!\r
+Поганка Томми: Ты собираешься на разведку? Я тоже хочу!\r
 [title=kid_3_end]\r
 \r
 MUSHROOM GUY\r
 [title=villager_1_begin]\r
-Villager Gab: Z...z...z...\r
-(They're sleeping? Better leave them alone.)\r
+Житель Гэб: Z...z...z...\r
+(Они спят? Лучше оставь их в покое.)\r
 [title=villager_1_end]\r
 \r
 [title=villager_01_begin]\r
-Gardener Freckle: Ugh, I'm pooped! A long day of getting your hands dirty giving the scenery a bit of a boost is rewarding though.\r
-Gardener Freckle: Don't worry about the machete, it was on its last leg. I was gonna cut that overgrowth of bamboo later anyways!\r
-Gardener Freckle: But hey, good luck out there. Maybe one day you'll make as good a gardener as me! See ya 'round.\r
+Садовник Фрекл: Угх, я вымотался! Но всё-таки мне приносит удовольствие весь день пачкать руки, чуть улучшая местные виды.\r
+Садовник Фрекл: Не переживай из-за мачете, оно уже было на последнем издыхании. Я всё равно собирался потом срубить эти бамбуковые заросли!\r
+Садовник Фрекл: Но эй, удачи тебе там. Может, однажды ты станешь таким же хорошим садовником, как я! Ещё увидимся.\r
 [title=villager_01_end]\r
 \r
 MUSHROOM WIFE\r
 [title=wife_1_begin]\r
-Dotty: So worried about my husband. I hope he comes back from exploring the thicket soon.\r
+Дотти: Я так беспокоюсь о своем муже. Надеюсь, он скоро вернется из чащи.\r
 [title=wife_1_end]\r
 \r
 MUSHROOM ADVISOR\r
 [title=advisor_1_begin]\r
-Advisor Mung: Hello again, chap! I do say, the Mayor's collection of different books is rather fascinating.\r
-Advisor Mung: He's even got a few on <i>classic riddles</i> and jokes! I never expected he would be such a <b>fungi!</b>\r
-Advisor Mung: ...ahem... sorry. Hehe.\r
-Advisor Mung: Anywho- I hear you're venturing out into the thicket. We've been trying to chart it as we go, but it's all still a mystery.\r
-Advisor Mung: I may very well make a trip out there when I have time. Maybe we'll run into one another. Best of luck!\r
+Советник Мунг: Снова привет, дружище! Должен сказать, у мэра весьма увлекательная коллекция самых разных книг.\r
+Советник Мунг: У него даже есть несколько книг про <i>классические загадки</i> и шутки! Не ожидал, что он окажется таким <b>весельчаком!</b>\r
+Советник Мунг: ...кхм... прости. Хехе.\r
+Советник Мунг: Так или иначе- Я слышал, что ты отважился пойти в чащу. Мы пытались составлять карту по мере продвижения, но чаща всё ещё сплошная загадка.\r
+Советник Мунг: Возможно, я и сам выберусь туда, когда у меня будет время. Может быть, мы ещё встретимся. Желаю удачи!\r
 [title=advisor_1_end]\r
 \r
 BAMBOO WALL WITH NO MACHETE\r
 [title=bamboo_00_begin]\r
-A bunch more bamboo stalks. They're all densely packed together.\r
+Ещё один пучок бамбуковых стеблей. Все они плотно уложены друг к другу.\r
 [title=bamboo_00_end]\r
 \r
 [title=bamboo_0_begin]\r
-Upon closer inspection, this gathering of bamboo stalks seems different. You can feel a slight breeze wafting through.\r
-This particular set is extremely dense however, so no way you can separate them enough to pass through. If only you had something <color=#fcf403><b>sharp</b></color>...\r
+При ближайшем рассмотрении это скопление бамбуковых стеблей отличается. Вы чувствуете лёгкое дуновение ветерка.\r
+Но конкретно этот бамбук чрезвычайно плотный, и вы никак не можете раздвинуть его, чтобы пройти. Вот если бы у вас было что-нибудь <color=#fcf403><b>острое</b></color>...\r
 [title=bamboo_0_end]\r
 \r
 MUSHROOM Gardener Freckle\r
 [title=gardener_question_1_begin]\r
-Gardener Freckle: [jitter=5 angle=0]G-gAAH...![/jitter]\r
-Gardener Freckle: Geez! Do you make it a habit to sneak up on people like that all the time?! Sheesh!\r
-Gardener Freckle: [question=1]Anyways, I think it's about time I put my <b>tools</b> away and call it a day. Is there something I can do for you beforehand?\r
-[choice]Maybe later?[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]\r
-[choice]Nice garden.[newtalk start=answer_gardener_garden_begin break=answer_gardener_garden_end]\r
+Садовник Фрекл: [jitter=5 angle=0]G-gAAH...![/jitter]\r
+Садовник Фрекл: Чёрт! У тебя привычка такая подкрадываться к людям?! Жесть!\r
+Садовник Фрекл: [question=1]В любом случае, на сегодня я закончил, и мне пора собирать свои <b>инструменты</b>. Я могу тебе чем-нибудь помочь перед этим?\r
+[choice]Может, позже?[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]\r
+[choice]Классный сад.[newtalk start=answer_gardener_garden_begin break=answer_gardener_garden_end]\r
 [title=gardener_question_1_end]\r
 \r
 MUSHROOM Gardener Freckle NO\r
 [title=answer_gardener_no_0_begin]\r
-Gardener Freckle: Okay then! Think I'll retire to my hut soon and take a nap, so let me know if you change your mind before then.\r
+Садовник Фрекл: Тогда ладно! Думаю, я скоро вернусь в свою хижину и вздремну, так что дай мне знать, если передумаешь.\r
 [title=answer_gardener_no_0_end]\r
 \r
 [title=answer_gardener_garden_begin]\r
-Gardener Freckle: Hey, thanks pal, that's real nice of you! I'm just trying to mix it up a little bit what with all the same bamboo everywhere.\r
+Садовник Фрекл: Эй, спасибо, приятель, это очень мило с твоей стороны! Я просто пытаюсь немного разнообразить обстановку, ведь везде один и тот же бамбук.\r
 [title=answer_gardener_garden_end]\r
 \r
 [title=gardener_question_1_repeat_begin]\r
-Gardener Freckle: [jitter=5 angle=0]G-gAAH...![/jitter]\r
-Gardener Freckle: Geez! Do you make it a habit to sneak up on people like that all the time?!\r
-Gardener Freckle: [question=2]Do you need something or are you just gonna keep messin' around?\r
-[choice]Not right now.[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]\r
-[choice]Cutting tool?[newtalk start=answer_gardener_yes_0_begin break=answer_gardener_yes_0_end]\r
+Садовник Фрекл: [jitter=5 angle=0]А-аААХ...![/jitter]\r
+Садовник Фрекл: Чёрт! У тебя привычка такая подкрадываться к людям?!\r
+Садовник Фрекл: [question=2]Тебе что-то нужно или ты просто тут валяешь дурака?\r
+[choice]Сейчас ничего.[newtalk start=answer_gardener_no_0_begin break=answer_gardener_no_0_end]\r
+[choice]Режущий инструмент?[newtalk start=answer_gardener_yes_0_begin break=answer_gardener_yes_0_end]\r
 [title=gardener_question_1_repeat_end]\r
 \r
 MUSHROOM Gardener Freckle YES\r
 [title=answer_gardener_yes_0_begin]\r
-Gardener Freckle: A cutting tool you say? I have an old <color=#fcba03><b>machete</b></color>, that's about it. It's in some disrepair, so you can just have it.[event=0]\r
+Садовник Фрекл: Режущий инструмент, говоришь? У меня есть старое <color=#fcba03><b>мачете</b></color> и, пожалуй, всё. Оно в плохом состоянии, так что можешь забирать его.[event=0]\r
 [title=answer_gardener_yes_0_end]\r
 \r
 BAMBOO WALL WITH MACHETE\r
 [title=bamboo_1_begin]\r
-You bring out the <color=#fcba03><b>machete</b></color> Gardener Freckle gave you. In a single, quick motion-[event=3]\r
--you decimate the wall of bamboo stalks! As well as the machete. Thank you for your service, trusty blade.\r
+Вы достаёте <color=#fcba03><b>мачете</b></color>, которое дал вам садовник Фрекл. Один быстрый взмах-[event=3]\r
+-и вы разносите в щепки стену из бамбуковых стеблей! И само мачете тоже. Спасибо тебе за твою службу, верный клинок.\r
 [title=bamboo_1_end]\r
 \r
 PYRAMID EYE\r
 [title=pyramid_0_begin]\r
-Weird Door: Yaaawn... hmm? Oh, a visitor. Great. What the heck do you want? I was sleeping!\r
-Weird Door: Let me guess... you just wanna waltz on in to my temple and pillage the place.\r
-Weird Door: Well, I'm not letting just anyone inside. Not after that last guy brute-forced his way in here! A door's got feelings, y'know.[event=4]\r
-Weird Door: Y-you're kinda cute though, so I suppose I could make an exception... if you answer my riddle correctly that is!\r
-Weird Door: Yeah, I'm a friggin' mysterious and ancient stone slab with a friggin' sentient eye. Of course I got a riddle.[event=5][newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]\r
+Странная дверь: Аааафф... хмм? Ох, посетитель. Отлично. Что тебе надо? Я спала!\r
+Странная дверь: Дай угадаю... ты просто хочешь вальяжно зайти в мой храм и всё тут разграбить.\r
+Странная дверь: Нетушки, я не пускаю внутрь всех подряд. Особенно как предыдущий тип вломился силой! У дверей, вообще-то, тоже есть чувства.[event=4]\r
+Странная дверь: Н-но ты, вроде, милый, так что, пожалуй, я могу сделать исключение... если правильно ответишь на мою загадку!\r
+Странная дверь: Ага, я, чёрт возьми, таинственная древняя каменная плита с чёртовым глазом. Конечно, у меня есть загадка.[event=5][newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]\r
 [title=pyramid_0_end]\r
 \r
 [title=answer_pyramid_question_0_begin]\r
-Weird Door: Ahhhem... anyways, you finally ready to get serious now? Ok, listen up.\r
-Weird Door: [question=3]I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. <b>What am I?</b>\r
-[choice]A garden?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
-[choice]A human?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
-[choice]A dream?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
-[choice]No clue.[newtalk start=answer_pyramid_leave_0_begin break=answer_pyramid_leave_0_end]\r
-[choice]You're cute.[newtalk start=answer_pyramid_leave_00_begin break=answer_pyramid_leave_00_end]\r
+Странная дверь: Кхххмм... в общем, ты уже готов быть серьёзным? Ок, тогда слушай.\r
+Странная дверь: [question=3]У меня есть города, но нету домов. У меня есть горы, но нету деревьев. У меня есть вода, но нету рыбы. <b>Что я?</b>\r
+[choice]Сад?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]Человек?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]Сон?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]Понятия не имею.[newtalk start=answer_pyramid_leave_0_begin break=answer_pyramid_leave_0_end]\r
+[choice]Ты милая.[newtalk start=answer_pyramid_leave_00_begin break=answer_pyramid_leave_00_end]\r
 [title=answer_pyramid_question_0_end]\r
 \r
 [title=answer_pyramid_leave_0_begin]\r
-Weird Door: Figured. Maybe go find someone who has better riddle knowledge or something...\r
-Weird Door: Be seeing you later on then, ya little weirdo![event=8]\r
+Странная дверь: Так и думала. Может, ты лучше пойдёшь и поищешь кого-нибудь, кто получше разбирается в загадках...\r
+Странная дверь: Тогда увидимся позже, ты, мелкий чудик![event=8]\r
 [title=answer_pyramid_leave_0_end]\r
 \r
 [title=answer_pyramid_leave_flirt_begin]\r
-Weird Door: Figured. Maybe go find someone who has better riddle knowledge or something...\r
-Weird Door: Be seeing you later on then, ya little weirdo![event=9]\r
+Странная дверь: Так и думала. Может, ты лучше пойдёшь и поищешь кого-нибудь, кто получше разбирается в загадках...\r
+Странная дверь: Тогда увидимся позже, ты, мелкий чудик![event=9]\r
 [title=answer_pyramid_leave_flirt_end]\r
 \r
 PYRAMID FLIRT OPTIONS\r
 \r
 [title=answer_pyramid_leave_00_begin]\r
-Weird Door: Mm... ahh, what?![event=4]\r
-Weird Door: N-no! I have to go now![event=6]\r
+Странная дверь: Мм... ахх, что?![event=4]\r
+Странная дверь: Н-нет! Мне сейчас же нужно кое-куда отойти![event=6]\r
 [title=answer_pyramid_leave_00_end]\r
 \r
 [title=answer_pyramid_leave_01_begin]\r
-Weird Door: Yeah, that's right! Get up on outta here, you little weirdo.\r
+Странная дверь: Ага, это правильно! А теперь проваливай отсюда, ты, мелкий чудик.\r
 [title=answer_pyramid_leave_01_end]\r
 \r
 [title=answer_pyramid_leave_02_begin]\r
-Weird Door: I- I can't deal with all this right now. Things are moving much too fast between us... it's making my eye spin![event=11]\r
-Weird Door: I'll be honest... it's not me, it's you. I just think we need some time apart.[event=7]\r
+Странная дверь: Я- я я так не могу. Между нами всё развивается слишком быстро... У меня аж глаз кругом идёт![event=11]\r
+Странная дверь: Буду честной... дело не во мне, а в тебе. Я просто думаю, нам нужно на время побыть отдельно.[event=7]\r
 [title=answer_pyramid_leave_02_end]\r
 \r
 [title=answer_pyramid_flirt_0_begin]\r
-Weird Door: It's you again... did you want another shot at my riddle or are you just going to keep pointlessly flirting with me?\r
-Weird Door: Ahhhem... anyways. Here's the riddle again, so listen up!\r
-Weird Door: [question=03]I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. <b>What am I?</b>\r
-[choice]You're... cute?[newtalk start=answer_flirt_00_begin break=answer_flirt_00_end]\r
-[choice](Continue flirting)[newtalk start=answer_flirt_01_begin break=answer_flirt_01_end]\r
-[choice]I don't know.[newtalk start=answer_pyramid_leave_flirt_begin break=answer_pyramid_leave_flirt_end]\r
+Странная дверь: Это снова ты... хочешь снова попытаться решить загадку или будешь продолжать бессмысленно со мной флиртовать?\r
+Странная дверь: Кхххмм... в общем. Вот эта загадка, слушай!\r
+Странная дверь: [question=03]У меня есть города, но нету домов. У меня есть горы, но нету деревьев. У меня есть вода, но нету рыбы. <b>Что я?</b>\r
+[choice]Ты... милая?[newtalk start=answer_flirt_00_begin break=answer_flirt_00_end]\r
+[choice](Продолжить флирт)[newtalk start=answer_flirt_01_begin break=answer_flirt_01_end]\r
+[choice]Я не знаю.[newtalk start=answer_pyramid_leave_flirt_begin break=answer_pyramid_leave_flirt_end]\r
 [title=answer_pyramid_flirt_0_end]\r
 \r
 [title=answer_flirt_00_begin]\r
-Weird Door: Y-you can't be serious. I can't believe I'm being hit on by some shlubby glitter goblin right now.\r
-Weird Door: This was SO not on my agenda for today. Or, like, ever. Fine, I'll humor you.[event=4]\r
-Weird Door: [question=06]What about me do you think is "cute"? Ugh.\r
-[choice]Your eye.[newtalk start=answer_flirt_02_begin break=answer_flirt_02_end]\r
-[choice]Your texture.[newtalk start=answer_flirt_03_begin break=answer_flirt_03_end]\r
-[choice]Your shape.[newtalk start=answer_flirt_04_begin break=answer_flirt_04_end]\r
-[choice]Your personality.[newtalk start=flirt_win_begin break=flirt_win_end]\r
+Странная дверь: Т-ты же это всё не всерьёз. Не могу поверить, что со мной сейчас пытается заигрывать какой-то потрёпанный блестящий гоблин.\r
+Странная дверь: Это вообще НИКАК не входило в мои планы на сегодня. И вообще никогда не входило. Ладно, я подыграю тебе.[event=4]\r
+Странная дверь: [question=06]И что же во мне ты считаешь "милым"? Уф.\r
+[choice]Твой глаз.[newtalk start=answer_flirt_02_begin break=answer_flirt_02_end]\r
+[choice]Твоя текстура.[newtalk start=answer_flirt_03_begin break=answer_flirt_03_end]\r
+[choice]Твои формы.[newtalk start=answer_flirt_04_begin break=answer_flirt_04_end]\r
+[choice]Твоя личность.[newtalk start=flirt_win_begin break=flirt_win_end]\r
 [title=answer_flirt_00_end]\r
 \r
 [title=answer_flirt_02_begin]\r
-Weird Door: My <b>eye</b>? Hmph. Well I guess I DO have a pretty dope eye. Hard to miss when it's 30% of your body.[event=5]\r
-Weird Door: Not the most original compliment I've ever gotten. Almost boring actually. Meh. You're just not really my type, sorry.\r
+Странная дверь: Мой <b>глаз</b>? Хмф. Ладно, пожалуй, у меня ДЕЙСТВИТЕЛЬНО офигенный глаз. Трудно не заметить, когда он занимает 30% твоего тела.[event=5]\r
+Странная дверь: Не самый оригинальный комплимент среди всех, которые я получала. Почти скучный, если честно. Мда. Ты просто не в моём вкусе, прости.\r
 [title=answer_flirt_02_end]\r
 \r
 [title=answer_flirt_03_begin]\r
-Weird Door: My <b>texture</b>? H-hey, hands off! I have to keep my look nice and pristine for any potential adventurers, so back up![event=5]\r
-Weird Door: Didn't anyone ever tell you not to go around running your grubby hands over every textured wall and door you see? Get lost.\r
+Странная дверь: Моя <b>текстура</b>? Э-эй, руки прочь! Я должна выглядеть красиво и безупречно для потенциальных путешественников, так что отойди![event=5]\r
+Странная дверь: Тебе что, не говорили, что нельзя лапать своими грязными руками каждую стену и дверь, которые ты увидел? Исчезни.\r
 [title=answer_flirt_03_end]\r
 \r
 [title=answer_flirt_04_begin]\r
-Weird Door: My <b>shape</b>? Oh, I get it. You're one of those that's all about <i>physical</i> appearances. That's real shallow of you, pal.[event=5]\r
-Weird Door: I'm a lot more than just a pretty face and shapely cuboid figure. But you'd never know that with preferences like that, would you? Get lost!\r
+Странная дверь: Мои <b>формы</b>? Ох, понятно. Ты из тех, для кого важна только <i>внешность</i>. Это так мелочно с твоей стороны, приятель.[event=5]\r
+Странная дверь: Я гораздо больше, чем просто симпатичное личико и стройная кубовидная фигура. Но со своими предпочтениями ты бы этого никогда не увидел, не так ли? Проваливай!\r
 [title=answer_flirt_04_end]\r
 \r
 [title=flirt_win_begin]\r
-Weird Door: My <b>personality</b>? Well that's something new... not many people I've met are fans of the whole, y'know, cryptic door thing.[event=5]\r
-Weird Door: But that's kind of... nice to hear. Even if we just met. Wait- what am I saying?! I'm not supposed to feel endeared by you![event=4]\r
-Weird Door: What IS this, some kind of bargain bin dating sim? You're by far the strangest, most oddball, cutest... little gremlin I've EVER met!\r
-Weird Door: Augh... you've got me all flushed now! I- I need to get outta here for a little while and clear my head. Gotta go![event=10]\r
+Странная дверь: Моя <b>личность</b>? Ну, это уже что-то новенькое... немногие из тех, кого я встречала, фанатеют от, ну знаешь, мистических дверей.[event=5]\r
+Странная дверь: Но это довольно... приятно слышать. Несмотря на то, что мы только встретились. Стоп- что я несу?! Я не должна испытывать симпатию к тебе![event=4]\r
+Странная дверь: Это что, какой-то дешёвый симулятор свиданий? Ты безусловно самый странный, самый чудаковатый, самый милый... маленький гремлин, которого я КОГДА ЛИБО встречала!\r
+Странная дверь: Аах... ты меня всю вогнал в краску! Я- Мне надо отойти и проветриться. Я пошла![event=10]\r
 [title=flirt_win_end]\r
 \r
 [title=answer_flirt_01_begin]\r
-Weird Door: N-no, stop! No, no, no... This is <i>the most</i> awkward situation. I can't even leave because I'm stuck in this gaudy lump of stone.\r
-Weird Door: [question=04]Why are you doing this to me! Can't you just answer my riddle like a normal explorer?!\r
-[choice](Continue flirting)[newtalk start=answer_pyramid_leave_02_begin break=answer_pyramid_leave_02_end]\r
-[choice]Riddle?[newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]\r
-[choice]See ya.[newtalk start=answer_pyramid_leave_01_begin break=answer_pyramid_leave_01_end]\r
+Странная дверь: Н-нет, остановись! Нет, нет, нет... Это <i>самая</i> неловкая ситуация. Я даже не могу уйти, потому что застряла в этой безвкусной глыбе.\r
+Странная дверь: [question=04]Зачем ты так со мной! Не можешь просто ответить на загадку, как нормальный путешественник?!\r
+[choice](Продолжить флирт)[newtalk start=answer_pyramid_leave_02_begin break=answer_pyramid_leave_02_end]\r
+[choice]Загадка?[newtalk start=answer_pyramid_question_0_begin break=answer_pyramid_question_0_end]\r
+[choice]Увидимся.[newtalk start=answer_pyramid_leave_01_begin break=answer_pyramid_leave_01_end]\r
 [title=answer_flirt_01_end]\r
 \r
 ---\r
 \r
 PYRAMID EYE ANSWER WRONG\r
 [title=answer_pyramid_wrong_0_begin]\r
-Weird Door: That's so right! Pfft... just kidding. Sorry, I couldn't say that with a straight eye. Wrong answer, buddy!\r
-Weird Door: Talk to me again after you've brushed up on your riddles, or maybe go find someone a bit more knowledgeable![event=8]\r
+Странная дверь: Абсолютно верно! Пффт... просто шучу. Прости, я не могу это сказать с серьёзным выражения глаза. Это было неправильно, дружище!\r
+Странная дверь: Поговори со мной ещё раз, когда подтянешь свои навыки в загадках или найдёшь кого-то, кто знает больше, чем ты![event=8]\r
 [title=answer_pyramid_wrong_0_end]\r
 \r
 MUSHROOM ADVISOR\r
 [title=advisor_2_begin]\r
-Advisor Mung: Ah, I knew we'd see each other up here, chap! It's quite the trek so I thought I'd stop for a tad and read.\r
-Advisor Mung: I've been obsessing over the mayor's <i>riddle books</i> like mad for awhile now. I get such a kick out of them.\r
-Advisor Mung: Listen to this one for example...\r
-Advisor Mung: "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. \
-What am I?"\r
-Advisor Mung: <b>...a MAP!</b> Can you believe it? Such an obvious answer! I'll be here if you want to hear more riddles, chap.\r
+Советник Мунг: Ах, я знаю, что мы встретимся здесь, приятель! Дорога довольно долгая, так что я решил немного передохнуть и почитать.\r
+Советник Мунг: Я уже какое-то время как безумец просто помешался на <i>книгах с загадками</i> мэра. Я получаю от них такое удовольствие.\r
+Советник Мунг: Вот, послушай, например, вот такую...\r
+Советник Мунг: "У меня есть города, но нету домов. У меня есть горы, но нету деревьев. У меня есть вода, но нету рыбы. \
+Что я?"\r
+Советник Мунг: <b>...КАРТА!</b> Ты можешь в это поверить? Это же так очевидно! Я буду здесь, если захочешь ещё послушать загадки, дружище.\r
 [title=advisor_2_end]\r
 \r
 [title=advisor_22_begin]\r
-Advisor Mung: Ah, hello again, ol' bean. How's your expedition coming along? Run into anything of peculiar interest yet?\r
-Advisor Mung: I'm feeling a bit winded myself. I might call it a day and make the trek back to the village.\r
-Advisor Mung: Just a few more pages of this riddle book and I'll start heading back. You'll quite like this one I think...\r
-Advisor Mung: What starts with a T, ends with a T and is full of T?\r
-Advisor Mung: A <b>TEAPOT</b>! Speaking of tea, I'm getting quite parched way up here. I might go back soon for a spot.\r
+Советник Мунг: Ах, снова привет, старина. Как продвигается твоя экспедиция? Уже наткнулся на что-нибудь особенно интересное?\r
+Советник Мунг: Я тут немного запыхался. Может, уже пора закругляться и возвращаться в деревню.\r
+Советник Мунг: Ещё пара страниц этой книги с загадками, и я начну собираться. О, вот эта тебе должна понравиться...\r
+Советник Мунг: Что можно заварить, но нельзя сварить?\r
+Советник Мунг: <b>ЧАЙ</b>! Кстати о нём, здесь наверху у меня совсем пересохло горло. Нужно будет спуститься взять что-нибудь попить.\r
 [title=advisor_22_end]\r
 \r
 [title=advisor_23_begin]\r
-Advisor Mung: Another riddle for you? Listen to this one chap, you'll get quite a chuckle I think...\r
-Advisor Mung: What is able to travel around the globe, but stays in a corner the whole time?\r
-Advisor Mung: A <b>STAMP</b>! An hilarious jape I must say! It's so true!\r
+Советник Мунг: Хочешь ещё загадку? Послушай вот эту, дружище, тебе должна понравиться...\r
+Советник Мунг: Что может путешествовать по всему земному шару, но всегда остаётся в одном и том же углу?\r
+Советник Мунг: <b>МАРКА</b>! Должен признать, это было забавно! Это такая правда!\r
 [title=advisor_23_end]\r
 \r
 [title=advisor_24_begin]\r
-Advisor Mung: Another riddle for you? Listen to this one chap, you'll get a kick out of this one I think...\r
-Advisor Mung: What kind of room has no doors or windows?\r
-Advisor Mung: A <b>MUSHROOM</b>! So obvious! And topical. We definitely don't have doors or windows.\r
+Советник Мунг: Хочешь ещё загадку? Послушай вот эту, дружище, думаю, ты получишь от неё массу удовольствия...\r
+Советник Мунг: Какую шляпку не сдует ветер?\r
+Советник Мунг: <b>ГРИБНУЮ</b>! Это так очевидно! И так актуально. У нас действительно шляпки не слетают от ветра.\r
 [title=advisor_24_end]\r
 \r
 [title=advisor_25_begin]\r
-Advisor Mung: Another riddle for you? Listen to this one chap, you'll love this one I think...\r
-Advisor Mung: If two is company and three is a crowd, what is four and five?\r
-Advisor Mung: Well, it's <b>NINE</b> of course! Simple arithmetic mixed with a witty wisecrack. Amazing!\r
-Advisor Mung: I'm always quite entertained by the reactions to these. It's either a laugh or an eye roll!\r
+Советник Мунг: Хочешь ещё загадку? Послушай вот эту, дружище, думаю, вот эту ты точно полюбишь...\r
+Советник Мунг: Если двое - это компания, а трое - это толпа, то что будет, если прибавить четыре и пять?\r
+Советник Мунг: Что же, конечно будет <b>ДЕВЯТЬ</b>! Простая арифметика, смешанная с остроумием. Восхитительно!\r
+Советник Мунг: Меня всегда забавляют реакции на такие загадки. Собеседник всегда либо смеётся, либо закатывает глаза!\r
 [title=advisor_25_end]\r
 \r
 [title=advisor_26_begin]\r
-Advisor Mung: Another riddle for you? You seem to be as entertained by these as I am! Okay, one more.\r
-Advisor Mung: When is a door no longer a door? Think about this one for a bit!\r
-Advisor Mung: Ah, when it is <b>AJAR</b>! Get it? I can't quite make out your reaction, but I'm sure you're barely able to contain your laughter!\r
-Advisor Mung: I'll be here for a little bit longer so feel free to come by and have a chat if you like. Toodle-loo!\r
+Советник Мунг: Хочешь ещё загадку? Похоже, тебе они так же интересны, как и мне! Ладно, ещё одна.\r
+Советник Мунг: Когда дверь перестаёт быть дверью? Подумай немного, прежде чем ответить!\r
+Советник Мунг: Ах, когда её <b>ОТКРЫЛИ</b>! Понял? Я не могу понять твою эмоцию, но уверен, что ты едва сдерживает смех!\r
+Советник Мунг: Я пробуду здесь ещё немного, так что не стесняйся заходить и поболтать, если захочешь. Покедова!\r
 [title=advisor_26_end]\r
 \r
 PYRAMID EYE (question after knowledge)\r
 [title=answer_pyramid_question_1_begin]\r
-Weird Door: Ugh, you're back? Already? You're so clingy. If you still want in, my mind hasn't changed. Still gotta answer the riddle!\r
-Weird Door: [question=4]Ok so.. I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?\r
-[choice]A garden?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
-[choice]A human?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
-[choice]A dream?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
-[choice]A map![newtalk start=answer_pyramid_correct_0_begin break=answer_pyramid_correct_0_end]\r
+Странная дверь: Ух, ты вернулся? Уже? Ты такой прилипала. Если ты все ещё хочешь войти, моё предложение не изменилось. Я хочу ответ на загадку.!\r
+Странная дверь: [question=4]Ладно, итак... У меня есть города, но нету домов. У меня есть горы, но нету деревьев. У меня есть вода, но нету рыбы. Что я?\r
+[choice]Сад?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]Человек?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]Сон?[newtalk start=answer_pyramid_wrong_0_begin break=answer_pyramid_wrong_0_end]\r
+[choice]Карта![newtalk start=answer_pyramid_correct_0_begin break=answer_pyramid_correct_0_end]\r
 [title=answer_pyramid_question_1_end]\r
 \r
 PYRAMID EYE ANSWER RIGHT\r
 [title=answer_pyramid_correct_0_begin]\r
-Weird Door: Wh-what? Th-that's right?! How, how did you know that? You had to have looked it up!\r
-Weird Door: Darn... that was one of my hardest riddles. I'll have to step my game up next time someone comes prattling along.\r
-Weird Door: Whatever, go on inside then. But remember... I've got my eye on you.[event=1]\r
+Странная дверь: Ч-что? Э-это правильно?! Как, как ты узнал? Наверняка ты где-то подсмотрел ответ!\r
+Странная дверь: Блин... это была одна из моих самых сложных загадок. В следующий раз, когда кто-то припрётся сюда, мне нужно будет поднять планку.\r
+Странная дверь: Ладно, можешь заходить внутрь. Но помни... Я не спускаю с тебя глаз.[event=1]\r
 [title=answer_pyramid_correct_0_end]\r
 \r
 MUSHROOM EXPLORER\r
 [title=explorer_0_begin]\r
-???: Unngh... hey, can you help me out? I came down here earlier this morning and got locked inside somehow.\r
-Explorer Niles: I'm <color=#fcf403><b>Niles</b></color>, just a local explorer who's apparently bitten off more than he can chew.\r
-Explorer Niles: The entrance door was sealed tight, but after I wedged it open and stepped inside, it slammed shut on me!\r
-Explorer Niles: [question=5]Have you heard any news from the outside? I'd really like to get back to my wife!\r
-[choice]Door's open![newtalk start=answer_explorer_0_begin break=answer_explorer_0_end]\r
-[choice]Nope. Good luck![newtalk start=answer_explorer_1_begin break=answer_explorer_1_end]\r
+???: Уннгх... эй, можешь мне помочь? Я спустился сюда рано утром и как-то застрял внутри.\r
+Исследователь Найлс: Я <color=#fcf403><b>Найлс</b></color>, простой местный исследователь, который, видимо, переоценил свои возможности.\r
+Исследователь Найлс: Входная дверь была плотно запечатана, но после того, как я поддел её и зашёл внутрь, она захлопнулась за мной!!\r
+Исследователь Найлс: [question=5]Ты слышал снаружи какие-то новости? Мне очень хочется вернуться к своей жене!\r
+[choice]Дверь открыта![newtalk start=answer_explorer_0_begin break=answer_explorer_0_end]\r
+[choice]Неа. Удачи![newtalk start=answer_explorer_1_begin break=answer_explorer_1_end]\r
 [title=explorer_0_end]\r
 \r
 [title=answer_explorer_0_begin]\r
-Explorer Niles: O-oh, really?! Thanks so much! I'm gonna head back now. Good luck getting up there, those platforms were too much for me!\r
+Исследователь Найлс: О-ох, правда?! Спасибо большое! Я сейчас же вернусь обратно. Удачи тебе забраться, эти платформы были слишком сложные для меня!\r
 [title=answer_explorer_0_end]\r
 \r
 [title=answer_explorer_1_begin]\r
-Explorer Niles: Seriously?! How did you get down here then, ya wise guy? I'm not giving up just yet!\r
-Explorer Niles: I'm going to see if I can get back to the village. Thanks for nothing, jerk...\r
+Исследователь Найлс: Серьёзно?! Тогда как ты сюда спустился, умник? Я ещё не сдался!\r
+Исследователь Найлс: Я посмотрю, как можно будет вернуться в деревню. Ну спасибо, придурок...\r
 [title=answer_explorer_1_end]\r
 \r
 DREAM SHARD\r
 [title=shard_0_begin]\r
-There's a fragment of a <color=#03cffc><b>strange crystal</b></color> here. It looks like it goes to something much bigger.\r
-It doesn't seem to have any magical properties, but... it makes for a decent treasure. You take it with you.\r
+Здесь фрагмент <color=#03cffc><b>странного кристала</b></color>. Похоже, он приведёт к чему-то гораздо большему.\r
+Похоже, у него нет никаких магических свойств, но... из него получится неплохое сокровище. Вы взяли его с собой.\r
 [title=shard_0_end]\r
 \r
 POST QUEST\r
 \r
 MUSHROOM ADVISOR\r
 [title=advisor_3_begin]\r
-Advisor Mung: I see you've returned in one piece from the thicket! You're quite the adventurer, chap.\r
-Advisor Mung: Jolly good show finding the lost treasure as well as bringing back our missing villager!\r
-Advisor Mung: The mayor will definitely want to hear about this. He should be in his usual spot.\r
+Советник Мунг: Я вижу, ты вернулся целым и невредимым из чащи! Ты настоящий искатель приключений, дружище.\r
+Советник Мунг: Отлично, что нашёл потерянное сокровище и вернул нашего пропавшего жителя!\r
+Советник Мунг: Мэр определённо захочет услышать об этом. Он должен быть у себя.\r
 [title=advisor_3_end]\r
 \r
 MUSHROOM FAMILY (WIFE AND EXPLORER)\r
 [title=family_0_begin]\r
-Dotty: Thank goodness you're finally back! I was going mad thinking of what could've happened.\r
-Explorer Niles: Yes, so glad I made it out of there in one piece. Those ruins almost had it in for me!\r
+Дотти: Слава богу, ты наконец-то вернулся! Я чуть с у а не сошла, пока думала, что могло случиться.\r
+Исследователь Найлс: Да, я тоже рад, что выбрался оттуда целым и невредимым. Эти руины чуть не прикончили меня!\r
 [title=family_0_end]\r
 \r
 MUSHROOM GUY\r
 [title=villager_2_begin]\r
-Villager Gab: Z...z... HMM?! Huh.. wh.. z...\r
-(They're still dozed out. Best leave them be.)\r
+Житель Гэб: Z...z... ХММ?! Аа.. фх.. z...\r
+(Они всё ещё дремлют. Лучше оставь их в покое.)\r
 [title=villager_2_end]\r
 \r
 Toadstool Tommy\r
 [title=kid_4_begin]\r
-Toadstool Tommy: You're the best adventurer! The best ever! I want to be just like you!\r
+Поганка Томми: Ты лучший искатель приключений! Лучше всех! Я хочу быть таким, как ты!\r
 [title=kid_4_end]\r
 \r
 MUSHROOM MAYOR\r
 [title=mayor_2_begin]\r
-Mayor Morel: Oho, they've made it out alive! Spectacular job, lad. I never had a single doubt about you. We must talk about the expedition.\r
-Mayor Morel: You look rather tired, so I won't keep you long! Tell me, did you manage to find what you were looking for?\r
-Mayor Morel: [question=6]Aha, I knew you'd be back with something interesting. That pyramid ended up having quite the treasure!\r
-[choice]Can you fix it?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]\r
-[choice]What is it?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]\r
+Мэр Морель: Ого, они выбрались живыми! Впечатляющая работа, парень. Я никогда в тебе не сомневался. Нам нужно поговорить про экспедицию.\r
+Мэр Морель: Ты выглядишь довольно уставшим, так что не буду долго задерживать тебя! Скажи, тебе удалось найти то, что ты искал?\r
+Мэр Морель: [question=6]Ага, я знал, что ты вернёшься с чем-то интересным. Всё таки в этой пирамиде оказалось сокровище!\r
+[choice]Ты можешь это починить?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]\r
+[choice]Что это?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]\r
 [title=mayor_2_end]\r
 \r
 [title=answer_mayor_11_begin]\r
-Mayor Morel: Looks like a fractured shard of something. Something big and probably very important!\r
-Mayor Morel: If anything, I'd put my money on it being part of that <color=#03cffc><b>dream shard</b></color> nonsense you were spouting earlier.\r
-Mayor Morel: Regardless, a little elbow grease and I might be able to give back some of its old glow.[newtalk start=mayor_22_begin break=mayor_22_end]\r
+Мэр Морель: Похоже на отломанный осколок чего-то. Чего-то большого и, вероятно, очень важного!\r
+Мэр Морель: Если что, я бы сделал ставку, что это связано с той чепухой про <color=#03cffc><b>осколок сна</b></color>, которую ты нёс ранее.\r
+Мэр Морель: В любом случае, немного усилий и я смогу вернуть ему часть его былого сияния.[newtalk start=mayor_22_begin break=mayor_22_end]\r
 [title=answer_mayor_11_end]\r
 \r
 [title=mayor_22_begin]\r
-Mayor Morel: [question=7]Whatever it is, I get the strongest sense that it doesn't belong here. It belongs with you.\r
-[choice]Can you fix it?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]\r
-[choice]What is it?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]\r
+Мэр Морель: [question=7]Что бы это ни было, у меня есть сильное чувство, что оно не должно быть здесь. Оно должно быть с тобой.\r
+[choice]Ты можешь это починить?[newtalk start=answer_mayor_1_begin break=answer_mayor_1_end]\r
+[choice]Что это?[newtalk start=answer_mayor_11_begin break=answer_mayor_11_end]\r
 [title=mayor_22_end]\r
 \r
 [title=answer_mayor_1_begin]\r
-Mayor Morel: Oh, I'm not sure, but it's definitely seen better days. This is an ancient relic, after all. Dating back farther than perhaps time itself.[event=2]\r
-Mayor Morel: But I'll give it a shot! My, to think this was just on the outside of our village, sitting there for who knows how long.\r
-Mayor Morel: Give me a minute now... my restoration magic's a little rusty. Hopefully this'll spark a little bit of its life back.\r
-Mayor Morel: There we go, good as new. You see? Even the most broken and forgotten trinkets can be renewed with a little care. Keep it close.\r
-Mayor Morel: Please take good care of the shard while you continue on your journey, but most importantly, take good care of yourself.\r
-Mayor Morel: Farewell, youngster!\r
+Мэр Морель: Ох, я не уверен, у него сейчас явно не лучшие дни. В конце концов, это древняя реликвия. Возможно, он старше, чем само время.[event=2]\r
+Мэр Морель: Но я попробую! Подумать только, оно лежало прямо на окраине нашей деревни, лежало там неизвестно сколько времени.\r
+Мэр Морель: Минутку... моя магия восстановления немного заржавела. Надеюсь, это сможет вновь разжечь в нём немного жизни.\r
+Мэр Морель: Готово, как новое. Видишь? Даже самые сломанные и забытые безделушки можно обновить, проявив немного осторожности. Держи его рядом.\r
+Мэр Морель: Пожалуйста, береги осколок, пока продолжаешь своё путешествие. Но, самое главное, береги себя.\r
+Мэр Морель: Прощай, юнец!\r
 [title=answer_mayor_1_end]\r
 \r
 [title=kidrun_0_begin]\r
-Toadstool Tommy: This way! This way! Behind the house! Let's go exploring!\r
+Поганка Томми: Сюда! Сюда! За домом! Пошли исследовать мир!\r
 [title=kidrun_0_end]\r
 \r
 [title=mountain_begin]\r
-As you stand along the sheer cliff edge, you take a deep breath and peer along the golden horizon.\r
-A fresh smell of crisp mountain air gently fills your lungs. You feel calm. At ease. Relaxed.\r
-You feel like you could stay here forever, but remember you must return to the task at hand.\r
+Стоя на краю обрыва, вы делаете глубокий вдох и смотрите на золотой горизонт.\r
+Свежий запах чистого горного воздуха мягко наполняет ваши лёгкие. Вы чувствуете спокойствие. Умиротворение. Расслабление.\r
+Вам кажется, что вы могли бы остаться здесь навсегда, но вспоминаете, что нужно вернуться к своей задаче.\r
 [title=mountain_end]\r
 \r
 [title=door_close_begin]\r
-Weird Door: Kekeke... and don't come back...! \
-<i>(Geez, I'm never opening my door for any of these weirdos again...)</i>\r
+Странная дверь: Кекеке... больше не возвращайся...! \
+<i>(Боже, я больше никогда не открою свою дверь никому из этих чудаков...)</i>\r
 [title=door_close_end]\r
 \r
 [title=secret_0_begin]\r
-(He's too busy jamming to notice you.)\r
+(Он слишком занят джемом, чтобы заметить вас.)\r
 [title=secret_0_end]\r
 \r
 [title=gardener_scared_begin]\r
-Gardener Freckle: [jitter=5 angle=0]G-gAAH...![/jitter] Crimini! Don't do that! You know I scare easily! Don't you have anything better to do?\r
+Садовник Фрекл: [jitter=5 angle=0]А-ааАХ...![/jitter] Кримини! Не делай так! Ты знаешь, что меня легко напугать! Тебе больше нечем заняться?\r
 [title=gardener_scared_end]"
