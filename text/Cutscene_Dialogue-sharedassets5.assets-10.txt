@@ -5,159 +5,159 @@
 Angel intro\r
 \r
 [title=angel_0_begin]\r
-you are finally here\r
+ты наконец-то здесь\r
 [title=angel_0_end]\r
 \r
 [title=angel_1_begin]\r
-we have waited for so very long\r
+мы так долго ждали\r
 [title=angel_1_end]\r
 \r
 [title=angel_2_begin]\r
-but we must wait just a little longer\r
+но мы должны подождать ещё немного\r
 [title=angel_3_end]\r
 \r
 [title=angel_3_begin]\r
-you are needed now more than you can ever imagine\r
+сейчас ты нужен нам больше, чем ты можешь себе представить\r
 [title=angel_3_end]\r
 \r
 [title=angel_4_begin]\r
-all you must do\r
+всё, что ты должен сделать\r
 [title=angel_4_end]\r
 \r
 [title=angel_5_begin]\r
-is <b>dream</b>\r
+это <b>сон</b>\r
 [title=angel_5_end]\r
 \r
 Cutscene hub intro\r
 \r
 [title=avatar_0_begin]\r
-Seems as though I have a visitor...\r
+Похоже, у меня посетитель...\r
 [title=avatar_0_end]\r
 \r
 Cutscene Gogi Outro\r
 \r
 [title=demon_0_begin]\r
-[jitter=5 angle=0]You've become quite a thorn in my side.[/jitter]\r
+[jitter=5 angle=0]Ты стал настоящей занозой в моём боку.[/jitter]\r
 [title=demon_0_end]\r
 \r
 [title=demon_1_begin]\r
-[jitter=5 angle=0]You will never return to the dreamscape.[/jitter]\r
+[jitter=5 angle=0]Ты никогда не вернешься в мир грёз.[/jitter]\r
 [title=demon_1_end]\r
 \r
 Cutscene Final part 0\r
 \r
 [title=hypno_00_begin]\r
-Your role is finished. Out of the way.\r
+Твоё роль закончена. Отойди с дороги.\r
 [title=hypno_00_end]\r
 \r
 [title=hypno_0_begin]\r
-Finally... the power of the dreamscape is mine.\r
+Наконец-то... сила грёз принадлежит мне.\r
 [title=hypno_0_end]\r
 \r
 [title=hypno_1_begin]\r
-What?! What is this?!\r
+Что?! Что это?!\r
 [title=hypno_1_end]\r
 \r
 [title=hypno_2_begin]\r
-Th-that's impossible! You were imprisoned!\r
+Э-это невозможно! Вы были заключены!\r
 [title=hypno_2_end]\r
 \r
 [title=gogi_0_begin]\r
-Your corruption will never harm the dream crystal.\r
+Твоя порча никогда не повредит кристаллу сна.\r
 [title=gogi_0_end]\r
 \r
 [title=hypno_3_begin]\r
-Haahaha... fools. You only delay the inevitable.\r
+Хаахаха... дураки. Ты только оттягиваешь неизбежное.\r
 [title=hypno_3_end]\r
 \r
 [title=hypno_33_begin]\r
-Now... you will all [jitter=4 angle=0]die.[/jitter]\r
+А сейчас... вы все [jitter=4 angle=0]умрёте[/jitter].\r
 [title=hypno_33_end]\r
 \r
 Cutscene Final part 1\r
 \r
 [title=hypno_4_begin]\r
-I knew I should have crushed you when I had the chance.\r
+Я знал, что должен был раздавить тебя, когда у меня был шанс.\r
 [title=hypno_4_end]\r
 \r
 [title=hypno_5_begin]\r
-Once I deal with you I'll continue turning this dreamscape into a paradise of nightmares.\r
+Как только я разберусь с тобой, я продолжу превращать эти грёзы в рай для кошмаров.\r
 [title=hypno_5_end]\r
 \r
 [title=mimic_0_begin]\r
-Heehee! Trapping you here was all too easy! Now you'll both-\r
+Хиихии! Заманить вас в ловушку было так просто! Теперь вы оба будете-\r
 [title=mimic_0_end]\r
 \r
 [title=hypno_6_begin]\r
-<b>YOU...!</b>\r
+<b>ТЫ...!</b>\r
 [title=hypno_6_end]\r
 \r
 [title=hypno_7_begin]\r
-You useless WRETCH! You were supposed to bring the SHARDS to ME!\r
+Ты бесполезный МЕРЗАВЕЦ! Ты должен был собрать эти ОСКОЛКИ для МЕНЯ!\r
 [title=hypno_7_end]\r
 \r
 [title=mimic_1_begin]\r
-B-but, I- I thought you said to just-\r
+Н-но, я- я думал, ты сказал просто-\r
 [title=mimic_1_end]\r
 \r
 [title=hypno_77_begin]\r
-<b>FOOL.</b>\r
+<b>ДУРАК.</b>\r
 [title=hypno_77_end]\r
 \r
 [title=hypno_8_begin]\r
-YOU HAVE FAILED ME, WORTHLESS MIMIC!\r
+ТЫ ПОДВЁЛ МЕНЯ, ЖАЛКИЙ ПОДРАЖАТЕЛЬ!\r
 [title=hypno_8_end]\r
 \r
 [title=mimic_2_begin]\r
-W-wait- noooooooooooo!\r
+П-подожди- неееееееееееет!\r
 [title=mimic_2_end]\r
 \r
 [title=gogi_1_begin]\r
-You consider this a paradise?!\r
+Ты считаешь это раем?!\r
 [title=gogi_1_end]\r
 \r
 [title=gogi_11_begin]\r
-Dreams are sacred, you don't deserve to exist here-\r
+Мечты священны, ты не заслуживаешь того, чтобы существовать здесь-\r
 [title=gogi_11_end]\r
 \r
 [title=hypno_9_begin]\r
-<i>Excuse me?</i> I don't deserve to exist? \
-You don't know the meaning of the word.\r
+<i>Извини?</i> Я не заслуживаю того, чтобы существовать? \
+Вы не знаете значение этого слова.\r
 [title=hypno_9_end]\r
 \r
 [title=hypno_98_begin]\r
-Was it not <i>me</i> who gave the dreamer purpose? \
-A <i>goal?</i> A means to an <i>end?</i>\r
+Разве не <i>я</i> дал сновидцу цель? \
+<i>Цель?</i> Средство достижения <i>цели?</i>\r
 [title=hypno_98_end]\r
 \r
 [title=hypno_99_begin]\r
-I am the balance that this sorry excuse for a world so desperately needs...\r
+Я - это тот баланс, в котором так отчаянно нуждается это жалкое подобие мира....\r
 [title=hypno_99_end]\r
 \r
 [title=hypno_10_begin]\r
-...and now, I will show you just how much I deserve to <i>exist.</i>\r
+...и теперь я покажу тебе, насколько я заслуживаю <i>существования</i>.\r
 [title=hypno_10_end]\r
 \r
 Cutscene Final part 2\r
 \r
 [title=hypno_11_begin]\r
-Damned pathetic fool. He died how he lived. \
-Defending the miserable little thing you creatures call a <i>dream.</i>\r
+Проклятый, жалкий дурак. Он умер так же, как и жил. \
+Защищая жалкую мелочь, которую вы, существа, называете <i>сном</i>.\r
 [title=hypno_11_end]\r
 \r
 [title=hypno_12_begin]\r
-Now... your soul will remain in my world for all of eternity.\r
+Теперь... твоя душа останется в моём мире на всю вечность.\r
 [title=hypno_12_end]\r
 \r
 [title=hypno_13_begin]\r
-NO... I WILL NEVER BE DESTROYED. \
-YOU WILL NEVER DESTROY THE NIGHTMARES.\r
+НЕТ... Я НИКОГДА НЕ БУДУ УНИЧТОЖЕН. \
+ТЫ НИКОГДА НЕ УНИЧТОЖИШЬ КОШМАРЫ.\r
 [title=hypno_13_end]\r
 \r
 [title=gogi_2_begin]\r
-Don't be sad, restful one.\r
+Не грусти, неугомонный.\r
 [title=gogi_2_end]\r
 \r
 [title=gogi_3_begin]\r
-I will... always be there to protect you...\r
+Я всегда... буду рядом, чтобы защитить тебя...\r
 [title=gogi_3_end]"
