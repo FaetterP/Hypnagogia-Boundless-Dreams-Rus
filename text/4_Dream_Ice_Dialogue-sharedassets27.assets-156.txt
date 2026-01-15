@@ -2,562 +2,562 @@
  1 string m_Name = "4_Dream_Ice_Dialogue"
  1 string m_Script = "4_Dream_Ice Dialogue\r
 \r
-NOTES:\r
-- sad-ish/melancholy worldly type level (dialogue mostly, not really any platforming)\r
-- should add in mountainous/cliffy area near where cave is for platforming challenge\r
-- lots of sad homeless NPCs giving their two cents, people keep commenting on how no ones lived in that last building (eluding to a ghost)\r
-- whole concept is you run into a ghostly-looking guy wholed up in a building who says he wants you to find his lost dog\r
-- you can't progress anywhere before this due to a fence blocking the way (near fallen billboard)\r
-- fence disappears after talking to ghost guy\r
-- must climb mountain to find cave on top where his dog is living\r
-- the dog will not listen to you unless you have a treat to give (he tells you this before hand) (you must get the treat from another NPC after getting dog quest)\r
-- treat NPC is the fishing guy beneath the tower\r
-- once you get the dog to go back, you go talk again to ghostly NPC and he disappears after thanking you. The dream shard is where he last was\r
+ЗАМЕТКИ:\r
+- грустноватый/меланхоличный уровень (в основном диалоги, почти никакого платформинга)\r
+- стоит добавить горную/скалистую область рядом с пещерой для платформинга\r
+- много грустных бездомных NPC, которые везде вставляют свои пять копеек, люди говорят, что в том последнем здании никто не жил (намекая на призрака)\r
+- основная идея: вы встречаете призрачного на вид парня, запершегося в здании, который просит найти его потерянную собаку\r
+- до этого вы не можете продвинуться дальше из-за забора, перекрывающего путь (рядом с упавшим билбордом)\r
+- забор исчезает после разговора с призрачным парнем\r
+- нужно взобраться на гору, чтобы найти пещеру наверху, где живёт его собака\r
+- собака не будет слушаться, пока у вас нету лакомства (вам говорят об этом заранее) (нужно получить лакомство у другого NPC после получения квеста с собакой)\r
+- NPC с лакомством - это рыбак под башней\r
+- когда вы вернёте собаку, снова поговорите с призрачным NPC, и он исчезнет, поблагодарив вас. Осколок сна остаётся там, где он был в последний раз\r
 \r
 GOGI INTRO\r
 [title=Gogi_0_begin]\r
-"Gogi": [jitter=5 angle=0]Brrrrr[/jitter]... this place sure looks like it's seen better days! I definitely wouldn't want to live here!\r
-"Gogi": One thing's for sure, it's super cold so I hope you brought a big coat! Makes me want a big hot mug of my favorite chocolate beverage!\r
-"Gogi": Oh well... you have to go and get that precious shard, so don't go getting frostbite and dying on me now!\r
-"Gogi": Hehe, have [jitter=5 angle=0]fuuunnn![/jitter]\r
+"Гоги": [jitter=5 angle=0]Бррррр[/jitter]... это место определённо видало лучшие дни! Я точно не хотел бы здесь жить!\r
+"Гоги": Но в одном я уверен тоже, здесь супер холодно, так что, надеюсь, ты взял большое пальто! Я хочу выпить большую кружку моего любимого горячего шоколада!\r
+"Гоги": Ох, ладно... тебе нужно пойти и достать тот драгоценный осколок, так что не вздумай сейчас обморозиться и умереть у меня на руках!\r
+"Гоги": Хехе, [jitter=5 angle=0]веселииись![/jitter]\r
 [title=Gogi_0_end]\r
 \r
 ROUND 1\r
 \r
 WALKING GUY\r
 [title=walking_0_begin]\r
-Wanderer Reece: *Cough cough* Hmm? Is someone trying to talk to me? No time to talk.\r
-Wanderer Reece: Walking keeps my mind busy. Gotta just focus on walking. Good exercise.\r
-Wanderer Reece: Sorry... I gotta go... *Cough cough* \r
+Странник Риис: *Кх кх* Хмм? Кто-то пытается говорить со мной? У меня нет времени для разговоров.\r
+Странник Риис: Ходьба помогает мне отвлечься. Нужно просто сосредоточиться на ходьбе. Хорошее упражнение.\r
+Странник Риис: Прости... Мне пора идти... *Кх кх* \r
 [title=walking_0_end]\r
 \r
 DOG TOY\r
 [title=toy_0_begin]\r
-There's some kind of squeaky <color=#fc0328><b>red ball</b></color> half-buried in the snow. A kid's toy maybe?\r
-You have no reason to mess with it, so you leave it alone.\r
+Какой-то Пищящий <color=#fc0328><b>красный мячик</b></color> наполовину зарыт в снег. Может, это детская игрушка?\r
+У вас нет причин брать его, поэтому вы оставляете его в покое.\r
 [title=toy_0_end]\r
 \r
 GUY START\r
 [title=guy_start_0_begin]\r
-Homeless Phil: One day, long ago, it started snowing. The bright and wonderful flakes astounded all of us. We were truly breathless.\r
-Homeless Phil: This was once a hot and humid place to live, so despite our shock, we welcomed the change. Boy did we need it...\r
-Homeless Phil: But then... it snowed more, and even more, and kept snowing. It continued for many years, and is still going.\r
-Homeless Phil: We're now forced to live with our situation. We never knew how good we had it until it was taken away from us.\r
+Бездомный Фил: Однажды, давным-давно, пошел снег. Яркие и чудесные хлопья поразили всех нас. У нас действительно перехватило дыхание.\r
+Бездомный Фил: Когда-то здесь было жарко и влажно, поэтому, несмотря на шок, мы приветствовали перемены. Боже, как же нам это было нужно...\r
+Бездомный Фил: Но потом... снега становилось всё больше, и ещё больше, и он не заканчивался. Это продолжалось много лет и продолжается до сих пор.\r
+Бездомный Фил: Теперь мы вынуждены мириться со своей ситуацией. Мы никогда не знали, как нам было хорошо, пока у нас этого не отняли.\r
 [title=guy_start_0_end]\r
 \r
 GUY 0\r
 [title=guy_0_0_begin]\r
-Homeless Frankie: I remember riding to work everyday like it was normal, like what everyone else did. Just doing what we always do.\r
-Homeless Frankie: But now, the one and only thing keeping me going is hoping we'll see the sun again one day.\r
-Homeless Frankie: I've got plenty of warm fire to hold me over until then, I just don't know if it will be enough.\r
-Homeless Frankie: I know how much others may be in need, so feel free to keep yourself warm here anytime.\r
+Бездомный Фрэнки: Я помню, как я ездил на работу, как это обычно делали все остальные. Все просто делали то, что и всегда.\r
+Бездомный Фрэнки: Но теперь единственное, что меня держит, это надежда, что однажды мы снова увидим солнце.\r
+Бездомный Фрэнки: У меня достаточно тёплого огня, чтобы поддерживать себя до тех пор, но я не знаю, будет ли этого достаточно.\r
+Бездомный Фрэнки: Я знаю, как сильно это может быть нужно другим, так что не стесняйтесь согреваться здесь в любое время.\r
 [title=guy_0_0_end]\r
 \r
 GUY FISHING\r
 [title=guy_fish_0_begin]\r
-Fisherman Joe: Hey there, wanderer. Don't pay me no nevermind. Just doing a little fishing.\r
-Fisherman Joe: [question=0]You're dressed pretty light given the weather. What's on your mind?\r
-[choice]Fishing?[newtalk start=answer_fish_0_begin break=answer_fish_0_end]\r
-[choice]I'm cold.[newtalk start=answer_fish_1_begin break=answer_fish_1_end]\r
-[choice]Nothing.[newtalk start=answer_fish_2_begin break=answer_fish_2_end]\r
+Рыбак Джо: Эй, привет, странник. Не обращай на меня внимания. Просто немного порыбачу.\r
+Рыбак Джо: [question=0]Для такой погоды ты довольно легко одет. Что у тебя на уме?\r
+[choice]Ты рыбачишь?[newtalk start=answer_fish_0_begin break=answer_fish_0_end]\r
+[choice]Мне холодно.[newtalk start=answer_fish_1_begin break=answer_fish_1_end]\r
+[choice]Ничего.[newtalk start=answer_fish_2_begin break=answer_fish_2_end]\r
 [title=guy_fish_0_end]\r
 \r
 [title=guy_fish_0_repeat_begin]\r
-Fisherman Joe: [question=1]Anything else on your mind?\r
-[choice]Fishing?[newtalk start=answer_fish_0_begin break=answer_fish_0_end]\r
-[choice]I'm cold.[newtalk start=answer_fish_1_begin break=answer_fish_1_end]\r
-[choice]Nothing.[newtalk start=answer_fish_2_begin break=answer_fish_2_end]\r
+Рыбак Джо: [question=1]Что у тебя ещё на уме?\r
+[choice]Ты рыбачишь?[newtalk start=answer_fish_0_begin break=answer_fish_0_end]\r
+[choice]Мне холодно.[newtalk start=answer_fish_1_begin break=answer_fish_1_end]\r
+[choice]Ничего.[newtalk start=answer_fish_2_begin break=answer_fish_2_end]\r
 [title=guy_fish_0_repeat_end]\r
 \r
 GUY FISHING CHOICE 1\r
 [title=answer_fish_0_begin]\r
-Fisherman Joe: That's right! Now I know what you're thinking. "Surely the fish under here would've all turned into ice cubes by now."\r
-Fisherman Joe: Well, there's no way to know really. This pond froze over years ago. It's probably a mile of ice beneath us.\r
-Fisherman Joe: Far as I'm concerned there ARE fish down there. All I needs is patience. Lots of patience. I won't let the cold put me down.[newtalk start=guy_fish_0_repeat_begin break=guy_fish_0_repeat_end]\r
+Рыбак Джо: Верно! Теперь я знаю, о чём ты думаешь. "Наверняка вся рыба, которая была здесь, уже превратилась бы в кубики льда."\r
+Рыбак Джо: Ну, на самом деле, нет никакого способа узнать наверняка. Этот пруд замёрз много лет назад. Под нами, наверное, миля льда.\r
+Рыбак Джо: Насколько я понимаю, там внизу ВОДИТСЯ рыба. Всё, что мне нужно, это терпение. Много терпения. Я не позволю холоду сломить меня.[newtalk start=guy_fish_0_repeat_begin break=guy_fish_0_repeat_end]\r
 [title=answer_fish_0_end]\r
 \r
 GUY FISHING CHOICE 2\r
 [title=answer_fish_1_begin]\r
-Fisherman Joe: Ah, you'll get used to it. We're a species with surprising resilience, so I'm sure you are too. Just don't think about it too much.\r
-Fisherman Joe: Between you and me, I don't mind it. Even maybe like it a little. I mean, if I get too cold, I just bundle up more. Too hot and I lighten up.\r
-Fisherman Joe: Can't really do that when the weather is scorching from the start, y'know? Silver-linings and all that.[newtalk start=guy_fish_0_repeat_begin break=guy_fish_0_repeat_end]\r
+Рыбак Джо: Ах, ты привыкнешь. Мы как вид удивительно хорошо адаптируемся, уверен, что ты тоже. Просто не думай об этом слишком много.\r
+Рыбак Джо: Между нами, я не против такого. Может быть, мне это даже нравится. Я имею в виду, что если мне становится холодно, я просто укутаюсь плотнее. Слишком жарко, и я расслабляюсь.\r
+Рыбак Джо: Но от палящей жары так просто спрятаться не получится, смекаешь? В конце концов нет худа без добра.[newtalk start=guy_fish_0_repeat_begin break=guy_fish_0_repeat_end]\r
 [title=answer_fish_1_end]\r
 \r
 GUY FISHING CHOICE 3\r
 [title=answer_fish_2_begin]\r
-Fisherman Joe: Alrighty then. Keep yourself bundled up now, you hear? I'll be hanging around if you want to talk.\r
+Рыбак Джо: Тогда отлично. Оденься потеплее, слышишь? Я буду где-то поблизости, если захочешь поговорить.\r
 [title=answer_fish_2_end]\r
 \r
 GUY FENCE\r
 [title=guy_fence_0_begin]\r
-Little Ollie: [question=08]Wow, aren't you cold? You're wearing barely anything. We're kind of in a blizzard if you haven't noticed.\r
-[choice]What's up?[newtalk start=guy_fence_01_begin break=guy_fence_01_end]\r
-[choice]I'm fine.[newtalk start=guy_fence_bye_begin break=guy_fence_bye_end]\r
+Маленький Олли: [question=08]Ого, тебе не холодно? На тебе почти ничего нету. У нас тут метель, если ты не заметил.\r
+[choice]Что такое?[newtalk start=guy_fence_01_begin break=guy_fence_01_end]\r
+[choice]Я в порядке.[newtalk start=guy_fence_bye_begin break=guy_fence_bye_end]\r
 [title=guy_fence_0_end]\r
 \r
 [title=guy_fence_bye_begin]\r
-Little Ollie: Huh. Coulda fooled me. Okay then, good talk. See ya 'round.\r
+Маленький Олли: Хах. А так и не скажешь. Ладно тогда, хорошо поболтали. Увидимся.\r
 [title=guy_fence_bye_end]\r
 \r
 [title=guy_fence_01_begin]\r
-Little Ollie: This billboard fell a long time ago... the way's been junked up with all this warped rusty metal.\r
-Little Ollie: My parents told me to stay away, but you know that just means there's gotta be something interesting over there.\r
-Little Ollie: I'll find a way through if it's the last thing I do![event=8]\r
+Маленький Олли: Этот билборд упал очень давно... дорога была завалена всем этим покорёженным ржавым металлом.\r
+Маленький Олли: Мои родители говорили мне держаться подальше, но ты же знаешь, что это просто означает, что там что-то интересное.\r
+Маленький Олли: Я найду способ пройти туда, даже если это будет последнее, что я сделаю![event=8]\r
 [title=guy_fence_01_end]\r
 \r
 GUY 2\r
 [title=guy_2_0_begin]\r
-Homeless Moe: Hey, what's happenin'? This spot's gotten a bit warmer since I nestled into it.\r
-Homeless Moe: That guy over there's been around here longer than me, and he's still not used to the cold!\r
-Homeless Moe: Crazy. I guess some people just never get used to it.\r
+Бездомный Мо: Эй, что происходит? Это место стало немного теплее с тех пор, как я здесь устроился.\r
+Бездомный Мо: Парень, который стоит там, живёт здесь дольше меня, но он всё ещё не привык к холоду!\r
+Бездомный Мо: Безумие. Думаю, некоторые люди просто никогда к этому не привыкнут.\r
 [title=guy_2_0_end]\r
 \r
 GUY 3\r
 [title=guy_3_0_begin]\r
-Homeless Bailey: Hey, this is new. Someone came to visit me! That's unusual. Most people always avoid this part of town.\r
-Homeless Bailey: It was just me for months! Some other guy moved in upstairs recently, but before then... this building was completely abandoned.\r
-Homeless Bailey: I think there was another person that used to live here waaay back, but I don't know what happened to them.\r
-Homeless Bailey: Anyways, you can stay for as long as you want. The company makes things a little warmer.\r
+Бездомный Бейли: Эй, это что-то новенькое. Кто-то пришел навестить меня! Это необычно. Большинство всегда избегают этой части города.\r
+Бездомный Бейли: Несколько месяцев здесь был только я! Недавно наверху поселился какой-то парень, но раньше... это здание было полностью заброшено.\r
+Бездомный Бейли: Я думаю, что когдааа-то здесь жил ещё один человек, но я не знаю, что с ним случилось.\r
+Бездомный Бейли: В любом случае, ты можешь оставаться здесь сколько захочешь. Компания делает жизнь немного теплее.\r
 [title=guy_3_0_end]\r
 \r
 GUY GHOST\r
 [title=guy_ghost_0_begin]\r
-???: Excuse me... sorry to trouble you, but have you seen my <color=#fcbe2b><b>dog</b></color>? She left me so long ago, I don't even remember what she looks like.\r
-???: I haven't gotten any sleep in who knows how long. She's probably so cold. I would do anything to have her back.\r
-???: If I could go look for her I would, but something's... keeping me here. If you see her, would you find a way to send her here?\r
-???: Although, she might not listen to you unless you have her favorite shiny <color=#fc0328><b>red ball</b></color>. I lost it in the snow somewhere.\r
-???: [question=00]Can you help me?\r
-[choice]Of course.[newtalk start=answer_ghost_0_begin break=answer_ghost_0_end]\r
-[choice]I'm busy.[newtalk start=answer_ghost_1_begin break=answer_ghost_1_end]\r
+???: Извините... простите за беспокойство, но вы не видели мою <color=#fcbe2b><b>собаку</b></color>? Она ушла от меня так давно, что я даже не помню, как она выглядит.\r
+???: Я не спал уже не знаю сколько времени. Ей, наверное, так холодно. Я бы сделал что угодно, чтобы вернуть её.\r
+???: Если бы я мог пойти искать её, я бы пошёл, но что-то... удерживает меня здесь. Если вы её увидите, не могли бы вы как-то отправить её сюда?\r
+???: Хотя, она может не послушаться, если у вас нету её любимого блестящего <color=#fc0328><b>красного мячика</b></color>. Я потерял его где-то в снегу.\r
+???: [question=00]Можете мне помочь?\r
+[choice]Конечно.[newtalk start=answer_ghost_0_begin break=answer_ghost_0_end]\r
+[choice]Я занят.[newtalk start=answer_ghost_1_begin break=answer_ghost_1_end]\r
 [title=guy_ghost_0_end]\r
 \r
 [title=answer_ghost_0_begin]\r
-???: Oh thank you, thank you so much. I'll be here if you find anything out.[event=5]\r
+???: Ох, спасибо вам, спасибо вам большое. Я буду здесь, если вы что-нибудь найдёте.[event=5]\r
 [title=answer_ghost_0_end]\r
 \r
 [title=answer_ghost_1_begin]\r
-???: I'll keep on waiting then, for someone who can help me. I hope you reconsider.\r
+???: Тогда я продолжу ждать кого-нибудь, кто сможет мне помочь. Надеюсь, вы передумаете.\r
 [title=answer_ghost_1_end]\r
 \r
 ROUND 2\r
 \r
 GUY GHOST\r
 [title=guy_ghost_1_begin]\r
-???: Have you had any luck? Make sure you find her favorite <color=#fc0328><b>red ball</b></color>, or else she might not listen to you.\r
-???: I hope you manage to find her. She always had such a habit of climbing up places she couldn't get down from.\r
+???: Есть какие-нибудь успехи? Убедитесь, что вы нашли её любимый <color=#fc0328><b>красный мячик</b></color>, иначе она может вас не послушаться.\r
+???: Я надеюсь, вам удастся её найти. У неё всегда была привычка забираться туда, откуда она не может спуститься.\r
 [title=guy_ghost_1_end]\r
 \r
 GUY 3\r
 [title=guy_3_1_begin]\r
-Homeless Bailey: Hope I'm not making you uncomfortable or anything. I've just never had any friends.\r
-Homeless Bailey: You can leave anytime you like, I won't be upset... (well maybe a little.)\r
+Бездомный Бейли: Надеюсь, я не причиняю тебе неудобств или что-то в этом роде. Просто у меня никогда не было друзей.\r
+Бездомный Бейли: Ты можешь уйти в любое время, когда захочешь, я не расстроюсь... (ну, может быть, немного.)\r
 [title=guy_3_1_end]\r
 \r
 GUY 2\r
 [title=guy_2_1_begin]\r
-Homeless Moe: Hey, hey, be careful! Whew, it's getting a little stuffed in here. Three's a crowd, y'know?\r
-Homeless Moe: Maybe take some refuge in that building down the street instead? Should have more room than in here.\r
+Бездомный Мо: Эй, эй, будь осторожен! Фух, здесь становится тесновато. Трое - это уже толпа, понимаешь?\r
+Бездомный Мо: Может, лучше укрыться в том здании внизу по улице? Там должно быть больше места, чем здесь.\r
 [title=guy_2_1_end]\r
 \r
 LAKE KID 1\r
 [title=guy_fence_11_begin]\r
-Little Ollie: I'm trying to pry these plates off. They're pretty rusted so it shouldn't take too much longer.\r
-Little Ollie: Check back in a little bit and I might have gotten them down by then.\r
+Маленький Олли: Я пытаюсь сорвать эти пластины. Они сильно заржавели, так что это не должно занять много времени.\r
+Маленький Олли: Загляни ещё раз через некоторое время, и я, возможно, к тому времени уже разберусь с ними.\r
 [title=guy_fence_11_end]\r
 \r
 LAKE KID 2\r
 [title=guy_fence_1_begin]\r
-Little Ollie: I managed to tear a piece of that fence down from under the billboard earlier.\r
-Little Ollie: We used to hear when we were younger this was where some kind of expedition came through.\r
-Little Ollie: It happened a long time ago though, before I was born. I don't think they ever found the missing guy.\r
-Little Ollie: Anyways, be careful. Who knows how little support is under all that untouched snow.\r
+Маленький Олли: Чуть раньше мне удалось вырвать кусок этого забора из-под билборда.\r
+Маленький Олли: Когда мы были младше, мы часто слышали, что именно здесь проходила какая-то экспедиция.\r
+Маленький Олли: Это было очень давно, ещё до моего рождения. Не думаю, что они когда-либо находили того пропавшего парня.\r
+Маленький Олли: В любом случае, будь осторожен. Кто знает, насколько маленькая опора под этим нетронутым снегом.\r
 [title=guy_fence_1_end]\r
 \r
 LAKE KID 3\r
 [title=guy_fence_12_begin]\r
-Little Ollie: Holy moly. I knew that thing was destined to collapse someday. Be glad you weren't swallowed up there...\r
-Little Ollie: Had no idea the old pipework was still pumping water underneath all this ice. What the...\r
-Little Ollie: Welp, nevermind then. Good luck getting all the way up the chasm. I'll just uh, be back here.\r
+Маленький Олли: Боже мой. Я знал, что эта штука когда-нибудь обрушится. Радуйся, что тебя не поглотило...\r
+Маленький Олли: Не знал, что старые трубы всё ещё качают воду подо всем этим льдом. Что за...\r
+Маленький Олли: Ну ладно, уже неважно. Удачи пройти весь путь по этой пропасти. Я просто эм, буду здесь.\r
 [title=guy_fence_12_end]\r
 \r
 GUY FISHING\r
 [title=guy_fish_1_begin]\r
-Fisherman Joe: Hey again. Still wandering around aimlessly like the rest of us?\r
-Fisherman Joe: [question=2]What's on your mind now?\r
-[choice]Still fishing?[newtalk start=answer_fish_3_begin break=answer_fish_3_end]\r
-[choice]Seen a dog?[newtalk start=answer_fish_4_begin break=answer_fish_4_end]\r
-[choice]Nothing.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]\r
+Рыбак Джо: Снова привет. Все еще бесцельно бродишь по городу, как и все мы?\r
+Рыбак Джо: [question=2]Что у тебя на уме сейчас?\r
+[choice]Всё ещё рыбачишь?[newtalk start=answer_fish_3_begin break=answer_fish_3_end]\r
+[choice]Ты видел собаку?[newtalk start=answer_fish_4_begin break=answer_fish_4_end]\r
+[choice]Ничего.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]\r
 [title=guy_fish_1_end]\r
 \r
 GUY FISHING CHOICE 1\r
 [title=answer_fish_3_begin]\r
-Fisherman Joe: Haha, yep, still at it. Beats doing absolutely nothing. They'll be biting soon though, you have my word.\r
-Fisherman Joe: [question=2_2]Afterall, why not? Not much better ways to spend my time nowadays anyhow.\r
-[choice]Seen a dog?[newtalk start=answer_fish_4_begin break=answer_fish_4_end]\r
-[choice]Later then.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]\r
+Рыбак Джо: Хаха, ага, всё ещё. Лучше, чем абсолютно ничего не делать. Они скоро начнут клевать, даю тебе слово.\r
+Рыбак Джо: [question=2_2]В конце концов, почему бы и нет? В любом случае, сейчас не найти лучшего способа провести время.\r
+[choice]Ты видел собаку?[newtalk start=answer_fish_4_begin break=answer_fish_4_end]\r
+[choice]Тогда увидимся.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]\r
 [title=answer_fish_3_end]\r
 \r
 GUY FISHING CHOICE 2\r
 [title=answer_fish_4_begin]\r
-Fisherman Joe: A <color=#fcbe2b><b>dog</b></color>? Ain't seen a dog for, oh, how long's it been...? Years now. They might've been around when this place was hotter... but not anymore.\r
-Fisherman Joe: Heh, maybe they've all gone an' migrated south for the winter! Eh, sorry. No clue, friend.\r
-Fisherman Joe: [question=3]What reason you looking for a dog anyhow? Seems like a wild goose chase to me.\r
-[choice]Helping someone.[newtalk start=answer_fish_5_begin break=answer_fish_5_end]\r
-[choice]No reason.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]\r
+Рыбак Джо: <color=#fcbe2b><b>Собаку</b></color>? Я не видел собак уже, ох, сколько времени прошло...? Уже много лет. Возможно, они были здесь, когда это место было жарче... но теперь уже нет.\r
+Рыбак Джо: Хех, может, они все ушли и мигрировали на юг, чтобы переждать зиму! Эх, прости. Понятия не имею, друг.\r
+Рыбак Джо: [question=3]Зачем тебе вообще нужна собака? Для меня это как найти призрака.\r
+[choice]Помогаю кое-кому.[newtalk start=answer_fish_5_begin break=answer_fish_5_end]\r
+[choice]Просто так.[newtalk start=answer_fish_2_0_begin break=answer_fish_2_0_end]\r
 [title=answer_fish_4_end]\r
 \r
 GUY FISHING CHOICE 3\r
 [title=answer_fish_2_0_begin]\r
-Fisherman Joe: Alrighty then. Keep yourself bundled up now, you hear? I'll be hanging around if you want to talk.\r
+Рыбак Джо: Тогда отлично. Оденься потеплее, слышишь? Я буду где-то поблизости, если захочешь поговорить.\r
 [title=answer_fish_2_0_end]\r
 \r
 GUY FISHING CHOICE 1\r
 [title=answer_fish_5_begin]\r
-Fisherman Joe: Not sure who that could be. No one in this frozen little village owns a dog. No one I know of at least.\r
-Fisherman Joe: If you're keen on finding something lost though, maybe check around the old pond up north.\r
-Fisherman Joe: Best be careful though, that trail's been long neglected. Could be pretty unstable going up there. Good luck.\r
+Рыбак Джо: Не уверен, кто это может быть. Никто в этой замёрзшей деревушке не держит собаку. По крайней мере, из тех, кого я знаю.\r
+Рыбак Джо: Если ты хочешь найти что-то потерянное, можешь посмотреть вокруг старого пруда на севере.\r
+Рыбак Джо: Но лучше будь осторожен, этой тропой давно не пользовались. Она может быть очень неустойчивой. Удачи.\r
 [title=answer_fish_5_end]\r
 \r
 GUY 0\r
 [title=guy_0_1_begin]\r
-Homeless Frankie: So hungry... I should go ask the fisherman when he thinks he'll finally catch a fish.\r
+Бездомный Фрэнки: Я так хочу есть... Нужно пойти спросить рыбака, когда по его мнению он уже наконец поймает рыбу.\r
 [title=guy_0_1_end]\r
 \r
 SLEEPING GUY\r
 [title=guy_sleeping_1_begin]\r
-There's just a bunch of snow here.\r
+Здесь просто куча снега.\r
 [title=guy_sleeping_1_end]\r
 \r
 DOG TOY\r
 [title=toy_1_begin]\r
-There's a squeaky <color=#fc0328><b>red ball</b></color> half-buried in the snow.\r
-This looks like something a dog might enjoy. You brush the snow off and take it with you.\r
+Пищящий <color=#fc0328><b>красный мячик</b></color> наполовину зарыт в снег.\r
+Похоже, собаке это может понравиться. Вы стряхиваете снег и забираете его с собой.\r
 [title=toy_1_end]\r
 \r
 GUY START\r
 [title=guy_start_1_begin]\r
-Homeless Phil: Hmm? Crazy to see you're still trudging through this cold hell. You've got some energy, y'know.\r
-Homeless Phil: Everybody gets tired at some point or another though. It's normal. No feeling bad about that.\r
-Homeless Phil: Feel free to hang out here if you're looking to get out of the unforgiving weather.\r
+Бездомный Фил: Хмм? Безумие, что ты всё ещё пробираешься через этот холодный ад. У тебя есть энергия, знаешь ли.\r
+Бездомный Фил: Все рано или поздно устают. Это нормально. Не нужно из-за этого расстраиваться.\r
+Бездомный Фил: Не стесняйся проводить здесь время, если хочешь укрыться от безжалостной погоды.\r
 [title=guy_start_1_end]\r
 \r
 ROUND 3\r
 \r
 STRAY DOG\r
 [title=dog_0_begin]\r
-Dog: Woof! Woof!\r
-There's a stray dog. It looks like it's somehow gotten all the way up here and can't get back down.\r
-It appears rather timid, but you can tell it's just as surprised as you are at this encounter.\r
-[question=4]What should you do?\r
-[choice]Pet the dog.[newtalk start=answer_dog_0_begin break=answer_dog_0_end]\r
-[choice]Leave it alone.[newtalk start=answer_dog_1_begin break=answer_dog_1_end]\r
-[choice]Look for a tag.[newtalk start=answer_dog_2_begin break=answer_dog_2_end]\r
+Собака: Гав! Гав!\r
+Тут бродячая собака. Похоже, она каким-то образом забралась сюда и не может спуститься обратно.\r
+Она выглядит довольно пугливой, но вы можете сказать, что она так же удивлена этой встречей, как и вы.\r
+[question=4]Что вам следует сделать?\r
+[choice]Погладить собаку.[newtalk start=answer_dog_0_begin break=answer_dog_0_end]\r
+[choice]Оставить её.[newtalk start=answer_dog_1_begin break=answer_dog_1_end]\r
+[choice]Поискать бирку.[newtalk start=answer_dog_2_begin break=answer_dog_2_end]\r
 [title=dog_0_end]\r
 \r
 [title=dog_0_repeat_begin]\r
-[question=4]The dog sits patiently. What should you do?\r
-[choice]Pet the dog.[newtalk start=answer_dog_0_begin break=answer_dog_0_end]\r
-[choice]Leave it alone.[newtalk start=answer_dog_1_begin break=answer_dog_1_end]\r
-[choice]Look for a tag.[newtalk start=answer_dog_2_begin break=answer_dog_2_end]\r
+[question=4]Собака терпеливо сидит. Что вам следует сделать?\r
+[choice]Погладить собаку.[newtalk start=answer_dog_0_begin break=answer_dog_0_end]\r
+[choice]Оставить её.[newtalk start=answer_dog_1_begin break=answer_dog_1_end]\r
+[choice]Поискать бирку.[newtalk start=answer_dog_2_begin break=answer_dog_2_end]\r
 [title=dog_0_repeat_end]\r
 \r
 DOG CHOICE 1\r
 [title=answer_dog_0_begin]\r
-You pet the dog. It is surprisingly friendly. It wags its tail with excitement.[event=4]\r
-Dog: Whuf![newtalk start=dog_0_repeat_begin break=dog_0_repeat_end]\r
+Вы погладили собаку. Она на удивление дружелюбная. Она радостно виляет хвостом.[event=4]\r
+Собака: Гав![newtalk start=dog_0_repeat_begin break=dog_0_repeat_end]\r
 [title=answer_dog_0_end]\r
 \r
 DOG CHOICE 2\r
 [title=answer_dog_1_begin]\r
-You decide to leave the dog alone. It looks disappointed.[event=0]\r
+Вы решили оставить собаку. Она выглядит разочарованной.[event=0]\r
 [title=answer_dog_1_end]\r
 \r
 DOG CHOICE 3\r
 [title=answer_dog_2_begin]\r
-You get a closer look at the dog's collar. The tag reads <color=#fcbe2b><b>Biscuit</b></color>. What a cute name.\r
-[question=5]What should you do with Biscuit?\r
-[choice]Pet Biscuit.[newtalk start=answer_dog_3_begin break=answer_dog_3_end]\r
-[choice]Bring Biscuit home.[newtalk start=answer_dog_4_begin break=answer_dog_4_end]\r
+Вы внимательно смотрите на ошейник собаки. На бирке написано <color=#fcbe2b><b>Бисквит</b></color>. Какое милое имя.\r
+[question=5]Что вам следует сделать с Бисквитом?\r
+[choice]Погладить Бисквита.[newtalk start=answer_dog_3_begin break=answer_dog_3_end]\r
+[choice]Отвести Бисквита домой.[newtalk start=answer_dog_4_begin break=answer_dog_4_end]\r
 [title=answer_dog_2_end]\r
 \r
 [title=answer_dog_2_repeat_begin]\r
-[question=5_0]What should you do with Biscuit?\r
-[choice]Pet Biscuit again.[newtalk start=answer_dog_3_begin break=answer_dog_3_end]\r
-[choice]Bring Biscuit home.[newtalk start=answer_dog_4_begin break=answer_dog_4_end]\r
+[question=5_0]Что вам следует сделать с Бисквитом?\r
+[choice]Погладить Бисквита снова.[newtalk start=answer_dog_3_begin break=answer_dog_3_end]\r
+[choice]Отвести Бисквита домой.[newtalk start=answer_dog_4_begin break=answer_dog_4_end]\r
 [title=answer_dog_2_repeat_end]\r
 \r
 DOG CHOICE 4\r
 [title=answer_dog_3_begin]\r
-You pet Biscuit. You can tell she appreciates the company.[event=4]\r
-Biscuit: Wuf! Wuff![newtalk start=answer_dog_2_repeat_begin break=answer_dog_2_repeat_end]\r
+Вы погладили Бисквита. По ней видно, что она ценит вашу компанию.[event=4]\r
+Biscuit: Гав! Гавв![newtalk start=answer_dog_2_repeat_begin break=answer_dog_2_repeat_end]\r
 [title=answer_dog_3_end]\r
 \r
 [title=answer_dog_33_begin]\r
-You pet Biscuit! You can tell she appreciates the company. [event=4]\r
-Biscuit: Wuf! Wuff![newtalk start=dog_00_repeat_begin break=dog_00_repeat_end]\r
+Вы погладили Бисквита! По ней видно, что она ценит вашу компанию.[event=4]\r
+Biscuit: Гав! Гавв![newtalk start=dog_00_repeat_begin break=dog_00_repeat_end]\r
 [title=answer_dog_33_end]\r
 \r
 DOG CHOICE 5\r
 [title=answer_dog_4_begin]\r
-You attempt to get Biscuit to return to her original owner.\r
-[question=6]She sees you have her favorite red ball and wags her tail excitedly.\r
-[choice]Give her the ball.[newtalk start=answer_dog_5_begin break=answer_dog_5_end]\r
-[choice]Keep the ball.[newtalk start=answer_dog_55_begin break=answer_dog_55_end]\r
+Вы пытаетесь взять Бисквита, чтобы вернуть её хозяину.\r
+[question=6]Она видит, что у вас есть её любимый красный мячик, и радостно виляет хвостом.\r
+[choice]Дать ей мячик.[newtalk start=answer_dog_5_begin break=answer_dog_5_end]\r
+[choice]Оставить мячик себе.[newtalk start=answer_dog_55_begin break=answer_dog_55_end]\r
 [title=answer_dog_4_end]\r
 \r
 [title=answer_dog_55_begin]\r
-You decide to keep Biscuit's favorite toy, for some reason.[event=6]\r
-She looks disappointed. How could you?\r
+По какой-то причине вы решили оставить себе любимую игрушку Бисквита.[event=6]\r
+Она выглядит разочарованной. Как вы могли?\r
 [title=answer_dog_55_end]\r
 \r
 [title=dog_00_repeat_begin]\r
-[question=44]Biscuit sits patiently. Looks like she wants that ball you're holding. What should you do?\r
-[choice]Pet Biscuit![newtalk start=answer_dog_33_begin break=answer_dog_33_end]\r
-[choice]Give her the ball.[newtalk start=answer_dog_5_begin break=answer_dog_5_end]\r
-[choice]Keep the ball.[newtalk start=answer_dog_55_begin break=answer_dog_55_end]\r
+[question=44]Бисквит терпеливо сидит. Похоже, она хочет красный мячик, который вы держите. Что вам следует сделать?\r
+[choice]Погладить Бисквита![newtalk start=answer_dog_33_begin break=answer_dog_33_end]\r
+[choice]Дать ей мячик.[newtalk start=answer_dog_5_begin break=answer_dog_5_end]\r
+[choice]Оставить мячик себе.[newtalk start=answer_dog_55_begin break=answer_dog_55_end]\r
 [title=dog_00_repeat_end]\r
 \r
 DOG CHOICE 6\r
 [title=answer_dog_5_begin]\r
-You give Biscuit her ball. She grabs it from you and suddenly dashes out of the cave.[event=1]\r
-Where could she be going?\r
+Вы дали Бисквиту её мячик. Она выхватила его у вас и внезапно выбежала из пещеры.[event=1]\r
+Куда она могла направиться?\r
 [title=answer_dog_5_end]\r
 \r
 ROUND 4\r
 \r
 LAKE KID\r
 [title=guy_fence_2_begin]\r
-Little Ollie: Hey! Just before you came back down from up there, I felt a big gust of wind or something!\r
-Little Ollie: Like, something had breezed past me. Maybe I just wasn't paying attention.\r
+Маленький Олли: Эй! Как раз перед тем, как ты спустился оттуда, я почувствовал сильный порыв ветра или что-то такое!\r
+Маленький Олли: Как будто что-то пронеслось мимо меня. Может быть, я просто не обратил внимания.\r
 [title=guy_fence_2_end]\r
 \r
 CROWD\r
 [title=crowd_0_begin]\r
-(The hungry crowd's all gathered excitedly.)\r
+(Голодная толпа взволнованно собралась вокруг.)\r
 [title=crowd_0_end]\r
 \r
 FISHING GUY\r
 [title=guy_fish_final_begin]\r
-Fisherman Joe: I told ya I'd catch somethin'! Everything good comes to those who wait.\r
-Fisherman Joe: Help yourself to some if ya want, plenty to go around.\r
+Рыбак Джо: Я же говорил, что что-нибудь поймаю! Хорошее приходит к тем, кто умеет ждать.\r
+Рыбак Джо: Угощайся, если хочешь, здесь хватит на всех.r
 [title=guy_fish_final_end]\r
 \r
 GHOST GUY\r
 [title=guy_ghost_final_begin]\r
-???: Oh Biscuit! I've missed you so much. I'm so happy you're back.\r
-???: I've been here alone for so long with no one to talk to. Now that you're here I feel whole again.\r
-???: Thank you for your kindness, wanderer. Now we can finally leave this place.\r
-???: We'll never forget this. Take care.\r
+???: Ох, Бисквит! Я так по тебе скучал. Я так рад, что ты вернулся.\r
+???: Я так долго был здесь один, и мне не с кем было поговорить. Теперь, когда ты здесь, я снова чувствую себя целым.\r
+???: Спасибо тебе за твою доброту, странник. Теперь мы наконец-то можем покинуть это место.\r
+???: Мы никогда этого не забудем. Береги себя.\r
 [title=guy_ghost_final_end]\r
 \r
 SECRET TRIGGER\r
 \r
 [title=secret_0_begin]\r
-There's a small obsidian monolith here. Its remarkably devoid form leaves you with a feeling of destitution.\r
-[question=99]Will you continue to stare into the monolith?\r
-[choice]Look away.[newtalk start=answer_secret_0_begin break=answer_secret_0_end]\r
-[choice]Stare deeper.[newtalk start=answer_secret_1_begin break=answer_secret_1_end]\r
+Здесь стоит небольшой обсидиановый монолит. Его необыкновенно пустая форма оставляет у вас чувство лишения.\r
+[question=99]Будете ли вы продолжать вглядываться в монолит?\r
+[choice]Отвести взгляд.[newtalk start=answer_secret_0_begin break=answer_secret_0_end]\r
+[choice]Вглядываться глубже.[newtalk start=answer_secret_1_begin break=answer_secret_1_end]\r
 [title=secret_0_end]\r
 \r
 [title=answer_secret_0_begin]\r
-You break your line of sight with the eerie monolith.[event=3]\r
+В поле вашего зрения появляется жуткий монолит.[event=3]\r
 [title=answer_secret_0_end]\r
 \r
 [title=answer_secret_1_begin]\r
-While looking deeper into the monolith, your senses begin to go numb as your eyes roll to the back of your head.[event=2]\r
+Когда вы смотрите вглубь монолита, ваши чувства начинают притупляться, а глаза закатываются.[event=2]\r
 [title=answer_secret_1_end]\r
 \r
 POST SECRET GHOST GUY\r
 \r
 [title=guy_ghost_final1_begin]\r
-Dust-ridden Spirit: We waited so long for you to return. So very, very long. In the end, one world was traded for another.\r
-Dust-ridden Spirit: I wish I hadn't been so careless, so relentless in my pursuit for something better. Maybe then things would be different.\r
-Dust-ridden Spirit: It had to be done though, I just had to get away from it all. I didn't care what it cost, we deserved better.\r
-Dust-ridden Spirit: I know you're looking for something better too. We're both indebted to you for our reunion. I hope we meet again someday.\r
-Dust-ridden Spirit: Farewell.\r
+Покрытый пылью дух: Мы так долго ждали твоего возвращения. Очень, очень долго. В конце концов, один мир был обменян на другой.\r
+Покрытый пылью дух: Я бы хотел не быть таким неосторожным, таким безжалостным в стремлении к чему-то лучшему. Может быть, тогда все было бы иначе.\r
+Покрытый пылью дух: Но это нужно было сделать, я просто должен был уйти от всего этого. Мне было все равно, чего это стоило, мы заслуживали лучшего.\r
+Покрытый пылью дух: Я знаю, ты тоже ищешь что-то лучшее. Мы оба в долгу перед тобой за наше воссоединение. Надеюсь, мы когда-нибудь встретимся снова.\r
+Покрытый пылью дух: Прощай.\r
 [title=guy_ghost_final1_end]\r
 \r
 [title=guy0_snowball0_begin]\r
-Little Tilly: On the outside it might look like just a frozen wasteland, but to us it's nothing but a big playground.\r
-Little Tilly: A lot of the grown-ups always walk around here bitter as heck, so we try to find some fun in everything we can to offset the mood.\r
-Little Tilly: Oof! Hey, no fair Lucas!\r
+Малыш Тилли: С виду это может казаться просто замёрзшей пустошью, но для нас это всего лишь огромная игровая площадка.\r
+Малыш Тилли: Многие взрослые здесь вечно ходят злые как черти, так что мы стараемся находить веселье во всём, в чём только можем, чтобы разбавить эту атмосферу.\r
+Малыш Тилли: Ууф! Эй, это нечестно, Лукас!\r
 [title=guy0_snowball0_end]\r
 \r
 [title=guy0_snowball1_begin]\r
-Little Tilly: I wonder if Ollie ever got to tearing that fence down over by the old billboard.\r
-Little Tilly: He's missing out on all this intense snow action. Oh well.\r
+Малыш Тилли: Интересно, удалось ли Олли снести тот забор рядом со старым билбордом?\r
+Малыш Тилли: Он пропускает всю эту крутую снежную движуху. Ну и ладно.\r
 [title=guy0_snowball1_end]\r
 \r
 [title=guy0_snowball2_begin]\r
-Little Tilly: Damn, I thought we'd get to actually travel up that trail Ollie found and finally see what's up there.\r
-Little Tilly: Wait, what? You went up there after that big avalanche?! You're braver than all three of us put together!\r
+Малыш Тилли: Чёрт, я думал, мы правда пойдём по той тропе, которую нашёл Олли, и наконец увидим, что там наверху.\r
+Малыш Тилли: Погоди, что? Ты пошёл туда после той огромной лавины?! Да ты смелее нас троих вместе взятых!\r
 [title=guy0_snowball2_end]\r
 \r
 [title=guy1_snowball0_begin]\r
-Little Lucas: Haha! Hey, watch it! This is an important battle, I gotta keep my title of snowball champ!\r
-Little Lucas: I don't need any reinforcements, but thanks. Besides, my fort can't cover two people, so scram!\r
-Little Lucas: Maybe go hang out with that loner Ollie over by the old billboard.\r
+Малыш Лукас: Хаха! Эй, осторожнее! Это важная битва, я должен сохранить свой титул чемпиона по снежкам!\r
+Малыш Лукас: Мне не нужна поддержка, но спасибо. Кроме того, в моём форте не хватит места для двоих, так что проваливай!\r
+Малыш Лукас: Может, лучше сходи потуси с этим одиночкой Олли у старого билборда.\r
 [title=guy1_snowball0_end]\r
 \r
 [title=guy1_snowball1_begin]\r
-Little Lucas: Ollie's really been hyping up what could be on the other side of that busted up fence.\r
-Little Lucas: Got me kind of curious myself... I might go check it out. I bet it's super lame, whatever it is.\r
+Малыш Лукас: Олли прям разгонял тему, что может быть по ту сторону того сломанного забора.\r
+Малыш Лукас: Мне и самому стало любопытно... Может, схожу гляну. Хотя уверен, что там какая-нибудь лютая фигня, что бы там ни было.\r
 [title=guy1_snowball1_end]\r
 \r
 [title=guy1_snowball2_begin]\r
-Little Lucas: I knew that old trail was a bust! I will say that avalanche was pretty awesome though.\r
-Little Lucas: Ollie just wouldn't shutup about a crazy blur or breeze or whatever it was that passed by him though. I sure didn't see anything...\r
+Малыш Лукас: Я так и знал, что та старая тропа - пустышка! Хотя лавина, стоит признать, была довольно крутая.\r
+Малыш Лукас: А Олли всё не затыкался про какое-то странное пятно, порыв ветра или что там мимо него что-то пронеслось. Я уверен, что ничего там не видел...\r
 [title=guy1_snowball2_end]\r
 \r
 HUGGABLES\r
 \r
 [title=answer_hug_no_begin]\r
-You leave the little fella alone.\r
+Вы оставляете парнишку в покое.\r
 [title=answer_hug_no_end]\r
 \r
 SLEEPING GUY\r
 [title=guy_hugged_0_begin]\r
-Shivering Danny: Mmmgh... brrgg... mm...\r
-(They're shivering despite their numerous layers of clothing.)\r
-Shivering Danny: [question=008]Mm... bghh...\r
-[choice]Hug them.[newtalk start=answer_hug_0_yes_begin break=answer_hug_0_yes_end]\r
-[choice]Leave.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
+Трясущийся Дэнни: Мммгх... брргг... мм...\r
+(Они дрожат, несмотря на многочисленные слои одежды.)\r
+Трясущийся Дэнни: [question=008]Мм... бгхх...\r
+[choice]Обнять их.[newtalk start=answer_hug_0_yes_begin break=answer_hug_0_yes_end]\r
+[choice]Оставить.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
 [title=guy_hugged_0_end]\r
 \r
 [title=answer_hug_0_yes_begin]\r
-You give the freezing fella a warm hug.[event=9]\r
-Shivering Danny: Hmmgh? O-oh, t-that's very kind of you... I feel much better now. Thank you, stranger.\r
-Shivering Danny: I think I'll just rest here a little longer. Hopefully the snow drifts slow down a bit today.\r
-Shivering Danny: There may be more of us <color=#14d8ff><b>freezing folks</b></color> to help out there...\r
+Вы поделились с замерзающим парнишкой своими тёплыми объятиями.[event=9]\r
+Трясущийся Дэнни: Хммгх? О-ох, э-это очень мило с твоей стороны... Теперь я чувствую себя сильно лучше. Спасибо тебе, незнакомец.\r
+Трясущийся Дэнни: Я думаю, что просто отдохну здесь ещё немного. Надеюсь, сегодня снежная буря немного утихнет.\r
+Трясущийся Дэнни: Может, там есть ещё <color=#14d8ff><b>замерзающие ребята</b></color>, которым нужна помощь...\r
 [title=answer_hug_0_yes_end]\r
 \r
 GUY 1\r
 [title=guy_hugged_1_begin]\r
-Shivering Eli: S-sh-sha... Ssha... ha...\r
-(They're so cold they can barely speak. Poor guy.)\r
-Shivering Eli: [question=06]Hnnh... h-hnn...\r
-[choice]Hug them.[newtalk start=answer_hug_1_yes_begin break=answer_hug_1_yes_end]\r
-[choice]Leave.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
+Трясущийся Элай: Ш-ш-ша... Шша... ща...\r
+(Они так замёрзли, что едва могут говорить. Бедняга.)\r
+Трясущийся Элай: [question=06]Хннх... х-хнн...\r
+[choice]Обнять их.[newtalk start=answer_hug_1_yes_begin break=answer_hug_1_yes_end]\r
+[choice]Оставить.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
 [title=guy_hugged_1_end]\r
 \r
 [title=answer_hug_1_yes_begin]\r
-You give the freezing fella a warm hug.[event=10]\r
-Shivering Eli: O-oh, t-that's very kind of you. I feel the chills quickly subsiding. Thank you, stranger.\r
-Shivering Eli: I thought I'd be better off away from the wind in this little nook, but I guess not. Mother nature just doesn't let up, does she?\r
-Shivering Eli: There may be more of us <color=#14d8ff><b>freezing folks</b></color> to help out there...\r
+Вы поделились с замерзающим парнишкой своими тёплыми объятиями.[event=10]\r
+Трясущийся Элай: О-ох, э-это очень мило с твоей стороны. Я чувствую, как озноб быстро проходит. Спасибо тебе, незнакомец.\r
+Трясущийся Элай: Я думал, что в этом маленьком закутке будет лучше укрыться от ветра, но, похоже, нет. Мать-природа просто так не сдается, не так ли?\r
+Трясущийся Элай: Может, там есть ещё <color=#14d8ff><b>замерзающие ребята</b></color>, которым нужна помощь...\r
 [title=answer_hug_1_yes_end]\r
 \r
 GUY 2\r
 [title=guy_hugged_2_begin]\r
-Shivering Brynn: Must... focus... on... not freezing...\r
-(They're shivering uncontrollably.)\r
-Shivering Brynn: [question=077]You... can't... relax... with... these... temperatures...\r
-[choice]Hug them.[newtalk start=answer_hug_2_yes_begin break=answer_hug_2_yes_end]\r
-[choice]Leave.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
+Трясущийся Бринн: Должен... сосредоточиться... чтобы... не замёрзнуть...\r
+(Они бесконтрольно трясутся.)\r
+Трясущийся Бринн: [question=077]Тебе... нельзя... расслабляться... с... такими... температурами...\r
+[choice]Обнять их.[newtalk start=answer_hug_2_yes_begin break=answer_hug_2_yes_end]\r
+[choice]Оставить.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
 [title=guy_hugged_2_end]\r
 \r
 [title=answer_hug_2_yes_begin]\r
-You give the freezing fella a warm hug.[event=11]\r
-Shivering Brynn: O-oh, t-that's very kind of you. I feel warmth returning to me. Thank you, stranger.\r
-Shivering Brynn: This building we're standing on is where my family used to live before the great collapse. It's still sinking to this day.\r
-Shivering Brynn: There may be more of us <color=#14d8ff><b>freezing folks</b></color> to help out there...\r
+Вы поделились с замерзающим парнишкой своими тёплыми объятиями.[event=11]\r
+Трясущийся Бринн: О-ох, э-это очень мило с твоей стороны. Я чувствую, как ко мне возвращается тепло. Спасибо тебе, незнакомец.\r
+Трясущийся Бринн: В этом здании, на крыше которого мы стоим, жила моя семья до великой катастрофы. Оно продолжает тонуть в снегу и по сей день.\r
+Трясущийся Бринн: Может, там есть ещё <color=#14d8ff><b>замерзающие ребята</b></color>, которым нужна помощь...\r
 [title=answer_hug_2_yes_end]\r
 \r
 GUY 3\r
 [title=guy_hugged_3_begin]\r
-Shivering Gale: W-what's going on w-with the w-w-wind way up h-here?!\r
-(The intense drafts must be making their situation worse.)\r
-Shivering Gale: [question=088]H-h-how are y-you n-not c-c-cold???\r
-[choice]Hug them.[newtalk start=answer_hug_3_yes_begin break=answer_hug_3_yes_end]\r
-[choice]Leave.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
+Трясущийся Гейл: Ч-что п-происходит с в-в-ветром т-тут н-наверху?!\r
+(Сильные сквозняки, должно быть, усугубляют их положение.)\r
+Трясущийся Гейл: [question=088]К-к-как т-ты н-не з-з-замёрз???\r
+[choice]Обнять их.[newtalk start=answer_hug_3_yes_begin break=answer_hug_3_yes_end]\r
+[choice]Оставить.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
 [title=guy_hugged_3_end]\r
 \r
 [title=answer_hug_3_yes_begin]\r
-You give the freezing fella a warm hug.[event=12]\r
-Shivering Gale: O-oh, t-that's so kind of you. I feel much warmer now. Thank you, stranger.\r
-Shivering Gale: You should get yourself a good coat on days like this. We have to make our own, but I'm sure you can manage somehow.\r
-Shivering Gale: There may be more of us <color=#14d8ff><b>freezing folks</b></color> to help out there...\r
+Вы поделились с замерзающим парнишкой своими тёплыми объятиями.[event=12]\r
+Трясущийся Гейл: О-ох, э-это очень мило с твоей стороны. Теперь мне гораздо теплее. Спасибо тебе, незнакомец.\r
+Трясущийся Гейл: Тебе стоит обзавестись хорошей курткой. Нам приходится делать свои сами, но я уверен, что ты как-нибудь справишься.\r
+Трясущийся Гейл: Может, там есть ещё <color=#14d8ff><b>замерзающие ребята</b></color>, которым нужна помощь...\r
 [title=answer_hug_3_yes_end]\r
 \r
 GUY 4\r
 [title=guy_hugged_4_begin]\r
-Shivering Alex: I-I'm s-s-so c-c-cold. N-no f-f-fire...\r
-(They look like they're on the brink of hypothermia.)\r
-Shivering Alex: [question=099]Ghhmgmmh...\r
-[choice]Hug them.[newtalk start=answer_hug_4_yes_begin break=answer_hug_4_yes_end]\r
-[choice]Leave.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
+Трясущийся Алекс: М-мне т-т-так х-х-холодно. Н-нет о-о-огня...\r
+(Они выглядят так, словно находятся на грани переохлаждения.)\r
+Трясущийся Алекс: [question=099]Гххмгммх...\r
+[choice]Обнять их.[newtalk start=answer_hug_4_yes_begin break=answer_hug_4_yes_end]\r
+[choice]Оставить.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
 [title=guy_hugged_4_end]\r
 \r
 [title=answer_hug_4_yes_begin]\r
-You give the freezing fella a warm hug.[event=7]\r
-Shivering Alex: O-oh, t-that's very kind of you. It's always nice to feel cared for. Thank you, stranger.\r
-Shivering Alex: Moe over there has been on my case lately, saying I should be used to the cold by now. I'll tell you- it's harder than it looks.\r
-Shivering Alex: There may be more of us <color=#14d8ff><b>freezing folks</b></color> to help out there...\r
+Вы поделились с замерзающим парнишкой своими тёплыми объятиями.[event=7]\r
+Трясущийся Алекс: О-ох, э-это очень мило с твоей стороны. Всегда приятно чувствовать, что о тебе заботятся. Спасибо тебе, незнакомец.\r
+Трясущийся Алекс: Мо всё время ко мне придирается, говорит, что я уже должен был привыкнуть к холоду. Скажу тебе вот что- это сложнее, чем кажется.\r
+Трясущийся Алекс: Может, там есть ещё <color=#14d8ff><b>замерзающие ребята</b></color>, которым нужна помощь...\r
 [title=answer_hug_4_yes_end]\r
 \r
 GUY 5\r
 [title=guy_hugged_5_begin]\r
-Shivering Shane: I t-t-thought being in h-here w-would be w-warmer...\r
-(You can see the unrelenting cold slowly overtaking their body.)\r
-Shivering Shane: [question=109]Is t-there any w-w-warmth le-left...?\r
-[choice]Hug them.[newtalk start=answer_hug_5_yes_begin break=answer_hug_5_yes_end]\r
-[choice]Leave.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
+Трясущийся Шейн: Я д-д-думал, что з-здесь б-будет т-теплее...\r
+(Вы видите, как безжалостный холод медленно овладевает их телами.)\r
+Трясущийся Шейн: [question=109]Ос-осталось ли з-здесь какое-то т-т-тепло...?\r
+[choice]Обнять их.[newtalk start=answer_hug_5_yes_begin break=answer_hug_5_yes_end]\r
+[choice]Оставить.[newtalk start=answer_hug_no_begin break=answer_hug_no_end]\r
 [title=guy_hugged_5_end]\r
 \r
 [title=answer_hug_5_yes_begin]\r
-You give the freezing fella a warm hug.[event=13]\r
-Shivering Shane: O-oh, t-that's very kind of you. I feel a sense of warmth returning. Thank you, stranger.\r
-Shivering Shane: I should've known being inside wouldn't help me escape those crazy gusts. Literally feels like a thousand razors hitting my face at mach five.\r
-Shivering Shane: There may be more of us <color=#14d8ff><b>freezing folks</b></color> to help out there...\r
+Вы поделились с замерзающим парнишкой своими тёплыми объятиями.[event=13]\r
+Трясущийся Шейн: О-ох, э-это очень мило с твоей стороны. Я чувствую, как возвращается тепло. Спасибо тебе, незнакомец.\r
+Трясущийся Шейн: Мне следовало догадаться, что нахождение внутри не поможет мне избежать этих безумных порывов ветра. Это ощущается, как будто тысяча лезвий бьёт по лицу с невероятной скоростью.\r
+Трясущийся Шейн: Может, там есть ещё <color=#14d8ff><b>замерзающие ребята</b></color>, которым нужна помощь...\r
 [title=answer_hug_5_yes_end]\r
 \r
 ICE GIRL SECRET CAVE\r
 \r
 [title=icegirl_0_begin]\r
-Snow Child: Oh! You scared me! You look kind of familiar. What are you doing all the way up here?\r
-Snow Child: Haha, I guess it's okay. What am I doing? What does it look like? I'm trying to finish this snowman!\r
-Snow Child: Hey- do you want to play with me? You can help me finish Mr. Snowman!\r
-[question=55]Take a short break and help the child finish their snowman?\r
-[choice]Why not?[newtalk start=icegirl_yes_begin break=icegirl_yes_end]\r
-[choice]Too busy![newtalk start=icegirl_no_begin break=icegirl_no_end]\r
+Снежное дитя: Ох! Ты меня напугал! Ты выглядишь немного знакомо. Что ты вообще здесь делаешь?\r
+Снежное дитя: Хаха, думаю, всё в порядке. Что я делаю? А на что это похоже? Я пытаюсь достроить этого снеговика!\r
+Снежное дитя: Эй- хочешь поиграть со мной? Ты можешь помочь мне закончить Мистера Снеговика!\r
+[question=55]Сделать небольшой перерыв и помочь ребёнку достроить его снеговика?\r
+[choice]Почему нет?[newtalk start=icegirl_yes_begin break=icegirl_yes_end]\r
+[choice]Слишком занят![newtalk start=icegirl_no_begin break=icegirl_no_end]\r
 [title=icegirl_0_end]\r
 \r
 [title=icegirl_repeat0_begin]\r
-Snow Child: Hey, you're back...!\r
-Snow Child: Did you have time to play now? \r
-[question=54]Take a short break and help the child finish their snowman?\r
-[choice]Why not?[newtalk start=icegirl_yes_begin break=icegirl_yes_end]\r
-[choice]Too busy![newtalk start=icegirl_no_begin break=icegirl_no_end]\r
+Снежное дитя: Эй, ты вернулся...!\r
+Снежное дитя: У тебя теперь есть время поиграть? \r
+[question=54]Сделать небольшой перерыв и помочь ребёнку достроить его снеговика?\r
+[choice]Почему нет?[newtalk start=icegirl_yes_begin break=icegirl_yes_end]\r
+[choice]Слишком занят![newtalk start=icegirl_no_begin break=icegirl_no_end]\r
 [title=icegirl_repeat0_end]\r
 \r
 [title=icegirl_yes_begin]\r
-Snow Child: Oh, hey wow- that's so cool of you! There hasn't been anyone to play with in a long time.\r
-Snow Child: Okay, so- all I need is some good sticky snow to make the head, and a carrot for the nose.\r
-Snow Child: I think I saw those laying around here somewhere... I'll keep building the body while you look![event=0]\r
+Снежное дитя: Ох, эй, вау- это так круто с твоей стороны! Мне уже давно не с кем было поиграть.\r
+Снежное дитя: Окей, итак- мне нужен хороший липкий снег для головы и морковка для носа.\r
+Снежное дитя: Кажется, я видела их где-то здесь... Я продолжу строить тело, пока ты занимаешься поисками![event=0]\r
 [title=icegirl_yes_end]\r
 \r
 [title=icegirl_no_begin]\r
-Snow Child: Oh... okay, that's fair I guess... I can try finishing it on my own then, grumpy!\r
+Снежное дитя: Ох... ладно, я думаю, это справедливо... Тогда я могу попробовать закончить это сама, ворчун!\r
 [title=icegirl_no_end]\r
 \r
 [title=icegirl_repeat1_begin]\r
-Snow Child: Have you had any luck find all the things? I need some good snow and a carrot nose!\r
+Снежное дитя: Тебе повезло найти всё необходимое? Мне нужен хороший снег и морковка для носа!\r
 [title=icegirl_repeat1_end]\r
 \r
 [title=icegirl_done_begin]\r
-Snow Child: ...aaand there! All done. Looking pretty good when it's all put together, don't you think?\r
-Snow Child: Well, thanks for helping me. I wish I could play with you some more! But I think I hear my mom calling me.\r
-Snow Child: She'll probably be mad at me for being out here while I'm still sick... it's no fair!\r
-Snow Child: I haven't seen my friends in so long, but... I think I just made a new one. Thank you.[event=1]\r
-Snow Child: ...ach-hoo! Be right there, mom!\r
+Снежное дитя: ...иии вот так! Готово. Выглядит довольно хорошо, когда всё собрано вместе, ты так не думаешь?\r
+Снежное дитя: Что же, спасибо, что помогал мне. Хотела бы я ещё поиграть с тобой! Но мне кажется, я слышу, как мама зовёт меня.\r
+Снежное дитя: Она, наверное, будет злиться на меня за то, что я болею и пошла сюда... это несправедливо!\r
+Снежное дитя: Я так давно не видела своих друзей, но... думаю, я только нашла такого. Спасибо тебе.[event=1]\r
+Снежное дитя: ...аа-пчхи! Уже иду, мам!\r
 [title=icegirl_done_end]\r
 \r
 [title=snowball_begin]\r
-There's a <color=#e0d33f><b>rolled ball of snow</b></color> here. It's tightly packed and would make for a good snowman head. \
-You take it with you.\r
+Здесь лежит <color=#e0d33f><b>скатанный снежный шар</b></color>. Он плотно утрамбован и отлично подойдёт для головы снеговика. \
+Вы всяли его с собой.\r
 [title=snowball_end]\r
 \r
 [title=carrot_begin]\r
-There's a tiny... <color=#e0d33f><b>carrot</b></color> on the ground? Weird, but convenient. \
-You take it with you.\r
+На земле лежит крохотная... <color=#e0d33f><b>морковка</b></color>? Странно, но очень кстати. \
+Вы взяли её с собой.\r
 [title=carrot_end]"
