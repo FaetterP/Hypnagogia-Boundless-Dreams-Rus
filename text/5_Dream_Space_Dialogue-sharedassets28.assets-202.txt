@@ -2,251 +2,251 @@
  1 string m_Name = "5_Dream_Space_Dialogue"
  1 string m_Script = "Dream_5_Space Dialogue\r
 \r
-NOTES:\r
-- whole concept involves exploring this derelict series of space tubes\r
-- there are weird looking space creatures called shapezoids that speak in gobbledy gook\r
+ЗАМЕТКИ:\r
+- вся идея заключается в изучении этой заброшенной серии космических труб\r
+- есть странные космические существа, называемые формазоидами, которые говорят на тарабарщине\r
 \r
 GOGI INTRO\r
 [title=Gogi_0_begin]\r
-"Gogi": [jitter=5 angle=0]WhoOOooaah![/jitter] Who's the lame-brain that turned gravity down? I'm floating!\r
-"Gogi": You might be able to float around too! Maybe there's a way to float even higher!\r
-"Gogi": Either way, everything is all topsy-turvy around here and I don't like it!\r
-"Gogi": Oh well... don't go falling into any whacky space voids! Unless of course the shard is down there!\r
-"Gogi": Have [jitter=5 angle=0]fuuunnn![/jitter]\r
+"Гоги": [jitter=5 angle=0]ВоООооаах![/jitter] Какой болван отключил здесь гравитацию? Я летаю!\r
+"Гоги": Возможно, ты тоже можешь подняться в воздух! Может, есть способ подняться ещё выше!\r
+"Гоги": В любом случае, здесь все шиворот-навыворот, и мне это не нравится!\r
+"Гоги": Ох ладно... не провались в какие-нибудь дурацкие космические пустоты! Если только, конечно, там внизу нету осколка!\r
+"Гоги": [jitter=5 angle=0]Веселииись![/jitter]\r
 [title=Gogi_0_end]\r
 \r
 Dream_5_Space Dialogue DEMO\r
 \r
 JETPACK\r
 [title=jetpack_0_begin]\r
-There's what looks to be some kind of <color=#fcbe2b><b>rocket pack</b></color> here. Very shiny. You like shiny things.\r
-With it equipped you should be able to float around the environment with ease.\r
-[question=0]Will you take the pack?\r
-[choice]What? Yes![newtalk start=jetpack_yes_begin break=jetpack_yes_end]\r
-[choice]No chance.[newtalk start=jetpack_no_begin break=jetpack_no_end]\r
+Здесь лежит что-то похожее на <color=#fcbe2b><b>реактивный ранец</b></color>. Он очень блестит. Вам нравятся блестящий штуки.\r
+Надев его, вы сможете с лёгкостью перемещаться по окружающей среде.\r
+[question=0]Вы возьмёте ранец?\r
+[choice]Что? Да![newtalk start=jetpack_yes_begin break=jetpack_yes_end]\r
+[choice]Вряд ли.[newtalk start=jetpack_no_begin break=jetpack_no_end]\r
 [title=jetpack_0_end]\r
 \r
 JETPACK CHOICE YES\r
 [title=jetpack_yes_begin]\r
-You take and equip the rocket pack. You can boost by tapping and holding the <b><color=#eded24>jump button</color></b>! [event=0]\r
+Вы взяли и надели реактивный ранец. Вы можете ускоряться нажимая и удерживая <b><color=#eded24>кнопку прыжка</color></b>! [event=0]\r
 [title=jetpack_yes_end]\r
 \r
 JETPACK CHOICE NO\r
 [title=jetpack_no_begin]\r
-You leave the rocket pack alone for some reason. It looks so awesome though.\r
+По какой-то причине вы оставляете ракетный ранец. Хотя выглядит он потрясающе.\r
 [title=jetpack_no_end]\r
 \r
 LOCKED SPACE DOOR\r
 [title=lockeddoor_0_begin]\r
-There's a bulky iris door here, but it won't open. Something is keeping it shut.\r
+Это громоздкая лепестковая дверь, но она закрыта. Что-то не даёт ей открыться.\r
 [title=lockeddoor_0_end]\r
 \r
 CODEX KEY\r
 [title=codex_0_begin]\r
-A codex of cosmic information. It's transcribed in an ancient language you will never understand.\r
-Despite your apprehension, you touch it and become imprinted with the ability to continue onward.\r
+Кодекс космической информации. Он переведён на древний язык, который вы никогда не поймете.\r
+Несмотря на свои опасения, вы прикасаетесь к нему и получаете способность продолжать путь дальше.\r
 [title=codex_0_end]\r
 \r
 SHAPEZOID 0\r
 [title=shape_0_begin]\r
-Shapezoid: Hmm. <i>Weird</i>. How <i>interdasting</i>. Many of the doors have locked themselves somehow. Never has this happened before.\r
-Shapezoid: All of us can just teleport around freely though, so it doesn't bother me really. You on the other hand...\r
-Shapezoid: You might have some trouble materializing through solid walls. So... yeah. Good luck figuring that one out.\r
-Shapezoid: <color=#ae52b3><b>The Eye</b></color> has requested our presence, so I've gotta bounce. Stay fresh, meat bag.\r
+Формазоид: Хмм. <i>Странно</i>. Как <i>интэрэстно</i>. Многие двери каким-то образом закрылись сами собой. Такого раньше не случалось.\r
+Формазоид: Однако все мы можем свободно телепортироваться, так что меня это, на самом деле, не беспокоит. Но вот ты...\r
+Формазоид: У тебя могут возникнуть некоторые проблемы с материализацией сквозь твердые стены. Так что... да. Удачи разобраться с этим.\r
+Формазоид: <color=#ae52b3><b>Око</b></color> требует нашего присутствия, так что пора сваливать отсюда. Не протухни здесь, мешок мяса.\r
 [title=shape_0_end]\r
 \r
 SHAPEZOID 00\r
 [title=shape_00_begin]\r
-Shapezoid: To simply observe a place so sterile, so full of one-dimensional concepts, it is monotony. My only eye begs to be mercifully gouged. \r
-Shapezoid: Knowing exactly how everything works and what precisely the future holds, but not being able to express any of it into words, that is my curse.\r
-Shapezoid: Wipe that dumb look off your face. It's just a joke. I actually don't know anything, but it's okay because neither do you.\r
-Shapezoid: I can only guess what you're thinking right now, but <color=#ae52b3><b>The Eye</b></color> doesn't need to guess. It tells all of us exactly what we need to know.\r
+Формазоид: Просто наблюдать за настолько стерильным местом, полным одномерных представлений, монотонно. Мой единственный глаз так и просится, чтобы его милосердно выкололи. \r
+Формазоид: Знать точно, как всё работает, и что именно ждёт в будущем, но не иметь возможности выразить это словами - вот моё проклятие.\r
+Формазоид: Сотри с лица это глупое выражение. Это просто шутка. На самом деле я ничего не знаю, но это нормально, потому что ты тоже не знаешь.\r
+Формазоид: Я могу только догадываться, о чём ты сейчас думаешь, но <color=#ae52b3><b>Око</b></color> не нужно разгадывать. Оно говорит всем нам именно то, что нам нужно знать.\r
 [title=shape_00_end]\r
 \r
 SHAPEZOID 1\r
 [title=shape_1_begin]\r
-Shapezoid: <i>Uaugh. Auaahhghhh... Mghhm</i>. Huh? What? Oh. I'm not feeling great today. I think maybe it's just my lack of sleep lately.\r
-Shapezoid: I keep seeing these intense, repeating patterns all over the place. It's been driving me mad and keeping me up. Can't you see them?\r
-Shapezoid: Not only that, but I can't find a way to stop them or even slow them down. Keeping a grip on this kind of stuff is... hard.\r
-Shapezoid: Just... just talk to someone else. <color=#ae52b3><b>The Eye</b></color> is watching us. I gotta go before it gets angry.\r
+Формазоид: <i>Уаугх. Ауааххгххх... Мгххм</i>. А? Что? Ох. Я сегодня не очень хорошо себя чувствую. Думаю, это просто из-за моего недосыпа в последнее время.\r
+Формазоид: Я постоянно вижу эти яркие, повторяющиеся узоры повсюду. Это сводит меня с ума и не дает уснуть. Разве ты их не видишь?\r
+Формазоид: Мало того, я не могу найти способ остановить их или хотя бы замедлить. Удержать контроль над таким... сложно.\r
+Формазоид: Просто... просто поговори с кем-нибудь ещё. <color=#ae52b3><b>Око</b></color> наблюдает за нами. Мне нужно идти, пока оно не разозлилось.\r
 [title=shape_1_end]\r
 \r
 SHAPEZOID 1.1\r
 [title=shape_11_begin]\r
-Shapezoid: I find it alarming how many people display such a callous penchant for loud and abrasive destruction.\r
-Shapezoid: I'd be lying if I said I didn't have similar feelings every so often myself... it does tend to excite the mind.\r
-Shapezoid: Too much of it though, and you realize how dull it all eventually becomes. Then nothing means anything anymore.\r
-Shapezoid: This conversation has you looking a little flushed. Come back in a few minutes and I'll have <color=#fcbe2b><b>something special</b></color> for you.\r
+Формазоид: Меня тревожит, как много людей проявляют такое бесчувственное пристрастие к громкому и грубому разрушению.\r
+Формазоид: Я бы солгал, если бы сказал, что сам не испытывал подобных ощущений время от времени... это действительно будоражит разум.\r
+Формазоид: Но слишком много такого и понимаешь, насколько в итоге всё становится скучным. И тогда уже ничто не имеет значения.\r
+Формазоид: От этого разговора ты немного покраснел. Вернись через несколько минут, и у меня для тебя будет <color=#fcbe2b><b>кое-что особенное</b></color>.\r
 [title=shape_11_end]\r
 \r
 [title=shape_12_begin]\r
-Shapezoid: Your special prize isn't ready yet, but I've taken the liberty of recording, cataloging, and archiving your impatience.\r
-Shapezoid: The ringular tubules and turbines of our engine room are calling out to you. Pay it a visit and then return.\r
+Формазоид: Твой специальный приз еще не готов, но я взял на себя смелость записать, каталогизировать и заархивировать твоё нетерпение.\r
+Формазоид: Кольцевые трубы и турбины нашего машинного отделения зовут тебя. Посети его, а затем возвращайся.\r
 [title=shape_12_end]\r
 \r
 SHAPEZOID 2\r
 [title=shape_2_begin]\r
-Shapezoid: There's a threshold to anything and everything. Every good beginning connects with an ending at some point, as they say.\r
-Shapezoid: I think what's most important isn't either of those, but what happens during the in-between. Every step, every move counts.\r
-Shapezoid: For better or for worse, you're in the middle of that in-between. Right now. At this moment.\r
-Shapezoid: As quickly as we float through this strange ether, we'll just as quickly leave it. Here, I'll demonstrate.\r
+Формазоид: У всего на свете есть предел. Говорят, каждое хорошее начало где-то придёт в конец.\r
+Формазоид: Я думаю, что важнее всего ни то и ни другое, а то, что происходит между ними. Каждый шаг, каждое движение имеет значение.\r
+Формазоид: К счастью или к сожалению, но ты находишься в середине этого промежутка. Прямо сейчас. В этот момент.\r
+Формазоид: Так же быстро, как мы проплывем сквозь этот странный эфир, мы так же быстро покинем его. Вот, я продемонстрирую.\r
 [title=shape_2_end]\r
 \r
 SHAPEZOID 2.1\r
 [title=shape_21_begin]\r
-Shapezoid: Feeling like this place is already getting a bit tedious? That's too bad. Lots of things are tedious. <b>LIFE</b> is tedious.\r
-Shapezoid: You'll whine and complain until time comes to an end, and even still you'll keep going. Yell into the void, it will pretend to listen.\r
-Shapezoid: I'll give you something for all your "trouble". It's the least I can do for someone so... impatient.\r
-Shapezoid: Turn around. Press the button. <color=#ae52b3><b>The Eye</b></color> is calling, sad to say I won't be around for what happens next.\r
+Формазоид: Чувствуешь, что это место уже становится немного утомительным? Это очень плохо. Многое утомительно. <b>ЖИЗНЬ</b> утомительна.\r
+Формазоид: Ты будешь ныть и жаловаться, пока время не придёт к концу, и даже это тебя не остановит. Ты кричишь в пустоту, а она сделает вид, что слушает.\r
+Формазоид: Я дам тебе кое-что за все твои "страдания". Это меньшее, что я могу сделать для кого-то настолько... нетерпеливого.\r
+Формазоид: Обернись. Нажми на кнопку. <color=#ae52b3><b>Око</b></color> зовёт, и грустно, что меня меня не будет рядом, когда что-то произойдёт дальше.\r
 [title=shape_21_end]\r
 \r
 [title=button_begin]\r
-There's a big, red, shiny button here you don't remember seeing before. What could it activate you wonder?\r
-[question=06]It looks important, and you have the strongest urge to press it. But then again, maybe you shouldn't?\r
-[choice]Press.[newtalk start=button_yes_begin break=button_yes_end]\r
-[choice]Ignore.[newtalk start=button_no_begin break=button_no_end]\r
+Здесь большая, красная, блестящая кнопка, которую вы раньше не замечали. Интересно, что она может активировать?\r
+[question=06]Она выглядит важной, и у вас огромное желание нажать на неё. Но опять же, может, не стоит?\r
+[choice]Нажать.[newtalk start=button_yes_begin break=button_yes_end]\r
+[choice]Игнорировать.[newtalk start=button_no_begin break=button_no_end]\r
 [title=button_end]\r
 \r
 [title=button_yes_begin]\r
-You press the button...[event=1]\r
+Вы нажали на кнопку...[event=1]\r
 [title=button_yes_end]\r
 \r
 [title=button_no_begin]\r
-You decide not to indulge in such an act of frivolous button-pressing.\r
+Вы решаете не позволять себе такого легкомысленного нажатия кнопок.\r
 [title=button_no_end]\r
 \r
 SHAPEZOID 3\r
 [title=shape_3_begin]\r
-Shapezoid: <i>Heeeeeeeyy</i>... yup. Just floating here. Y'know, as ya do sometimes. You seem to have been getting your way around here fairly well.\r
-Shapezoid: Can I ask you a favor? If things were to all of a sudden stop right now, and I had to fall, would you catch me?\r
-Shapezoid: I'm deathly afraid of heights. I mean, I'm afraid of a lot of things. But anything high up leaves me frozen in fear.\r
-Shapezoid: <color=#ae52b3><b>The Eye</b></color> knows what we're all afraid of. It's calling to you and me. We can't keep it waiting.\r
+Формазоид: <i>Хэээээээйй</i>... ага. Я просто летаю здесь. Типа знаешь, так иногда бывает. Похоже, ты здесь довольно неплохо ориентируешься.\r
+Формазоид: Могу я попросить тебя об одолжении? Если бы прямо сейчас всё вдруг остановилось, и мне пришлось бы упасть, ты бы меня поймал?\r
+Формазоид: Я до смерти боюсь высоты. В смысле, я боюсь много чего. Но когда я смотрю на высокие объекты, я замираю от страха.\r
+Формазоид: <color=#ae52b3><b>Око</b></color> знает, что мы все боимся. Оно зовёт меня и тебя. Мы не можем заставлять его ждать.\r
 [title=shape_3_end]\r
 \r
 SHAPEZOID 4\r
 [title=shape_4_begin]\r
-Shapezoid: Hey, this is <i>MY</i> room. You can't just fly down in here and start touching things without my permission. Are you crazy?\r
-Shapezoid: Ugh, whatever. I guess I have worse things to worry about. Way worse things. Things you wouldn't imagine.\r
-Shapezoid: A lot of those things change constantly, but some of them have stayed the same. I just can't shake 'em.\r
-Shapezoid: <color=#4d30db><b>The Eye</b></color>... It lives just out of my peripherals, watching everything we do. Don't believe it.\r
+Формазоид: Эй, это <i>МОЯ</i> комната. Ты не можешь просто прилететь сюда и начать что-то трогать без моего разрешения. Ты с ума сошел?\r
+Формазоид: Угх, неважно. Полагаю, у меня есть вещи похуже, о которых стоит беспокоиться. Намного хуже. Такие, что ты не можешь себе представить.\r
+Формазоид: Многое из этого постоянно меняется, но кое-что остаётся прежним. Я просто не могу от них избавиться.\r
+Формазоид: <color=#4d30db><b>Око</b></color>... Оно существует на периферии, наблюдая за всем, что мы делаем. Не верь ему.\r
 [title=shape_4_end]\r
 \r
 BIG EVIL EYE MONSTER\r
 [title=eye_00_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: The outsider, the strange one, the <i>redeemer</i>. It at last approaches us. Willfull ignorance, or foolish haste? You are here now, as expected.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: We have existed longer than time itself. Unchanging symbols to embody matter in all forms. Physical, metaphysical. You are different...\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: You are on a quest which has no end. Each step you take is paved with the forgotten dreams of a thousand dreamers. Yet you still push forward.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=00]What is it you so desperately seek?\r
-[choice]Knowledge.[newtalk start=eye_answer1_begin break=eye_answer1_end]\r
-[choice]A dream shard.[newtalk start=eye_answer2_begin break=eye_answer2_end]\r
-[choice]Victory.[newtalk start=eye_answer3_begin break=eye_answer3_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Чужак, странный, the <i>искупитель</i>. Наконец-то явился нам. Преднамеренное невежество или глупая поспешность? Сейчас ты здесь, как и ожидалось.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Мы существуем дольше, чем само время. Неизменные символы, воплощающие материю во всех формах. Физическую, метафизическую. Ты иной......\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Ты на задании, у которого нет конца. Каждый твой шаг вымощен забытыми снами тысячи сновидцев. И всё же ты продолжаешь двигаться вперёд.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=00]Что же ты так отчаянно ищешь?\r
+[choice]Знания.[newtalk start=eye_answer1_begin break=eye_answer1_end]\r
+[choice]Осколок сна.[newtalk start=eye_answer2_begin break=eye_answer2_end]\r
+[choice]Победу.[newtalk start=eye_answer3_begin break=eye_answer3_end]\r
 [title=eye_00_end]\r
 \r
 [title=eye_answer1_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Very well.[event=3]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Gaze deep into the eye of unending time and space. Explore your deepest senses, your darkest desires, your worst nightmares.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=01]What manner of vision do you wish to see?\r
-[choice]Something chaotic.[newtalk start=eye_1_begin break=eye_1_end]\r
-[choice]Something cursed.[newtalk start=eye_2_begin break=eye_2_end]\r
-[choice]Something cute.[newtalk start=eye_3_begin break=eye_3_end]\r
-[choice]Something else.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Очень хорошо.[event=3]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Устреми взор в око нескончаемого времени и пространства. Исследуй свои глубинные чувства, свои темнейшие желания, свои худшие кошмары.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=01]Какое видение ты хотел бы увидеть?\r
+[choice]Что-нибудь хаотичное.[newtalk start=eye_1_begin break=eye_1_end]\r
+[choice]Что-нибудь проклятое.[newtalk start=eye_2_begin break=eye_2_end]\r
+[choice]Что-нибудь милое.[newtalk start=eye_3_begin break=eye_3_end]\r
+[choice]Что-нибудь другое.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
 [title=eye_answer1_end]\r
 \r
 [title=eye_answer2_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: The <color=#03cffc><b>dream shard</b></color>...[event=4]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: The fragment of a once pulsing, living artifact. The heart of the hypnagogic dreamscape. Indescribably minute in the grand scheme of all things.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: We have floated through the endlessly expanding ether, reclaiming objects of importance to others. Keeping them within a vault from which nothing can escape.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: This shard is one such object. Lost eons ago, it too was left there in the void. To take it back you must enter a realm of incomprehensible darkness.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=02]Enter the abyss below if your desire outweighs your fear. Stare deeply into it. It will stare back. Unless... you seek something else.\r
-[choice]Knowledge.[newtalk start=eye_answer1_begin break=eye_answer1_end]\r
-[choice]Victory.[newtalk start=eye_answer3_begin break=eye_answer3_end]\r
-[choice]Goodbye.[newtalk start=eye_finish_begin break=eye_finish_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: <color=#03cffc><b>Осколок сна</b></color>...[event=4]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Фрагмент некогда пульсирующего, живого артефакта. Сердце гипнагогического мира снов. Неописуемо крошечный в грандиозной схеме всего сущего.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Мы плыли сквозь бесконечно расширяющийся эфир, возвращая объекты, важные для других. Храня их в хранилище, из которого ничто не может вырваться.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Этот осколок - один из таких объектов. Потерянный много эпох назад он был тоже оставлен там, в пустоте. Чтобы забрать его обратно, ты должен войти в царство непостижимой тьмы.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=02]Войди в бездну внизу, если твоё желание перевешивает твой страх. Пристально смотри в неё. Она будет смотреть в ответ. Если только... ты не ищешь чего-то другого.\r
+[choice]Знания.[newtalk start=eye_answer1_begin break=eye_answer1_end]\r
+[choice]Победу.[newtalk start=eye_answer3_begin break=eye_answer3_end]\r
+[choice]Пока.[newtalk start=eye_finish_begin break=eye_finish_end]\r
 [title=eye_answer2_end]\r
 \r
 [title=eye_answer3_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: You are a fool with a pointless goal. Your rush to a false success will be your undoing. Abyss take you and leave no trace...[event=2]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Ты дурак с бессмысленной целью. Твоё стремление к ложному успеху погубит тебя. Бездна поглотит тебя и не оставит следа...[event=2]\r
 [title=eye_answer3_end]\r
 \r
 [title=eye_finish_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Become one with the abyss below then. If your desires outweigh your fears you will find what you seek inside...[event=2]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Тогда стань единым целым с бездной. Если твои желания перевесят страхи, ты найдешь то, что ищешь....[event=2]\r
 [title=eye_finish_end]\r
 \r
 [title=eye_repeat1_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Very well.[event=5]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Your continued presence denies the universe its proper place in time.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=03]What is it you so desperately seek?\r
-[choice]Knowledge.[newtalk start=eye_answer1_begin break=eye_answer1_end]\r
-[choice]A dream shard.[newtalk start=eye_answer2_begin break=eye_answer2_end]\r
-[choice]Victory.[newtalk start=eye_answer3_begin break=eye_answer3_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Очень хорошо.[event=5]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Твоё постоянное присутствие лишает вселенную её места во времени.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=03]Что же ты так отчаянно ищешь?\r
+[choice]Знание.[newtalk start=eye_answer1_begin break=eye_answer1_end]\r
+[choice]Осколок сна.[newtalk start=eye_answer2_begin break=eye_answer2_end]\r
+[choice]Победу.[newtalk start=eye_answer3_begin break=eye_answer3_end]\r
 [title=eye_repeat1_end]\r
 \r
 [title=eye_1_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Very well.[event=6]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Peer into the eye of a strange little world. \r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Overpopulation. Mass consumerism. Digital propagation. War. These are all the building blocks which make up the world outside the dreamscape.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: The chaos exists in many different sizes, doses, pockets, all around us. Its hunger will never be satiated.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=04]There may be other visions you wish to see...\r
-[choice]Something <b>cursed</b>.[newtalk start=eye_2_begin break=eye_2_end]\r
-[choice]Something <b>cute</b>.[newtalk start=eye_3_begin break=eye_3_end]\r
-[choice]Something else.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Очень хорошо.[event=6]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Вглядись в око странного маленького мира. \r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Перенаселение. Массовое потребительство. Цифровое распространение. Война. Это всё кирпичики, из которых состоит мир вне мира снов.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Хаос существует во множестве разных размеров, доз, очагов, повсюду вокруг нас. Его голод никогда не будет утолён.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=04]Может, ты хочешь увидеть другие видения...\r
+[choice]Что-нибудь <b>проклятое</b>.[newtalk start=eye_2_begin break=eye_2_end]\r
+[choice]Что-нибудь <b>милое</b>.[newtalk start=eye_3_begin break=eye_3_end]\r
+[choice]Что-нибудь другое.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
 [title=eye_1_end]\r
 \r
 [title=eye_2_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Very well.[event=7]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Peer into the eye of the nightmares of countless restless dreamers.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Abstract extinction. Overbearing flames. Lurking demons. The augmentation of millions of realities meld into mere shadows of their former selves.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: What your nightmares are made of... what they mean... only you will ever truly know. Your imagination will fill in the blanks.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=05]There may be other visions you wish to see...\r
-[choice]Something <b>chaotic</b>.[newtalk start=eye_1_begin break=eye_1_end]\r
-[choice]Something <b>cute</b>.[newtalk start=eye_3_begin break=eye_3_end]	\r
-[choice]Something else.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Очень хорошо.[event=7]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Вглядись в око кошмаров бесчисленных беспокойных сновидцев.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Абстрактное вымирание. Подавляющее пламя. Притаившиеся демоны. Усиление миллионов реальностей сливается в простые тени их прежних обличий.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Из чего состоят твои кошмары... что они значат... только ты когда-либо по-настоящему узнаешь. Твоё воображение заполнит пробелы.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=05]Может, ты хочешь увидеть другие видения...\r
+[choice]Что-нибудь <b>хаотичное</b>.[newtalk start=eye_1_begin break=eye_1_end]\r
+[choice]Что-нибудь <b>милое</b>.[newtalk start=eye_3_begin break=eye_3_end]	\r
+[choice]Что-нибудь другое.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
 [title=eye_2_end]\r
 \r
 [title=eye_3_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Very well.[event=8]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Peer into the eye of innocence incarnate.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: In their world, there is no such thing as corruption, hate, anger, materialism. They live life in purity. But what do they dream of? What are their nightmares?\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Without them the void may only be that much deeper. With them the universe is seemingly made a more beautiful place. Calming. Loving.\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=05]There may be other visions you wish to see...\r
-[choice]Something <b>chaotic</b>.[newtalk start=eye_1_begin break=eye_1_end]\r
-[choice]Something <b>cursed</b>.[newtalk start=eye_2_begin break=eye_2_end]\r
-[choice]Something else.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Очень хорошо.[event=8]\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Вглядись в око воплощённой невинности.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: В их мире нет таких вещей, как разложение, ненависть, гнев, материализм. Они живут в чистоте. Но о чём они мечтают? Какие у них кошмары?\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Без них пустота может быть лишь глубже. С ними вселенная кажется более прекрасным местом. Умиротворяющим. Любящим.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: [question=05]Может, ты хочешь увидеть другие видения...\r
+[choice]Что-нибудь <b>хаотичное</b>.[newtalk start=eye_1_begin break=eye_1_end]\r
+[choice]Что-нибудь <b>проклятое</b>.[newtalk start=eye_2_begin break=eye_2_end]\r
+[choice]Что-нибудь другое.[newtalk start=eye_repeat1_begin break=eye_repeat1_end]\r
 [title=eye_3_end]\r
 \r
 [title=eye_repeat2_begin]\r
-A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Do not deny the call of the void. Its echo will remain until the call is answered.\r
+A̴i̸u̶k̵h̸i̶o̷p̸'̴r̸i̷h̷: Не отвергай зов пустоты. Его эхо будет звучать до тех пор, пока ответ на зов не будет дан.\r
 [title=eye_repeat2_end]\r
 \r
 INSIDE THE BLACKHOLE\r
 \r
 [title=outro_0_begin]\r
-Wow. Now why would you go and do a crazy thing like that?\r
+Ого. И зачем ты пошёл и сделал такую безумную вещь?\r
 [title=outro_0_end]\r
 \r
 [title=outro_1_begin]\r
-An eldritch space deity tells you to jump into some random blackhole, and... you do it?\r
+Древнее космическое божество говорит тебе прыгнуть в какую-то случайную чёрную дыру, и... ты это делаешь?\r
 [title=outro_1_end]\r
 \r
 [title=outro_2_begin]\r
-I wouldn't worry about it. We all make mistakes sometimes. It's just what makes us... us.\r
+Я бы не переживал по этому поводу. Все мы иногда совершаем ошибки. Это то, что делает нас... нами.\r
 [title=outro_2_end]\r
 \r
 [title=outro_3_begin]\r
-It doesn't matter how far you fall, even if it's into a blackhole. Something new is waiting on the other side.\r
+Неважно, как глубоко ты упадёшь, даже если ты падаешь в чёрную дыру. Что-то новое ждёт на другой стороне.\r
 [title=outro_3_end]\r
 \r
 [title=outro_4_begin]\r
-Listen... it took awhile, but I found <color=#03cffc><b>something</b></color> that I think will make you feel better.\r
+Слушай... это заняло какое-то время, но я нашёл <color=#03cffc><b>кое-что</b></color>, что, думаю, тебя сильно обрадует.\r
 [title=outro_4_end]\r
 \r
 [title=outro_5_begin]\r
-It's very close. I've been keeping it safe down here. You should take it with you when you return.\r
+Оно очень близко. Я хранил его в безопасности здесь, внизу. Тебе стоит взять его с собой, когда вернёшься.\r
 [title=outro_5_end]\r
 \r
 [title=outro_6_begin]\r
-You're doing such a great job. In everything you do. You can't imagine how much you're appreciated.\r
+Ты отлично справляешься со своей работой. СО всем, что ты делаешь. Ты даже не можешь представить, насколько тебя ценят..\r
 [title=outro_6_end]\r
 \r
 [title=outro_7_begin]\r
-Always remember... you're never fighting alone. We will be with you always.\r
+Всегда помни... ты никогда не сражаешься в одиночку. Мы всегда будем с тобой.\r
 [title=outro_7_end]"
