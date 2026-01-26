@@ -4,177 +4,177 @@
 \r
 GOGI INTRO\r
 [title=Gogi_0_begin]\r
-"Gogi": Wow, check out the drab mood of this place! It's super depress-o if you ask me!\r
-"Gogi": I saw a bunch of creepy stuff up ahead, it gives me the willies...! Pretty spooky!\r
-"Gogi": Imagining the cold, unforgiving embrace of death has me in an existential bind! \
-I just don't get it!\r
-"Gogi": Oh well, hahaha. It's all just a dream, afterall. Yeah, a dream! Have [jitter=5 angle=0]fuuunnn![/jitter]\r
+"Гоги": Вау, посмотри какая в этом месте унылая атмосферка! Оно супер депрессивное, если хочешь знать моё мнение!\r
+"Гоги": Я видел кучу жутких штук впереди, и меня это пугает...! Очень страшные!\r
+"Гоги": Представлять холодные, безжалостные объятия смерти ставит меня в экзистенциальный тупик! \
+Я просто не понимаю!\r
+"Гоги": Ох ладно, хахаха. В конце концов, это просто сон. Ага, сон! [jitter=5 angle=0]Веселиииииись![/jitter]\r
 [title=Gogi_0_end]\r
 \r
 HEADSTONES\r
 [title=grave0_begin]\r
-R. C. \
+Р. К. \
 1990 - 2021 \
-Died from lack of sleep.\r
+Умер от недосыпания.\r
 [title=grave0_end]\r
 [title=grave1_begin]\r
-E. Frost \
+Е. Фрост \
 1950 - 2020\r
 [title=grave1_end]\r
 [title=grave2_begin]\r
-G. Jackson \
+Г. Джексон \
 1941 - 1999\r
 [title=grave2_end]\r
 [title=grave3_begin]\r
-E. Carney \
+Е. Карни \
 1850 - 1878\r
 [title=grave3_end]\r
 [title=grave4_begin]\r
-A. Matthews \
+А. Мэтьюс \
 1898 - 1978\r
 [title=grave4_end]\r
 [title=grave5_begin]\r
-L. Walls \
+Л. Уоллс \
 1921 - 1931\r
 [title=grave5_end]\r
 [title=grave6_begin]\r
-P. Bruce \
+П. Брюс \
 2000 - 2009\r
 [title=grave6_end]\r
 [title=grave7_begin]\r
-T. Buckner \
+Т. Банкер \
 1888 - 1932\r
 [title=grave7_end]\r
 [title=grave8_begin]\r
-I. Livingston \
+И. Ливингстон \
 1801 - 1880\r
 [title=grave8_end]\r
 [title=grave9_begin]\r
-C. Flynn \
+К. Флинн \
 1944 - 1978\r
 [title=grave9_end]\r
 [title=grave10_begin]\r
-S. Bryan \
+С. Брайан \
 1909 - 1950\r
 [title=grave10_end]\r
 \r
 [title=grave_blank_begin]\r
-There's a headstone here. The writing on it is too faded to read.\r
+Здесь есть надгробие. Надпись на нём слишком выцвела, чтобы её можно было прочесть.\r
 [title=grave_blank_end]\r
 \r
 ROUND 1\r
 \r
 GRAVEDIGGER\r
 [title=digger_0_begin]\r
-Groundsman Grady: Another night, another blanket of thick, muck-ridden fog to go along wif it.\r
-Groundsman Grady: I dig the holes the same depth everytime, but somehow the next day they go even deeper.\r
-Groundsman Grady: Stay away from the <color=#fcbe2b><b>house</b></color>, lad. Unless you want something following ye out of it.\r
+Смотритель Грейди: Ещё одна ночь, повсюду ещё одно покрывало из густого, грязного тумана.\r
+Смотритель Грейди: Я копаю ямы одинаковой глубины каждый раз, но почему-то на следующий день они становятся глубже.\r
+Смотритель Грейди: Держись подальше от <color=#fcbe2b><b>дома</b></color>, пацан. Если только не хочешь, чтобы за тобой оттуда что-то выбралось.\r
 [title=digger_0_end]\r
 \r
 [title=digger_repeat_begin]\r
-Groundsman Grady: What is it, lad? Can't ye see I'm busy over 'ere? Got enough digging to last a lifetime.\r
+Смотритель Грейди: Что такое, пацан? Разве не видишь, что я тут занят? Здесь копать хватит на всю жизнь.\r
 [title=digger_repeat_end]\r
 \r
 [title=digger_repeat1_begin]\r
-Groundsman Grady: ...\r
-(He ignores you and continues digging.)\r
+Смотритель Грейди: ...\r
+(Он игнорирует вас и продолжает копать.)\r
 [title=digger_repeat1_end]\r
 \r
 [title=gate_0_begin]\r
-The courtyard gate is locked with an old rusty padlock. Surely a key exists to open it.\r
+Ворота во внутренний двор заперты на старый ржавый замок. Наверняка есть ключ, чтобы открыть их.\r
 [title=gate_0_end]\r
 \r
 [title=cellar_0_begin]\r
-Looks like the entrance down into the house's cellar, perhaps? The doors don't budge an inch.\r
-Maybe it's for the best.\r
+Похоже, это вход в подвал? Двери не сдвигаются ни на сантиметр.\r
+Может, оно и к лучшему.\r
 [title=cellar_0_end]\r
 \r
 ROUND 2\r
 \r
 [title=digger_1_begin]\r
-Groundsman Grady: Ah, ye tried the gate, did ye? Well what was ye expecting trying to just waltz up to the property like that?\r
-Groundsman Grady: I'd hoped ye'd have a bit smarter inclination than to go trespassing this dreary night. But I don't care enough to stop yer foolishness.\r
-Groundsman Grady: I'll lend ye my courtyard key. I hope whatever's in there is worth what yer about to go through, lad.\r
-Groundsman Grady: No need to return the key. Ye won't be around long enough to do so. 'ave a pleasant night.\r
+Смотритель Грейди: Ах, ты пытался открыть ворота, да? Ну, а чего ты ожидал, когда вот так заявился на чужую территорию?\r
+Смотритель Грейди: Я надеялся, что у тебя будет побольше ума, чтобы не вторгаться в этот мрак. Но меня это не настолько волнует, чтобы останавливать твою глупость.\r
+Смотритель Грейди: Я одолжу тебе ключ от внутреннего двора. Надеюсь, что бы там ни было, оно стоит всего, через что тебе предстоит пройти, пацан.\r
+Смотритель Грейди: Не нужно возвращать ключ. Ты тут настолько не задержишься. Желаю приятной ночи.\r
 [title=digger_1_end]\r
 \r
 [title=gate_1_begin]\r
-You unlock the rickety gate latch using the groundsman's key.\r
+Вы отпираете шаткие ворота ключом смотрителя.\r
 [title=gate_1_end]\r
 \r
 [title=well_0_begin]\r
-No coins for this wishing fountain...\r
+Никто не бросил монетки в фонтан желаний...\r
 [title=well_0_end]\r
 \r
 [title=well_1_begin]\r
-The fountain is all dried up. It stopped working a long time ago.\r
+Фонтан полностью высох. Он перестал работать очень давно.\r
 [title=well_1_end]\r
 \r
 [title=mansion_0_leave_begin]\r
-[question=0]Enter the mansion? You have this feeling you won't be able to return.\r
-[choice]Regretfully.[newtalk start=answer_mansion_0_yes_begin break=answer_mansion_0_yes_end]\r
-[choice]Maybe later...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]\r
+[question=0]Войти в особняк? У вас такое чувство, что вы не сможете вернуться.\r
+[choice]К сожалению.[newtalk start=answer_mansion_0_yes_begin break=answer_mansion_0_yes_end]\r
+[choice]Может, позже...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]\r
 [title=mansion_0_leave_end]\r
 \r
 [title=answer_mansion_0_yes_begin]\r
-You fearfully open the mansion doors. What horrors await inside?[event=0]\r
+Вы со страхом открываете двери особняка. Какие ужасы ждут вас внутри?[event=0]\r
 [title=answer_mansion_0_yes_end]\r
 \r
 [title=answer_mansion_0_no_begin]\r
-You step back from the ominous entrance, despite its relentless beckon.[event=1]\r
+Вы отступаете от зловещего входа, несмотря на его неумолимый зов.[event=1]\r
 [title=answer_mansion_0_no_end]\r
 \r
 [title=well_begin]\r
-There's a strange piece of paper floating in the well.\r
-Looking at it makes you feel like someone is groping around inside your skull.\r
+В колодце плавает странный листок бумаги.\r
+Глядя на него, вы чувствуете, словно кто-то шарится у вас в черепе.\r
 [title=well_end]\r
 \r
 [title=well_norm_begin]\r
-There's a well here. There's nothing unusual about it.\r
+Колодец. В нём нет ничего необычного.\r
 [title=well_norm_end]\r
 \r
 [title=grave_secret_begin]\r
-Another grave lay here open and unfinished. This one seems different though...\r
-Taking a closer look you immediately receive a noticeable waft of fetid odor from the hole.\r
-How far down might it go, you wonder?\r
+Здесь ещё одна незавершённая могила. Но эта чем-то отличается...\r
+При ближайшем рассмотрении вы сразу же чувствуете ощутимый зловонный запах.\r
+Интересно, как далеко она уходит?\r
 [title=grave_secret_end]\r
 \r
 [title=gate_shadow_begin]\r
 ...\r
-That shadow...\r
+Эта тень...\r
 [title=gate_shadow_end]\r
 \r
 [title=mansion_1_leave_begin]\r
-The front doors are unlocked now.\r
-[question=0]Enter the mansion? You have this feeling you won't be able to return.\r
-[choice]Regretfully.[newtalk start=answer_mansion_0_yes_begin break=answer_mansion_0_yes_end]\r
-[choice]Maybe later...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]\r
+Входные двери сейчас не заперты.\r
+[question=0]Войти в особняк? У вас такое чувство, что вы не сможете вернуться.\r
+[choice]К сожалению.[newtalk start=answer_mansion_0_yes_begin break=answer_mansion_0_yes_end]\r
+[choice]Может, позже...[newtalk start=answer_mansion_0_no_begin break=answer_mansion_0_no_end]\r
 [title=mansion_1_leave_end]\r
 \r
 [title=answer_mansion_0_yes_begin]\r
-You fearfully open the mansion doors. What horrors await inside?[event=0]\r
+Вы со страхом открываете двери особняка. Какие ужасы ждут вас внутри?[event=0]\r
 [title=answer_mansion_0_yes_end]\r
 \r
 [title=answer_mansion_0_no_begin]\r
-You step back from the ominous entrance, despite its relentless beckon.[event=1]\r
+Вы отступаете от зловещего входа, несмотря на его неумолимый зов.[event=1]\r
 [title=answer_mansion_0_no_end]\r
 \r
 [title=mansion_locked_begin]\r
-You try to open the front doors to the mansion, but they appear to be locked tightly.\r
-A small <color=#fcbe2b><b>gold-plated key hole</b></color> is affixed below the handle.\r
+Вы пытаетесь открыть входные двери особняка, но, похоже, они наглухо заперты.\r
+Под ручкой находится небольшая <color=#fcbe2b><b>позолоченная замочная скважина</b></color>.\r
 [title=mansion_locked_end]\r
 \r
 [title=key1_begin]\r
-There's a small <color=#fcbe2b><b>gold-plated key</b></color> dangling from the collapsed lamppost.\r
-[question=000]Will you take the key?\r
-[choice]Yes.[newtalk start=answer_key_yes_begin break=answer_key_yes_end]\r
-[choice]No.[newtalk start=answer_key_no_begin break=answer_key_no_end]\r
+С поваленного фонарного столба свисает маленький <color=#fcbe2b><b>позолоченный ключ</b></color>.\r
+[question=000]Взять ключ?\r
+[choice]Да.[newtalk start=answer_key_yes_begin break=answer_key_yes_end]\r
+[choice]Нет.[newtalk start=answer_key_no_begin break=answer_key_no_end]\r
 [title=key1_end]\r
 \r
 [title=answer_key_yes_begin]\r
-You manage to snag the key off the lamppost and take it with you.[event=2]\r
+Вам удается сорвать ключ с фонарного столба и забрать его с собой.[event=2]\r
 [title=answer_key_yes_end]\r
 \r
 [title=answer_key_no_begin]\r
-You leave the key dangling in place...\r
+Вы оставляете ключ висеть на месте...\r
 [title=answer_key_no_end]"
