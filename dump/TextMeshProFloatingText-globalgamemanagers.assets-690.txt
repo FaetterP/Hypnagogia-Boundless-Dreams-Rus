@@ -1,0 +1,23 @@
+0 MonoScript Base
+ 1 string m_Name = "TextMeshProFloatingText"
+ 0 int m_ExecutionOrder = 0
+ 0 Hash128 m_PropertiesHash
+  0 UInt8 bytes[0] = 193
+  0 UInt8 bytes[1] = 47
+  0 UInt8 bytes[2] = 105
+  0 UInt8 bytes[3] = 41
+  0 UInt8 bytes[4] = 176
+  0 UInt8 bytes[5] = 52
+  0 UInt8 bytes[6] = 50
+  0 UInt8 bytes[7] = 40
+  0 UInt8 bytes[8] = 132
+  0 UInt8 bytes[9] = 206
+  0 UInt8 bytes[10] = 215
+  0 UInt8 bytes[11] = 33
+  0 UInt8 bytes[12] = 252
+  0 UInt8 bytes[13] = 166
+  0 UInt8 bytes[14] = 91
+  0 UInt8 bytes[15] = 16
+ 1 string m_ClassName = "TextMeshProFloatingText"
+ 1 string m_Namespace = "TMPro.Examples"
+ 1 string m_AssemblyName = "Assembly-CSharp.dll"

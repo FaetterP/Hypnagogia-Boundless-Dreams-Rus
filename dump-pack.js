@@ -7,10 +7,15 @@ const dstDir = mode === 'unpack' ? 'text' : 'dump';
 
 fs.mkdirSync(dstDir, { recursive: true });
 
+const TEXT_ASSET_HEADER = '0 TextAsset Base';
+
 fs.readdirSync(srcDir)
   .filter(name => name.endsWith('.txt'))
   .forEach(name => {
     const content = fs.readFileSync(path.join(srcDir, name), 'utf8');
+    if (!content.startsWith(TEXT_ASSET_HEADER)) {
+      return; // пропускаем файлы не TextAsset
+    }
     const marker = 'm_Script = "';
     
     const start = content.indexOf(marker) + marker.length;
