@@ -1,0 +1,23 @@
+0 MonoScript Base
+ 1 string m_Name = "TextMeshPro"
+ 0 int m_ExecutionOrder = -105
+ 0 Hash128 m_PropertiesHash
+  0 UInt8 bytes[0] = 218
+  0 UInt8 bytes[1] = 76
+  0 UInt8 bytes[2] = 197
+  0 UInt8 bytes[3] = 26
+  0 UInt8 bytes[4] = 2
+  0 UInt8 bytes[5] = 206
+  0 UInt8 bytes[6] = 132
+  0 UInt8 bytes[7] = 175
+  0 UInt8 bytes[8] = 226
+  0 UInt8 bytes[9] = 206
+  0 UInt8 bytes[10] = 205
+  0 UInt8 bytes[11] = 39
+  0 UInt8 bytes[12] = 207
+  0 UInt8 bytes[13] = 230
+  0 UInt8 bytes[14] = 153
+  0 UInt8 bytes[15] = 122
+ 1 string m_ClassName = "TextMeshPro"
+ 1 string m_Namespace = "TMPro"
+ 1 string m_AssemblyName = "Unity.TextMeshPro.dll"

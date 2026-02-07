@@ -1,0 +1,90 @@
+0 Material Base
+ 1 string m_Name = "TextMeshPro/Sprite"
+ 0 PPtr<Shader> m_Shader
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 93
+ 1 string m_ShaderKeywords = ""
+ 0 unsigned int m_LightmapFlags = 5
+ 0 bool m_EnableInstancingVariants = false
+ 1 bool m_DoubleSidedGI = false
+ 0 int m_CustomRenderQueue = -1
+ 0 map stringTagMap
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 vector disabledShaderPasses
+  1 Array Array (0 items)
+   0 int size = 0
+ 0 UnityPropertySheet m_SavedProperties
+  0 map m_TexEnvs
+   0 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 pair data
+      1 string first = "_MainTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 70
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+  0 map m_Floats
+   0 Array Array (8 items)
+    0 int size = 8
+    [0]
+     0 pair data
+      1 string first = "_ColorMask"
+      0 float second = 15
+    [1]
+     0 pair data
+      1 string first = "_CullMode"
+      0 float second = 0
+    [2]
+     0 pair data
+      1 string first = "_Stencil"
+      0 float second = 0
+    [3]
+     0 pair data
+      1 string first = "_StencilComp"
+      0 float second = 8
+    [4]
+     0 pair data
+      1 string first = "_StencilOp"
+      0 float second = 0
+    [5]
+     0 pair data
+      1 string first = "_StencilReadMask"
+      0 float second = 255
+    [6]
+     0 pair data
+      1 string first = "_StencilWriteMask"
+      0 float second = 255
+    [7]
+     0 pair data
+      1 string first = "_UseUIAlphaClip"
+      0 float second = 0
+  0 map m_Colors
+   0 Array Array (2 items)
+    0 int size = 2
+    [0]
+     0 pair data
+      1 string first = "_ClipRect"
+      0 ColorRGBA second
+       0 float r = -32767
+       0 float g = -32767
+       0 float b = 32767
+       0 float a = 32767
+    [1]
+     0 pair data
+      1 string first = "_Color"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+ 0 vector m_BuildTextureStacks
+  1 Array Array (0 items)
+   0 int size = 0
